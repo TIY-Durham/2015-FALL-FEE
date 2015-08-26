@@ -36,6 +36,8 @@
   * [ ] Install the following (bonus if you use `brew`):
     * [ ] [Google Chrome](http://google.com/chrome)
     * [ ] [Atom](http://atom.io)
+    * [ ] [Dash](http://kapeli.com/dash)
+    * [ ] [Slack](http://www.slack.com)
 * [ ] **Send all my GitHub to you...**
  * [ ] [Complete the "Hello World" GitHub guide](https://guides.github.com/activities/hello-world/)
  * [ ] Add a link to your new GitHub repo as a comment on your *WIP Issue*
