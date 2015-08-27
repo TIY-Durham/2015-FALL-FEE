@@ -31,11 +31,11 @@ Throughout the course, we'll be using a lot of tools, some of them on day 1. _Pl
 One of the tools we'll frequently use in class is Prezto. To test your Google Fu and GitHub prowess: find, fork, and install Prezto on GitHub. The install instructions are a little tricky, so pay careful attention. If you get stuck, please leave a comment on your issue and move on.
 
 ## Take a Moment to Reflect
-Please answer the following two questions in short essay form. Try to keep each answer between 250 - 500 words. Don't worry too much about grammar or spelling -- use this time to reflect on yourself and your upcoming adventure!  Please submit your answers as a comment on your WIP Issue. 
+
+Please answer the following questions in short essay form. Try to keep each answer between 200-500 words (3-5 paragraphs). Don't worry about grammar or spelling -- use this time to reflect on yourself and your upcoming adventure!  Please submit your answers as a comment on your WIP Issue. 
 
 1. What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
-
-2. Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain.
+1. Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain.
 
 ## Extracurricular Activities
 
@@ -101,6 +101,6 @@ There are two books that I suggest you start reading. They're both avaialble in 
  * [ ] Clone _your fork_ of Prezto into your home directory
  * [ ] Follow the installation instructions in the `README.md` file
 * [ ] **Reflection**
- * [ ] Answered both questions in short essay form
- * [ ] Added both answers as comments on your WIP Issue
+ * [ ] Added a comment on your WIP Issue for "What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?"
+ * [ ] Added a comment on your WIP Issue for "Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain."
 ```
