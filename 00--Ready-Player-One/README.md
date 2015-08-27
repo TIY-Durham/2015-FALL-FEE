@@ -30,6 +30,13 @@ Throughout the course, we'll be using a lot of tools, some of them on day 1. _Pl
 
 One of the tools we'll frequently use in class is Prezto. To test your Google Fu and GitHub prowess: find, fork, and install Prezto on GitHub. The install instructions are a little tricky, so pay careful attention. If you get stuck, please leave a comment on your issue and move on.
 
+## Take a Moment to Reflect
+Please answer the following two questions in short essay form. Try to keep each answer between 250 - 500 words. Don't worry too much about grammar or spelling -- use this time to reflect on yourself and your upcoming adventure!  Please submit your answers as a comment on your WIP Issue. 
+
+1. What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?
+
+2. Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain.
+
 ## Extracurricular Activities
 
 You might notice by now that GitHub does something funny with the text that you write. It's using a simple formatting system called [Markdown](http://daringfireball.net/projects/markdown/), and it adds a little of its own flavor. To learn more about Markdown and how GitHub uses it, check out [_Explaining Markdown_ on Team Treehouse](http://blog.teamtreehouse.com/explaining-markdown) and [_Mastering Markdown_ on in the GitHub Guides](https://guides.github.com/features/mastering-markdown/).
