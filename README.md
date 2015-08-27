@@ -2,7 +2,7 @@
 
 Hi, everyone! I'm David Rogers, and I'm the new Front-End Instructor for the Durham campus. I've been teaching FEE for The Iron Yard since September 2014, when I helped launch the campus in Orlando, and now my family and I are moving to Durham so I can teach here.
 
-I'm really looking forward to meeting each of you in person and getting to know you better over the course of the upcoming 12 weeks. I'm also really excited about teaching and mentoring you all, seeing what awesome things you'll build and what interesting ways you'll approach the assignments and projects in the class.
+Kelly and I are really looking forward to meeting each of you in person and getting to know you better over the course of the upcoming 12 weeks. We're also really excited about teaching and mentoring you all, seeing what awesome things you'll build and what interesting ways you'll approach the assignments and projects in the class.
 
 First, you need to [sign up for a free Github account](http://github.com/signup), find [the class project](https://github.com/TIY-Durham/2015-FALL-FEE) and "star" it ([more on "starring" and notifications](https://help.github.com/articles/about-stars)). Once you do, I'll invite you to [a group for our class](https://github.com/orgs/TIY-Durham/teams/2015-fall-fee), so watch for an email from Github!
 
@@ -19,3 +19,8 @@ I know there's not a lot of time before class starts; Kelly and I are working ha
 * Github: [@al-the-x](https://github.com/al-the-x)
 * Twitter: [@al_the_x](https://twitter.com/al_the_x)
 * LinkedIn: [althex](https://linkedin.com/in/althex)
+
+###### Kelly | 
+
+* GitHub: [@kellymurray](https://github.com/kellymurray)
+* Twitter: [@kellyemm](https://twitter.com/kellyemm)
