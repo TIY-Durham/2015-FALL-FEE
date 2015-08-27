@@ -26,3 +26,4 @@ I know there's not a lot of time before class starts; Kelly and I are working ha
 
 * GitHub: [@kellymurray](https://github.com/kellymurray)
 * Twitter: [@kellyemm](https://twitter.com/kellyemm)
+* LinkedIn: [kelly murray](https://www.linkedin.com/pub/kelly-murray/96/538/83b)
