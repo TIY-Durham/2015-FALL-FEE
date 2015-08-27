@@ -100,7 +100,7 @@ There are two books that I suggest you start reading. They're both avaialble in 
  * [ ] Find and _fork_ the Prezto project on GitHub
  * [ ] Clone _your fork_ of Prezto into your home directory
  * [ ] Follow the installation instructions in the `README.md` file
-* [ ] **Reflection**
- * [ ] Added a comment on your WIP Issue for "What difficulties do you predict that you will encounter during our course? How have you reacted to similar situations in the past? How do you plan on reacting to these situations during the class?"
- * [ ] Added a comment on your WIP Issue for "Which part of the prework did you like the MOST? Which part of the prework did you like the LEAST? If you found any of the prework confusing, please explain."
+* [ ] **Take a Moment to Reflect**
+ * [ ] Answered question 1 in a comment on your WIP Issue.
+ * [ ] Answered question 2 in a comment on your WIP Issue.
 ```
