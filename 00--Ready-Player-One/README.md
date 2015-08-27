@@ -100,4 +100,7 @@ There are two books that I suggest you start reading. They're both avaialble in 
  * [ ] Find and _fork_ the Prezto project on GitHub
  * [ ] Clone _your fork_ of Prezto into your home directory
  * [ ] Follow the installation instructions in the `README.md` file
+* [ ] **Reflection**
+ * [ ] Answered both questions in short essay form
+ * [ ] Added both answers as comments on your WIP Issue
 ```
