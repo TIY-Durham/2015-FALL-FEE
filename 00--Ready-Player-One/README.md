@@ -10,7 +10,7 @@ If you haven't already, [create a GitHub account](http://github.com/signup) (or 
 
 ### You've Got Issues
 
-[Create an Issue in the class repo (this one)](../issues/new) and name it `00 -- YOUR NAME`, where `YOUR NAME` is, well... your name. Your real, full name. If you copy and paste the checklist from the **Tasks** sections below into the **Description** of your issue _as is_, you should end up with a bunch of checkboxes thanks to [the way that GitHub interprets text](https://guides.github.com/features/mastering-markdown/). As you complete parts of the assignment, check off the corresponding checkboxes and watch your progress bar fill! Read [Mastering Issues](https://guides.github.com/features/issues/) for more information on creating issues in GitHub.
+[Create an Issue in the class repo (this one)](https://github.com/TIY-Durham/2015-FALL-FEE) and name it `00 -- YOUR NAME`, where `YOUR NAME` is, well... your name. Your real, full name. If you copy and paste the checklist from the **Tasks** sections below into the **Description** of your issue _as is_, you should end up with a bunch of checkboxes thanks to [the way that GitHub interprets text](https://guides.github.com/features/mastering-markdown/). As you complete parts of the assignment, check off the corresponding checkboxes and watch your progress bar fill! Read [Mastering Issues](https://guides.github.com/features/issues/) for more information on creating issues in GitHub.
 
 _This task list should be complete by the first day of class!_
 
