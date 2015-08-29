@@ -103,16 +103,27 @@
   * [ ] First pair!
   * [ ] Second pair!
   * [ ] Third pair!  
- * [ ] **JavaScript Koans**
-  * [ ] https://github.com/TIY-Durham/javascript-koans ??
-  * [ ] Create and commit to WIP branch
-  * [ ] Open PR from WIP branch to forked `master`
-  * [ ] Fork from `TIY-Durham/javascript-koans`
-  * [ ] Clone with SourceTree?
-  * [ ] Install `mocha` and `chai` with `npm install`
-  * [ ] Run with `npm start`
-  * [ ] Open in Atom...
-  * [ ] Start answering questions!
+* **JavaScript Koans**
+  * **Yak Shaving**
+    * [ ] Fork `TIY-Durham/javascript-koans` into your own account
+    * [ ] Create a _WIP Branch_ called `2015-09-01`
+    * [ ] Clone your forked repo locally into your `TIY` folder
+    * [ ] Open your clone in `Terminal.app`
+  * **Getting Started**
+    * [ ] Run `npm install` inside the cloned repo; 
+    * [ ] Run `npm start` inside the cloned repo
+    * [ ] Add a comment to your _WIP Issue_ explaining what happened...
+  * **Normal Mode**
+    * [ ] completed: `AboutExpects`
+    * [ ] completed: `AboutArrays`
+    * [ ] completed: `AboutFunctions`
+  * Did you open your PR yet?
+  * **BEAST MODE**
+    * [ ] completed: `AboutObjects`
+    * [ ] completed: `AboutMutability`
+    * [ ] completed: `AboutHigherOrderFunctions`
+  * **NIGHTMARE MODE**
+    * [ ] completed everything!
 ```
 
 ### The Right Mindset
@@ -216,20 +227,25 @@ test('minus: ("zero", "zero") through ("zero", "nine")', function(){
 
 ### JavaScript Koans
 
-A [koan](http://en.wikipedia.org/wiki/K%C5%8Dan) is "a story, dialogue, question, or statement which is used in Zen practice to ... test a student's progress." Many people have contributed to sets of koans for learning programming languages, as well. [The JavaScript Koans maintained by David Laing](https://github.com/mrdavidlaing/javascript-koans) are good practice problems to help you gauge your understanding of JavaScript. Fork and clone his repository so that you can work on the problems locally. Just opening the `KoansRunner.html` file in a browser is sufficient (`open KoansRunner.html`); remember to reload the page after you save!
+A [koan](http://en.wikipedia.org/wiki/K%C5%8Dan) is "a story, dialogue, question, or statement which is used in Zen practice to ... test a student's progress." Many people have contributed to sets of koans for learning programming languages, as well. 
 
-Create a branch in your cloned fork called `02--tools-on-tuesday` and commit your work to that branch. Push your branch to Github (`git push`) and open a Pull Request _from_ your `02--tools-on-tuesday` branch _into_ the `master` branch of _your fork_... not the original. Didn't you know you could do that? Remember to link your open PR to your _WIP Issue_ in the class repo!
+[The `javascript-koans` repo in `TIY-Durham`](https://github.com/TIY-Durham/javascript-koans) is based on [the JavaScript Koans maintained by David Laing](https://github.com/mrdavidlaing/javascript-koans). 
 
-* fork https://github.com/mrdavidlaing/javascript-koans
-* clone _your fork_ locally
-* create and checkout a branch named `02--tools-on-tuesday`
-* open `KoanRunner.html` in a browser
+Fork that repo and create a _WIP Branch_ in your fork named `2015-09-01` (today's date) and commit your work to that branch. Push your branch to Github (`git push`) and open a Pull Request _from_ your branch _into_ the `master` branch of _your fork_... not the original. Didn't you know you could do that? Remember to link your open PR to your _WIP Issue_ in the class repo!
+
+These exercises are designed to make you _think_ about the answers you're providing, not just fill in the blanks. You'll find that the answers are easy to derive based on the feedback the tests give you... can you explain _why_? As you solve the koans, explain the changes you made in a code comment below each test.
+
+* fork https://github.com/TIY-Durham/javascript-koans
+* clone _your fork_ locally into your `TIY` directory
+* create and checkout a branch named `2015-09-01`
+* open your clone in `Terminal.app` and run `npm install`; what happened?
+* start a timer for 5 minutes; _commit when the time expires_
 * complete `AboutExpects.js`, `AboutArrays.js`, `AboutFunctions.js`
 
 #### BEAST MODE
 
-In addition to **NORMAL MODE**, complete `AboutObjects.js`, `AboutMutability.js`, `AboutHigherOrderFunctions.js` as well.
+In addition to **NORMAL MODE**, complete `AboutObjects.js`, `AboutMutability.js`, `AboutHigherOrderFunctions.js` as well, providing explanations for each.
 
 #### NIGHTMARE MODE
 
-Complete _all_ of the koans.
+Complete _all_ of the koans and provide explanations for each.
