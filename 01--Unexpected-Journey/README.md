@@ -89,19 +89,25 @@
      * Write an Outline?
      * First Rough Draft
 * [ ] **Reading JavaScript** -- Explain and provide examples for:
-  * [ ] Basic Literal Types: 
-    * [ ] `null`
-    * [ ] `Boolean`
-    * [ ] `Number`
-    * [ ] `String`
-  * [ ] Basic Operators:
-    * [ ] Arithmetic
-    * [ ] Comparison
-    * [ ] Assignment
-  * [ ] Built-in Constants: 
-    * [ ] `undefined` 
-    * [ ] `NaN`
-    * [ ] `Infinity`
+   * [ ] Basic Literal Types: 
+     * [ ] `null`
+     * [ ] `Boolean`
+     * [ ] `Number`
+     * [ ] `String`
+   * [ ] Basic Operators:
+     * [ ] Arithmetic
+     * [ ] Comparison
+     * [ ] Assignment
+   * [ ] Built-in Constants: 
+     * [ ] `undefined` 
+     * [ ] `NaN`
+     * [ ] `Infinity`
+ * [ ] **GitHub-ing to Know You**
+   * [ ] Fork the repo `TIY-Durham/Student-Roster` into your account
+   * [ ] Copy the `TEMPLATE.md` file into a file called `USERNAME.md` 
+   * [ ] Use your (lowercase) GitHub username for `USERNAME`
+   * [ ] Update `USERNAME.md` with your full name, avatar image, and username
+   * [ ] Make all three link to your GitHub profile with the power of Markdown!
 ```
 
 ### Journal, Week One: The Right Mindset
@@ -153,8 +159,6 @@ Given two `Number` values, produces the sum of those values as another `Number`.
 . . .
 ```
 
-### CODING ASSIGNMENT
+### GitHubbing to Know You
 
-## Resources
-
-* LINK
+There's [a repository in `TheIronYard--Durham` called `StudentRoster`](https://github.com/TIY-Durham/StudentRoster) that's lacking some very important information: _yours!_ Fork the repo and add a file that's a copy of the `TEMPLATE.md` file but named after your GitHub username, e.g. mine is `al-the-x.md`. _Just fill in your full name, linked to your profile page, and your avatar._ Open a Pull Request to `master` in the main repo. Put a comment in your _WIP Issue_ that links to your PR.
