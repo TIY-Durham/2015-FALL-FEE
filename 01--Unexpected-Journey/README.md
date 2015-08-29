@@ -1,13 +1,23 @@
 # 00--Unexpected Journey
 
-## Rituals (~1h 15m)
+## Agenda
+### Daily Rituals
 
-* **Standup Meeting** (~15m)
-* **Daily QUIZ!** (~15m)
-* **Parking Lot Topics** (~15m)
-* **Homework Review** (~30m)
+* Standup Meeting
+* Homework Review
+* 3 Little Things
+* DAILY QUIZ!
+* Assignment Overview
+* Turn-in Instructions
 
-## Parking Lot Review
+## Weekly Rituals
+
+* Monday Seat Changes
+* Monday Review
+* Tools on Tuesday
+* Coding Dojo Friday
+
+
 
 ## Assignment
 
