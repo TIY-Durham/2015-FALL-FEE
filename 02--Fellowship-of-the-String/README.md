@@ -35,7 +35,7 @@
     * examples with `setTimeout`, `setInterval`
 * How does this relate to Control Flow and the Rule of Sequential Operation?
 
-## A little more about Control Flow
+### A little more about Control Flow
 
 * How do I alter the Control Flow of a program?
   * How do I _draw_ a decision tree? How do I _write_ one?
@@ -58,17 +58,58 @@
   * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
   * _WIP Branch_:
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
+* [ ] **The Right Mindset: Rought Draft**
+  * Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
+  * In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
+  * Open a Pull Request from `rough-draft` to `master`
+  * Add a link to that PR in your WIP Issue
+  * Add some rough drafts to `the-right-mindset.md` over a few commits
+ * [ ] **Reading JavaScript**
+  * [ ] added 2 more entries
+  * [ ] added 5 more entries
+  * [ ] added 10 entries!
+  * [ ] added 1 "weirdo" operator
+  * [ ] added `function`
+    * [ ] example function definition
+    * [ ] example function invocation
 ```
 
-### WRITING ASSIGNMENT
+### The Right Mindset
+
+The second stage of [the Writing Process](http://en.wikipedia.org/wiki/Writing_process) is [Drafting](http://en.wikipedia.org/wiki/Draft_document): writing a series of quick, rough attempts at cohesive thought with minimal editing. Through this process, the author revises her stance on the organization and presentation of the ideas in the piece, also revising her outline in the process. 
+
+Your next step towards your Right Mindset journal is to produce your first Rough Draft, although you might produce many. Keep them all in the `the-right-mindset.md` file, adding commits for each as you go. In the next stage, you'll start revising your drafts into your final draft.
+
+* Write _at least 1_ Rough Draft in `the-right-mindset.md`
+* Keep _all_ drafts you author; commit _at least once_ for each.
+* _Leave your wiki page!_
 
 ### READING ASSIGNMENT
+
+* add 10 more entries to about/javascript.md
+* cover any operators that we used in class that seemed odd or confusing
+* include the `typeof` operator
+* include the `function` keyword,
+  * provide examples of function definitions and invocations
+  * identify the pieces of your examples with code comments
+* incorporate feedback from Assignment 01
+
+```markdown
+## Functions
+
+Functions are a form of [control flow](http://en.wikipedia.org/wiki/Control_flow) used in computer programs... (you fill in the rest)
+
+### `function` keyword
+
+The `function` keyword is used to _define_ a function with parentheses and curly braces:
+
+    // This is a Function Definition for `whatever`...
+    function whatever ( /* arguments go here */ ) {
+      // body of function goes here
+    }
+
+Once a function has been defined, it can be _invoked_ by... (get the picture?)
+```
 
 ### CODING ASSIGNMENT
 
