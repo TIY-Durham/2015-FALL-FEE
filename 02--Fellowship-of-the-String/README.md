@@ -72,6 +72,51 @@
   * [ ] added `function`
     * [ ] example function definition
     * [ ] example function invocation
+ * **Coding Kata: Basic Calculator**
+  * [ ] Created _WIP Branch_ in `TIY-Assignments`
+  * [ ] Created `BasicCalculator.js` in _WIP Branch_
+  * [ ] `add` exists!
+  * checked `add` for... 
+    * [ ] `0` added to `0`... that was easy
+    * [ ] `0` added to `1` through `5`
+    * [ ] `0` added to `6` through `9`
+    * [ ] `1` added to... uh oh.
+    * [ ] up to `5`...!
+    * [ ] all the way to `9 + 9`...!
+  * [ ] `minus` exists!
+  * checked `minus` for...
+    * [ ] `0` minus everything...
+    * [ ] up to `5` minus `5`
+    * [ ] `9` minus `9`
+  * [ ] `times` exists!
+  * [ ] `times` tested!
+  * [ ] `divide` exists!
+  * [ ] `divide` tested... except.
+  * [ ] what is anything divided by `0`...?
+  * [ ] **BEAST MODE** -- `pow` of `0` through `9`...?
+  * [ ] **NIGHTMARE MODE** -- Smarter tests?
+* **Coding Kata: String Calculator**
+  * [ ] function `toNumber` exists!
+  * [ ] `toNumber("zero")` works!
+  * [ ] function `add` exists!
+  * [ ] `add("zero", "zero")` works!
+  * [ ] `"one"` plus `"one"` is `2`!
+  * [ ] `"two"` plus `"two"` is `4`!
+  * [ ] make `"seven"` up yours!
+  * [ ] and `"nine"` is the end!
+  * [ ] First pair!
+  * [ ] Second pair!
+  * [ ] Third pair!  
+ * [ ] **JavaScript Koans**
+  * [ ] https://github.com/TIY-Durham/javascript-koans ??
+  * [ ] Create and commit to WIP branch
+  * [ ] Open PR from WIP branch to forked `master`
+  * [ ] Fork from `TIY-Durham/javascript-koans`
+  * [ ] Clone with SourceTree?
+  * [ ] Install `mocha` and `chai` with `npm install`
+  * [ ] Run with `npm start`
+  * [ ] Open in Atom...
+  * [ ] Start answering questions!
 ```
 
 ### The Right Mindset
@@ -84,7 +129,7 @@ Your next step towards your Right Mindset journal is to produce your first Rough
 * Keep _all_ drafts you author; commit _at least once_ for each.
 * _Leave your wiki page!_
 
-### READING ASSIGNMENT
+### Reading JavaScript
 
 * add 10 more entries to about/javascript.md
 * cover any operators that we used in class that seemed odd or confusing
@@ -111,8 +156,84 @@ The `function` keyword is used to _define_ a function with parentheses and curly
 Once a function has been defined, it can be _invoked_ by... (get the picture?)
 ```
 
-### CODING ASSIGNMENT
+### Coding Katas
 
-## Resources
+Test Driven Development (TDD) isn't just a good way to write software, it's also a great way to practice programming. Like doing lunges or playing scales and arpeggios, it doesn't _look_ productive, but what you learn along the way makes you better at it. Use these two practice problems to start on the path to TDD mastery. Use the `chai` library to make assertions about the functions you haven't written yet (red), write code that makes the assertions pass (green), and then look for opportunities to make your code better (refactor). At this point, focus on formatting and syntax improvements.
 
-* LINK
+Work together in pairs for this assignment. Work on one computer at a time as pilot-copilot. Every 5 minutes, switch who is typing (but stay on the same computer) _ and commit your work_ with an explanation of _why_ you wrote the code you did.
+
+After 6 swaps (~30m), take a break to review the code, commit, and switch computers. After you've both written code, talk about the decisions you've made together, then find another pair. Do this at least 3 times with different people.
+
+### Coding Kata: Basic Calculator
+
+Before you start pairing, in your `TIY-Assignments` repo, create your _WIP Branch_ as in the **Yak Shaving** checklist. In that branch, create a file called `BasicCalculator.js` and add and commit it to the repo. Push your commits to GitHub and _immediately_ open a Pull Request (PR).
+
+Write a set of functions -- `add`, `minus`, `times`, `divide` -- that, given two `Number` inputs, perform their corresponding mathematical operations and return the results. They should have no side effects. Test your functions using Assertion Tests, providing test cases for both operands between `0` and `9`.
+
+### Coding Kata: String Calculator
+
+Remember how we tried to do `"one" + "one"` in the console? JavaScript doesn't know how to convert English to numbers... but we can teach it! Start with the following example and expand it, writing tests to cover each input and output. HINT: You'll get a lot of practice writing `if` statements. Don't copy-pasta the starting point, either: type it yourself. While you're at it, think about _why_ you're typing what you're typing.
+
+```javascript
+expect = require('chai').expect;
+
+test('fromEnglish: "zero" through "nine"', function(){
+  expect(fromEnglish).to.exist;
+  expect(fromEnglish("zero")).to.equal(0);
+  expect(fromEnglish("one")).to.equal(1);
+  // more tests here, please...
+}); // END test(fromEnglish)
+
+/**
+ * @param {String} word representing an English number
+ * @return {Number} value corresponding to `word`
+ */
+function fromEnglish(word){
+  // fill this in after writing tests...
+} // END fromEnglish
+
+test('plus: ("zero", "zero") through ("zero", "nine")', function(){
+  expect(plus).to.exist;
+  expect(plus("zero", "zero")).to.equal(0);
+  expect(plus("zero", "one")).to.equal(1); // change just one thing!
+  expect(plus("zero", "two")).to.equal(FILL_ME_IN); // ha!
+  // write more tests like those...
+}); // END test(plus)
+
+/**
+ * @param {String} A representing an English number word
+ * @param {String} B representing an English number word
+ * @return {Number} the value of `A` added to `B`
+function plus(A, B){
+  // write those tests first, please...
+} // END plus
+
+test('minus: ("zero", "zero") through ("zero", "nine")', function(){
+  expect(minus).to.exist;
+  expect(minus("zero", "zero").to.equal(0);
+  expect(minus("zero", "one").to.equal(-1);
+  // etc, etc, etc
+}); // END test(minus)
+
+// What about multiplication? Division? Exponents?
+```
+
+### JavaScript Koans
+
+A [koan](http://en.wikipedia.org/wiki/K%C5%8Dan) is "a story, dialogue, question, or statement which is used in Zen practice to ... test a student's progress." Many people have contributed to sets of koans for learning programming languages, as well. [The JavaScript Koans maintained by David Laing](https://github.com/mrdavidlaing/javascript-koans) are good practice problems to help you gauge your understanding of JavaScript. Fork and clone his repository so that you can work on the problems locally. Just opening the `KoansRunner.html` file in a browser is sufficient (`open KoansRunner.html`); remember to reload the page after you save!
+
+Create a branch in your cloned fork called `02--tools-on-tuesday` and commit your work to that branch. Push your branch to Github (`git push`) and open a Pull Request _from_ your `02--tools-on-tuesday` branch _into_ the `master` branch of _your fork_... not the original. Didn't you know you could do that? Remember to link your open PR to your _WIP Issue_ in the class repo!
+
+* fork https://github.com/mrdavidlaing/javascript-koans
+* clone _your fork_ locally
+* create and checkout a branch named `02--tools-on-tuesday`
+* open `KoanRunner.html` in a browser
+* complete `AboutExpects.js`, `AboutArrays.js`, `AboutFunctions.js`
+
+#### BEAST MODE
+
+In addition to **NORMAL MODE**, complete `AboutObjects.js`, `AboutMutability.js`, `AboutHigherOrderFunctions.js` as well.
+
+#### NIGHTMARE MODE
+
+Complete _all_ of the koans.
