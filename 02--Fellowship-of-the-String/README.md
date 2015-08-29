@@ -54,10 +54,6 @@
 ## Assignment
 
 ```markdown
-* [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
 * [ ] **The Right Mindset: Rought Draft**
   * Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
   * In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
@@ -164,13 +160,13 @@ Work together in pairs for this assignment. Work on one computer at a time as pi
 
 After 6 swaps (~30m), take a break to review the code, commit, and switch computers. After you've both written code, talk about the decisions you've made together, then find another pair. Do this at least 3 times with different people.
 
-### Coding Kata: Basic Calculator
+#### Coding Kata: Basic Calculator
 
 Before you start pairing, in your `TIY-Assignments` repo, create your _WIP Branch_ as in the **Yak Shaving** checklist. In that branch, create a file called `BasicCalculator.js` and add and commit it to the repo. Push your commits to GitHub and _immediately_ open a Pull Request (PR).
 
 Write a set of functions -- `add`, `minus`, `times`, `divide` -- that, given two `Number` inputs, perform their corresponding mathematical operations and return the results. They should have no side effects. Test your functions using Assertion Tests, providing test cases for both operands between `0` and `9`.
 
-### Coding Kata: String Calculator
+#### Coding Kata: String Calculator
 
 Remember how we tried to do `"one" + "one"` in the console? JavaScript doesn't know how to convert English to numbers... but we can teach it! Start with the following example and expand it, writing tests to cover each input and output. HINT: You'll get a lot of practice writing `if` statements. Don't copy-pasta the starting point, either: type it yourself. While you're at it, think about _why_ you're typing what you're typing.
 
