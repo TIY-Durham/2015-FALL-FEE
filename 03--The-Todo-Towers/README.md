@@ -25,7 +25,9 @@
   * [ ] **NIGHTMARE MODE**
     * [ ] `try/catch`, `throw`
     * [ ] the `Exception` type
-* [ ] **CODING**
+* [ ] **Coding Kata: Check Writing**
+  * checkpoints
+* [ ] **TodoCLI (Part 1)**
   * checkpoints
 ```
 
