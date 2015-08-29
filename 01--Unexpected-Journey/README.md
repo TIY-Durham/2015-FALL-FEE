@@ -10,14 +10,42 @@
 * Assignment Overview
 * Turn-in Instructions
 
-## Weekly Rituals
+### Weekly Rituals
 
 * Monday Seat Changes
 * Monday Review
 * Tools on Tuesday
 * Coding Dojo Friday
 
+### The Wonderful World of JavaScript
+* What kinds of values can I represent in JavaScript?
+* What can I do with those values?
+* How do I keep track of those values?
+* What is an Expression?
+  * What is the simplest Expression?
+  * What is an Operator? What does an Operator require?
+  * What is the result of an Operation? Expression!
+* What is a Statement?
+  * What Operator do we use to denote a Statement?
+  * What other Operators can separate Statements?
+  * Can a Statement contain more than one Expression?
+* What is the Rule of Sequential Operation?
+* Are there exceptions to that rule?
 
+### Reading, Writing, and Running JavaScript
+* How can I _read_ JavaScript files?
+  * in the Finder with QuickLook...
+  * from the command line with `less <filename>`
+  * in a code editor like Atom!
+* How do I _write_ JavaScript files?
+  * in the Finder... (boo)
+  * from the command like with `touch <filename>`
+  * back to that Atom...!
+* How do I _run_ JavaScript?
+  * in the browser?
+  * from the command line with `node <filename>`
+  * in the browser?
+* What if I don't have a file yet? Use the `node` REPL!
 
 ## Assignment
 
