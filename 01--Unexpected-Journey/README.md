@@ -88,6 +88,20 @@
      * Brainstorm topic ideas?
      * Write an Outline?
      * First Rough Draft
+* [ ] **Reading JavaScript** -- Explain and provide examples for:
+  * [ ] Basic Literal Types: 
+    * [ ] `null`
+    * [ ] `Boolean`
+    * [ ] `Number`
+    * [ ] `String`
+  * [ ] Basic Operators:
+    * [ ] Arithmetic
+    * [ ] Comparison
+    * [ ] Assignment
+  * [ ] Built-in Constants: 
+    * [ ] `undefined` 
+    * [ ] `NaN`
+    * [ ] `Infinity`
 ```
 
 ### Journal, Week One: The Right Mindset
@@ -102,7 +116,7 @@ Research _The Growth Mindsets_ by Dr. Carol Dweck, starting with the videos prov
 
 If you need guidance, follow [the writing process](https://en.wikipedia.org/wiki/Writing_process): start by brainstorming some ideas about the topic and write an outline of your essay, no more than three levels deep, on your wiki page. Otherwise, you can start with your first Rough Draft -- very unorganized, stream of consciousness. 
 
-This assignment will be due on Thursday, but we'll review everyone's work in class on Tuesday. _Be sure to link your wiki page in your WIP Issue!_
+This assignment will be due on Thursday, but we'll review everyone's work so far in class on Tuesday. _Be sure to link your wiki page in your WIP Issue!_
 
 #### Videos for _The Growth Mindset_
 
@@ -110,7 +124,34 @@ This assignment will be due on Thursday, but we'll review everyone's work in cla
 * [_The Power of Yet_ by Dr. Carol Dweck on TED](https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve)
 * [_Carol Dweck, Growth Mindsets and Motivation_ on TED-ed](http://ed.ted.com/on/UA77FlTc)
 
-### READING ASSIGNMENT
+### Reading JavaScript
+
+Use [the Mozilla Development Network JavaScript Guide and Reference](https://developer.mozilla.org/en-US/docs/Web/JavaScript) to research and explain the following as if teaching a peer or writing a tutorial:
+
+* Basic literal types: `null`, `Boolean`, `Number`, and `String`
+* Special constants: `Inifinty`, `NaN`, and `undefined`
+* Basic Operators:
+  * Arithmetic, e.g. `+`, `-`, `/`
+  * Comparison, e.g. `>`, `<=`
+  * Assignment, e.g. `var`, `=`, `+=`
+* _Include examples of each in use!_
+
+```markdown
+# About JavaScript
+
+## Operators
+
+### Arithmetic
+
+#### `+` -- addition
+
+Given two `Number` values, produces the sum of those values as another `Number`. For example:
+
+    1 + 1 // yields 2
+    2 + 2 // yields 4
+
+. . .
+```
 
 ### CODING ASSIGNMENT
 
