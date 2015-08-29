@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# 03--The-Todo-Towers
 
 ## Rituals (~1h 15m)
 
@@ -37,8 +37,6 @@ Continue working on your essay, now progressing in the Revision phase. You shoul
 
 Using the following resources from MDN and your own research, describe [the control flow and error handling](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Control_flow_and_error_handling) constructs: `{ }` as a block operator, `if`, `else`, `switch/case`, `try/catch`, and `throw`. Then read and cover [the looping and iteration](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration) keywords: `for`, `while`, and `do/while`.
 
-### CODING ASSIGNMENT
+### Coding Kata: Check Writing
 
-## Resources
-
-* LINK
+### TodoCLI (Part 1)
