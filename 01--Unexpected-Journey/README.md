@@ -1,4 +1,4 @@
-# 00--Unexpected Journey
+# 00--An Unexpected Journey
 
 ## Agenda
 ### Daily Rituals
