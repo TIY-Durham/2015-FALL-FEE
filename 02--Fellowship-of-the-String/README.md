@@ -55,11 +55,11 @@
 
 ```markdown
 * [ ] **The Right Mindset: Rought Draft**
-  * Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
-  * In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
-  * Open a Pull Request from `rough-draft` to `master`
-  * Add a link to that PR in your WIP Issue
-  * Add some rough drafts to `the-right-mindset.md` over a few commits
+  * [ ] Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
+  * [ ] In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
+  * [ ] Open a Pull Request from `rough-draft` to `master`
+  * [ ] Add a link to that PR in your WIP Issue
+  * [ ] Add some rough drafts to `the-right-mindset.md` over a few commits
  * [ ] **Reading JavaScript**
   * [ ] added 2 more entries
   * [ ] added 5 more entries
