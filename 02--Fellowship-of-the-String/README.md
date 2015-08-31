@@ -21,6 +21,26 @@
   * Can a Statement contain more than one Expression?
 * What other kinds of Statements are there?
 
+### The Wonderful World of JavaScript: Redux
+
+* What is the Rule of Sequential Operation?
+* Are there exceptions to that rule?
+
+### Reading, Writing, and Running JavaScript
+* How can I _read_ JavaScript files?
+  * in the Finder with QuickLook...
+  * from the command line with `less <filename>`
+  * in a code editor like Atom!
+* How do I _write_ JavaScript files?
+  * in the Finder... (boo)
+  * from the command like with `touch <filename>`
+  * back to that Atom...!
+* How do I _run_ JavaScript?
+  * in the browser?
+  * from the command line with `node <filename>`
+  * in the browser?
+* What if I don't have a file yet? Use the `node` REPL!
+
 ### All about Functions
 
 * What is a Function?
