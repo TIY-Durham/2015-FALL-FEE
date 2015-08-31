@@ -74,6 +74,7 @@
  * [ ] Open Pull Requests:
    * [ ] in `USERNAME.github.io` _from_ `yak-shaving` _into_ `master`
    * [ ] in `Student-Roster` _from_ **your** `master` _into_ `TIY-Durham:master`
+   * [ ] in `TIY-Assignments` _from_ `yak-shaving` _into_ `master`
  * [ ] Add comments in your WIP Issue with:
    * [ ] Link to your PR in `USERNAME.github.io`
    * [ ] Link to your PR in `TIY-Assignments:yak-shaving`
