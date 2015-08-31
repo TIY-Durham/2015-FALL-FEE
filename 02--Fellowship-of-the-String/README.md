@@ -192,7 +192,7 @@ Complete _all_ of the koans and provide explanations for each.
 
 Test Driven Development (TDD) isn't just a good way to write software, it's also a great way to practice programming. Like doing lunges or playing scales and arpeggios, it doesn't _look_ productive, but what you learn along the way makes you better at it. Use these two practice problems to start on the path to TDD mastery. Use the `chai` library to make assertions about the functions you haven't written yet (red), write code that makes the assertions pass (green), and then look for opportunities to make your code better (refactor). At this point, focus on formatting and syntax improvements.
 
-Work together in pairs for this assignment. Work on one computer at a time as pilot-copilot. Every 5 minutes, switch who is typing (but stay on the same computer) _ and commit your work_ with an explanation of _why_ you wrote the code you did.
+Work together in pairs for this assignment. Work on one computer at a time as pilot-copilot. Every 5 minutes, switch who is typing (but stay on the same computer) _and commit your work_ with an explanation of _why_ you wrote the code you did.
 
 After 6 swaps (~30m), take a break to review the code, commit, and switch computers. After you've both written code, talk about the decisions you've made together, then find another pair. Do this at least 3 times with different people.
 
