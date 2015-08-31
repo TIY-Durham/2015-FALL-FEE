@@ -236,6 +236,8 @@ test('plus: ("zero", "zero") through ("zero", "nine")', function(){
  * @param {String} A representing an English number word
  * @param {String} B representing an English number word
  * @return {Number} the value of `A` added to `B`
+**/
+
 function plus(A, B){
   // write those tests first, please...
 } // END plus
