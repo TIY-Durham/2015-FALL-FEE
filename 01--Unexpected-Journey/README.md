@@ -76,7 +76,7 @@
    * [ ] in `Student-Roster` _from_ **your** `master` _into_ `TIY-Durham:master`
  * [ ] Add comments in your WIP Issue with:
    * [ ] Link to your PR in `USERNAME.github.io`
-   * [ ] Link to your `About JavaScript` wiki page in `USERNAME.github.io`
+   * [ ] Link to your PR in `TIY-Assignments:yak-shaving`
    * [ ] Link to your PR in `TIY-Durham/Student-Roster`
 * [ ] **The Right Mindset**
    * [ ] Create a new repository named `USERNAME.github.io`
