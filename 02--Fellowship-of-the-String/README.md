@@ -163,6 +163,31 @@ The `function` keyword is used to _define_ a function with parentheses and curly
 Once a function has been defined, it can be _invoked_ by... (get the picture?)
 ```
 
+### JavaScript Koans
+
+A [koan](http://en.wikipedia.org/wiki/K%C5%8Dan) is "a story, dialogue, question, or statement which is used in Zen practice to ... test a student's progress." Many people have contributed to sets of koans for learning programming languages, as well. 
+
+[The `javascript-koans` repo in `TIY-Durham`](https://github.com/TIY-Durham/javascript-koans) is based on [the JavaScript Koans maintained by David Laing](https://github.com/mrdavidlaing/javascript-koans). 
+
+Fork that repo and create a _WIP Branch_ in your fork named `2015-09-01` (today's date) and commit your work to that branch. Push your branch to Github (`git push`) and open a Pull Request _from_ your branch _into_ the `master` branch of _your fork_... not the original. Didn't you know you could do that? Remember to link your open PR to your _WIP Issue_ in the class repo!
+
+These exercises are designed to make you _think_ about the answers you're providing, not just fill in the blanks. You'll find that the answers are easy to derive based on the feedback the tests give you... can you explain _why_? As you solve the koans, explain the changes you made in a code comment below each test.
+
+* fork https://github.com/TIY-Durham/javascript-koans
+* clone _your fork_ locally into your `TIY` directory
+* create and checkout a branch named `2015-09-01`
+* open your clone in `Terminal.app` and run `npm install`; what happened?
+* start a timer for 5 minutes; _commit when the time expires_
+* complete `AboutExpects.js`, `AboutArrays.js`, `AboutFunctions.js`
+
+#### BEAST MODE
+
+In addition to **NORMAL MODE**, complete `AboutObjects.js`, `AboutMutability.js`, `AboutHigherOrderFunctions.js` as well, providing explanations for each.
+
+#### NIGHTMARE MODE
+
+Complete _all_ of the koans and provide explanations for each.
+
 ### Coding Katas
 
 Test Driven Development (TDD) isn't just a good way to write software, it's also a great way to practice programming. Like doing lunges or playing scales and arpeggios, it doesn't _look_ productive, but what you learn along the way makes you better at it. Use these two practice problems to start on the path to TDD mastery. Use the `chai` library to make assertions about the functions you haven't written yet (red), write code that makes the assertions pass (green), and then look for opportunities to make your code better (refactor). At this point, focus on formatting and syntax improvements.
@@ -224,28 +249,3 @@ test('minus: ("zero", "zero") through ("zero", "nine")', function(){
 
 // What about multiplication? Division? Exponents?
 ```
-
-### JavaScript Koans
-
-A [koan](http://en.wikipedia.org/wiki/K%C5%8Dan) is "a story, dialogue, question, or statement which is used in Zen practice to ... test a student's progress." Many people have contributed to sets of koans for learning programming languages, as well. 
-
-[The `javascript-koans` repo in `TIY-Durham`](https://github.com/TIY-Durham/javascript-koans) is based on [the JavaScript Koans maintained by David Laing](https://github.com/mrdavidlaing/javascript-koans). 
-
-Fork that repo and create a _WIP Branch_ in your fork named `2015-09-01` (today's date) and commit your work to that branch. Push your branch to Github (`git push`) and open a Pull Request _from_ your branch _into_ the `master` branch of _your fork_... not the original. Didn't you know you could do that? Remember to link your open PR to your _WIP Issue_ in the class repo!
-
-These exercises are designed to make you _think_ about the answers you're providing, not just fill in the blanks. You'll find that the answers are easy to derive based on the feedback the tests give you... can you explain _why_? As you solve the koans, explain the changes you made in a code comment below each test.
-
-* fork https://github.com/TIY-Durham/javascript-koans
-* clone _your fork_ locally into your `TIY` directory
-* create and checkout a branch named `2015-09-01`
-* open your clone in `Terminal.app` and run `npm install`; what happened?
-* start a timer for 5 minutes; _commit when the time expires_
-* complete `AboutExpects.js`, `AboutArrays.js`, `AboutFunctions.js`
-
-#### BEAST MODE
-
-In addition to **NORMAL MODE**, complete `AboutObjects.js`, `AboutMutability.js`, `AboutHigherOrderFunctions.js` as well, providing explanations for each.
-
-#### NIGHTMARE MODE
-
-Complete _all_ of the koans and provide explanations for each.
