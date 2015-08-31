@@ -55,54 +55,19 @@
 
 ```markdown
 * [ ] **The Right Mindset: Rought Draft**
-  * [ ] Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
-  * [ ] In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
-  * [ ] Open a Pull Request from `rough-draft` to `master`
-  * [ ] Add a link to that PR in your WIP Issue
-  * [ ] Add some rough drafts to `the-right-mindset.md` over a few commits
- * [ ] **Reading JavaScript**
-  * [ ] added 2 more entries
-  * [ ] added 5 more entries
-  * [ ] added 10 entries!
-  * [ ] added 1 "weirdo" operator
-  * [ ] added `function`
-    * [ ] example function definition
-    * [ ] example function invocation
- * **Coding Kata: Basic Calculator**
-  * [ ] Created _WIP Branch_ in `TIY-Assignments`
-  * [ ] Created `BasicCalculator.js` in _WIP Branch_
-  * [ ] `add` exists!
-  * checked `add` for... 
-    * [ ] `0` added to `0`... that was easy
-    * [ ] `0` added to `1` through `5`
-    * [ ] `0` added to `6` through `9`
-    * [ ] `1` added to... uh oh.
-    * [ ] up to `5`...!
-    * [ ] all the way to `9 + 9`...!
-  * [ ] `minus` exists!
-  * checked `minus` for...
-    * [ ] `0` minus everything...
-    * [ ] up to `5` minus `5`
-    * [ ] `9` minus `9`
-  * [ ] `times` exists!
-  * [ ] `times` tested!
-  * [ ] `divide` exists!
-  * [ ] `divide` tested... except.
-  * [ ] what is anything divided by `0`...?
-  * [ ] **BEAST MODE** -- `pow` of `0` through `9`...?
-  * [ ] **NIGHTMARE MODE** -- Smarter tests?
-* **Coding Kata: String Calculator**
-  * [ ] function `toNumber` exists!
-  * [ ] `toNumber("zero")` works!
-  * [ ] function `add` exists!
-  * [ ] `add("zero", "zero")` works!
-  * [ ] `"one"` plus `"one"` is `2`!
-  * [ ] `"two"` plus `"two"` is `4`!
-  * [ ] make `"seven"` up yours!
-  * [ ] and `"nine"` is the end!
-  * [ ] First pair!
-  * [ ] Second pair!
-  * [ ] Third pair!  
+   * [ ] Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
+   * [ ] In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
+   * [ ] Open a Pull Request from `rough-draft` to `master`
+   * [ ] Add a link to that PR in your WIP Issue
+   * [ ] Add some rough drafts to `the-right-mindset.md` over a few commits
+* [ ] **Reading JavaScript**
+   * [ ] added 2 more entries
+   * [ ] added 5 more entries
+   * [ ] added 10 entries!
+   * [ ] added 1 "weirdo" operator
+   * [ ] added `function`
+     * [ ] example function definition
+     * [ ] example function invocation
 * **JavaScript Koans**
   * **Yak Shaving**
     * [ ] Fork `TIY-Durham/javascript-koans` into your own account
@@ -124,6 +89,41 @@
     * [ ] completed: `AboutHigherOrderFunctions`
   * **NIGHTMARE MODE**
     * [ ] completed everything!
+* **Coding Kata: Basic Calculator**
+   * [ ] Created _WIP Branch_ in `TIY-Assignments`
+   * [ ] Created `BasicCalculator.js` in _WIP Branch_
+   * [ ] `add` exists!
+   * checked `add` for... 
+     * [ ] `0` added to `0`... that was easy
+     * [ ] `0` added to `1` through `5`
+     * [ ] `0` added to `6` through `9`
+     * [ ] `1` added to... uh oh.
+     * [ ] up to `5`...!
+     * [ ] all the way to `9 + 9`...!
+   * [ ] `minus` exists!
+   * checked `minus` for...
+     * [ ] `0` minus everything...
+     * [ ] up to `5` minus `5`
+     * [ ] `9` minus `9`
+   * [ ] `times` exists!
+   * [ ] `times` tested!
+   * [ ] `divide` exists!
+   * [ ] `divide` tested... except.
+   * [ ] what is anything divided by `0`...?
+   * [ ] **BEAST MODE** -- `pow` of `0` through `9`...?
+   * [ ] **NIGHTMARE MODE** -- Smarter tests?
+* **Coding Kata: String Calculator**
+   * [ ] function `toNumber` exists!
+   * [ ] `toNumber("zero")` works!
+   * [ ] function `add` exists!
+   * [ ] `add("zero", "zero")` works!
+   * [ ] `"one"` plus `"one"` is `2`!
+   * [ ] `"two"` plus `"two"` is `4`!
+   * [ ] make `"seven"` up yours!
+   * [ ] and `"nine"` is the end!
+   * [ ] First pair!
+   * [ ] Second pair!
+   * [ ] Third pair!  
 ```
 
 ### The Right Mindset
