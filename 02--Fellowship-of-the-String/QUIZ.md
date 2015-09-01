@@ -20,13 +20,18 @@ build-lists: true
   * `6.02e23`
   * `077` (`63`?), `0xFEE1` (`65249`!?!)
 
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Integers
+
 ---
 
 # How do we write the 4 primitive types in JavaScript?
 
 * `String`
-  * `"this is a duobly-quoted string"`
-  * `'this is a singly-quoted string'`
+  * `'this is Kelly\'s singly-quoted string'`
+  * `"this is \"AL the X\"'s doubly-quoted string"`
+  * `"what does \n do to this string?"`
+
+> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#String_literals
 
 ---
 
