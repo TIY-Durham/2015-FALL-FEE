@@ -1,4 +1,4 @@
-# Fellowship of the String
+# 02 -- Fellowship of the String
 
 ## Rituals (~1h 15m)
 
