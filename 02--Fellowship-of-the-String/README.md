@@ -215,11 +215,27 @@ Work together in pairs for this assignment. Work on one computer at a time as pi
 
 After 6 swaps (~30m), take a break to review the code, commit, and switch computers. After you've both written code, talk about the decisions you've made together, then find another pair. Do this at least 3 times with different people.
 
-#### Coding Kata: Basic Calculator
+### Basic Calculator
 
-Before you start pairing, in your `TIY-Assignments` repo, create your _WIP Branch_ as in the **Yak Shaving** checklist. In that branch, create a file called `BasicCalculator.js` and add and commit it to the repo. Push your commits to GitHub and _immediately_ open a Pull Request (PR).
+Create your _WIP Branch_ as in the **Yak Shaving** checklist. Next, _clone your `TIY-Assignments` repo locally_, check out your _WIP branch_, and create a file called `BasicCalculator.js` and `git add` and `git commit` it to the repo. Use `git push` to send your commits to GitHub and _immediately_ open a Pull Request (PR) in GitHub to the `master` branch.
 
 Write a set of functions -- `add`, `minus`, `times`, `divide` -- that, given two `Number` inputs, perform their corresponding mathematical operations and return the results. They should have no side effects. Test your functions using Assertion Tests, providing test cases for both operands between `0` and `9`.
+
+#### Starting Point
+
+```javascript
+console.assert(add(0, 0), /* FILL ME IN */);
+console.assert(add(0, 1), /* FILL ME IN */);
+console.assert(add(0, 2), /* FILL ME IN */);
+
+/**
+ * @param {Number} A to add to B
+ * @param {Number} B to add to A
+ * @return {Number} sum of A and B
+ */
+function add(A, B){
+} // END add
+```
 
 ### String Calculator
 
