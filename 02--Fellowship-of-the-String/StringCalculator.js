@@ -5,6 +5,7 @@ test('fromEnglish: "zero" through "nine"', function(){
   expect(fromEnglish).to.exist;
   expect(fromEnglish("zero")).to.equal(0);
   expect(fromEnglish("one")).to.equal(1);
+  expect(fromEnglish("two")).to.equal(2);
   // more tests here, please...
 }); // END test(fromEnglish)
 
@@ -13,7 +14,16 @@ test('fromEnglish: "zero" through "nine"', function(){
  * @return {Number} value corresponding to `word`
  */
 function fromEnglish(word){
-  // fill this in after writing tests...
+  // if word is "one", then...
+  if ( word === "one" ){
+    return 1;
+  } // END if("one")
+
+  if ( word === "two" ){
+    return 2;
+  }
+
+  return 0;
 } // END fromEnglish
 
 test('plus: ("zero", "zero") through ("zero", "nine")', function(){
