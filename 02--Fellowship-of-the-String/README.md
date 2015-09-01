@@ -74,12 +74,11 @@
 ## Assignment
 
 ```markdown
-* [ ] **The Right Mindset: Rought Draft**
-   * [ ] Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
-   * [ ] In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
-   * [ ] Open a Pull Request from `rough-draft` to `master`
-   * [ ] Add a link to that PR in your WIP Issue
-   * [ ] Add some rough drafts to `the-right-mindset.md` over a few commits
+* [ ] **The Right Mindset: Revisions**
+   * [ ] Create a new _WIP Branch_ in `USERNAME.github.io` called `revisions`
+   * [ ] Add commits to `the-right-mindset.md` in `revisions`
+   * [ ] Open a PR from `revisions` to `master`
+   * [ ] Add a link to your _open_ PR to your _WIP Issue_
 * [ ] **Reading JavaScript**
    * [ ] added 2 more entries
    * [ ] added 5 more entries
@@ -130,20 +129,20 @@
    * [ ] `divide` exists!
    * [ ] `divide` tested... except.
    * [ ] what is anything divided by `0`...?
-   * [ ] **BEAST MODE** -- `pow` of `0` through `9`...?
-   * [ ] **NIGHTMARE MODE** -- Smarter tests?
+   * **BEAST MODE** -- `pow` of `0` through `9`...?
+   * **NIGHTMARE MODE** -- Smarter tests?
 * **Coding Kata: String Calculator**
-   * [ ] function `toNumber` exists!
-   * [ ] `toNumber("zero")` works!
-   * [ ] function `add` exists!
-   * [ ] `add("zero", "zero")` works!
-   * [ ] `"one"` plus `"one"` is `2`!
-   * [ ] `"two"` plus `"two"` is `4`!
-   * [ ] make `"seven"` up yours!
-   * [ ] and `"nine"` is the end!
-   * [ ] First pair!
-   * [ ] Second pair!
-   * [ ] Third pair!  
+    * [ ] function `toNumber` exists!
+    * [ ] `toNumber("zero")` works!
+    * [ ] function `add` exists!
+    * [ ] `add("zero", "zero")` works!
+    * [ ] `"one"` plus `"one"` is `2`!
+    * [ ] `"two"` plus `"two"` is `4`!
+    * [ ] make `"seven"` up yours!
+    * [ ] and `"nine"` is the end!
+  * [ ] First pair!
+  * [ ] Second pair!
+  * [ ] Third pair!
 ```
 
 ### The Right Mindset
