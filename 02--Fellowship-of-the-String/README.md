@@ -74,11 +74,37 @@
 ## Assignment
 
 ```markdown
-* [ ] **The Right Mindset: Revisions**
-   * [ ] Create a new _WIP Branch_ in `USERNAME.github.io` called `revisions`
-   * [ ] Add commits to `the-right-mindset.md` in `revisions`
-   * [ ] Open a PR from `revisions` to `master`
-   * [ ] Add a link to your _open_ PR to your _WIP Issue_
+```markdown
+* [ ] **Yak Shaving**
+  * [ ] Open a new WIP Issue in the Class Repo:
+    * [ ] Named `02 -- YOUR NAME` where `YOUR NAME` is _your full name_
+    * [ ] Copy-and-paste this checklist into the description!
+    * [ ] Check off your checkboxes as you complete tasks!
+  * [ ] **MERGED THOSE PRs ALREADY!**
+  * [ ] Fork the `TIY-Durham/javascript-koans` repository!
+  * [ ] Created new _WIP Branches_ in:
+    * [ ] `USERNAME.github.io` named `rough-draft` (`USERNAME.github.io:rough-draft`)
+    * [ ] `TIY-Assignments` named `02--fellowship-of-the-string` (`TIY-Assignments:02--fellowship-of-the-string`)
+    * [ ] Your _forked_ `javascript-koans` repo named `2014-09-01` (`javascript-koans:2014-09-01`)
+  * [ ] Create new _WIP Files_ in:
+    * [ ] `TIY-Assignments`:
+      * [ ] `BasicCalculator.js` from the **Starting Point**
+      * [ ] `StringCalculator.js` from the **Starting Point**
+  * [ ] Update _existing_ files in:
+    * [ ] `USERNAME.github.io`: `the-right-mindset.md`
+    * [ ] `TIY-Assignments`: `ReadingJavaScript/README.md`
+    * [ ] _your forked_ `javascript-koans` in `koans/`
+  * [ ] Create new PRs in:
+    * [ ] `USERNAME.github.io` _from_ `rough-draft` _into_ `master`
+    * [ ] _your forked_ `javascript-koans` _from_ `2015-09-01` _into_ `master`
+    * [ ] `TIY-Assignments` _from_ `02--fellowship-of-the-ring` _into_ `master`
+  * [ ] LINK DEM PRs!
+* [ ] **The Right Mindset: Rought Draft**
+  * Create a new branch in your `USERNAME.github.io` repo called `rough-draft`
+  * In the `rough-draft` branch, write an initial outline in `the-right-mindset.md`
+  * Open a Pull Request from `rough-draft` to `master`
+  * Add a link to that PR in your WIP Issue
+  * Add some rough drafts to `the-right-mindset.md` over a few commits
 * [ ] **Reading JavaScript**
    * [ ] added 2 more entries
    * [ ] added 5 more entries
@@ -288,14 +314,15 @@ test('plus: ("zero", "zero") through ("zero", "nine")', function(){
  * @param {String} A representing an English number word
  * @param {String} B representing an English number word
  * @return {Number} the value of `A` added to `B`
+ */
 function plus(A, B){
   // write those tests first, please...
 } // END plus
 
 test('minus: ("zero", "zero") through ("zero", "nine")', function(){
   expect(minus).to.exist;
-  expect(minus("zero", "zero").to.equal(0);
-  expect(minus("zero", "one").to.equal(-1);
+  expect(minus("zero", "zero")).to.equal(0);
+  expect(minus("zero", "one")).to.equal(-1);
   // etc, etc, etc
 }); // END test(minus)
 
