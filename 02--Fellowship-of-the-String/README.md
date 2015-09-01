@@ -221,12 +221,29 @@ Before you start pairing, in your `TIY-Assignments` repo, create your _WIP Branc
 
 Write a set of functions -- `add`, `minus`, `times`, `divide` -- that, given two `Number` inputs, perform their corresponding mathematical operations and return the results. They should have no side effects. Test your functions using Assertion Tests, providing test cases for both operands between `0` and `9`.
 
-#### Coding Kata: String Calculator
+### String Calculator
 
 Remember how we tried to do `"one" + "one"` in the console? JavaScript doesn't know how to convert English to numbers... but we can teach it! Start with the following example and expand it, writing tests to cover each input and output. HINT: You'll get a lot of practice writing `if` statements. Don't copy-pasta the starting point, either: type it yourself. While you're at it, think about _why_ you're typing what you're typing.
 
+You'll need to install `mocha` and `chai` if you want to use the `test` and `expect` functions; they're not built-in to Node JS like `console.assert`. To do that, run `npm init` in your cloned `TIY-Assignments` repo and follow the prompts to create a `package.json` file. _Set the `test` command to `mocha` when prompted._ Then run `npm install --save mocha chai` and report what happens...
+
+Copy and paste the **Starting Point** below into a _new_ file named `StringCalculator.js` inside `TIY-Assignments`; _be sure you're on the right branch!_ Follow your `git status`, `git add`, `git commit` mantra to add _only_ `package.json` and `StringCalculator.js` to your repo. Then run `npm test StringCalculator.js` and see what happens! If you got a bunch of broken tests, start writing code to make them pass... If not, come get help!
+
+* Open Terminal; `cd` to your cloned `TIY-Assignments` repo
+* Run `npm init` and follow the prompts to create a `package.json` file
+* _Set the `test` command to `mocha` when prompted!_
+* Run `npm install --save mocha chai` to install `mocha` and `chai`
+* Copy-and-paste the **Starting Point** into `StringCalculator.js`
+* `git status` / `git add` / `git commit` _just_ `package.json` and `StringCalculator.js`
+* Run `npm test StringCalculator.js` to observe the breaking tests...
+* Start fixing them!
+* Add more tests and fix those; work together in pairs!
+
+#### Starting Point
+
 ```javascript
-expect = require('chai').expect;
+var test = require('mocha').it,
+  expect = require('chai').expect;
 
 test('fromEnglish: "zero" through "nine"', function(){
   expect(fromEnglish).to.exist;
@@ -255,8 +272,6 @@ test('plus: ("zero", "zero") through ("zero", "nine")', function(){
  * @param {String} A representing an English number word
  * @param {String} B representing an English number word
  * @return {Number} the value of `A` added to `B`
-**/
-
 function plus(A, B){
   // write those tests first, please...
 } // END plus
