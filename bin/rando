@@ -1,0 +1,18 @@
+#!/usr/bin/env python
+
+import sys, json, random
+
+try:
+  _, filename = sys.argv
+
+except ValueError:
+  print 'Please provide a JSON roster file!'
+  sys.exit(1)
+
+with file(filename) as f:
+  roster = json.load(f)
+
+  randos = random.sample(roster, len(roster))
+
+  print json.dumps(randos, indent=2)
+

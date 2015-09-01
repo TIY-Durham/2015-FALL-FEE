@@ -1,0 +1,3 @@
+#!/usr/bin/env zsh
+
+jq --raw-output '.[] | "* \(.name) (@\(.login))"'
