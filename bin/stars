@@ -1,0 +1,8 @@
+#!/usr/bin/env zsh
+
+echo 'This command makes multiplicative queries; CACHE THE RESULTS!'
+
+curl -s https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/stargazers \
+  | jq --raw-output '.[] | .url' \
+  | xargs -n1 curl -s \
+  | jq --slurp .

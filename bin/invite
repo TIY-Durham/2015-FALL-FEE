@@ -1,0 +1,5 @@
+#!/usr/bin/env zsh
+
+jq -r '.[] | .login' | while read username; do
+  curl -n -XPUT https://api.github.com/teams/1709454/memberships/$username
+done
