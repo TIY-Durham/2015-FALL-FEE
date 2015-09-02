@@ -84,7 +84,7 @@
     * [ ] the `Exception` type
 * [ ] **Coding Kata: Rovarspraket**
   * **Yak Shaving**
-    * [ ] Created _WIP Branch_ in ``TIY-Assignments`
+    * [ ] Created _WIP Branch_ in `TIY-Assignments`
     * [ ] Created file in `TIY-Assignments` called `Roaverspraket.js`
     * [ ] Copy-pasta from **Starting Point** committed
     * [ ] Pushed to GitHub!
