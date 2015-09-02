@@ -67,7 +67,7 @@
   * [ ] Add commits to `the-right-mindset.md` in `revisions`
   * [ ] Open a PR from `revisions` to `master`
   * [ ] Add a link to your _open_ PR to your _WIP Issue_
-* **Reading JavaScript**
+* [ ] **Reading JavaScript**
   * **Yak Shaving**
     * [ ] Created a _WIP Branch_ in `TIY-Assignments`
     * [ ] Committed first changes to `ReadingJavaScript`
@@ -82,7 +82,7 @@
   * **NIGHTMARE MODE**
     * [ ] `try/catch`, `throw`
     * [ ] the `Exception` type
-* **Coding Kata: Rovarspraket**
+* [ ] **Coding Kata: Rovarspraket**
   * **Yak Shaving**
     * [ ] Created _WIP Branch_ in ``TIY-Assignments`
     * [ ] Created file in `TIY-Assignments` called `Roaverspraket.js`
