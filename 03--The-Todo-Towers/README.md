@@ -119,7 +119,7 @@
 
 ### The Right Mindset
 
-Continue working on your essay, now progressing in the Revision phase. You should start to produce a Final Draft starting with the best parts of your Roughs. Edit and expand them with a series of revisions, which you save as commits in Github. You should keep your old Roughs and Outline around.```
+Continue working on your essay, now progressing in the Revision phase. You should start to produce a Final Draft starting with the best parts of your Roughs. Edit and expand them with a series of revisions, which you save as commits in Github. You should keep your old Roughs and Outline around.
 
 ### Reading JavaScript: Control Flow
 
@@ -131,7 +131,7 @@ If you're looking for more of a challenge, read up on `switch` / `case` and the 
 
 #### NIGHTMARE MODE
 
-The error handling constructs -- `try` / `catch` / `finally` and `throw` -- can be a bit puzzling. Review them if you're still not satisfied with your understanding of Control Flow. Be prepared for some wackiness.```
+The error handling constructs -- `try` / `catch` / `finally` and `throw` -- can be a bit puzzling. Review them if you're still not satisfied with your understanding of Control Flow. Be prepared for some wackiness.
 
 ###  Rövarspråket
 
