@@ -262,7 +262,7 @@ console.assert(rovarspraket(0) === "0")
 
 Like **String Calculator**, this kata comes in two parts. First, write a function `toEnglish` that, given a `Number` like `1`, produces the English number word that corresponds to it: `"one"`. Test this function for _at least_ `0` through `9` at first. The _goal_ of the kata is to write a function named `toCheck` that, given a decimal number like `123.45`, produces a `String` suitable for printing on a check: `"one hundred twenty three & 45/100s"`.
 
-Use `mocha` and `chai` to write your tests, just like we did with `StringCalculator.js`... but look, they're already installed! Use the **Starting Point** from below, and don't hesitate to ask if you run into problems or typos!
+Use `mocha` and `chai` to write your tests, just like we did with `StringCalculator.js`... but look, they're already installed! Use the **Starting Point** from below, and this time let's try the `assert`-style functions from `chai`.
 
 #### Starting Point
 
