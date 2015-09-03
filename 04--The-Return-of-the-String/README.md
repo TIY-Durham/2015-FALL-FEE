@@ -43,6 +43,19 @@
 ## Assignment
 
 ```markdown
+* **Yak Shaving**
+  * [ ] Create a new _WIP Issue_ in the class repo... Whaddya name it?
+  * [ ] Create a new _WIP Branch_ in `TIY-Assignments` named `04--return-of-the-string`
+  * Create new _WIP Files_ in `TIY-Assignments` named:
+    * [ ] `ROT13.js` for the **ROT13** kata
+    * [ ] `3s-and-5s.js` for the **3s and 5s** kata
+    * [ ] `EvenFibonaccis.js` for the **Even Fibonaccis** kata
+    * [ ] `APIGymnastics` (a folder) with these _inside_:
+      * [ ] `Etsy.js`
+      * [ ] `items.json`
+  * _COMMIT AND PUSH_ :confused:
+  * Open a PR in `TIY-Assignments` _from_ `FILL_ME_IN` _into_ `FILL_ME_IN`
+  * Add a link to your PR as a comment in your _WIP Issue_!
 * **Reading JavaScript**
     * [ ] 2 more entries!
     * [ ] 5 more entries!
