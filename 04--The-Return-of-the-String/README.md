@@ -331,7 +331,7 @@ For example, check out [`items.json`](items.json), which contains some data take
 
 #### Starting Point -- `TIY-Assignments/APIGymnastics/Etsy.js`
 
-```
+```javascript
 // Put `items.json` in your `APIGymnastics` directory...
 var items = require('items.json');
 
