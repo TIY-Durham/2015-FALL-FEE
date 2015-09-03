@@ -56,6 +56,26 @@
     * [ ] Copy-pasta from **Starting Point** committed!
     * [ ] Pushed to GitHub!
     * [ ] Opened a PR!
+ * **Coding Kata: ROT13**
+  * [ ] **A quick game of Reversi, perhaps?**
+    * [ ] Nothing looks the same from every side.
+    * [ ] "A" single edge makes you sharp.
+    * [ ] Ironically, both commands exist!
+    * [ ] Back up and pick a card?
+    * [ ] Velma was my favorite, too.
+    * [ ] Just back away.
+  * [ ] **Worst password generator ever...**
+    * [ ] Contemplate a single character...
+    * [ ] What is "it"...?
+    * [ ] How do you scramble a feline?
+    * [ ] Technically, four letters should not be harder than three...
+    * [ ] Hey, you haven't been trying to decode these, too, have you?
+    * [ ] And "hello" to you, too!
+  * [ ] **BEAST MODE** -- Dirty ROT-N Scoundrels
+    * [ ] Go easy: start with 13
+    * [ ] Well, 0 would be easier, I guess.
+    * [ ] I guess 1 isn't so hard, either.
+    * [ ] Now, how would I _omit_ the 13?
  * **Coding Kata: 3s and 5s**
     * [ ] Got any 3s...?
       * [ ] below 10?
@@ -120,6 +140,85 @@ Add 10 more entries to your tutorial tonight, specifically including the `Array`
 
 ### Coding Kata: ROT13
 
+### ROT13 -- Your Lucky Number!
+
+So you like word games, do you? Well, here's something for all the Swedish nerds to love. What if I took the word "hello" and traded every character for the next character in the alphabet? I'd have "ifmmp", which doesn't look anything like "hello" anymore, and represents a "rotated" version of the original word. But why stop at _just the next letter_ when there are _so many_ letters in the English alphabet?
+
+[The ROT13 cipher](https://en.wikipedia.org/wiki/ROT13) is a simple extension of this idea: rotate every character in every word by _13_ places, excluding spaces. For example, here's a common printing phrase with ROT13 encoding:
+
+> The Quick Brown Fox Jumps Over The Lazy Dog
+> Gur Dhvpx Oebja Sbk Whzcf Bire Gur Ynml Qbt
+
+Since the English alphabet has exactly 26 characters, what happens if you ROT13 an already rotated phrase? Well, you'll find out soon enough! The **Starting Point** below uses `console.assert` for tests, but go **BEAST** by translating to `chai.assert` or `chai.expect`. Either way, you'll want to give yourself some more test cases than you're provided.
+
+Hey, while you're learning about all this rotating stuff, you should finish that `decode` function I started, then refactor `encode` to do the same kind of thing. Pair up, and commit often!
+
+```javascript
+/**
+ * The function `reverse` computes the reversal 
+ * of a given `String` (don't copy-pasta!)
+ *
+ * @param {String} S to reverse
+ * @return {String}
+ */
+function reverse(S){
+    // YOUR CODE HERE: NO INTERNET COPY-PASTA!
+}
+
+console.assert(reverse("") === ""); // Really?
+
+console.assert(reverse("A") === "A"); // Jerk.
+
+console.assert(reverse("cat") === "tac");
+
+console.assert(reverse("ward") === "draw");
+
+console.assert(reverse("books") === "skoob"); // Rokey, dokey...
+
+console.assert(
+  reverse("we don't want no trouble") === "elbuort on tnaw t'nod ew"
+);
+
+/**
+ * Function `encode` accepts a `String` and produces
+ * the appropriate ROT13 "encoded" version, i.e. every
+ * character in `phrase` is "rotated" ahead by 13 characters.
+ *
+ * @see String.prototype.charCodeAt
+ * @see String.prototype.fromCharCode
+ * @see http://en.wikipedia.org/wiki/ROT13
+ * 
+ * // Start with just `phrase`...
+ * @param {String} phrase to encode
+ * // Add `N` in part 2!
+ * // @param {Number} N rotation to apply, default 13
+ * @return {String} encoded with ROT13
+ */
+function encode(phrase/*, N */){
+    // YOUR CODE HERE... EMPHASIS ON **YOUR**
+}
+
+/**
+ * Function `decode` accepts a `phrase` and `N` and
+ * decoded it appropriately, i.e. every _word_ character
+ * in `phrase` is rotated backward by `N` characters.
+ *
+ * @param {String} phrase to decode
+ * @param {Number} N rotation to apply, default 13
+ * @return {String} decoded by ROT-N
+ */
+function decode(phrase, N){
+    // YOUR CODE HERE
+}
+
+// Produce more examples, please...
+console.assert(encode("hello") === "uryyb");
+console.assert(encode("uryyb") === "hello");
+
+console.assert(encode("hello", 2) === "jgnnq")
+console.assert(decode("jgnnq", 2) === "hello")
+```
+
 ### Coding Kata: 3s and 5s
 
 [Project Euler](https://projecteuler.net) (pronounced "oiler") has a plethora of problems to solve, many of which requiring all that looping and branching logic we've been chatting about. One problem -- Problem Number 1, in fact -- goes something like this:
@@ -145,8 +244,6 @@ test('getting a list of multiples of 3', function(){
 ```
 
 ### Coding Kata: Even Fibonacci
-
-### Only Even Fibonacci Numbers Can Sum
 
 Here's another gem from [Project Euler](https://projecteuler.net), this time dealing with [Fibonacci numbers](https://en.wikipedia.org/wiki/Fibonacci_number):
 
