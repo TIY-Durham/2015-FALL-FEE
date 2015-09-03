@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# 05--Shavers Of the Lost Yak
 
 ## Rituals (~1h 15m)
 
