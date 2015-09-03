@@ -44,12 +44,12 @@
 
 ```markdown
 * **Reading JavaScript**
-  * [ ] 2 more entries!
-  * [ ] 5 more entries!
-  * [ ] 10 more entries!
-  * [ ] `Array` literal with examples
-  * [ ] `length` with examples
-  * [ ] 2 `Array.prototype` methods!
+    * [ ] 2 more entries!
+    * [ ] 5 more entries!
+    * [ ] 10 more entries!
+    * [ ] `Array` literal with examples
+    * [ ] `length` with examples
+    * [ ] 2 `Array.prototype` methods!
 * **Yak Shaving**
     * [ ] Created _WIP Branch_ in `TIY-Assignments`
     * [ ] Created file in `TIY-Assignments` named `3s-and-5s.js`
