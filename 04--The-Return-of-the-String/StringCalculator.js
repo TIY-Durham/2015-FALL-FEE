@@ -13,7 +13,12 @@ test('fromEnglish: "zero" through "nine"', function(){
  * @return {Number} value corresponding to `word`
  */
 function fromEnglish(word){
-  // fill this in after writing tests...
+  if ( word === "zero" ){
+    return 0;
+  }
+  return 1;
+  // I guess we can kill this now...
+  // return 0;
 } // END fromEnglish
 
 test('plus: ("zero", "zero") through ("zero", "nine")', function(){
