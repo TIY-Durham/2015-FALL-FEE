@@ -56,7 +56,27 @@
   * [ ] Coding Kata: 3s and 5s
   * [ ] Coding Kata: Even Fibonacci
 * [ ] **TodoCLI (Part 2)**
-  * checkpoints
+* [ ] **Coding Kata: 3s and 5s**
+  * **Yak Shaving**
+    * [ ] Created _WIP Branch_ in `TIY-Assignments`
+    * [ ] Created file in `TIY-Assignments` named `3s-and-5s.js`
+    * [ ] Copy-pasta from **Starting Point** committed!
+    * [ ] Pushed to GitHub!
+    * [ ] Opened a PR!
+  * **Target Practice**
+    * [ ] Got any 3s...?
+      * [ ] below 10?
+      * [ ] below 20?
+      * [ ] below 50?
+    * [ ] How about 5s...?
+      * [ ] below 10?
+      * [ ] below 20?
+      * [ ] below 50?
+    * Sum of 3s and 5s...
+      * [ ] less than 10?
+      * [ ] less than 20?
+      * [ ] less than 50?
+      * [ ] LESS THAN 1000!?
 ```
 
 ### Reading JavaScript: Arrays
@@ -86,6 +106,28 @@ Add 10 more entries to your tutorial tonight, specifically including the `Array`
 ### Coding Kata: ROT13
 
 ### Coding Kata: 3s and 5s
+
+[Project Euler](https://projecteuler.net) (pronounced "oiler") has a plethora of problems to solve, many of which requiring all that looping and branching logic we've been chatting about. One problem -- Problem Number 1, in fact -- goes something like this:
+
+> If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+> 
+> Find the sum of all the multiples of 3 or 5 below 1000.
+
+Woah. That was a jump.
+
+This is an exercise in breaking down bigger problems into smaller problems that can more easily be tackled. Pairing up on those problems can also be helpful, so use our pairing rules to guide your time.
+
+#### Starting Point
+
+```javascript
+var test = require('mocha').it,
+    expect = require('chai').expect, // Use `expect(X).to.be` et al
+    assert = require('chai').assert;  // OR use `assert.equal` etc
+
+test('getting a list of multiples of 3', function(){
+  // Now what should go in here?
+}); // END test 3s
+```
 
 ### Coding Kata: Even Fibonacci
 
