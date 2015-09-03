@@ -112,6 +112,22 @@
     * [ ] What's the sum of the even terms in the smallest Fibonacci sequence?
     * [ ] Do you know of any _other_ sequences?
   * [ ] **BEAST MODE** -- 4 million. Go.
+* [ ] **API Gymnastics**
+  * **Yak Shaving**
+    * [ ] Create your _WIP Branch_! Maybe even check it out?
+    * [ ] Create a folder named `APIGymnastics`
+    * [ ] Copy-pasta **Starting Point** in `APIGymnastics/Etsy.js`
+    * [ ] Hey, what about that data?
+    * [ ] Seems like a good time to commit and push...
+    * [ ] Y'know, why not open a PR, too?
+  * **So many questions...**
+    * [ ] What is the total number of items?
+    * [ ] What is the average price of all the items?
+    * [ ] What items cost between $14 and $18 dollars? What are their names?
+    * [ ] What is the name and price of the only item with a `GBP` currency code?
+    * [ ] What are the names of all the items made of wood?
+    * [ ] What are the names of the items that are made of 8 or more materials?
+    * [ ] How many items were made by their sellers?
 ```
 
 ### Reading JavaScript: Arrays
@@ -136,11 +152,7 @@ Add 10 more entries to your tutorial tonight, specifically including the `Array`
 . . .
 ```
 
-### Coding Kata: Rovarspraket
-
 ### Coding Kata: ROT13
-
-### ROT13 -- Your Lucky Number!
 
 So you like word games, do you? Well, here's something for all the Swedish nerds to love. What if I took the word "hello" and traded every character for the next character in the alphabet? I'd have "ifmmp", which doesn't look anything like "hello" anymore, and represents a "rotated" version of the original word. But why stop at _just the next letter_ when there are _so many_ letters in the English alphabet?
 
@@ -294,4 +306,77 @@ test('summing even Fibonacci numbers?', function(){
   expect( sum(evens(fibonacci(0))) ).to.equal(FILL_ME_IN); // nice.
   // There really should be more code in here...
 }); // END test(dat CHAIN tho)
+```
+
+### API Gymnastics: Etsy Products
+
+Quite frequently in the world of programming, we sift through buckets of data looking for some important piece or maybe just some mathematically-derived facts. A little [Data Science](https://en.wikipedia.org/wiki/Data_science) goes a _long_ way in this business. Frequently, our starting data comes from a web service that speaks [a sort of truncated JavaScript syntax called JSON](https://en.wikipedia.org/wiki/JSON).
+
+For example, check out [`items.json`](items.json), which contains some data taken from [the Etsy.com API](https://www.etsy.com/developers/documentation/getting_started/api_basics). We'll use the API directly _much later_ in the class, but for now, make use of [the built-in `Array` methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Methods_2) to answer a few questions about the data. The value of this exercise isn't in figuring out the answer, it's about figuring out _how_ to get the answer.
+
+* What is the total number of items?
+* What is the average price of all the items?
+* What items cost between $14 and $18 dollars? What are their names?
+* What is the name and price of the only item with a `GBP` currency code?
+* What are the names of all the items made of wood?
+* What are the names of the items that are made of 8 or more materials?
+* How many items were made by their sellers?
+
+#### Starting Point -- `TIY-Assignments/APIGymnastics/Etsy.js`
+
+```
+// Put `items.json` in your `APIGymnastics` directory...
+var items = require('items.json');
+
+// TODO: Setup mocha and chai...
+
+test('this is the easy one', function(){
+  expect(Array.isArray(items)).to.be.true; // What.
+  // see: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray
+
+  expect(items.length).to.equal(FILL_ME_IN); // It's haunting me now...
+});
+
+test('finding the average price', function(){
+  var yourAnswer = "start with `items`; use `Array` methods";
+
+  expect(yourAnswer).to.be.closeTo(23.63, 0.01);
+});
+
+test('finding that perfect $15 item', function(){
+  /**
+   * @param {Array} items to search through
+   * @return {Array} of `items` with `price` between `min` and `max` USD
+   */
+  function pricedBetween(items, min, max){
+    // Just a suggestion, really...
+  }
+
+  expect( pricedBetween(items, 14, 18) ).to.deep.equal([
+    // Can you find their names _without_ code first?
+  ]);
+});
+
+test('pond hopping', function(){
+  expect( /* your answer */ ).to.deep.equal({
+    name: "1970s Schlitz Malt Liquor Glass Beer Pitcher",
+    price: 18.00
+  });
+});
+
+test('just wood or _reclaimed_ wood?', function(){
+  var actual = wooden(items); // Who defined `wooden`...? Oh.
+
+  expect( actual ).to.deep.equal( /* an Array of String names... */ );
+});
+
+test('this is just SEO bait, I know it...', function(){
+  var actual = octomatter(items); // Just one way to do it... Plus, "octomatter"!
+
+  expect(actual).to.deep.equal(/* Look, I can't do _everything_ for you! */);
+});
+
+test('true craftsmen... women... people. Birds?', function(){
+  expect(makerSellers(items)).to.equal(18);
+});
 ```
