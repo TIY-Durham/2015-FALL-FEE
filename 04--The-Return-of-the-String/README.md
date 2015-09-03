@@ -8,6 +8,38 @@
 
 ## Agenda
 
+### Control Flow: REDUX
+
+* How do I alter the Control Flow of a program?
+  * How do I _draw_ a decision tree? How do I _write_ one?
+  * What if I have more than one decision to make?
+  * How do I draw that?
+* What if I need to make the same decision again?
+
+### What is a Function: REDUX
+
+* How do I write a Function? How do I use one?
+* What are the 3 things a Function always has?
+* Do I always have to write my own Functions?
+  * What functions are built-in to JavaScript?
+  * Is there any other way to define or invoke a Function?
+  * What is an anonymous function? What is it used for?
+    * examples with `setTimeout`, `setInterval`
+* How does this relate to Control Flow and the Rule of Sequential Operation?
+
+### Data Types: Lists and Dictionaries
+
+* What are the 4 primitive types in JavaScript?
+* What if I need to store more than one value?
+  * What is a list? How do I make one?
+  * What is a dictionary? How do I make one?
+  * How do I get values out?
+  * How do I put new values in?
+  * What can I put in a list or dictionary?
+* What are they good for?
+
+#### String Calculator REFACTOR
+
 ## Assignment
 
 ```markdown
