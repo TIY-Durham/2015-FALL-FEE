@@ -50,12 +50,6 @@
     * [ ] `Array` literal with examples
     * [ ] `length` with examples
     * [ ] 2 `Array.prototype` methods!
-* **Yak Shaving**
-    * [ ] Created _WIP Branch_ in `TIY-Assignments`
-    * [ ] Created file in `TIY-Assignments` named `3s-and-5s.js`
-    * [ ] Copy-pasta from **Starting Point** committed!
-    * [ ] Pushed to GitHub!
-    * [ ] Opened a PR!
  * **Coding Kata: ROT13**
   * [ ] **A quick game of Reversi, perhaps?**
     * [ ] Nothing looks the same from every side.
@@ -77,15 +71,21 @@
     * [ ] I guess 1 isn't so hard, either.
     * [ ] Now, how would I _omit_ the 13?
  * **Coding Kata: 3s and 5s**
-    * [ ] Got any 3s...?
+  * **Yak Shaving**
+    * [ ] Created _WIP Branch_ in `TIY-Assignments`
+    * [ ] Created file in `TIY-Assignments` named `3s-and-5s.js`
+    * [ ] Copy-pasta from **Starting Point** committed!
+    * [ ] Pushed to GitHub!
+    * [ ] Opened a PR!
+  * [ ] Got any 3s...?
       * [ ] below 10?
       * [ ] below 20?
       * [ ] below 50?
-    * [ ] How about 5s...?
+ * [ ] How about 5s...?
       * [ ] below 10?
       * [ ] below 20?
       * [ ] below 50?
-    * Sum of 3s and 5s...
+ * Sum of 3s and 5s...
       * [ ] less than 10?
       * [ ] less than 20?
       * [ ] less than 50?
