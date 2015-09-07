@@ -9,15 +9,13 @@
 * **Homework Review** (~30m)
 * **Monday Seat Changes
 
-## Parking Lot Review
-* The Wonderful World of JavaScript
-* Reading, Writing, and Running JavaScript
-* All About Functions
-* Control Flow
-
 ## Agenda
 
 ### Monday Review -- On Tuesday!
+* The Wonderful World of JavaScript
+* Git, GitHub, and CLI
+* All About Functions
+* Control Flow
 
 ### Data Types: Lists and Dictionaries
 
