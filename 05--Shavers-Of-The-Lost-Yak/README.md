@@ -10,10 +10,10 @@
 * **Monday Seat Changes
 
 ## Parking Lot Review
-#### The Wonderful World of JavaScript
-#### Reading, Writing, and Running JavaScript
-#### All About Functions
-#### Control Flow
+* The Wonderful World of JavaScript
+* Reading, Writing, and Running JavaScript
+* All About Functions
+* Control Flow
 
 ## Agenda
 
