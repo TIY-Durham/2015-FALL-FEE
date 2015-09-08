@@ -50,10 +50,9 @@
       * `ViewModeSwitch/` from Blueprints
       * `MultiColumnForm/` from Blueprints
       * `TodoMVC/` from Project Template
-* **Journal, Week 2**
-  * [ ] **Journal, Week 2**
-   * [ ] created branch in `USERNAME.github.io` named `journal-week-2`
-   * [ ] created new file named `journal-week-2.md`
+* **Journal, Week 1**
+   * [ ] created branch in `USERNAME.github.io` named `journal-week-1`
+   * [ ] created new file named `journal-week-1.md`
    * [ ] commited, pushed, and opened PR to `master`
    * [ ] added draft journal entry
 * **Making Blueprints**
@@ -71,7 +70,7 @@
   * [ ] merged upstream additions from `TIY-Durham/Student-Roster:master`
   * [ ] updated your classmate's Markdown file and opened a PR to merge
   * [ ] thumbs up (:+1:) on your PR from your "Special Someone"
-* [ ] **Hello, TodoMVC!**
+* **Hello, TodoMVC!**
   * [ ] Downloaded the [TodoMVC template](https://github.com/tastejs/todomvc-app-template) from GitHub (see instructions!)
   * [ ] Unzipped into `TIY-Assignments` as `TodoMVC`
   * [ ] Committed and pushed to _WIP Branch_
