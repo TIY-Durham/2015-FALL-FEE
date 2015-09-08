@@ -198,6 +198,25 @@ If you open the `index.html` file from the starter template in a browser, it pro
 
 This week, you'll be randomly assigned classmates to interrogate and a question to ask. Then, you get to update _their_ Markdown file in the Student Roster and open a PR for the change. Chances are high (i.e. I rigged it) that the person you get _won't_ get assigned you... fun, right? You'll know all kinds of embarassing details about each other in no time!
 
+you | them
+----|-----
+David White        | J.R. Worley
+Terry Calhoun      | David White
+Kristine Erickson  | Shay Hall
+Karlo Eleuterio    | Eric
+Shay Hall          | Terry Calhoun
+Camille Mauban     | Emily Pakes
+Lacey Rice         | Rosa Lopez Sanchez
+Jasmine Baik       | Kristine Erickson
+Eric               | Jasmine Baik
+Jonathan Creasman  | Lacey Rice
+Matt Oliverio      | Karlo Eleuterio
+J.R. Worley        | Jonathan Creasman
+Jeremy Rist        | Camille Mauban
+Rosa Lopez Sanchez | Jeremy Rist
+Nicky Cadavillo    | Matt Oliverio
+Emily Pakes        | Nicky Cadavillo
+
 ### API Gymnastics: Etsy Products
 
 Quite frequently in the world of programming, we sift through buckets of data looking for some important piece or maybe just some mathematically-derived facts. A little [Data Science](https://en.wikipedia.org/wiki/Data_science) goes a _long_ way in this business. Frequently, our starting data comes from a web service that speaks [a sort of truncated JavaScript syntax called JSON](https://en.wikipedia.org/wiki/JSON).
