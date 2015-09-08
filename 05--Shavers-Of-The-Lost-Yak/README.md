@@ -3,6 +3,7 @@
 ## Rituals (~1h 15m)
 
 * **Standup Meeting** (~15m) -- _Change Seats!_
+* **Retrospective** (~30m)
 * **Homework Review** (~30m)
 * **Three Little Things** (~30m)
 * [**Rear View Mirror**](https://github.com/TIY-Durham/2015-FALL-FEE/wiki/Parking-Lot) (~15m)
