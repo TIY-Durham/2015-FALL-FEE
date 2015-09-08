@@ -203,12 +203,12 @@ you | them
 David White        | J.R. Worley
 Terry Calhoun      | David White
 Kristine Erickson  | Shay Hall
-Karlo Eleuterio    | Eric
+Karlo Eleuterio    | Eric Quayson
 Shay Hall          | Terry Calhoun
 Camille Mauban     | Emily Pakes
 Lacey Rice         | Rosa Lopez Sanchez
 Jasmine Baik       | Kristine Erickson
-Eric               | Jasmine Baik
+Eric Quayson       | Jasmine Baik
 Jonathan Creasman  | Lacey Rice
 Matt Oliverio      | Karlo Eleuterio
 J.R. Worley        | Jonathan Creasman
