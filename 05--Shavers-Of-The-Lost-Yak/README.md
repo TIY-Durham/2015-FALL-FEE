@@ -174,3 +174,14 @@ test('true craftsmen... women... people. Birds?', function(){
   expect(makerSellers(items)).to.equal(18);
 });
 ```
+
+## Resources
+
+* [TodoMVC](http://todomvc.com)
+  * [starter template on Github](https://github.com/tastejs/todomvc-app-template) ([download](https://github.com/tastejs/todomvc-app-template/archive/master.zip))
+  * [project specifications](https://github.com/tastejs/todomvc/blob/master/app-spec.md)
+* [The Document Object Model (DOM)](http://en.wikipedia.org/wiki/Document_Object_Model)
+  * [_Web APIs: Document Object Model_ on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model)
+  * [_Interactive Web Pages with JavaScript_ on Team Treehouse](http://teamtreehouse.com/library/interactive-web-pages-with-javascript)
+  * [_Try jQuery_ on Code School](https://www.codeschool.com/courses/try-jquery)
+* [_Blueprints_ articles on Tympanus.net](http://tympanus.net/codrops/category/blueprints/)
