@@ -55,6 +55,12 @@
    * [ ] created new file named `journal-week-1.md`
    * [ ] commited, pushed, and opened PR to `master`
    * [ ] added draft journal entry
+* **Reading JavaScript: DOM EDITION**
+   * [ ] the `Window` object
+   * [ ] the `Location` object
+   * [ ] the `Document` object
+   * [ ] the `HTMLElement` type
+   * [ ] the `HTMLCollection` and `NodeList` types
 * **Making Blueprints**
   * [ ] Created branch in `TIY-Assignments` named `05--lost-yak`
   * [ ] Downloaded starter code (ZIP) for:
@@ -103,7 +109,7 @@ You've just completed your first week at The Iron Yard. You've learned a lot in 
 * What is Pair Programming and what kinds of Pair Programming are there?
 * What is Test-Driven Development?
 
-#### Reading JavaScript 
+#### Reading JavaScript: DOM EDITION
 
 Start investigating [the DOM on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) and add some documentation to your "Reading JavaScript" file. Pay particular attention to the following:
 
