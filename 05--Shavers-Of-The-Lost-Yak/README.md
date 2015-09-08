@@ -45,40 +45,17 @@
     * `USERNAME.github.io`:
       * `journal-week-1.md`
     * `TIY-Assignments`
-      * `ReadingJavaScript/`
-        `README.md`
+      * `ReadingJavaScript/README.md`
       * `NestedAccordion/` from Blueprints
       * `ViewModeSwitch/` from Blueprints
       * `MultiColumnForm/` from Blueprints
       * `TodoMVC/` from Project Template
-* **Journal, Week 1**
-  * [ ] **Journal, Week 1**
-   * [ ] created branch in `USERNAME.github.io` named `journal-week-1`
-   * [ ] created new file named `journal-week-1.md`
+* **Journal, Week 2**
+  * [ ] **Journal, Week 2**
+   * [ ] created branch in `USERNAME.github.io` named `journal-week-2`
+   * [ ] created new file named `journal-week-2.md`
    * [ ] commited, pushed, and opened PR to `master`
    * [ ] added draft journal entry
-* **Tools on Tuesday**
-  * [ ] How do I use JavaScript inside the Browser?
-    * `open -a Google\ Chrome scripts.js` :(
-    * `open index.html` ... lame
-  * [ ] Hello, `browser-sync`!
-  * [ ] What can I do with JavaScript in the Browser?
-    * jammin' in the JavaScript console
-    * using JavaScript to select elements
-    * inspecting element properties
-  * [ ] Changing elements properties for fun and profit...
-    * let's see what we can edit...
-    * editing is easier than adding
-    * adding elements is even harder
-    * unless you cheat with `innerHTML`...
- * [ ] **Let's nest some accordions...**
-   * start with some analysis
-   * what's in an opening?
-   * works for one `!==` works for all
-   * looks like an `Array`...?
- * [ ] **What do you do with not-an-`Array`?**
-   * check out `lodash`: `each`
-   * yeah, it's big...
 * **Making Blueprints**
   * [ ] Created branch in `TIY-Assignments` named `05--lost-yak`
   * [ ] Downloaded starter code (ZIP) for:
