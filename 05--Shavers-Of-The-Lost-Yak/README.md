@@ -78,7 +78,7 @@
  * [ ] **What do you do with not-an-`Array`?**
    * check out `lodash`: `each`
    * yeah, it's big...
-* [ ] **Making Blueprints**
+* **Making Blueprints**
   * [ ] Created branch in `TIY-Assignments` named `05--lost-yak`
   * [ ] Downloaded starter code (ZIP) for:
     * [ ] Nested Accordion
