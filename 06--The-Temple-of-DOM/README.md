@@ -12,7 +12,7 @@
 
 ```markdown
 * **Yak Shaving**
-* **Follow the Blueprints
+* **Follow the Blueprints**
   * [ ] Clean house: `scripts.js` emptied and committed
   * [ ] First `NestedAccordion` is accordion-ey...
   * [ ] Momma's got a squeezebox! It goes in and out...
