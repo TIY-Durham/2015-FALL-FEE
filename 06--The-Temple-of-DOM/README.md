@@ -8,6 +8,17 @@
 
 ## Agenda
 
+### Data Types: Lists and Dictionaries
+
+* What are the 4 primitive types in JavaScript?
+* What if I need to store more than one value?
+* What is a list? How do I make one?
+* What is a dictionary? How do I make one?
+* How do I get values out?
+* How do I put new values in?
+* What can I put in a list or dictionary?
+* What are they good for?
+
 ## Assignment
 
 ```markdown
@@ -23,10 +34,23 @@
 
 ### Following the Blueprints
 
+#### Nested Accordian
+
 Merge your `05` branch via the Big Green Button, update your local master, and start a new branch called `06--temple-of-dom` inside your TIY-Assignments repo. First order of business: clean house. Delete the contents of `scripts.js` in all three Blueprints folders and commit the deletion. Push the branch and open your PR to get to your first checkpoint.
 
 Next, get your `NestedAccordion` working with just one accordion in one direction: opening when initially closed or closed when initially open. Then you can start to work on the toggle for that accordion. Finally, get the open and close working for all accordions on the page, regardless of nesting level. Remember that the initial state should be closed... and for bonus points, make a "real accordion": one that only opens one panel at a time.
 
-After that, get to work on `View Mode Switch` interface and `Responsive Multi-Column Form`.
+#### View Mode Switch
 
-### ToDo MVC and You
+Now it's time to look at `View Mode Switch`. Inside the `scripts.js` file, annotate the code using the following questions:
+
+```markdown
+* What does it do?
+  * What interactive elements exist?
+  * How do you interact with them?
+  * What visual effects are produced by interacting?
+* How does it do it?
+  * What existing HTML elements are changed?
+  * What new HTML elements are created?
+  * What CSS styles are used to produce the effect?
+```
