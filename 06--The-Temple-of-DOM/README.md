@@ -36,7 +36,7 @@
   * [ ] `View Mode Switch`
     * [ ] Open up the `scripts.js` file 
     * [ ] Look at that code! What's going on?
-    * [ ] Annotate the code 
+    * [ ] Annotate the code in the `scripts.js` file
   * [ ] Beast Mode
     * [ ] Create a new `scripts.js` file in your `View Mode Switch` folder
     * [ ] Get `View Mode Switch` working!
