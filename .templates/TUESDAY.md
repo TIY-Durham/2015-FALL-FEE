@@ -1,8 +1,9 @@
 # ASSIGNMENT TITLE
 
-## Rituals (~1h 15m)
+## Rituals (~1h 30m)
 
 * **Standup Meeting** (~15m)
+* **Quiz Time!* (~15m)
 * **Three Little Things** (~30m)
 * **Homework Review** (~30m)
 
