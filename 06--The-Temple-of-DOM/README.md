@@ -54,21 +54,21 @@
     * [ ] What DOM things will we need for that?
     * [ ] **BEAST MODE** -- First `NestedAccordion` is accordion-ey...
     * [ ] **NIGHTMARE MODE** -- Momma's got a squeezebox! It goes in and out...
-  * [ ] `View Mode Switch`
+  * **View Mode Switch**
     * [ ] Clean house: Deleted that JavaScript!
     * [ ] Created and linked `scripts.js` in `index.html`
     * [ ] What's up with that switch?
     * [ ] Can you say that in English this time?
     * [ ] What DOM things will we need for that?
+    * [ ] **BEAST MODE** -- Can U even JavaScript?
+    * [ ] **NIGHTMARE MODE** -- It's ALIVE! It's ALIVE!
 ```
 
 ### Journal, Week 1
 
 You should have a Final Draft ready by tomorrow, Thursday. Yes, tomorrow is already Thursday. Finish up your essay, and get two people to review it for you. If you're reviewing someone else's draft, write a one-sentence summary of their article as a comment _on their PR_ and give them a big `:+1:`... _if they completed the assignment_. If there are things that they could change or improve or parts that you really liked, leave some comments on those, too... Maybe on a specific line, even. 
 
-### Following the Blueprints: The Return of the Nested Accordian
-
-#### Nested Accordian
+### Following the Blueprints
 
 _Merge your `05` branch via the Big Green Button_, then create a new _WIP Branch_ named `06--temple-of-dom` in GitHub. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work!
 
@@ -85,10 +85,10 @@ Next, start analyzing the reference implementation of `NestedAccordion`. What do
   * What new HTML elements are created?
   * What CSS styles are used to produce the effect?
 
-##### BEAST MODE
+#### BEAST MODE
 
 Try _writing_ some of that DOM JavaScript to get just one accordion in one direction: opening when initially closed or closed when initially open. Then you can start to work on the toggle for that accordion. 
 
-##### NIGHTMARE MODE
+#### NIGHTMARE MODE
 
 Can you get the open and close working for _all accordions on the page_, regardless of nesting level? Remember that the initial state should be closed... and for bonus points, make a "real accordion": one that only opens one panel at a time.
