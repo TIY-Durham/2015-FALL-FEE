@@ -30,8 +30,9 @@
      * [ ] The accordian opens and closes
      * [ ] Multiple accordians open and close
      * [ ] Play that accordian! 
-  * `ViewModeSwitch`
-     * [ ] 
+  * `ViewModeSwitch` can...
+     * [ ] On toggle, the grid layout becomes a list
+     * [ ] On toggle, the list layout becomes a grid
 ```
 
 ### Reading JavaScript: Events
@@ -48,7 +49,7 @@ You've made and followed the blueprints...now it's time to build the house!
 
 _Merge your `06` branch via the Big Green Button_, then create a new _WIP Branch_ named `07--the-last-cascade` in GitHub. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work!
 
-Remember that `scripts.js` file with your pseudocode? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. 
+Remember that `scripts.js` file with your pseudocode? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. Leave your pseudocode in on the appropriate line of code. If you find you need to change your code than what you originally envisioned, leave the original comment, but add a comment explaining what you changed and why.
 
 #### NestedAccordian
 
@@ -61,4 +62,9 @@ Aim for the following targets:
 
 
 #### ViewModeSwitch
+
+Aim for the following targets:
+
+* on toggle, the grid layout becomes a list
+* on toggle, the list layout becomes a grid
 
