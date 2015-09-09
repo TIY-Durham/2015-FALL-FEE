@@ -23,14 +23,17 @@
 
 ```markdown
 * **Yak Shaving**
-* **Follow the Blueprints**
+* **Following the Blueprints**
   * [ ] Clean house: `scripts.js` emptied and committed
   * [ ] First `NestedAccordion` is accordion-ey...
   * [ ] Momma's got a squeezebox! It goes in and out...
   * [ ] `View Mode Switch`
   * [ ] `Responsive Multi-Column Form`
-* **ToDo MVC and You**
 ```
+
+### Journal, Week 1
+
+You've got your topic all picked out and started writing. Keep writing! Don't forget to link to that PR in your `WIP Issue`!
 
 ### Following the Blueprints
 
