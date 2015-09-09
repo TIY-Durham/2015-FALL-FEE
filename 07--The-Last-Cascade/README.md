@@ -18,13 +18,13 @@
 ## Assignment
 
 ```markdown
-* [ ] **Yak Shaving**
+* **Yak Shaving**
   * Create a new _WIP Issue_ named `07 -- YOUR NAME` with:
-    * link to your PR in `TIY-Assignments` from `07--the-last-cascade` into `master`
+     * [ ] link to your PR in `TIY-Assignments` from `07--the-last-cascade` into `master`
 * **Reading JavaScript: Events**
-   * [ ] Document the `Event` type
-   * [ ] Answer the questions on your Reading JavaScript `README.md`
-* [ ] **Building the Blueprints**
+     * [ ] Document the `Event` type
+     * [ ] Answer the questions on your Reading JavaScript `README.md`
+* **Building the Blueprints**
   * `NestedAccordians` can...
      * [ ] One accordian opening in one direction
      * [ ] The accordian opens and closes
