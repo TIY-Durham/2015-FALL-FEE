@@ -28,6 +28,8 @@
   * [ ] Commit the now empty file
 * **Journal, Week 1**
   * [ ] Finished journal entry
+  * [ ] Had 2 people review it
+  * [ ] Reviewed some drafts and left comments!
 * **Following the Blueprints**
   * [ ] `Nested Accordian`
     * [ ] Clean house: `scripts.js` emptied and committed
@@ -44,7 +46,7 @@
 
 ### Journal, Week 1
 
-You've got your topic all picked out and started writing. Finish it up tonight. Don't forget to link to that PR in your `WIP Issue`!
+You should have a Final Draft ready by tomorrow, Thursday. Yes, tomorrow is already Thursday. Finish up your essay, and get two people to review it for you. If you're reviewing someone else's draft, write a one-sentence summary of their article as a comment _on their PR_ and give them a big `:+1:`... _if they completed the assignment_. If there are things that they could change or improve or parts that you really liked, leave some comments on those, too... Maybe on a specific line, even. 
 
 ### Following the Blueprints: The Return of the Nested Accordian
 
