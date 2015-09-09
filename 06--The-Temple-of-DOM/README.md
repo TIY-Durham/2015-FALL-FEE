@@ -67,3 +67,6 @@ Now it's time to look at `View Mode Switch`. Take a look at the `scripts.js` fil
   * What new HTML elements are created?
   * What CSS styles are used to produce the effect?
 ```
+#### Beast Mode
+
+Ready for **Beast Mode**? Create a new `scripts.js` file in your `View Mode Switch` folder and see if you can get it working like the example.
