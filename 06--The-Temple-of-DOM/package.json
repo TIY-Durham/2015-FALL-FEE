@@ -7,5 +7,9 @@
     "test": "mocha --bail"
   },
   "author": "David Rogers <david@theironyard.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
 }
