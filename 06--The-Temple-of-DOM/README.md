@@ -89,6 +89,11 @@ Next, start analyzing the reference implementation of `NestedAccordion`. What do
 
 Try _writing_ some of that DOM JavaScript to get just one accordion in one direction: opening when initially closed or closed when initially open. Then you can start to work on the toggle for that accordion. 
 
+For `ViewModeSwitch`, try _writing_ some JavaScript. Can you get three items on the grid? Then, can you click the upper right hand button and transform the grid into a list?
+
+
 #### NIGHTMARE MODE
 
 Can you get the open and close working for _all accordions on the page_, regardless of nesting level? Remember that the initial state should be closed... and for bonus points, make a "real accordion": one that only opens one panel at a time.
+
+For `ViewModeSwitch`, can you get the whole layout to switch from grid to list with the click of the upper right hand buttons? 
