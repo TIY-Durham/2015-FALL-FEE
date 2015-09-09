@@ -1,7 +1,7 @@
 
 # 07 -- The Last Cascade
 
-## Rituals (~1h 15m)
+## Rituals (~1h 30m)
 
 * **Standup Meeting** (~15m)
 * **Quiz Time!** (~15m)
@@ -19,14 +19,19 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
+  * Create a new _WIP Issue_ named `07 -- YOUR NAME` with:
+    * link to your PR in `TIY-Assignments` from `07--the-last-cascade` into `master`
 * **Reading JavaScript: Events**
    * [ ] Document the `Event` type
    * [ ] Answer the questions on your Reading JavaScript `README.md`
 * [ ] **Building the Blueprints**
-  * checkpoints
+  * `NestedAccordians` can...
+     * [ ] One accordian opening in one direction
+     * [ ] The accordian opens and closes
+     * [ ] Multiple accordians open and close
+     * [ ] Play that accordian! 
+  * `ViewModeSwitch`
+     * [ ] 
 ```
 
 ### Reading JavaScript: Events
@@ -45,7 +50,7 @@ _Merge your `06` branch via the Big Green Button_, then create a new _WIP Branch
 
 Remember that `scripts.js` file with your pseudocode? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. 
 
-#### Nested Accordian
+#### NestedAccordian
 
 Aim for the following targets:
 
@@ -55,5 +60,5 @@ Aim for the following targets:
 * make a "real accordion": one that only opens one panel at a time
 
 
-#### View Mode Switch
+#### ViewModeSwitch
 
