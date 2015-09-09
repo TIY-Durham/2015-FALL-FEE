@@ -22,11 +22,10 @@
   * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
   * _WIP Branch_:
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
+* **Reading JavaScript: Events**
+   * [ ] Document the `Event` type
+   * [ ] Answer the questions on your Reading JavaScript `README.md`
+* [ ] **Building the Blueprints**
   * checkpoints
 ```
 
@@ -39,8 +38,4 @@ The `Element.addEventListener` method isn't just limited to `click` events. Pret
 * Besides `click`, what _other_ event types can I trigger with my mouse?
 * What types of events can be triggered on a `<form>` element?
 
-### CODING ASSIGNMENT
-
-## Resources
-
-* LINK
+### Building the Blueprints
