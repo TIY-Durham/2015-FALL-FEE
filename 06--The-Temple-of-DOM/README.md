@@ -3,6 +3,7 @@
 ## Rituals (~1h 15m)
 
 * **Standup Meeting** (~15m)
+* **Quiz** (~15m)
 * **Three Little Things** (~30m)
 * **Homework Review** (~30m)
 
