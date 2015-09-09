@@ -24,17 +24,24 @@
 
 ```markdown
 * **Yak Shaving**
+  * [ ] Clear out that `scripts.js` file in the `NestedAccordian` repo
+  * [ ] Commit the now empty file
+* **Journal, Week 1**
+  * [ ] Finished journal entry
 * **Following the Blueprints**
-  * [ ] Clean house: `scripts.js` emptied and committed
-  * [ ] First `NestedAccordion` is accordion-ey...
-  * [ ] Momma's got a squeezebox! It goes in and out...
+  * [ ] `Nested Accordian`
+    * [ ] Clean house: `scripts.js` emptied and committed
+    * [ ] First `NestedAccordion` is accordion-ey...
+    * [ ] Momma's got a squeezebox! It goes in and out...
   * [ ] `View Mode Switch`
-  * [ ] `Responsive Multi-Column Form`
+    * [ ] Open up the `scripts.js` file 
+    * [ ] Look at that code! What's going on?
+    * [ ] Annotate the code 
 ```
 
 ### Journal, Week 1
 
-You've got your topic all picked out and started writing. Keep writing! Don't forget to link to that PR in your `WIP Issue`!
+You've got your topic all picked out and started writing. Finish it up tonight. Don't forget to link to that PR in your `WIP Issue`!
 
 ### Following the Blueprints
 
@@ -46,7 +53,7 @@ Next, get your `NestedAccordion` working with just one accordion in one directio
 
 #### View Mode Switch
 
-Now it's time to look at `View Mode Switch`. Inside the `scripts.js` file, annotate the code using the following questions:
+Now it's time to look at `View Mode Switch`. Take a look at the `scripts.js` file that you pushed yesterday. What's going on? How does it work? Annotate the code inside the `scripts.js` file using the following questions:
 
 ```markdown
 * What does it do?
