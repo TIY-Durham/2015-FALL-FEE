@@ -46,7 +46,7 @@
 
 You've got your topic all picked out and started writing. Finish it up tonight. Don't forget to link to that PR in your `WIP Issue`!
 
-### Following the Blueprints
+### Following the Blueprints: The Return of the Nested Accordian
 
 #### Nested Accordian
 
