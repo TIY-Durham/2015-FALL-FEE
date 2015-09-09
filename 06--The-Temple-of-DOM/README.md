@@ -47,9 +47,11 @@ You've got your topic all picked out and started writing. Finish it up tonight. 
 
 #### Nested Accordian
 
-Merge your `05` branch via the Big Green Button, update your local master, and start a new branch called `06--temple-of-dom` inside your TIY-Assignments repo. First order of business: clean house. Delete the contents of `scripts.js` in all three Blueprints folders and commit the deletion. Push the branch and open your PR to get to your first checkpoint.
+Merge your `05` branch via the Big Green Button, update your local master, and start a new branch called `06--temple-of-dom` inside your `TIY-Assignments` repo. First order of business: clean house. Delete the contents of `scripts.js` in all three Blueprints folders and commit the deletion. Push the branch and open your PR to get to your first checkpoint.
 
 Next, get your `NestedAccordion` working with just one accordion in one direction: opening when initially closed or closed when initially open. Then you can start to work on the toggle for that accordion. Finally, get the open and close working for all accordions on the page, regardless of nesting level. Remember that the initial state should be closed... and for bonus points, make a "real accordion": one that only opens one panel at a time.
+
+If you forgot the original assignment, look back at last night's [assignment](https://github.com/TIY-Durham/2015-FALL-FEE/tree/master/05--Shavers-Of-The-Lost-Yak).
 
 #### View Mode Switch
 
