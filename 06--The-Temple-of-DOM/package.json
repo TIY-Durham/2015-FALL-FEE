@@ -1,0 +1,11 @@
+{
+  "name": "06--temple-of-dom",
+  "version": "0.0.0",
+  "description": "## Rituals (~1h 15m)",
+  "main": "todo.js",
+  "scripts": {
+    "test": "mocha --bail"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "ISC"
+}
