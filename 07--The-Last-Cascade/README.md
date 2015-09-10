@@ -24,17 +24,30 @@
      * [ ] Document the `Event` type
      * [ ] Answer the questions on your Reading JavaScript `README.md`
 * **Building the Blueprints**
-  * `NestedAccordians` can...
-     * [ ] One accordian opening in one direction
-     * [ ] The accordian opens and closes
-     * [ ] Multiple accordians open and close
-     * [ ] Play that accordian! 
+  * `NestedAccordions` can...
+     * [ ] First accordion opens when closed... It's a start!
+     * [ ] First accordion closes when open... It's a finish?
+     * [ ] First accordion opens _and_ closes! It's a wrap! :shipit:
+     * [ ] Top-level accordions can open and close... :astonished:
+     * [ ] Accordion ALL THE THINGS!
   * `ViewModeSwitch` can...
-     * [ ] On toggle, the grid layout becomes a list
-     * [ ] On toggle, the list layout becomes a grid
+     * **Always start with the button...**
+       * [ ] TRACER BULLETS: Houston, we are clear for clicking...
+       * [ ] Clicking switches the `"active"` button...
+     * **Welcome to the Grid, User...**
+       * [ ] TRACER BULLETS: What is changing? Can you change that?
+       * [ ] Now make a _Function_ that does that...
+     * **Wiring up the clicks...**
+       * [ ] Click to switch the grid layout to a list...
+       * [ ] Click to switch the list layout to a grid...
   * `MultiColumnForm` can...
-     * [ ] Capture the form submission with JavaScript
-     * [ ] Then output the form data to the console
+     * **Who are you listening to?**
+       * [ ] TRACER BULLETS: I can see the `target`...
+       * [ ] It's not the `<button>`, BTW.
+       * [ ] Ready for the main `Event`!
+     * **Where is the data?**
+       * [ ] Capture the form submission with JavaScript
+       * [ ] Then output the form data to the console
      * [ ] Post the output to a comment in your _WIP Issue_
 ```
 
@@ -54,13 +67,13 @@ _Merge your `06` branch via the Big Green Button_, then create a new _WIP Branch
 
 Remember that `scripts.js` file with your pseudocode? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. Leave your pseudocode in on the appropriate line of code. If you find you need to change your code than what you originally envisioned, leave the original comment, but add a comment explaining what you changed and why.
 
-#### NestedAccordian
+#### NestedAccordion
 
 Aim for the following targets:
 
 * One accordion opening in one direction: opening when initially closed or closed when initially open
-* Open and close the accordian
-* Multiple accordians opening and closing all at once
+* Open and close the accordion
+* Multiple accordions opening and closing all at once
 * Make a "real accordion": one that only opens one panel at a time
 
 
@@ -73,7 +86,7 @@ Aim for the following targets:
 
 #### MultiColumnForm
 
-Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code. 
+Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code.
 
 Aim for the following targets:
 
