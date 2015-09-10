@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Blueprint: Nested Accordion</title>
+		<title>ZOMG I EDITED IT!</title>
 		<meta name="description" content="Blueprint: Nested Accordion" />
 		<meta name="keywords" content="nested, accordion, simple, vertical, web development, css3, javascript" />
 		<meta name="author" content="Codrops" />
@@ -17,7 +17,7 @@
 		<div class="container">
 			<header class="clearfix">
 				<span>Blueprint</span>
-				<h1>Nested Accordion</h1>
+				<h1>Look I edited it again...</h1>
 				<nav>
 					<a href="http://tympanus.net/Blueprints/VerticalIconMenu/" class="icon-arrow-left" data-info="previous Blueprint">Previous Blueprint</a>
 					<a href="http://tympanus.net/codrops/?p=14588" class="icon-drop" data-info="back to the Codrops article">back to the Codrops article</a>
@@ -178,6 +178,22 @@
 				</ul>
 			</div>
 		</div>
-		<script></script>
+		<script>
+// What does it do?
+// When I click
+//   on a heading...
+var heading = document.querySelector('.cbp-nttrigger');
+
+function tracer (){
+	console.log('tracer bullet!');
+}
+heading.addEventListener('click', tracer);
+heading.addEventListener('click', function(){
+	//   The text below hides and shows.
+	//   Add the class "ntopen" (something or other) to some element...?
+  console.log('NOT A TRACER... but really it is.');
+});
+//
+		</script>
 	</body>
 </html>
