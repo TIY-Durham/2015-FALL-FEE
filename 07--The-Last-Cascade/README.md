@@ -112,3 +112,5 @@ For this challenge, you'll focus on the JavaScript that would take a user's inpu
 This is a tough problem, so tackle it as a group, practicing breaking down baby steps. You'll need [the Event reference on MDN](https://developer.mozilla.org/en-US/docs/Web/Events) to find the correct event to listen for and how to make it do your bidding (instead of its _default_ behavior).
 
 When turning in this assignment, make sure you put your `scripts.js` code in the repo, but _also_ put the result of the output as a comment in your _WIP Issue_. Just for good measure, drop a few of those comments and be sure to use code fences!
+
+:+1:
