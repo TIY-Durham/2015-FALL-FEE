@@ -69,13 +69,9 @@ Remember that `scripts.js` file with your pseudocode for `NestedAccordians` and 
 
 #### NestedAccordion
 
-Aim for the following targets:
+With `NestedAccordion` you'll be using `click` events to replicate the original [site](http://tympanus.net/codrops/2013/03/29/nested-accordion/). Your first task is to make the accordion open when closed. Then, reverse it: close the accordion when open. Now...can you make it open _and_ close on click? Ta-da! 
 
-* First accordion opens when closed.
-* First accordion closes when open.
-* First accordion opens _and_ closes!
-* Top-level accordions can open and close.
-* Accordion ALL THE THINGS!
+Now you're ready to move on to other accordions. Try to get all the top-level accordions to open and close together. Then, see if you can make only _one_ accordion open and close at a time, while maintaining functionality in the other accordions. Play that accordion!
 
 #### ViewModeSwitch
 
