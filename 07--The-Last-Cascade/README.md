@@ -77,7 +77,7 @@ Now you're ready to move on to other accordions. Try to get all the top-level ac
 
 #### ViewModeSwitch
 
-Now we'll tackle `ViewModeSwitch`. Like the [original](http://tympanus.net/codrops/2013/07/01/view-mode-switch/), you want to change the layout of the page when a user clicks one of the buttons in the upper right-hand corner. What `events` do you think you'll be using? 
+Now we'll tackle `ViewModeSwitch`. Like the [original](http://tympanus.net/codrops/2013/07/01/view-mode-switch/), you want to change the layout of the page when a user clicks on a button in the upper right-hand corner. What `events` do you think you'll be using? 
 
 For this assignment, your first task will be to focus on the button. Using the `click` event, how can you switch the `"active"` button? Got that? Now make a _function_ that does that. 
 
