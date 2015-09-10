@@ -65,28 +65,30 @@ You've made and followed the blueprints...now it's time to build the house!
 
 _Merge your `06` branch via the Big Green Button_, then create a new _WIP Branch_ named `07--the-last-cascade` in GitHub. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work!
 
-Remember that `scripts.js` file with your pseudocode? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. Leave your pseudocode in on the appropriate line of code. If you find you need to change your code than what you originally envisioned, leave the original comment, but add a comment explaining what you changed and why.
+Remember that `scripts.js` file with your pseudocode for `NestedAccordians` and `ViewModeSwitch`? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. Leave your pseudocode in on the appropriate line of code. If you find you need to change your code than what you originally envisioned, leave the original comment, but add a comment explaining what you changed and why.
 
 #### NestedAccordion
 
 Aim for the following targets:
 
-* One accordion opening in one direction: opening when initially closed or closed when initially open
-* Open and close the accordion
-* Multiple accordions opening and closing all at once
-* Make a "real accordion": one that only opens one panel at a time
-
+* First accordion opens when closed.
+* First accordion closes when open.
+* First accordion opens _and_ closes!
+* Top-level accordions can open and close.
+* Accordion ALL THE THINGS!
 
 #### ViewModeSwitch
 
 Aim for the following targets:
 
-* On toggle, the grid layout becomes a list
-* On toggle, the list layout becomes a grid
+* Clicking switches the `"active"` button.
+* Now make a _Function_ that does that.
+* Click to switch the grid layout to a list.
+* Click to switch the list layout to a grid.
 
 #### MultiColumnForm
 
-Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code.
+Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code. Remember, you can get hints in the checklist above.
 
 Aim for the following targets:
 
