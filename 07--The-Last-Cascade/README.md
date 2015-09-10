@@ -71,13 +71,13 @@ Leave your pseudocode in on the appropriate line of code. If you find you need t
 
 #### NestedAccordion
 
-With `NestedAccordion` you'll be using `click` events to replicate the original [site](http://tympanus.net/codrops/2013/03/29/nested-accordion/). Your first task is to make the accordion open when closed. Then, reverse it: close the accordion when open. Now...can you make it open _and_ close on click? Ta-da! 
+With `NestedAccordion` you'll be using `click` events to replicate the original [site](http://tympanus.net/codrops/2013/03/29/nested-accordion/). Your first task is to make a closed accordion open so the description text is visible when clicked. Then, reverse it: close the accordion when open. Now...can you make it open _and_ close on click? Ta-da! 
 
 Now you're ready to move on to other accordions. Try to get all the top-level accordions to open and close together. Then, see if you can make only _one_ accordion open and close at a time, while maintaining functionality in the other accordions. Play that accordion!
 
 #### ViewModeSwitch
 
-Now we'll tackle `ViewModeSwitch`. Like the [original](http://tympanus.net/codrops/2013/07/01/view-mode-switch/),  What `events` do you think you'll be using? 
+Now we'll tackle `ViewModeSwitch`. Like the [original](http://tympanus.net/codrops/2013/07/01/view-mode-switch/), you want to change the layout of the page when a user clicks one of the buttons in the upper right-hand corner. What `events` do you think you'll be using? 
 
 For this assignment, your first task will be to focus on the button. Using the `click` event, how can you switch the `"active"` button? Got that? Now make a _function_ that does that. 
 
