@@ -33,6 +33,10 @@
   * `ViewModeSwitch` can...
      * [ ] On toggle, the grid layout becomes a list
      * [ ] On toggle, the list layout becomes a grid
+  * `MultiColumnForm` can...
+     * [ ] Capture the form submission with JavaScript
+     * [ ] Then output the form data to the console
+     * [ ] Post the output to a comment in your _WIP Issue_
 ```
 
 ### Reading JavaScript: Events
@@ -55,16 +59,26 @@ Remember that `scripts.js` file with your pseudocode? Time to implement the Java
 
 Aim for the following targets:
 
-* one accordion opening in one direction: opening when initially closed or closed when initially open
-* open and close the accordian
-* multiple accordians opening and closing all at once
-* make a "real accordion": one that only opens one panel at a time
+* One accordion opening in one direction: opening when initially closed or closed when initially open
+* Open and close the accordian
+* Multiple accordians opening and closing all at once
+* Make a "real accordion": one that only opens one panel at a time
 
 
 #### ViewModeSwitch
 
 Aim for the following targets:
 
-* on toggle, the grid layout becomes a list
-* on toggle, the list layout becomes a grid
+* On toggle, the grid layout becomes a list
+* On toggle, the list layout becomes a grid
 
+#### MultiColumnForm
+
+Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code. 
+
+Aim for the following targets:
+
+* Capture the form submission with JavaScript
+* Then output the form data to the console
+
+When turning in this assignment, make sure you put your `scripts.js` code in the repo, but _also_ put the result of the output as a comment in your _WIP Branch_.
