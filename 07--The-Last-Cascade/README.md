@@ -65,7 +65,9 @@ You've made and followed the blueprints...now it's time to build the house!
 
 _Merge your `06` branch via the Big Green Button_, then create a new _WIP Branch_ named `07--the-last-cascade` in GitHub. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work!
 
-Remember that `scripts.js` file with your pseudocode for `NestedAccordians` and `ViewModeSwitch`? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the code that will _make_ it work. Leave your pseudocode in on the appropriate line of code. If you find you need to change your code than what you originally envisioned, leave the original comment, but add a comment explaining what you changed and why.
+Remember that `scripts.js` file with your pseudocode for `NestedAccordians` and `ViewModeSwitch`? Time to implement the JavaScript. You've already written out _how_ it should work, so try writing the JavaScript code that will _make_ it work. There's no reason to mess with the HTML or CSS except to link your `scripts.js` in the appropriate place.
+
+Leave your pseudocode in on the appropriate line of code. If you find you need to change your code than what you originally envisioned, leave the original comment, but add a comment explaining what you changed and why.
 
 #### NestedAccordion
 
@@ -75,20 +77,18 @@ Now you're ready to move on to other accordions. Try to get all the top-level ac
 
 #### ViewModeSwitch
 
-Aim for the following targets:
+Now we'll tackle `ViewModeSwitch`. Like the [original](http://tympanus.net/codrops/2013/07/01/view-mode-switch/),  What `events` do you think you'll be using? 
 
-* Clicking switches the `"active"` button.
-* Now make a _Function_ that does that.
-* Click to switch the grid layout to a list.
-* Click to switch the list layout to a grid.
+For this assignment, your first task will be to focus on the button. Using the `click` event, how can you switch the `"active"` button? Got that? Now make a _function_ that does that. 
+
+Almost there! Now write the code that switches the grid layout to a list, then the list layout to a grid. Welcome to the Grid!
 
 #### MultiColumnForm
 
-Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code. Remember, you can get hints in the checklist above.
+Remember the `MultiColumnForm`? If you cleaned house last night, you should have an empty `scripts.js` folder for it all ready to be filled with code. 
 
-Aim for the following targets:
+For this challenge, you'll focus on the JavaScript that would make [MultiColumnForm](http://tympanus.net/codrops/2013/06/06/responsive-multi-column-form/) take a user's input and turn it into output. You need to find a way to capture input from the form. You then want to output that input to the console using `console.log`. 
 
-* Capture the form submission with JavaScript
-* Then output the form data to the console
+This is a tough problem, so do some thinking. You'll also have to search the [MDN](https://developer.mozilla.org/en-US/docs/Web/Events) for the correct `event`. 
 
 When turning in this assignment, make sure you put your `scripts.js` code in the repo, but _also_ put the result of the output as a comment in your _WIP Branch_.
