@@ -1,4 +1,3 @@
-
 # 07 -- The Last Cascade
 
 ## Rituals (~1h 30m)
