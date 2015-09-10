@@ -1,0 +1,23 @@
+{
+  "name": "05--shavers-of-the-lost-yak",
+  "version": "0.0.0",
+  "description": "## Rituals (~1h 15m)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Durham/2015-FALL-FEE.git"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues"
+  },
+  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme",
+  "dependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.2"
+  }
+}
