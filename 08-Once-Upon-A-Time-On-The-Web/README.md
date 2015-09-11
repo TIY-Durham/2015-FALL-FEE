@@ -82,8 +82,74 @@
   * **BEAST MODE** -- Stubbing the Night Away!
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 2
 
-### READING ASSIGNMENT
+Start on your next journal entry, reflecting on the things you've learned from last week. While the full article is due on Thursday again, you should have _something_ for tomorrow: an outline, some bullet points, even a super sloppy Rough Draft. You need to give us the **tl;dr** on your journal entry during homework review. The suggested topics from last week are still valid, but here are some others:
 
-### CODING ASSIGNMENT
+* Describe the MVC pattern of software design, as you understand it.
+* Explain the principle of Encapsulation and give some examples from your own code.
+* How does scoping work in JavaScript programs? How do the `function` and `var` keywords affect it?
+
+### Reading CSS
+
+Let's do a little remodeling. I'll be honest: I never liked that `ReadingJavaScript` name. Let's clean up a bit. First, make sure you merge your open PR and update your local `master` branch from GitHub. Then, create your _new WIP Branch_ with CLI `git`. Next, let's use [a _new_ `git` command to rename some stuff: `git mv`](http://git-scm.com/docs/git-mv):
+
+    git mv ReadingJavaScript/README.md CheatSheets/JavaScript.md
+
+Your `git status` should reveal that you have staged changes waiting to be committed: a rename. Commit those changes into your _WIP Branch_ and push them to GitHub. That's enough to open a PR...!
+
+Good news! No more _JavaScript_ definitions... Now we've got CSS! First read [Learn Layout](http://learnlayout.com) -- don't sweat, it's less than an hour -- and make some notes on the CSS properties that are used. You should be able to get at least 10. Look them up in [the MDN CSS Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference) and start building your cheat sheet for CSS in `CheatSheets/CSS.md`
+
+For some more in-depth explanation of what CSS is, how it works, and what it's good for, check out [the MDN CSS Guide](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS). You'll run across a lot of new properties and examples that you can use in your documentation, which we'll be adding to throughout the week.
+
+
+#### Starting Point
+
+```markdown
+# Reading CSS
+
+## Selectors
+
+## Properties
+
+### [`color`](https://developer.mozilla.org/en-US/docs/Web/CSS/color) 
+
+The text color of an element and its decorations (??)
+
+#### Possible Values: [any `<color>` value](https://developer.mozilla.org/en-US/docs/Web/CSS/color_value)
+
+* a hexadecimal color value: `#012345`, `#CCC`
+* a color keyword: `cornflowerblue`, `purple`, `orange`
+* RGB decimal notation: `rgb(0,0,0)`, `rgb(255, 255, 255)`
+* RGBa (transparency) notation: `rgba(0,0,0,0)`, `rgba(255, 255, 255, 0.8)`
+* HSL decimal notation: `hsl(0, 100%, 50%)`
+```
+
+### Githubbing to Know You: Now It's Personal
+
+No two people can exist in this world without conflict. It's in our nature. So, too, with software. We learned some nifty conflict resolution techniques that might help you in future assignments... possibly in this one! Update your local copy of the roster from _upstream_ (you remember what that is, right?) and then try to merge in one of our problem children. You'll need to add their fork as a remote, fetch and attempt a merge. When you run into conflict (and you will), resolve the conflict with the techniques we discussed. If that doesn't work, ask the Internet; it may know something about conflict.
+
+When you're all de-conflicted, push your results up to your fork and open a new PR. We'll see how you did on Tuesday, and you'll get a _new_ assignment due on Thursday.
+
+### TodoMVC and You!
+
+Read about [CRUD and BREAD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) and [User Stories](https://en.wikipedia.org/wiki/User_story) to help guide you on the path to specification enlightenment. Using [the reference implementation](http://todomvc.com/examples/vanillajs/) as a demo, break down the functionality of the application into baby steps and write them as code comments in `TodoMVC/js/app.js`. _Be as simple and specific as possible!_
+
+_Start with the User Stories provided in your **Starting Point** below._
+
+#### BEAST MODE
+
+Start translating those Baby Steps into _empty Function definitions_: just the names, parameters, and an appropriate doc-block that describe the expected inputs, outputs and side-effects of the Function. These are called ["stubs"](https://en.wikipedia.org/wiki/Method_stub) in programming and can help specify the system to be built.
+
+#### Starting Point
+
+```javascript
+// User Stories
+// I can add a task to my todo list so that I can remember to do it later.
+// I can edit a task on my todo list so that I can correct typos.
+// I can mark a task as complete so that I remember that I have done it.
+// I can mark a completed task as incomplete so that I actually complete it this time.
+// I can delete a task from my todo list so that I don't have to see it any more.
+// I can delete all the completed tasks from my todo list so that I can clean up completed tasks.
+// I can filter the list of tasks so that I can see just what tasks I have completed and what are left to do.
+```
