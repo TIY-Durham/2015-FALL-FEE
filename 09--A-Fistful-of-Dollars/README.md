@@ -1,5 +1,5 @@
 
-# ASSIGNMENT TITLE
+# 09 -- A Fistful of Dollars
 
 ## Rituals (~1h 30m)
 
