@@ -1,4 +1,4 @@
-# ASSIGNMENT TITLE
+# 08 -- Once Upon a Time on the Web
 
 ## Rituals (~1h 15m)
 
