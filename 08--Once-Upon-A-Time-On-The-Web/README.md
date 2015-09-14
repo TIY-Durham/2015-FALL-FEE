@@ -139,6 +139,12 @@ No two people can exist in this world without conflict. It's in our nature. So, 
 
 When you're all de-conflicted, push your results up to your fork and open a new PR. We'll see how you did on Tuesday, and you'll get a _new_ assignment due on Thursday.
 
+### Updating the Blueprints
+
+You've learned to love the JavaScript in `NestedAccordions`, `ViewModeSwitch`, and `ResponsiveMulticolumnForm`. Now it's time to prepare to write the CSS tomorrow.
+
+First, you need to delete the `.css` files from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+
 ### TodoMVC and You!
 
 Read about [CRUD and BREAD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) and [User Stories](https://en.wikipedia.org/wiki/User_story) to help guide you on the path to specification enlightenment. Using [the reference implementation](http://todomvc.com/examples/vanillajs/) as a demo, break down the functionality of the application into baby steps and write them as code comments in `TodoMVC/js/app.js`. _Be as simple and specific as possible!_
