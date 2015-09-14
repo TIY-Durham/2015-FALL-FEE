@@ -144,7 +144,9 @@ When you're all de-conflicted, push your results up to your fork and open a new 
 
 You've learned to love the JavaScript in `NestedAccordions`, `ViewModeSwitch`, and `ResponsiveMulticolumnForm`. Now it's time to prepare to write the CSS tomorrow.
 
-First, you need to delete the `.css` files from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+First, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+
+You also need to download and commit a new Blueprint called [Vertical Timeline](http://tympanus.net/codrops/2013/05/02/vertical-timeline/). You'll do the same with this one: delete the linked `.css` from your `index.html`, create your own css file named `styles.css`, and update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
 
 ### TodoMVC and You!
 
