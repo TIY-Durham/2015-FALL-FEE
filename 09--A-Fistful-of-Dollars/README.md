@@ -37,7 +37,7 @@
   * [ ] Pushed and PR'd (izzat a word?)
   * [ ] ZOMG CONFLICTS!
   * [ ] **BEAST MODE** Resolve ALL THE THINGS!
-
+* **Coloring the Blueprints**
 ```
 
 ### Journal, Week 2
@@ -55,3 +55,39 @@ Tonight, _try_ to create some merge conflicts: everyone edits _everyone else_. E
 #### BEAST MODE
 
 Can you _resolve_ all these conflicts and push the resolved code back to Github?
+
+### Coloring the Blueprints
+
+You've made, filled in, and built the Blueprints. But what's a house without some paint? Or windows? Or responsive CSS??
+
+_Merge your `08` branch via the Big Green Button_, then create a new _WIP Branch_ named `09--a-fistful-of-dollars` in GitHub. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work!
+
+#### Nested Accordions
+
+Ah, our old friend. You've got the JavaScript functionality working, but now it's time to build out the CSS. 
+
+In Normal mode, you'll build out the CSS in your `styles.css` page. That includes the text, colors, borders, and indentation. Take baby steps. Start with the positioning. How should the elements be laid on the page? How do you create the indentation?
+
+Once you've got the elements where you want them, incorporate one element at a time: font, color, etc., until you have the page closely replicated.
+
+##### Beast Mode
+
+Can you get the arrows on the left to change on the hover state?
+
+##### Nightmare Mode
+
+Media queries! How can you make the page responsive like it is in the demo?
+
+#### Responsive Multicolumn Form
+
+
+
+* Multi Column Form
+  * Normal -- text, colors, borders, etc @ mobile
+  * BEAST -- multiple columns
+  * NIGHTMARE -- media queries
+
+* Vertical Timeline
+  * Normal -- basic layout, colors
+  * BEAST -- rounded icons (`::before`, `border-radius`)
+  * NIGHTMARE -- media queries
