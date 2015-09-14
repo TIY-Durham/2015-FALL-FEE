@@ -96,7 +96,14 @@ What if you want to fill out the form -- on a desktop?? Put the "multi" back in 
 
 Can you use media queries to make the form responsive?
 
-* Vertical Timeline
-  * Normal -- basic layout, colors
-  * BEAST -- rounded icons (`::before`, `border-radius`)
-  * NIGHTMARE -- media queries
+#### Vertical Timeline
+
+Now we're moving on to our new friend, Vertical Timeline. Like Nested Accordions and Responsive Multicolumn Form, you'll want to start with the basic layout and positioning of the elements on the page. Then, move on to your colors and fonts.
+
+##### Beast Mode
+
+Rounded icons! How u get so round?? Investigate `::before` and `border-radius` to make that happen.
+
+##### Nightmare Mode
+
+Make it responsive!
