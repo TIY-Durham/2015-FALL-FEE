@@ -72,7 +72,7 @@ Once you've got the elements where you want them, incorporate one element at a t
 
 ##### Beast Mode
 
-Can you get the arrows on the left to change on the hover state?
+Can you get the arrows on the left to change on the hover state? You'll need to investigate `::before` to get this one.
 
 ##### Nightmare Mode
 
@@ -80,12 +80,21 @@ Media queries! How can you make the page responsive like it is in the demo?
 
 #### Responsive Multicolumn Form
 
+Like Nested Accordions, you should approach Responsive Multicolumn Form's Normal mode in baby steps. Aim for replicating the mobile view by shrinking the window down to what the site would look like on mobile. 
 
+It should look something like this:
 
-* Multi Column Form
-  * Normal -- text, colors, borders, etc @ mobile
-  * BEAST -- multiple columns
-  * NIGHTMARE -- media queries
+![Mobile View](http://i.imgur.com/ahql4Ua.png)
+
+Get the positioning right, then move on to text, colors, and borders. 
+
+##### Beast Mode
+
+What if you want to fill out the form -- on a desktop?? Put the "multi" back in "Responsive Multicolumn Form"!
+
+##### Nightmare Mode
+
+Can you use media queries to make the form responsive?
 
 * Vertical Timeline
   * Normal -- basic layout, colors
