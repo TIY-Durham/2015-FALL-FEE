@@ -1,4 +1,3 @@
-
 # 09 -- A Fistful of Dollars
 
 ## Rituals (~1h 30m)
@@ -17,6 +16,15 @@
 * How do I even jQuery?
   * Link jQuery via CDN (a la CodePen)
   * Refactor Nested Accordion to jQuery / Zepto
+* How do I analyze a reference implementation?
+  * Annotate visually with Skitch!
+  * Grab a screen shot and save that to the project as your starting point.
+  * Start scribbling!
+* What can I draw? What _should_ I draw?
+  * Boxes correspond to box model elements...
+  * Use arrows or call outs to identify fonts, colors, and spacing...
+  * Export and save your annotations to your project!
+  * Repeat as necessary for more details.
 
 ## Assignment
 
