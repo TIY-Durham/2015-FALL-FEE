@@ -22,14 +22,24 @@
 
 ```markdown
 * **Yak Shaving**
-  * [ ] Create a new _WIP Issue_ named `08 -- YOUR NAME` with:
-  * _WIP Branch_:
+  * [ ] Create a new _WIP Issue_ named `09 -- YOUR NAME` with:
+    * [ ] with this checklist as the description
+    * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `USERNAME.github.io` from `journal-week-2` into `master`
+    * [ ] `TIY-Assignments` from `09--a-fistful-of-dollars` into `master`
+    * [ ] `StudentRoster` from `USERNAME:master` into `TIY-Durham:master`
 * **Journal, Week 2**
   * [ ] Rough draft!
   * [ ] :+1: x2!
   * [ ] Extra topics in `parking-lot.md`!
 * **Reading CSS**
-  * [ ] Checklists!
+  * [ ] `margin-*`
+  * [ ] `padding-*` 
+  * [ ] `border-*` 
+  * [ ] `max-*` 
+  * [ ] `min-*` 
+  * [ ] `box-sizing`
 * **Githubbing to Know You**
   * [ ] Updated from `upstream:master`
   * [ ] Edited _everyone_...
@@ -38,7 +48,32 @@
   * [ ] **BEAST MODE** Resolve ALL THE THINGS!
 * **Coloring the Blueprints**
   * `NestedAccordions`
-    * [ ] 
+    * [ ] Positioning and layout!
+    * [ ] Fonts and text!
+    * [ ] Colors!!
+    * [ ] Tidy it up.
+    **Beast Mode**
+      * [ ] Get those arrows working
+    **Nightmare Mode** 
+      * [ ] Responsive!
+  * `Responsive Multicolumn Form`
+    * [ ] Positioning and layout - in mobile view!
+    * [ ] Fonts and text!
+    * [ ] Colors!!
+    * [ ] Tidy it up.
+    **Beast Mode**
+      * [ ] Desktop view
+    **Nightmare Mode**
+      * [ ] Responsive!
+  * `Vertical Timeline`
+    * [ ] Positioning and layout!
+    * [ ] Fonts and text!
+    * [ ] Colors!!
+    * [ ] Tidy it up.
+    **Beast Mode**
+      * [ ] Round those corners
+    **Nightmare Mode**
+      * [ ] Responsive!
 ```
 
 ### Journal, Week 2
@@ -103,7 +138,7 @@ Now we're moving on to our new friend, Vertical Timeline. Like Nested Accordions
 
 ##### Beast Mode
 
-Rounded icons! How u get so round?? Investigate `::before` and `border-radius` to make that happen.
+Rounded corners! How u get so round?? Investigate `::before` and `border-radius` to make that happen.
 
 ##### Nightmare Mode
 
