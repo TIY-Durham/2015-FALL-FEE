@@ -9,6 +9,14 @@
 
 ## Parking Lot Review
 
+## Agenda
+
+Install-Fest!
+
+* jQuery
+* Skitch
+* Lodash?
+
 ## Assignment
 
 ```markdown
