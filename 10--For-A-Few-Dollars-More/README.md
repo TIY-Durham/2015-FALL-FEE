@@ -51,8 +51,8 @@
   * [ ] 8 new properties!
   * [ ] 10 new properties!
 **Laying the Blueprints**
-  * **Multicolumn Form**
   * **Nested Accordion**
+  * **Responsive Multi Column Form*
   * **Vertical Timeline**
   * **View Mode Swich**
 ```
@@ -73,15 +73,21 @@ As you encounter CSS properties in the assignments that you _haven't_ documented
 
 First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
 
-Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css`. Hmmmm, what could those names mean? Responsive web design! You'll be creating the css for mobile, tablet, and desktop views of the same Nested Accordions site.
+Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder. Hmmmm, what could those names mean? Responsive web design! You'll be creating the css for mobile, tablet, and desktop views of the same Nested Accordions site.
 
 Like always, take baby steps with this. First, shrink the browser window to the "mobile" view and make sure you Skritch it. Now, decide what elements need to be in place to create that view. What pesky media queries might you need to get that layout? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views so you don't accidentally overwrite your `mobile.css` styles. Commit your work to GitHub early and often!! 
 
-Once mobile view is set, move on to `tablet.css`, then `desktop.css`. Again, take it slow. First, Skritch the view you're working on. Then, comment out the other two stylesheets.
+Once mobile view is set, make the window a little larger until the layout visibly changes. That's your "tablet view", which you'll create on `tablet.css`. After you're finished with tablet view, make the window larger still. Whoa! That big new layout? That's "Desktop view", and you'll create that on `desktop.css`. Again, take it slow. First, Skritch the view you're working on. Then, comment out the other two stylesheets and figure out what css you need for the view you're working on.
 
 In addition, if you didn't complete last night's Beast Mode, it's time to do that. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. How can you replicate that weird twitching they do whenever your mouse gets close? You'll need to learn something about `:hover` states to make the colors change, and you'll need to discover the power of the `::before` pseudo-element to make the arrows work.
 
-#### Multicolumn Form
+#### Responsive Multicolumn Form
+
+Like last night's Beast mode and tonight's Nested Accordions, tonight you'll be building out Responsive Multicolumn Form. 
+
+So that's surprisingly singly-columnar for a multi-column form, wouldn't you say? If you expand the window back out to the next largest layout, you'll note that _part_ of the form lays out into two columns. A little larger, and the form lays out into three columns. These are your "tablet" and "desktop" views.
+
+Like Nested Accordions, you'll need to build out mobile, tablet, and desktop views. You will do this on your `mobile.css`, `tablet.css`, and `desktop.css` stylesheets.
 
 #### Vertical Timeline
 
