@@ -155,8 +155,10 @@ Now let's move on to our _new_ friend: Vertical Timeline. Like the other two, st
 
 ##### BEAST MODE
 
-Like **Nested Accordion**, this layout makes use of some subtle decorative touches: the caret on the text block, the icons hanging out over the vertical line, you might even consider the vertical line itself merely decorative.
+Like **Nested Accordion**, this layout makes use of some subtle decorative touches: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle?
+
+Write your findings in `css/styles.css` for your **Vertical Timeline** as extended code comments... Why not just single-line comments? Can you find out why?
 
 ##### NIGHTMARE MODE
 
-Make it responsive!
+This layout also has some subtle differences as the window size shrinks... at first. But watch out, mobile! Skitch the differences between desktop and tablet sizes, then re-Skitch the whole mobile experience. Is that even possible with the HTML you're given?
