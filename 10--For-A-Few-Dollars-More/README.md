@@ -30,12 +30,6 @@
   * [ ] 5 new properties!
   * [ ] 8 new properties!
   * [ ] 10 new properties!
-* **Githubbing to Know You**
-  * [ ] Updated from `upstream:master`
-  * [ ] Edited _everyone_...
-  * [ ] Pushed and PR'd (izzat a word?)
-  * [ ] ZOMG CONFLICTS!
-  * [ ] **BEAST MODE** Resolve ALL THE THINGS!
 ```
 
 ### Journal, Week 2
@@ -49,7 +43,3 @@ Tonight, focus on the typographic elements of CSS: `font-*`, `text-*`, `line-*`,
 #### BEAST MODE
 
 As you encounter CSS properties in the assignments that you _haven't_ documented yet, add them to your documentation file... even if it's just a flag in the sand. If you're running into them, though, chances are you'll need to know what they do soon enough.
-
-### Githubbing to Know You
-
-Have you made a giant mess yet? Got any seemingly empty (0 files updated) PRs? Generated conflicts on Github that don't seem to be conflicts on your local? What's going on here? Use [the network graph of the shared repo](https://github.com/TheIronYard--Orlando/student-roster/network) to get one sense of it. If you haven't already, add the forks of your classmates as remotes with `hub remote add` and fetch their history. Then take a look at topology of the history with a visualization tool. Can you tell the story of what's happening?
