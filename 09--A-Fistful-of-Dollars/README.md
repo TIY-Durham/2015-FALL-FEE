@@ -109,62 +109,54 @@ Begin the drafting process, like we've done the last two weeks. This time, as yo
 
 Tonight, focus on the [Box Model properties](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model) as we saw them used in class today. Pay careful attention to `box-sizing` and how it changes the math of the rendering model. You should cover the `margin-*`, `padding-*` and `border-*` properties, the `max-*` and `min-*` properties, and `box-sizing` property, at a minimum. All of these properties accept [a numeric length value](https://developer.mozilla.org/en-US/docs/Web/CSS/length) in [various units](https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units) that you should know about. Also pay special attention to [the caveat about inches and DPI](https://developer.mozilla.org/en-US/docs/Web/CSS/length#CSS_units_and_dots-per-inch). Computers are hard.
 
-### GitHubbing to Know You
+### GitHub-ing to Know You: The Great Train Wreck Caper
 
-Tonight, _try_ to create some merge conflicts: everyone edits _everyone else_. Experiment. Pick different parts of the files to edit and see what conflicts arise. By Thursday, though, _everyone_ should have _everything_ filled out and added to a PR. Let the train wrecks begin!
+Tonight, try to create some merge conflicts. Make some edits in pairs and open a comparison across your two forks. See if you can chase the Big Green Button away. Experiment. Pick different parts of the files to edit and see what conflicts arise. By Thursday, everyone should have filled out everyone's files for the first section. Let the train wrecks begin!
 
 #### BEAST MODE
 
-Can you _resolve_ all these conflicts and push the resolved code back to Github?
+When _everyone_ edits _ALL THE THINGS_, we'll have an epic train wreck. Can you _resolve_ all these conflicts and push the resolved code back to Github? Check out the free _Pro Git_ book and document your sources for future reference.
 
 ### Coloring the Blueprints
 
-You've made, filled in, and built the Blueprints. But what's a house without some paint? Or windows? Or responsive CSS??
-
-_Merge your `08` branch via the Big Green Button_, then create a new _WIP Branch_ named `09--a-fistful-of-dollars` in GitHub. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work!
+_Merge your `08` branch via the Big Green Button_, then create a new _WIP Branch_ named `09--a-fistful-of-dollars`. On your local machine, check out the `master` branch and `git pull` to update your local copy. Then check out your _new_ branch to get to work! If you're looking for a challenge, all of those steps can be conducted via the CLI...
 
 #### Nested Accordions
 
-Ah, our old friend. You've got the JavaScript functionality working, but now it's time to build out the CSS. 
+Ah, our old friend. You've got the JavaScript to make the clicking work via jQuery; now it's time to work on the CSS. You should start with some Skitch-ing, though. Open the reference implementation and take one full-page screen shot with [our first tool](http://mrcoles.com/full-page-screen-capture-chrome-extension/). Put that into your `NestedAccordion/` folder as a file named `full-page.png` and `git add` and `git commit` it. Then open it in [Skitch](https://evernote.com/skitch/) and mark up the relevant parts. Focus on styles that appear to alter the text, colors, borders, indentation, and general layout. Export pieces regularly and save them into your project, too.
 
-In Normal mode, you'll build out the CSS in your `styles.css` page. That includes the text, colors, borders, and indentation. Take baby steps. Start with the positioning. How should the elements be laid on the page? How do you create the indentation?
+Starting from your specs, write CSS selectors and rules in `css/styles.css` to emulate the reference implementation. _Don't touch the HTML!_ Use the wonky `class` and `id` names you're given, but feel free to experiment with your own colors or [web fonts](http://google.com/fonts/) (the reference uses "Lato" at 300, 400, and 700 weights). Start with the general layout of the elements and commit often as you make progress. Then incorporate additional rules incrementally.
 
-Once you've got the elements where you want them, incorporate one element at a time: font, color, etc., until you have the page closely replicated.
+##### BEAST MODE
 
-##### Beast Mode
+By now you've realized that the HTML for those nested accordions is none other than a plain `<ul>` and a gang of `<li>` tags in fancy costumes! Those arrows to the left of the title, though... Those don't seem... natural. Not to mention that they keep... twitching whenever your mouse gets close to them. You'll need to learn something about `:hover` states to make the colors change, and you'll need to discover the power of the `::before` pseudo-element to make the arrows work.
 
-Can you get the arrows on the left to change on the hover state? You'll need to investigate `::before` to get this one.
+##### NIGHTMARE MODE
 
-##### Nightmare Mode
+Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes.
 
-Media queries! How can you make the page responsive like it is in the demo?
+#### Responsive Multi Column Form
 
-#### Responsive Multicolumn Form
-
-Like Nested Accordions, you should approach Responsive Multicolumn Form's Normal mode in baby steps. Aim for replicating the mobile view by shrinking the window down to what the site would look like on mobile. 
-
-It should look something like this:
+Like in **Nested Accordion**, take baby steps to replicate the reference implementation, starting with Skitch-ing. Shrink the window until you find the _smallest_ layout, which also happens to be the simplest. We'll call this the "mobile view" of the page, since it's roughly equivalent to what you'd get if you viewed it on a mobile phone. It should look something like this:
 
 ![Mobile View](http://i.imgur.com/ahql4Ua.png)
 
-Get the positioning right, then move on to text, colors, and borders. 
+Skitch the general layout, paying attention to the invisible boxes and columns within the design, then move on to text, colors, and borders. Follow the same process as **Nested Accordion**: saving the full-page version first, then slicing out detailed sections with Skitch. Add and commit them all to your repo. 
 
-##### Beast Mode
+Once you have a decent idea of the styles you'll need to correct, start looking for the HTML elements you'll need to apply those styles to. Write simple sanity-check style rules in `css/styles.css` at first to test your selectors, like setting the `background-color` to `fuscia` for example. You might need to do some research on styling `<form>` elements, since that can be a little tricky, particularly that auto-hiding text inside... What's _that_ about?
 
-What if you want to fill out the form -- on a desktop?? Put the "multi" back in "Responsive Multicolumn Form"!
+##### BEAST MODE
 
-##### Nightmare Mode
-
-Can you use media queries to make the form responsive?
+So that's surprisingly singly-columnar for a multi-column form, wouldn't you say? If you expand the window back out to the next largest layout, you'll note that _part_ of the form lays out into two columns. A little larger, and the form lays out into three columns. Let's call those "tablet" and "desktop" views respectively. Make two more CSS files in `css/` called `tablet.css` and `desktop.css` and link them into `index.html`. Can you write styles in `tablet.css` that generate the two-column-kinda layout?
 
 #### Vertical Timeline
 
-Now we're moving on to our new friend, Vertical Timeline. Like Nested Accordions and Responsive Multicolumn Form, you'll want to start with the basic layout and positioning of the elements on the page. Then, move on to your colors and fonts.
+Now let's move on to our _new_ friend: Vertical Timeline. Like the other two, start out this one with a full-page screenshot of "desktop" size, Skitch that to identify text, color, and border and layout styles. Include some guesses about the _size of fonts_, the widths of the lines and borders, and the appropriate lengths and units for the boxes. Your only deliverable for this one is the specs, but see **BEAST MODE** if you want a head start on... Oh, wait, I don't want to give away the surprise!
 
-##### Beast Mode
+##### BEAST MODE
 
-Rounded corners! How u get so round?? Investigate `::before` and `border-radius` to make that happen.
+Like **Nested Accordion**, this layout makes use of some subtle decorative touches: the caret on the text block, the icons hanging out over the vertical line, you might even consider the vertical line itself merely decorative.
 
-##### Nightmare Mode
+##### NIGHTMARE MODE
 
 Make it responsive!
