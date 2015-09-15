@@ -69,9 +69,19 @@ As you encounter CSS properties in the assignments that you _haven't_ documented
 
 ### Laying the Blueprints
 
-#### Multicolumn Form
+#### Nested Accordions
 
-#### Nested Accordion
+First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
+
+Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css`. Hmmmm, what could those names mean? Responsive web design! You'll be creating the css for mobile, tablet, and desktop views of the same Nested Accordions site.
+
+Like always, take baby steps with this. First, shrink the browser window to the "mobile" view and make sure you Skritch it. Now, decide what elements need to be in place to create that view. What pesky media queries might you need to get that layout? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views so you don't accidentally overwrite your `mobile.css` styles. Commit your work to GitHub early and often!! 
+
+Once mobile view is set, move on to `tablet.css`, then `desktop.css`. Again, take it slow. First, Skritch the view you're working on. Then, comment out the other two stylesheets.
+
+In addition, if you didn't complete last night's Beast Mode, it's time to do that. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. How can you replicate that weird twitching they do whenever your mouse gets close? You'll need to learn something about `:hover` states to make the colors change, and you'll need to discover the power of the `::before` pseudo-element to make the arrows work.
+
+#### Multicolumn Form
 
 #### Vertical Timeline
 
