@@ -29,6 +29,8 @@
         * [ ] `css/styles.css`
       * in folder `MultiColumnForm/`
         * [ ] `css/styles.css`
+      * in folder `ViewModeSwitch/`
+        * [ ] `css/styles.css`
       * in folder `CheatSheets/`
         * [ ] `CSS.md`
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
