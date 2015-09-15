@@ -9,6 +9,22 @@
 
 ## Agenda
 
+* All you need is a Nested Accordion...
+  * Volunteer your Skitch notes, will ya?
+  * What's different? Let's make a plan!
+  * Basic styling: margins, padding, font size, etc
+  * Time to UPGRADE with [Google Web Fonts](http://google.com/fonts)
+  * How about some colors?
+* That Vertical Timeline, though...
+  * Who can Skitch?
+  * What's different? Make dat plan!
+  * Basic layout: `float` vs `position`
+    * What can I `position`? How do I position it?
+    * How does that help? Is there a simpler solution?
+    * Which problems does `float` solve? Which does it create?
+    * And _that's_ how you `clear` a room...!
+  * What's left? Have we made progress?
+
 ## Assignment
 
 ```markdown
@@ -52,6 +68,7 @@
   * [ ] 10 new properties!
 **Laying the Blueprints**
   * **Nested Accordion**
+      * [ ] 
   * **Responsive Multi Column Form*
   * **Vertical Timeline**
   * **View Mode Swich**
