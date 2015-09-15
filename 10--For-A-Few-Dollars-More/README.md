@@ -12,10 +12,28 @@
 ## Assignment
 
 ```markdown
-* [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
+* **Yak Shaving**
+* [ ] Create a new _WIP Issue_ in the class repo
+    * [ ] named `10 -- YOUR NAME`
+    * [ ] with this checklist as the description
+  * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] Create a new _WIP Branch_ in:
+    * [ ] `TIY-Assignments` named `10--for-a-few-dollars-more` from `master`
+  * [ ] Create or update the following _WIP Files_:
+    * [ ] in `USERNAME.github.io` under branch `journal-week-2` (`USERNAME.github.io:journal-week-2`)
+      * [ ] `journal-week-2.md` (or your already descriptive name)
+    * [ ] in `TIY-Assignments` under branch `10--for-a-few-dollars-more`
+      * in folder `NestedAccordion/`
+        * [ ] `css/styles.css`
+      * in folder `VerticalTimeline/`
+        * [ ] `css/styles.css`
+      * in folder `MultiColumnForm/`
+        * [ ] `css/styles.css`
+      * in folder `CheatSheets/`
+        * [ ] `CSS.md`
+  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `USERNAME.github.io` from `journal-week-2` into `master`
+    * [ ] `TIY-Assignments` from `10--for-a-few-dollars-more` into `master`
 * **Journal, Week 2**
   * [ ] Final Draft, First Revision
   * [ ] Peer reviewed by 2 people
