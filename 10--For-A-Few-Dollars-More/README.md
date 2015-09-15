@@ -39,12 +39,14 @@
     * [ ] in `USERNAME.github.io` under branch `journal-week-2` (`USERNAME.github.io:journal-week-2`)
       * [ ] `journal-week-2.md` (or your already descriptive name)
     * [ ] in `TIY-Assignments` under branch `10--for-a-few-dollars-more`
-      * in folder `NestedAccordion/`
-        * [ ] `css/styles.css`
+      * in folder `ReponsiveMultiColumnForm/`
+        * [ ] `css/mobile.css`
+        * [ ] `css/tablet.css`
+        * [ ] `css/desktop.css`
       * in folder `VerticalTimeline/`
-        * [ ] `css/styles.css`
-      * in folder `MultiColumnForm/`
-        * [ ] `css/styles.css`
+        * [ ] `css/mobile.css`
+        * [ ] `css/tablet.css`
+        * [ ] `css/desktop.css`
       * in folder `ViewModeSwitch/`
         * [ ] `css/styles.css`
       * in folder `CheatSheets/`
@@ -68,10 +70,32 @@
   * [ ] 10 new properties!
 **Laying the Blueprints**
   * **Nested Accordion**
-      * [ ] 
+      * [ ] What happens to the color of the arrow when I `:hover`?
+      * [ ] And now get the arrow to change direction.
+      * **Beast Mode** It's so...responsive! Document it.
   * **Responsive Multi Column Form*
+      * [ ] Comment out that `styles.css`...
+      * [ ] And replace it with `mobile.css`
+      * [ ] And `tablet.css`
+      * [ ] Annnnd `desktop.css`
+      * [ ] Made `mobile.css`, `tablet.css`, and `desktop.css` files in your `ResponsiveMultiColumnForm` folder
+      * [ ] And committed them to GitHub.
+      * [ ] Now: Build it! Mobile first.
+      * **Beast Mode** - iPad ready! Skitch and build the tablet view.
+      * **Nightmare Mode** - And now for those tethered to their monitors.
   * **Vertical Timeline**
+      * [ ] Link to `mobile.css`
+      * [ ] And `tablet.css`
+      * [ ] Annnnd `desktop.css`
+      * [ ] Made `mobile.css`, `tablet.css`, and `desktop.css` files in your `VerticalTimeline` folder
+      * [ ] And committed them to GitHub.
+      * [ ] Now, in `styles.css`, write some extended commentary on those designs
+        * [ ] Those edges!
+        * [ ] Those carets!
+        * [ ] Those lines!
+        * [ ] And those circles!!
   * **View Mode Swich**
+    
 ```
 
 ### Journal, Week 2
@@ -120,9 +144,9 @@ Build it for the desktop!
 
 #### Vertical Timeline
 
-Time for Vertical Timeline! First, get ready with some yak-shaving. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Then create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder inside your `VerticalTimeline` folder.
+Time for Vertical Timeline! First, get ready with some yak-shaving. Add three links to your `index.html` in the right place: `mobile.css`, `tablet.css`, and `desktop.css`. Then create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder inside your `VerticalTimeline` folder.
 
-You'll also be tackling last night's Beast Mode. There's some subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle?
+You'll also be tackling last night's Beast Mode. There's some subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle? 
 
 Write your findings in `css/styles.css` for your **Vertical Timeline** as extended code comments... Why not just single-line comments? Can you find out why?
 
@@ -132,7 +156,7 @@ Now can you build it...in mobile view??
 
 #### View Mode Switch
 
-You thought you'd escaped View Mode Switch. Ha!
+Just when you thought you'd escaped View Mode Switch. Ha! You'll never get away from it.
 
 Tonight, you're going to do all the View Mode Switch yak-shaving. If you haven't already, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
 
