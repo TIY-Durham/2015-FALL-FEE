@@ -91,4 +91,8 @@ Like Nested Accordions, you'll need to build out mobile, tablet, and desktop vie
 
 #### Vertical Timeline
 
+Time for Vertical Timeline! Like the other new Blueprints tonight, you'll be building out the mobile, tablet, and desktop views on separate `mobile.css`, `tablet.css`, and `desktop.css` sheets.
+
+You'll also be tackling last night's Beast Mode. There's some subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle?
+
 #### View Mode Switch
