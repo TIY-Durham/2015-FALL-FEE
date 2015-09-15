@@ -75,7 +75,9 @@ First, time for some more house cleaning. Comment out the link to your `styles.c
 
 Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder. Hmmmm, what could those names mean? Responsive web design! You'll be creating the css for mobile, tablet, and desktop views of the same Nested Accordions site.
 
-Like always, take baby steps with this. First, shrink the browser window to the "mobile" view and make sure you Skritch it. Now, decide what elements need to be in place to create that view. What pesky media queries might you need to get that layout? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views so you don't accidentally overwrite your `mobile.css` styles. Commit your work to GitHub early and often!! 
+Like always, take baby steps with this. First, shrink the browser window to the "mobile" view and make sure you screenshot the site, commit that to GitHub, then Skritch the layout. What relevant parts do you need to mark? Use your work from last night to guide you.
+
+Now, decide what elements need to be in place to create that view. What pesky media queries might you need to get that layout? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views so you don't accidentally overwrite your `mobile.css` styles. Commit your work to GitHub early and often!! 
 
 Once mobile view is set, make the window a little larger until the layout visibly changes. That's your "tablet view", which you'll create on `tablet.css`. After you're finished with tablet view, make the window larger still. Whoa! That big new layout? That's "Desktop view", and you'll create that on `desktop.css`. Again, take it slow. First, Skritch the view you're working on. Then, comment out the other two stylesheets and figure out what css you need for the view you're working on.
 
@@ -96,3 +98,7 @@ Time for Vertical Timeline! Like the other new Blueprints tonight, you'll be bui
 You'll also be tackling last night's Beast Mode. There's some subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle?
 
 #### View Mode Switch
+
+I know you all missed our old friend View Mode Switch! Tonight, you're going to do all the View Mode Switch yak-shaving. If you haven't already, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+
+Now, it's time to get Skritching! Take one full-page screen shot with [our first tool](http://mrcoles.com/full-page-screen-capture-chrome-extension/). Put that into your `ViewModeSwitch/` folder as a file named `full-page.png` and `git add` and `git commit` it. Then open it in [Skitch](https://evernote.com/skitch/) and mark up the relevant parts. Focus on styles that appear to alter the text, colors, borders, indentation, and general layout. Export pieces regularly and save them into your project, too.
