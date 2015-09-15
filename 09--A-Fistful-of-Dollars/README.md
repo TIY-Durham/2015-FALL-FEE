@@ -17,8 +17,8 @@
   * Link jQuery via CDN (a la CodePen)
   * Refactor Nested Accordion to jQuery / Zepto
 * How do I analyze a reference implementation?
-  * Annotate visually with Skitch!
-  * Grab a screen shot and save that to the project as your starting point.
+  * First [take a picture](http://mrcoles.com/full-page-screen-capture-chrome-extension/), it'll last longer...
+  * Annotate visually with [Skitch](https://evernote.com/skitch/)!
   * Start scribbling!
 * What can I draw? What _should_ I draw?
   * Boxes correspond to box model elements...
