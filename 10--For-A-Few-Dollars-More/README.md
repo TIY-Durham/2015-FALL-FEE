@@ -71,34 +71,52 @@ As you encounter CSS properties in the assignments that you _haven't_ documented
 
 #### Nested Accordions
 
-First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
+If you didn't complete last night's Beast Mode, it's time to do that. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. How can you replicate that weird twitching they do whenever your mouse gets close? You'll need to learn something about `:hover` states to make the colors change, and you'll need to discover the power of the `::before` pseudo-element to make the arrows work.
 
-Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder. Hmmmm, what could those names mean? Responsive web design! You'll be creating the css for mobile, tablet, and desktop views of the same Nested Accordions site.
+##### Beast Mode
 
-Like always, take baby steps with this. First, shrink the browser window to the "mobile" view and make sure you screenshot the site, commit that to GitHub, then Skritch the layout. What relevant parts do you need to mark? Use your work from last night to guide you.
-
-Now, decide what elements need to be in place to create that view. What pesky media queries might you need to get that layout? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views so you don't accidentally overwrite your `mobile.css` styles. Commit your work to GitHub early and often!! 
-
-Once mobile view is set, make the window a little larger until the layout visibly changes. That's your "tablet view", which you'll create on `tablet.css`. After you're finished with tablet view, make the window larger still. Whoa! That big new layout? That's "Desktop view", and you'll create that on `desktop.css`. Again, take it slow. First, Skritch the view you're working on. Then, comment out the other two stylesheets and figure out what css you need for the view you're working on.
-
-In addition, if you didn't complete last night's Beast Mode, it's time to do that. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. How can you replicate that weird twitching they do whenever your mouse gets close? You'll need to learn something about `:hover` states to make the colors change, and you'll need to discover the power of the `::before` pseudo-element to make the arrows work.
+Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes.
 
 #### Responsive Multicolumn Form
 
-Like last night's Beast mode and tonight's Nested Accordions, tonight you'll be building out Responsive Multicolumn Form. 
+Like last night's Beast mode, tonight you'll be building out Responsive Multicolumn Form. 
 
-So that's surprisingly singly-columnar for a multi-column form, wouldn't you say? If you expand the window back out to the next largest layout, you'll note that _part_ of the form lays out into two columns. A little larger, and the form lays out into three columns. These are your "tablet" and "desktop" views.
+First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
 
-Like Nested Accordions, you'll need to build out mobile, tablet, and desktop views. You will do this on your `mobile.css`, `tablet.css`, and `desktop.css` stylesheets.
+Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder. Hmmmm, what could those names mean? 
+
+Now, look at the mobile view. This should match the view you Skitched out last night. If you expand the window back out to the next largest layout, you'll note that _part_ of the form lays out into two columns. A little larger, and the form lays out into three columns. These are your "tablet" and "desktop" views.
+
+You'll need to build out the mobile view you Skitched last night. You will do this on your `mobile.css` stylesheet.
+
+Like always, take baby steps with this. Use your work from last night to guide you. What elements need to be in place to create that view? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views. This isn't too important tonight, but it's a good habit to get into. 
+
+Commit your work to GitHub early and often!
+
+##### Beast Mode
+
+That `tablet.css` stylesheet sure looks pretty bare. What if you...build out the tablet view? Time to move that window to the layout that shows two columns. Skitch it, then build it.
+
+##### Nightmare Mode
+
+Build it for the desktop!
 
 #### Vertical Timeline
 
-Time for Vertical Timeline! Like the other new Blueprints tonight, you'll be building out the mobile, tablet, and desktop views on separate `mobile.css`, `tablet.css`, and `desktop.css` sheets.
+Time for Vertical Timeline! First, get ready with some yak-shaving. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Then create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder inside your `VerticalTimeline` folder.
 
 You'll also be tackling last night's Beast Mode. There's some subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle?
 
+Write your findings in `css/styles.css` for your **Vertical Timeline** as extended code comments... Why not just single-line comments? Can you find out why?
+
+##### Beast Mode
+
+Now can you build it...in mobile view??
+
 #### View Mode Switch
 
-I know you all missed our old friend View Mode Switch! Tonight, you're going to do all the View Mode Switch yak-shaving. If you haven't already, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+You thought you'd escaped View Mode Switch. Ha!
 
-Now, it's time to get Skritching! Take one full-page screen shot with [our first tool](http://mrcoles.com/full-page-screen-capture-chrome-extension/). Put that into your `ViewModeSwitch/` folder as a file named `full-page.png` and `git add` and `git commit` it. Then open it in [Skitch](https://evernote.com/skitch/) and mark up the relevant parts. Focus on styles that appear to alter the text, colors, borders, indentation, and general layout. Export pieces regularly and save them into your project, too.
+Tonight, you're going to do all the View Mode Switch yak-shaving. If you haven't already, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+
+Now, it's time to get Skitching! Take one full-page screen shot with [our first tool](http://mrcoles.com/full-page-screen-capture-chrome-extension/). Put that into your `ViewModeSwitch/` folder as a file named `full-page.png` and `git add` and `git commit` it. Then open it in [Skitch](https://evernote.com/skitch/) and mark up the relevant parts. Focus on styles that appear to alter the text, colors, borders, indentation, and general layout. Export pieces regularly and save them into your project, too.
