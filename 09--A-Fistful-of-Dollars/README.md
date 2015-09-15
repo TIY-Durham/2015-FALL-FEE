@@ -30,12 +30,29 @@
 
 ```markdown
 * **Yak Shaving**
-  * [ ] Create a new _WIP Issue_ named `09 -- YOUR NAME` with:
+  * [ ] Create a new _WIP Issue_ in the class repo
+    * [ ] named `09 -- YOUR NAME`
     * [ ] with this checklist as the description
-    * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] Create a new _WIP Branch_ in:
+    * [ ] `TIY-Assignments` named `09--fistful-of-dollars` from `master`
+  * [ ] Create or update the following _WIP Files_:
+    * [ ] in `USERNAME.github.io` under branch `journal-week-2` (`USERNAME.github.io:journal-week-2`)
+      * [ ] `journal-week-2.md` (or your already descriptive name)
+    * [ ] in `TIY-Assignments` under branch `09--fistful-of-dollars`
+      * in folder `NestedAccordion/`
+        * [ ] `css/styles.css`
+      * in folder `VerticalTimeline/`
+        * [ ] `css/styles.css`
+      * in folder `MultiColumnForm/`
+        * [ ] `css/styles.css`
+      * in folder `CheatSheets/`
+        * [ ] `CSS.md`
+    * [ ] in `StudentRoster` under branch `master` (_not_ `patch-X`)
+      * `*.md` i.e. ALL THE FILES
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
     * [ ] `USERNAME.github.io` from `journal-week-2` into `master`
-    * [ ] `TIY-Assignments` from `09--a-fistful-of-dollars` into `master`
+    * [ ] `TIY-Assignments` from `09--fistful-of-dollars` into `master`
     * [ ] `StudentRoster` from `USERNAME:master` into `TIY-Durham:master`
 * **Journal, Week 2**
   * [ ] Rough draft!
@@ -55,7 +72,7 @@
   * [ ] ZOMG CONFLICTS!
   * [ ] **BEAST MODE** Resolve ALL THE THINGS!
 * **Coloring the Blueprints**
-  * `NestedAccordions`
+  * **Nested Accordion**
     * [ ] Positioning and layout!
     * [ ] Fonts and text!
     * [ ] Colors!!
