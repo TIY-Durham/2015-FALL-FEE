@@ -69,11 +69,11 @@
   * [ ] 8 new properties!
   * [ ] 10 new properties!
 **Laying the Blueprints**
-  * **Nested Accordion**
+  * [ ] **Nested Accordion**
       * [ ] What happens to the color of the arrow when I `:hover`?
       * [ ] And now get the arrow to change direction.
       * **Beast Mode** It's so...responsive! Document it.
-  * **Responsive Multi Column Form**
+  * [ ] **Responsive Multi Column Form**
       * [ ] Comment out that `styles.css`...
       * [ ] And replace it with `mobile.css`
       * [ ] And `tablet.css`
@@ -83,7 +83,7 @@
       * [ ] Now: Build it! Mobile first.
       * **Beast Mode** - iPad ready! Skitch and build the tablet view.
       * **Nightmare Mode** - And now for those tethered to their monitors.
-  * **Vertical Timeline**
+  * [ ] **Vertical Timeline**
       * [ ] Link to `mobile.css`
       * [ ] And `tablet.css`
       * [ ] Annnnd `desktop.css`
@@ -95,7 +95,7 @@
         * [ ] Those lines!
         * [ ] And those circles!!
       * **Beast Mode** - Make it mobile ready!
-  * **View Mode Swich**
+  * [ ] **View Mode Swich**
       * [ ] Create your `styles.css` file in the `ViewModeSwitch` folder
       * [ ] Commit it and push to GitHub
       * [ ] Link it in the `index.html`
@@ -128,7 +128,7 @@ Did you notice how the layout and text changes _ever so slightly_ when the brows
 
 Like last night's Beast mode, tonight you'll be building out Responsive Multicolumn Form. 
 
-First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
+First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it with three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
 
 Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder. Hmmmm, what could those names mean? 
 
@@ -162,7 +162,7 @@ Now can you build it...in mobile view??
 
 #### View Mode Switch
 
-Just when you thought you'd escaped View Mode Switch. Ha! You'll never get away from it.
+Just when you thought you'd escaped View Mode Switch. Mua ha ha! You'll never get away.
 
 Tonight, you're going to do all the View Mode Switch yak-shaving. If you haven't already, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
 
