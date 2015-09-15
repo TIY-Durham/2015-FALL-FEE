@@ -122,7 +122,7 @@ If you didn't complete last night's Beast Mode, it's time to do that. If you've 
 
 ##### Beast Mode
 
-Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes.
+Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes. Do this in an extended comment in your `styles.css` file.
 
 #### Responsive Multicolumn Form
 
