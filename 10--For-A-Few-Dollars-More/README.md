@@ -73,7 +73,7 @@
       * [ ] What happens to the color of the arrow when I `:hover`?
       * [ ] And now get the arrow to change direction.
       * **Beast Mode** It's so...responsive! Document it.
-  * **Responsive Multi Column Form*
+  * **Responsive Multi Column Form**
       * [ ] Comment out that `styles.css`...
       * [ ] And replace it with `mobile.css`
       * [ ] And `tablet.css`
@@ -94,8 +94,14 @@
         * [ ] Those carets!
         * [ ] Those lines!
         * [ ] And those circles!!
+      * **Beast Mode** - Make it mobile ready!
   * **View Mode Swich**
-    
+      * [ ] Create your `styles.css` file in the `ViewModeSwitch` folder
+      * [ ] Commit it and push to GitHub
+      * [ ] Link it in the `index.html`
+      * [ ] Skitch it!
+      * [ ] Commit the Skitch.
+      * [ ] Then mark up the relevant parts.
 ```
 
 ### Journal, Week 2
