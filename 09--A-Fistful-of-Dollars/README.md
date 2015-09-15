@@ -55,9 +55,10 @@
     * [ ] `TIY-Assignments` from `09--fistful-of-dollars` into `master`
     * [ ] `StudentRoster` from `USERNAME:master` into `TIY-Durham:master`
 * **Journal, Week 2**
-  * [ ] Rough draft!
-  * [ ] :+1: x2!
-  * [ ] Extra topics in `parking-lot.md`!
+  * [ ] Rough that draft!
+  * [ ] :+1: x2 for me...
+  * [ ] :+1: x2 for you... (with links!)
+  * Park those extra ideas for later...
 * **Reading CSS**
   * [ ] `margin-*`
   * [ ] `padding-*` 
@@ -65,40 +66,41 @@
   * [ ] `max-*` 
   * [ ] `min-*` 
   * [ ] `box-sizing`
-* **Githubbing to Know You**
-  * [ ] Updated from `upstream:master`
-  * [ ] Edited _everyone_...
-  * [ ] Pushed and PR'd (izzat a word?)
+  * **BEAST MODE** -- pseudo-elements and pseudo-classes, too!
+* **GitHub-ing to Know You**
+  * [ ] Did everybody `pull` already? How about a PR?
+  * [ ] Edited someone...
+  * [ ] ...and someone edited me.
+  * [ ] I'll show you mine... via a PR.
   * [ ] ZOMG CONFLICTS!
   * [ ] **BEAST MODE** Resolve ALL THE THINGS!
 * **Coloring the Blueprints**
   * **Nested Accordion**
-    * [ ] Positioning and layout!
-    * [ ] Fonts and text!
-    * [ ] Colors!!
-    * [ ] Tidy it up.
-    **Beast Mode**
-      * [ ] Get those arrows working
-    **Nightmare Mode** 
-      * [ ] Responsive!
-  * `Responsive Multicolumn Form`
-    * [ ] Positioning and layout - in mobile view!
-    * [ ] Fonts and text!
-    * [ ] Colors!!
-    * [ ] Tidy it up.
-    **Beast Mode**
-      * [ ] Desktop view
-    **Nightmare Mode**
-      * [ ] Responsive!
-  * `Vertical Timeline`
-    * [ ] Positioning and layout!
-    * [ ] Fonts and text!
-    * [ ] Colors!!
-    * [ ] Tidy it up.
-    **Beast Mode**
-      * [ ] Round those corners
-    **Nightmare Mode**
-      * [ ] Responsive!
+    * [ ] Full-page screenie in `full-page.png`
+    * [ ] Skitching the night away...
+    * [ ] Fonts are fun!
+    * [ ] Top-level accordions are BIG!
+    * [ ] Second-level accordions are not...
+    * [ ] Third-level accordions? Fourth?
+    * [ ] Now how do we get these things to close?
+    * **Beast Mode** -- need. more. arrows.
+    * **Nightmare Mode** -- RWD FTW!
+  * **Multi Column Form**
+    * [ ] Full-page screenie in `full-page.png`... again.
+    * [ ] Skitch it up right!
+    * [ ] Okay, the `background-color` was easy...
+    * [ ] Don't `<label>` me!
+    * [ ] So those are `border` lines, right?
+    * [ ] What are those `placeholder` thingies?
+    * [ ] Not exactly full-width, is it?
+    * **Beast Mode** -- `tablet.css` and `desktop.css`
+  * **Vertical Timeline**
+    * [ ] I'll ask you one more time for that `full-page.png`
+    * [ ] Skitching many things!
+    * [ ] Are those standard fonts?
+    * [ ] It looks much bigger up close...
+    * [ ] So. Many. Lines.
+    * **Beast Mode** -- Educated guessing?
 ```
 
 ### Journal, Week 2
