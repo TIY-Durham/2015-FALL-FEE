@@ -28,13 +28,13 @@
 ## Assignment
 
 ```markdown
-**Yak Shaving**
-* [ ] Create a new _WIP Issue_ in the class repo
+* [ ] **Yak Shaving**
+  * [ ] Create a new _WIP Issue_ in the class repo
     * [ ] named `10 -- YOUR NAME`
     * [ ] with this checklist as the description
   * [ ] **MERGE ALL YOUR OPEN PRs!**
   * [ ] Create a new _WIP Branch_ in:
-    * [ ] `TIY-Assignments` named `10--for-a-few-dollars-more` from `master`
+      * [ ] `TIY-Assignments` named `10--for-a-few-dollars-more` from `master`
   * [ ] Create or update the following _WIP Files_:
     * [ ] in `USERNAME.github.io` under branch `journal-week-2` (`USERNAME.github.io:journal-week-2`)
       * [ ] `journal-week-2.md` (or your already descriptive name)
@@ -52,15 +52,15 @@
       * in folder `CheatSheets/`
         * [ ] `CSS.md`
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
-    * [ ] `USERNAME.github.io` from `journal-week-2` into `master`
-    * [ ] `TIY-Assignments` from `10--for-a-few-dollars-more` into `master`
-**Journal, Week 2**
+      * [ ] `USERNAME.github.io` from `journal-week-2` into `master`
+      * [ ] `TIY-Assignments` from `10--for-a-few-dollars-more` into `master`
+* [ ] **Journal, Week 2**
   * [ ] Final Draft, First Revision
   * [ ] Peer reviewed by 2 people
   * [ ] Final Draft, 2nd Revision
   * [ ] Peer reviewed by 2 people
   * [ ] 2x :+1:s
-**Reading CSS**
+* [ ] **Reading CSS**
   * [ ] Flag in the sand: `font-*` properties
   * [ ] Flag in the sand: `text-*` properties
   * [ ] Flag in the sand: `line-*` properties
@@ -68,34 +68,35 @@
   * [ ] 5 new properties!
   * [ ] 8 new properties!
   * [ ] 10 new properties!
-**Laying the Blueprints**
+* [ ] **Laying the Blueprints**
   * [ ] **Nested Accordion**
-      * [ ] Do you follow the arrow?
-      * [ ] Harmony in `cornflowerblue`...
-      * [ ] South by South... East.
-      * **Beast Mode** It's so...responsive! Document it.
+    * [ ] Got dat CSS, son...
+    * [ ] The arrow goes `::before` the text, see?
+    * [ ] Harmony in `cornflowerblue`...
+    * [ ] South by South... East.
+    * **Beast Mode** It's so...responsive! Document it.
   * [ ] **Responsive Multi Column Form**
-      * [ ] Comment out that `styles.css`...
-      * [ ] And replace it with `mobile.css`
-      * [ ] And `tablet.css`
-      * [ ] Annnnd `desktop.css`
-      * [ ] Made `mobile.css`, `tablet.css`, and `desktop.css` files in your `ResponsiveMultiColumnForm` folder
-      * [ ] And committed them to GitHub.
-      * [ ] Now: Build it! Mobile first.
-      * **Beast Mode** - iPad ready! Skitch and build the tablet view.
-      * **Nightmare Mode** - And now for those tethered to their monitors.
+    * [ ] Added that `mobile.css`
+    * [ ] And `tablet.css`
+    * [ ] Annnnd `desktop.css`
+    * [ ] All three created and linked in `index.html`!
+    * [ ] Committed and pushed to GitHub!
+    * [ ] We build it `mobile.css` first...!
+    * **Beast Mode** - iPad ready! Skitch and build the tablet view.
+    * **Nightmare Mode** - And now for those tethered to their monitors.
   * [ ] **Vertical Timeline**
-      * [ ] Link to `mobile.css`
-      * [ ] And `tablet.css`
-      * [ ] Annnnd `desktop.css`
-      * [ ] Made `mobile.css`, `tablet.css`, and `desktop.css` files in your `VerticalTimeline` folder
-      * [ ] And committed them to GitHub.
-      * [ ] Now, in `styles.css`, write some extended commentary on those designs
-        * [ ] Those edges!
-        * [ ] Those carets!
-        * [ ] Those lines!
-        * [ ] And those circles!!
-      * **Beast Mode** - Make it mobile ready!
+    * [ ] Link to `mobile.css`
+    * [ ] And `tablet.css`
+    * [ ] Annnnd `desktop.css`
+    * [ ] This step seems familiar...
+    * [ ] Committed and pushed to GitHub.
+    * In `styles.css`, how will we make:
+      * [ ] Those edges!
+      * [ ] Those carets!
+      * [ ] Those lines!
+      * [ ] And those circles!!
+      * [ ] Anything else?
+    * **Beast Mode** - What will we need to make it mobile?
   * [ ] **View Mode Swich**
       * [ ] Create your `styles.css` file in the `ViewModeSwitch` folder
       * [ ] Commit it and push to GitHub
