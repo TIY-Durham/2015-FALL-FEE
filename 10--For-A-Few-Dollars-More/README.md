@@ -75,7 +75,7 @@
     * [ ] Harmony in `cornflowerblue`...
     * [ ] South by South... East.
     * **Beast Mode** It's so...responsive! Document it.
-  * [ ] **Responsive Multi Column Form**
+  * [ ] **Multi-Column Form**
     * [ ] Added that `mobile.css`
     * [ ] And `tablet.css`
     * [ ] Annnnd `desktop.css`
