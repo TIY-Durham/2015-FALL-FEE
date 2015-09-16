@@ -82,8 +82,9 @@
     * [ ] All three created and linked in `index.html`!
     * [ ] Committed and pushed to GitHub!
     * [ ] We build it `mobile.css` first...!
-    * **Beast Mode** - iPad ready! Skitch and build the tablet view.
-    * **Nightmare Mode** - And now for those tethered to their monitors.
+    * [ ] How 'bout them iPads? `tablet.css` GO!
+    * [ ] Where did "mobile" go?
+    * **BEAST MODE** - And now for those tethered to their monitors.
   * [ ] **Vertical Timeline**
     * [ ] Link to `mobile.css`
     * [ ] And `tablet.css`
