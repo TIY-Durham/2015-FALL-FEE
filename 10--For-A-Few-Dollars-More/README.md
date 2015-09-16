@@ -82,8 +82,15 @@
     * [ ] All three created and linked in `index.html`!
     * [ ] Committed and pushed to GitHub!
     * [ ] We build it `mobile.css` first...!
+      * [ ] Those `<input>` fields should be easy...
+      * [ ] Maybe `<label>` will be better?
+      * [ ] How wide are those things? WHY DO THEY GROW!?
+      * [ ] How do you say "drop-down menu" in HTML?
+      * [ ] Certainly the button will be easy...
     * [ ] How 'bout them iPads? `tablet.css` GO!
-    * [ ] Where did "mobile" go?
+      * [ ] Two columns diverged on an HTML page...
+      * [ ] But the third stands alone...
+    * [ ] Where did "mobile" go? EXPLAIN!
     * **BEAST MODE** - And now for those tethered to their monitors.
   * [ ] **Vertical Timeline**
     * [ ] Link to `mobile.css`
@@ -96,7 +103,11 @@
       * [ ] Those carets!
       * [ ] Those lines!
       * [ ] And those circles!!
-      * [ ] Anything else?
+      * [ ] What about the copy?
+      * [ ] Giant block of blue anyone?
+      * [ ] No, wait, there are definitely _two_ blues!
+      * [ ] Does anybody really know what `<time>` it is?
+      * [ ] Man, this lady loves some funky `class` names...
     * **Beast Mode** - Skitch that "mobile" view!
   * [ ] **View Mode Swich**
       * [ ] Create your `styles.css` file in the `ViewModeSwitch` folder
