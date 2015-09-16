@@ -135,27 +135,21 @@ If BEAST MODE got upgraded to Normal Mode, what happened to NIGHTMARE MODE? You 
 
 #### Multi-Column Form
 
-Like last night's Beast mode, tonight you'll be building out Responsive Multicolumn Form. 
+First, time for some more house cleaning. Add three more CSS files to your `css/` directory and `<link>` them into your `index.html` _below_ your `styles.css` file. Name them `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different CSS files at once? What's _that_ gonna do?
 
-First, time for some more house cleaning. Comment out the link to your `styles.css` from your `index.html` and replace it with three more: `mobile.css`, `tablet.css`, and `desktop.css`. Wait, how can you link to three different `.css` files...?
+Now, look at the reference implementation at its smallest size: the "mobile" view. This should match the view you Skitched out last night. Recall that if you expand the window a bit, _part_ of the form lays out into two columns. A little larger, and the form lays out into three columns. These are your "tablet" and "desktop" views, respectively.
 
-Once you've got that figured out, create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder. Hmmmm, what could those names mean? 
+You'll note that there are some characteristics of the design that are consistent across all three views: fonts, colors, borders, etc. Those will _stay_ in your `styles.css` file. There are some layout properties, though, that change depending on what view we're looking at. Move the styles that _only_ apply to the "mobile" view into `mobile.css`, the first stylesheet applied after `styles.css`. Start writing styles in `tablet.css` that match the "tablet" view.
 
-Now, look at the mobile view. This should match the view you Skitched out last night. If you expand the window back out to the next largest layout, you'll note that _part_ of the form lays out into two columns. A little larger, and the form lays out into three columns. These are your "tablet" and "desktop" views.
+Like always, take baby steps with this. Use your work from last night to guide you. What elements need to be in place to create that view? What about positioning? Sizing? As you go, you should be aware of styles that are duplicated in `mobile.css` and `tablet.css`... Can we DRY our CSS?
 
-You'll need to build out the mobile view you Skitched last night. You will do this on your `mobile.css` stylesheet.
+_Commit your work to GitHub early and often!_
 
-Like always, take baby steps with this. Use your work from last night to guide you. What elements need to be in place to create that view? What about positioning? Sizing? **Note:** While working in the mobile view, you'll want to comment out your `tablet.css` and `desktop.css` views. This isn't too important tonight, but it's a good habit to get into. 
-
-Commit your work to GitHub early and often!
+While you're working on `tablet.css`, what do you see happening to your "mobile" layout? Write some observations as comments in your _WIP Issue_.
 
 ##### BEAST MODE
 
-That `tablet.css` stylesheet sure looks pretty bare. What if you...build out the tablet view? Time to move that window to the layout that shows two columns. Skitch it, then build it.
-
-##### NIGHTMARE MODE
-
-Build it for the desktop!
+Surely you see where this is leading? Write styles in `desktop.css` that _only_ apply to the "desktop" view. What happens to the "tablet" view? Add some more commentary to your _WIP Issue_ about this... Got any hypotheses about how these three CSS files can live together in harmony?
 
 #### Vertical Timeline
 
