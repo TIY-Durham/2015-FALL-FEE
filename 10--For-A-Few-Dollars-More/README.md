@@ -70,8 +70,9 @@
   * [ ] 10 new properties!
 **Laying the Blueprints**
   * [ ] **Nested Accordion**
-      * [ ] What happens to the color of the arrow when I `:hover`?
-      * [ ] And now get the arrow to change direction.
+      * [ ] Do you follow the arrow?
+      * [ ] Harmony in `cornflowerblue`...
+      * [ ] South by South... East.
       * **Beast Mode** It's so...responsive! Document it.
   * [ ] **Responsive Multi Column Form**
       * [ ] Comment out that `styles.css`...
@@ -116,15 +117,21 @@ As you encounter CSS properties in the assignments that you _haven't_ documented
 
 ### Laying the Blueprints
 
+Just when you thought that last night's assignment was too much, here comes BEAST MODE again! Someone's trash is someone else's treasure, and yesterday's HARD is today's NORMAL.
+
 #### Nested Accordions
 
-If you didn't complete last night's Beast Mode, it's time to do that. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. How can you replicate that weird twitching they do whenever your mouse gets close? You'll need to learn something about `:hover` states to make the colors change, and you'll need to discover the power of the `::before` pseudo-element to make the arrows work.
+First step: CSS. If you still have holes from yesterday's assignment, fill them in. Next: BEAST MODE. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. They're not "standard" bullets, are they? You'll need to learn about [the `::before` pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore) and [pick a nice arrow character](http://www.amp-what.com/unicode/search/arrow) to use (hint: use the CSS value).
 
-##### Beast Mode
+Once you've got _anything_ besides a standard bullet, how can you replicate that weird twitching whenever your mouse gets close? You'll need to use your new Chrome Dev Tools powers and learn something about `:hover` states to make the colors and the arrow change.
 
-Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes. Do this in an extended comment in your `styles.css` file.
+##### BEAST MODE
 
-#### Responsive Multicolumn Form
+If BEAST MODE got upgraded to Normal Mode, what happened to NIGHTMARE MODE? You got it...
+
+> Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes. Do this in an extended comment in your `styles.css` file.
+
+#### Multi-Column Form
 
 Like last night's Beast mode, tonight you'll be building out Responsive Multicolumn Form. 
 
@@ -140,11 +147,11 @@ Like always, take baby steps with this. Use your work from last night to guide y
 
 Commit your work to GitHub early and often!
 
-##### Beast Mode
+##### BEAST MODE
 
 That `tablet.css` stylesheet sure looks pretty bare. What if you...build out the tablet view? Time to move that window to the layout that shows two columns. Skitch it, then build it.
 
-##### Nightmare Mode
+##### NIGHTMARE MODE
 
 Build it for the desktop!
 
@@ -156,7 +163,7 @@ You'll also be tackling last night's Beast Mode. There's some subtle decorative 
 
 Write your findings in `css/styles.css` for your **Vertical Timeline** as extended code comments... Why not just single-line comments? Can you find out why?
 
-##### Beast Mode
+##### BEAST MODE
 
 Now can you build it...in mobile view??
 
