@@ -15,17 +15,87 @@ Grid-Based Layout in CSS
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
-
-* [ ] **CODING**
-  * checkpoints
+  * [ ] Create a new _WIP Issue_ in the class repo
+    * [ ] named `11 -- YOUR NAME`
+    * [ ] with this checklist as the description
+  * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] Create a new _WIP Branch_ in:
+    * [ ] `TIY-Assignments` named `11--the-grid-the-bad-and-the-ugly` from `master`
+  * [ ] Create or update the following _WIP Files_:
+    * in folder `ReponsiveMultiColumnForm/`
+      * [ ] `css/mobile.css`
+      * [ ] `css/tablet.css`
+      * [ ] `css/desktop.css`
+      * [ ] `css/styles.css`
+  * in folder `VerticalTimeline/`
+        * [ ] `css/mobile.css`
+        * [ ] `css/tablet.css`
+        * [ ] `css/desktop.css`
+        * [ ] `css/styles.css`
+      * in folder `ViewModeSwitch/`
+        * [ ] `css/styles.css`
+  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `TIY-Assignments` from `11--the-grid-the-bad-and-the-ugly` into `master`
+* [ ] **Finishing the Blueprints**
+  * [ ] **Multi-Column Form**
+    * [ ] Got `styles.css`?
+    * [ ] And `mobile.css`?
+    * [ ] `tablet.css`?
+    * [ ] `desktop.css`?
+    * [ ] And they're all linked to `index.html` correctly?
+    * [ ] Committed and pushed to GitHub!
+    * Time to multi-column this form! In `desktop.css`:
+      * [ ] Get the first column on there
+      * [ ] Then the second
+      * [ ] And the third! It's multi!
+    * [ ] On `styles.css`:
+      * [ ] How can all these stylesheets co-exist? What happens to desktop and tablet when a user is on their phone? Explain in extended comments!
+    * **BEAST MODE** - Pixel perfection!
+    * **NIGHTMARE MODE** - Write a mediq query for XL monitors!
+  * [ ] **Vertical Timeline**
+    * [ ] Got `styles.css`?
+    * [ ] And `mobile.css`?
+    * [ ] `tablet.css`?
+    * [ ] `desktop.css`?
+    * [ ] And they're all linked to `index.html` correctly?
+    * [ ] Committed and pushed to GitHub!
+    * Let's make this timeline vertical!:
+      * [ ] Move those desktop specific styles where they belong!
+      * [ ] Skitch that mobile view (burninate that screenshot!)
+    * And let's build that mobile view:
+      * [ ] The font gets smaller
+      * [ ] And the boxes!
+      * [ ] And all the queries are written
+    * **BEAST MODE** - Perfect the `desktop.css` layout
+  * [ ] **View Mode Switch**
+    * [ ] Got `styles.css`?
+    * [ ] And `mobile.css`?
+    * [ ] `tablet.css`?
+    * [ ] `desktop.css`?
+    * [ ] And they're all linked to `index.html` correctly?
+    * [ ] Committed and pushed to GitHub!
+    * [ ] First view! The Grid!
+      * [ ] Hm those `margin`s look tricky...
+      * [ ] Maybe I need some `padding`?
+      * [ ] Align the text correctly
+      * [ ] And those images
+      * [ ] Not to mention those toggle buttons!
+      * [ ] Buttons now wired to my JavaScript!
+    * [ ] Second view! The List!
+      * [ ] How does it differ from the grid view?
+      * [ ] It's kind of like the grid, too...
+      * [ ] Work on those `margin`s
+      * [ ] And `padding`
+      * [ ] Then get the text on there
+      * [ ] And the images
+      * [ ] Still working with the JavaScript!
+    * **BEAST MODE** - Pixel perfect! :shipit:
+    * **NIGHTMARE MODE** - Mobile ready and in the correct stylesheet!
 ```
 
 ### Finishing the Blueprints
 
-#### Multicolumn Form
+#### Multi-Column Form
 
 First, verify that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in your `css` folder of your `MulticolumnForm` folder. Make sure your common styles are in `styles.css`, while your device specific styles are in their respective stylesheets. If you haven't written your common styles yet, now is the time to do that.
 
@@ -55,7 +125,7 @@ Now, can you _build_ the mobile view...?? There's some dark magics involved here
 
 ##### BEAST MODE
 
-Like Multicolumn Form, Beast Mode tonight is making the `desktop.css` view pixel perfect. What font faces, sizes, and colors do you need? How can you make the layout fit the specs from the original? Try to match your version as closely to the original as possible.
+Like Multi-Column Form, Beast Mode tonight is making the `desktop.css` view pixel perfect. What font faces, sizes, and colors do you need? How can you make the layout fit the specs from the original? Try to match your version as closely to the original as possible.
 
 #### View Mode Switch
 
@@ -65,8 +135,9 @@ View Mode Switch has three distinct views, which means four stylesheets: `styles
 
 Now, focus on the shared styles for `styles.css` and what styles you need for `desktop.css`. Start with the grid. Focus on the selectors and properties you'll need for the _grid layout_ of the site. Hint: you'll need to break into your css toolbox for properties like `max-*`, `min-*`, and pseudo-elements like `::before`, among others. And don't forget the `font-*` properties!
 
-Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...? 
+After you've got the grid set, align the text, then the images. Be careful! You might find they pop your grid out of whack. Just keep adjusting until it's back. Don't forget those toggle buttons in the upper-right hand corner, either. Wire them up to your JavaScript!
 
+Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...? 
 ##### BEAST MODE
 
 Pixel perfect the grid view! Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties to snap that grid in place. Finish off with stylings, like your typography elements.
