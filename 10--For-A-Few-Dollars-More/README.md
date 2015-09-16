@@ -122,15 +122,16 @@ Just when you thought that last night's assignment was too much, here comes BEAS
 
 #### Nested Accordions
 
-First step: CSS. If you still have holes from yesterday's assignment, fill them in. Next: BEAST MODE. If you've forgotten, here's a refresher. Those arrows to the left of the title? Strange magic. They're not "standard" bullets, are they? You'll need to learn about [the `::before` pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore) and [pick a nice arrow character](http://www.amp-what.com/unicode/search/arrow) to use (hint: use the CSS value).
+First step: CSS. If you still have holes from yesterday's assignment, fill them in. Next: BEAST MODE... from yesterday. If you've forgotten... Those arrows to the left of the title? Strange magic. They're not "standard" bullets, are they? You'll need to learn about [the `::before` pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/%3A%3Abefore) and [pick a nice arrow character](http://www.amp-what.com/unicode/search/arrow) to use (hint: use the CSS value), although pretty much _anything_ would be better than the standard bullets.
 
-Once you've got _anything_ besides a standard bullet, how can you replicate that weird twitching whenever your mouse gets close? You'll need to use your new Chrome Dev Tools powers and learn something about `:hover` states to make the colors and the arrow change.
+Once you've got anything besides a standard bullet, how can you replicate that weird twitching whenever your mouse gets close? You'll need to use your new Chrome Dev Tools powers and learn something about `:hover` states to make the colors and the arrow change.
 
 ##### BEAST MODE
 
-If BEAST MODE got upgraded to Normal Mode, what happened to NIGHTMARE MODE? You got it...
+If BEAST MODE got upgraded to Normal Mode, what happened to NIGHTMARE MODE? You guessed it...
 
 > Did you notice how the layout and text changes _ever so slightly_ when the browser window gets smaller? It's as if the layout is _responding_ to the size of the window... How can you make the page responsive like it is in the demo? If you're still eager for more, start your research on **Responsive Web Design** concepts and start documenting the point(s) at which the layout appears to change and what changes. Do this in an extended comment in your `styles.css` file.
+> -- **NIGHTMARE MODE**, **Nested Accordion**, _09 -- Fistful of Dollars_
 
 #### Multi-Column Form
 
