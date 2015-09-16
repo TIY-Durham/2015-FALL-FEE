@@ -97,7 +97,7 @@
       * [ ] Those lines!
       * [ ] And those circles!!
       * [ ] Anything else?
-    * **Beast Mode** - What will we need to make it mobile?
+    * **Beast Mode** - Skitch that "mobile" view!
   * [ ] **View Mode Swich**
       * [ ] Create your `styles.css` file in the `ViewModeSwitch` folder
       * [ ] Commit it and push to GitHub
