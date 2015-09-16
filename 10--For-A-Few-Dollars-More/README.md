@@ -158,15 +158,15 @@ Build it for the desktop!
 
 #### Vertical Timeline
 
-Time for Vertical Timeline! First, get ready with some yak-shaving. Add three links to your `index.html` in the right place: `mobile.css`, `tablet.css`, and `desktop.css`. Then create the files for `mobile.css`, `tablet.css`, and `desktop.css` in your `css/` folder inside your `VerticalTimeline` folder.
+Time for Vertical Timeline! First, get ready with some yak-shaving. Add three `<link>` tags to your `index.html` just _below_ your `styles.css` file for the following _new_ stylesheets in your `css/` folder: `mobile.css`, `tablet.css`, and `desktop.css`. Be sure to create the files, too!
 
-You'll also be tackling last night's Beast Mode. There's some subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line... you might even consider the vertical line itself merely decorative. So as in **Nested Accordion**, you'll need to learn some more about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle? 
+Write extended comments (`/* */`) or, better, docblocks in your `styles.css` file that identify the CSS properties and selectors we'll need to make Vertical Timeline work. The font, color, and background styles should be pretty easy for you, so spend time on the layout instead. Pay careful attention to the subtle decorative challenges you need to work with: the caret on the text block, the icons hanging out over the vertical line, the vertical line iteself.
 
-Write your findings in `css/styles.css` for your **Vertical Timeline** as extended code comments... Why not just single-line comments? Can you find out why?
+As in **Nested Accordion**, you'll need to learn about `::before` and it's twin `::after` to implement those properly. You should also note that several of these boxes seem to be missing their corners... the icons are totally enclosed in circles, even! How do you make a box look like a circle? And yes, this is yesterday's BEAST MODE.
 
 ##### BEAST MODE
 
-Now can you build it...in mobile view??
+Have you analyzed what this layout looks like in a mobile size? Preposterous! There's no way those two things can be related! Skitch the mobile view of the **Vertical Timeline** and add those images to your repo. You've got `mobile.css` and `desktop.css` files now. Move your notes that _only_ apply to the desktop view into `desktop.css`, leaving the ones that apply to _both_ in `styles.css`...
 
 #### View Mode Switch
 
