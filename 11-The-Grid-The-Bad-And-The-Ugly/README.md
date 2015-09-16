@@ -18,10 +18,7 @@ Grid-Based Layout in CSS
   * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
   * _WIP Branch_:
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
+
 * [ ] **CODING**
   * checkpoints
 ```
@@ -42,7 +39,7 @@ Like last night's **Beast Mode**, add commentary to your _WIP Issue_ about the t
 
 Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about perfectly matching _your_ layout to the original one -- down to the last pixel. 
 
-For **Beast Mode**, try to emulate the original Multicolumn Form as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? That's right, time to have a chat with our buddy Dev Tools.
+For Beast Mode, try to emulate the original Multicolumn Form as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? That's right, time to have a chat with our buddy Dev Tools.
 
 ##### NIGHTMARE MODE
 
@@ -52,13 +49,13 @@ There might be giants...giant monitors, that is. (Have you seen the ones in the 
 
 For Vertical Timeline, you'll again want to check that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in your `css` folder within your `VerticalTimeline` directory. If you still need to write your common styles, do so in `styles.css`. 
 
-Last night you got those pesky decorative touches finished. Tonight, you'll move all the styles that _only_ apply to the desktop view to your `desktop.css` stylesheet. Then, like last night's **Beast Mode**, show us your [skills of an artist](http://www.homestarrunner.com/sbemail58.html) and Skitch the mobile view. 
+Last night you got those pesky decorative touches finished. Tonight, you'll move all the styles that _only_ apply to the desktop view to your `desktop.css` stylesheet. Then, like last night's Beast Mode, show us your [skills of an artist](http://www.homestarrunner.com/sbemail58.html) and Skitch the mobile view. 
 
 Now, can you _build_ the mobile view...?? There's some dark magics involved here. You'll have to work with `max-width` and `::before` for sure. And what can you do to `font-size` to make it shrink for mobile view?
 
 ##### BEAST MODE
 
-Like Multicolumn Form, **Beast Mode** tonight is making the `desktop.css` view pixel perfect. What font faces, sizes, and colors do you need? How can you make the layout fit the specs from the original? Try to match your version as closely to the original as possible.
+Like Multicolumn Form, Beast Mode tonight is making the `desktop.css` view pixel perfect. What font faces, sizes, and colors do you need? How can you make the layout fit the specs from the original? Try to match your version as closely to the original as possible.
 
 #### View Mode Switch
 
@@ -68,6 +65,14 @@ View Mode Switch has three distinct views, which means four stylesheets: `styles
 
 Now, focus on the shared styles for `styles.css` and what styles you need for `desktop.css`. Start with the grid. Focus on the selectors and properties you'll need for the _grid layout_ of the site. Hint: you'll need to break into your css toolbox for properties like `max-*`, `min-*`, and pseudo-elements like `::before`, among others. And don't forget the `font-*` properties!
 
+Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...? 
+
 ##### BEAST MODE
 
-It's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...? You can do it, and without touching the HTML.
+Pixel perfect the grid view! Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties to snap that grid in place. Finish off with stylings, like your typography elements.
+
+##### NIGHTMARE MODE
+
+In addition to being a cool example of grid layouts, [View Mode Switch](http://tympanus.net/Blueprints/ViewModeSwitch/) is a responsive site. Don't believe me? Grab the edge of your browser window and shrink...shrink...shrink some more. Boom! Tablet and mobile views!
+
+For Nightmare Mode, try building the mobile view of the grid layout. Stick the styles specific to mobile in your `mobile.css` stylesheet.
