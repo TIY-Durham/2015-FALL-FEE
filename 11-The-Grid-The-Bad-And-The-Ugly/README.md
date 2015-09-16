@@ -34,25 +34,27 @@ First, verify that you've got your `styles.css`, `mobile.css`, `tablet.css`, and
 
 Now that everything is in place, it's time to finish `desktop.css`. This is the traditional view, when there are three columns on the screen. You'll need to use all sorts of css magic to achieve this, like `floats` and other positioning elements. As always, use baby steps. How can you create the columns? How can you make them line up so neatly, equal distance apart?
 
-Remember, you're _only_ writing the css that applies to `desktop.css`. All styles shared between the three views should be in `styles.css`. 
+Remember, you're _only_ writing the css that applies to `desktop.css`. All styles shared between the three views should be in `styles.css`. And there's no reason to touch the HTML!
 
 Like last night's **Beast Mode**, add commentary to your _WIP Issue_ about the three responsive stylesheets and their shared `styles.css` sibling. How do you think the three CSS files interact? How can they "live in harmony" together?
 
 ##### BEAST MODE
 
-Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about matching _your_ layout to the original one -- down to the last pixel. For **Beast Mode**, try to emulate the original Multicolumn Form as completely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? That's right, time to have a chat with our buddy Dev Tools.
+Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about perfectly matching _your_ layout to the original one -- down to the last pixel. 
+
+For **Beast Mode**, try to emulate the original Multicolumn Form as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? That's right, time to have a chat with our buddy Dev Tools.
 
 ##### NIGHTMARE MODE
 
-There might be giants...giant monitors, that is. (Have you seen the ones in the instructor office?) Do some research on designing for large monitors. How do you write XL media queries? Do you even need to? What would Multicolumn Form look like on a giant screen? Create a `xlarge.css` stylesheet and incorporate your newfound knowledge in the styles there. Can you make the site giant monitor ready?
+There might be giants...giant monitors, that is. (Have you seen the ones in the instructor office?) Do some research about designing for larger monitors. How do you write XL media queries? Do you even need to? What would Multicolumn Form look like on a giant screen? Create a `xlarge.css` stylesheet and incorporate your newfound knowledge in the styles there. Can you make the site giant monitor ready?
 
 #### Vertical Timeline
 
-For Vertical Timeline, you'll again want to check that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in your `css` folder within your `VerticalTimeline` folder. If you still need to write your common styles, do so in `styles.css`. 
+For Vertical Timeline, you'll again want to check that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in your `css` folder within your `VerticalTimeline` directory. If you still need to write your common styles, do so in `styles.css`. 
 
 Last night you got those pesky decorative touches finished. Tonight, you'll move all the styles that _only_ apply to the desktop view to your `desktop.css` stylesheet. Then, like last night's **Beast Mode**, show us your [skills of an artist](http://www.homestarrunner.com/sbemail58.html) and Skitch the mobile view. 
 
-Now, can you _build_ the mobile view...?? There's some dark magics involved here. You'll have to work with `max-width` and `:before` for sure. And what can you do to `font-size` to make it shrink for mobile view?
+Now, can you _build_ the mobile view...?? There's some dark magics involved here. You'll have to work with `max-width` and `::before` for sure. And what can you do to `font-size` to make it shrink for mobile view?
 
 ##### BEAST MODE
 
@@ -60,5 +62,12 @@ Like Multicolumn Form, **Beast Mode** tonight is making the `desktop.css` view p
 
 #### View Mode Switch
 
-Last night, you should have done your yak-shaving and Skitched the site. Now it's time to bring this monster to life!
+Last night, you should have done your yak-shaving and Skitched View Mode Switch. Now it's time to bring this monster to life!
 
+View Mode Switch has three distinct views, which means four stylesheets: `styles.css` for shared styles, then `mobile.css`, `tablet.css`, and `desktop.css` for their respective views. Make those, and put them in the `css` folder of your `ViewModeSwitch` directory.
+
+Now, focus on the shared styles for `styles.css` and what styles you need for `desktop.css`. Start with the grid. Focus on the selectors and properties you'll need for the _grid layout_ of the site. Hint: you'll need to break into your css toolbox for properties like `max-*`, `min-*`, and pseudo-elements like `::before`, among others. And don't forget the `font-*` properties!
+
+##### BEAST MODE
+
+It's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...? You can do it, and without touching the HTML.
