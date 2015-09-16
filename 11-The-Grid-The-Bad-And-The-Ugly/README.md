@@ -49,9 +49,9 @@ Grid-Based Layout in CSS
       * [ ] Then the second
       * [ ] And the third! It's multi!
     * [ ] On `styles.css`:
-      * [ ] How can all these stylesheets co-exist? What happens to desktop and tablet when a user is on their phone? Explain in extended comments!
+      * [ ] How can all these stylesheets co-exist? What happens to desktop and tablet when a user is on their phone? Explain!
     * **BEAST MODE** - Pixel perfection!
-    * **NIGHTMARE MODE** - Write a mediq query for XL monitors!
+    * **NIGHTMARE MODE** - Write a media query for XL monitors!
   * [ ] **Vertical Timeline**
     * [ ] Got `styles.css`?
     * [ ] And `mobile.css`?
