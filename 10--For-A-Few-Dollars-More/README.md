@@ -110,12 +110,22 @@
       * [ ] Man, this lady loves some funky `class` names...
     * **Beast Mode** - Skitch that "mobile" view!
   * [ ] **View Mode Swich**
-      * [ ] Create your `styles.css` file in the `ViewModeSwitch` folder
-      * [ ] Commit it and push to GitHub
-      * [ ] Link it in the `index.html`
-      * [ ] Skitch it!
-      * [ ] Commit the Skitch.
-      * [ ] Then mark up the relevant parts.
+      * [ ] Catch up on yak shaving!
+      * [ ] Commited and pushed to GitHub!
+      * [ ] Grab it! (and commit)
+      * [ ] Skitch it! (also commit)
+        * [ ] Stay on target! Just the grid. Only the grid.
+          * [ ] Every bottle is the same. But different.
+          * [ ] It's like there are invisible boxes around each one...
+          * [ ] Does text normally stay centered like that?
+          * [ ] How do those buttons work?
+          * [ ] Oh, look... they're `:hover`-ey!
+        * [ ] STAY ON TARGET! How about that list.. Just the list.
+          * [ ] These bottles seem... I dunno, smaller?
+          * [ ] How big are those columns?
+          * [ ] Wait, how _tall_ are those rows?
+          * [ ] Do boxes normally center themselves vertically?
+          * [ ] I bet these buttons are... exactly the same!?
 ```
 
 ### Journal, Week 2
@@ -177,8 +187,17 @@ Have you analyzed what this layout looks like in a mobile size? Preposterous! Th
 
 #### View Mode Switch
 
-Just when you thought you'd escaped View Mode Switch. Mua ha ha! You'll never get away.
+Just when you thought you'd escaped View Mode Switch. Mua ha ha! You'll never get away... Seriously, there's [a whole website devoted to this kind of stuff](http://csszengarden.com).
 
-Tonight, you're going to do all the View Mode Switch yak-shaving. If you haven't already, you need to delete the linked `.css` from your `index.html`. Then, create your own css file named `styles.css`. Then update the `index.html` to link to your new `styles.css`. Commit the deletions and your new file.
+Tonight, the yak-shaving. Tomorrow, the world! If you haven't already, you need to delete the linked CSS files from your `index.html`. Create your own css file named `styles.css` and update `index.html` to link to your new `styles.css`. Commit all of that.
 
-Now, it's time to get Skitching! Take one full-page screen shot with [our first tool](http://mrcoles.com/full-page-screen-capture-chrome-extension/). Put that into your `ViewModeSwitch/` folder as a file named `full-page.png` and `git add` and `git commit` it. Then open it in [Skitch](https://evernote.com/skitch/) and mark up the relevant parts. Focus on styles that appear to alter the text, colors, borders, indentation, and general layout. Export pieces regularly and save them into your project, too.
+Now, it's time to get Skitching! Take one full-page screen shot with [our first tool](http://mrcoles.com/full-page-screen-capture-chrome-extension/). Put that into your `ViewModeSwitch/` folder as a file named `full-page.png` and `git add` and `git commit` it. Then open it in [Skitch](https://evernote.com/skitch/) and mark up the relevant parts. Focus on styles that appear to alter the text, colors, borders, indentation, and general layout. Export _pieces_ regularly and save them into your project, too.
+
+And that's it! Really! Oh, wait...
+
+##### BEAST MODE
+
+Then there's BEAST MODE. I bet you can guess what to do here, but let's lay it out anyway... Get it? Layout?
+
+Start documenting the _actual CSS_ you need for _just the grid / list section_ of the layout _at the "desktop" view_. We're talking real live CSS selectors and properties, here. Put them in extended comments in `styles.css` so that you're not tripping over the funky CSS syntax yet. That will come later. Focus on the selectors you'll need and the properties to control the _layout_ of the design. Some of the `font-*` properties might help.
+
