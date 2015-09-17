@@ -134,7 +134,18 @@
       * [ ] Then get the text on there
       * [ ] And the images
       * [ ] Still working with the JavaScript!
-    * **BEAST MODE** - Pixel perfect! :shipit:
+    * [ ] And both views are squishy!
+    * **BEAST MODE** - Responsiveness implemented: columns changed, hidden, and more.
+    * **NIGHTMARE MODE** - Pixel perfect! :shipit:
+* [ ] Attack of the Killer TodoMVC
+  * [ ] So I need a function right...
+  * [ ] And maybe some array  methods...
+  * [ ] And definitely an event handler...
+  * [ ] Annnnd a `console.log`...
+  * [ ] ...to make it output to the console!
+  * [ ] Output captured!
+     * [ ] And included in my _WIP Issue_
+  * **BEAST MODE** - 
 ```
 
 ### Finishing the Blueprints
