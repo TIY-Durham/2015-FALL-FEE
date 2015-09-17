@@ -199,11 +199,19 @@ Pixel perfect _both_ views. Work with your `max-*` and `min-*` properties, as we
 
 ### Attack of the Killer TodoMVC
 
-Like a Killer Tomato, ToDoMVC is back. When we last left our intrepid Todo app, you'd created the User Stories for the app. This weekend, you're going to build the _first_ User Story.
+Like a Killer Tomato, ToDoMVC is back. When we last left our intrepid Todo app, you'd created the User Stories for the app in your `TodoMVC/js/app.js` file. This weekend, you're going to build the _first_ User Story.
 
 ```javascript
 // User Stories
 // I can add a task to my todo list so that I can remember to do it later.
 ```
 
+For NORMAL MODE, you'll need to capture the user input and then `console.log` that input. Take a screenshot of the output and include it in your _WIP Issue_.
 
+Don't be afraid to refine your original User Story. Also spend some time thinking through what you might need to use to implement this task. Think back to _days_ ago and all the useful tricks you've learned like `addEventListener`, as well as fun array methods like `.push`. 
+
+For an extra challenge, consider flexing your newfound [jQuery](https://api.jquery.com/) muscles for this task.
+
+##### BEAST MODE
+
+You've successfully logged the output in `console.log`. Now you need to log the item..._in the display_. 
