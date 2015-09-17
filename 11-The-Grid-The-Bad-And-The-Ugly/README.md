@@ -35,6 +35,7 @@ Grid-Based Layout in CSS
     * in folder `ViewModeSwitch/`
       * [ ] `css/styles.css`
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `USERNAME.github.io` from `journal-week-2` into `master` (MERGED)
     * [ ] `TIY-Assignments` from `11--grid-bad-ugly` into `master`
 * [ ] **Finishing the Blueprints**
   * [ ] **Multi-Column Form**
