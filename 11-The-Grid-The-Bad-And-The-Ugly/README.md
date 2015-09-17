@@ -20,46 +20,47 @@ Grid-Based Layout in CSS
     * [ ] with this checklist as the description
   * [ ] **MERGE ALL YOUR OPEN PRs!**
   * [ ] Create a new _WIP Branch_ in:
-    * [ ] `TIY-Assignments` named `11--the-grid-the-bad-and-the-ugly` from `master`
+    * [ ] `TIY-Assignments` named `11--grid-bad-ugly` from `master`
   * [ ] Create or update the following _WIP Files_:
     * in folder `ReponsiveMultiColumnForm/`
       * [ ] `css/mobile.css`
       * [ ] `css/tablet.css`
       * [ ] `css/desktop.css`
       * [ ] `css/styles.css`
-  * in folder `VerticalTimeline/`
-        * [ ] `css/mobile.css`
-        * [ ] `css/tablet.css`
-        * [ ] `css/desktop.css`
-        * [ ] `css/styles.css`
-      * in folder `ViewModeSwitch/`
-        * [ ] `css/styles.css`
+    * in folder `VerticalTimeline/`
+      * [ ] `css/mobile.css`
+      * [ ] `css/tablet.css`
+      * [ ] `css/desktop.css`
+      * [ ] `css/styles.css`
+    * in folder `ViewModeSwitch/`
+      * [ ] `css/styles.css`
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
-    * [ ] `TIY-Assignments` from `11--the-grid-the-bad-and-the-ugly` into `master`
+    * [ ] `TIY-Assignments` from `11--grid-bad-ugly` into `master`
 * [ ] **Finishing the Blueprints**
   * [ ] **Multi-Column Form**
-    * [ ] Got `styles.css`?
-    * [ ] And `mobile.css`?
-    * [ ] `tablet.css`?
-    * [ ] `desktop.css`?
-    * [ ] And they're all linked to `index.html` correctly?
-    * [ ] Committed and pushed to GitHub!
+    * [ ] Shave the yak...
+      * [ ] Got `styles.css`?
+      * [ ] And `mobile.css`?
+      * [ ] `tablet.css`?
+      * [ ] `desktop.css`?
+      * [ ] And they're all linked to `index.html` correctly?
+      * [ ] Committed and pushed to GitHub!
     * Time to multi-column this form! In `desktop.css`:
       * [ ] Get the first column on there
       * [ ] Then the second
       * [ ] And the third! It's multi!
-    * [ ] On `styles.css`:
-      * [ ] How can all these stylesheets co-exist? What happens to desktop and tablet when a user is on their phone? Explain!
+    * [ ] Peace, love and stylesheets: HOW?
     * **BEAST MODE** - Pixel perfection!
     * **NIGHTMARE MODE** - Write a media query for XL monitors!
   * [ ] **Vertical Timeline**
-    * [ ] Got `styles.css`?
-    * [ ] And `mobile.css`?
-    * [ ] `tablet.css`?
-    * [ ] `desktop.css`?
-    * [ ] And they're all linked to `index.html` correctly?
-    * [ ] Committed and pushed to GitHub!
-    * Let's make this timeline vertical!:
+    * [ ] It's not gonna shave itself...
+      * [ ] Got `styles.css`?
+      * [ ] And `mobile.css`?
+      * [ ] `tablet.css`?
+      * [ ] `desktop.css`?
+      * [ ] And they're all linked to `index.html` correctly?
+      * [ ] Committed and pushed to GitHub!
+    * Let's make this Timeline Vertical!:
       * [ ] Move those desktop specific styles where they belong!
       * [ ] Skitch that mobile view (burninate that screenshot!)
     * And let's build that mobile view:
@@ -68,13 +69,14 @@ Grid-Based Layout in CSS
       * [ ] And all the queries are written
     * **BEAST MODE** - Perfect the `desktop.css` layout
   * [ ] **View Mode Switch**
-    * [ ] Got `styles.css`?
-    * [ ] And `mobile.css`?
-    * [ ] `tablet.css`?
-    * [ ] `desktop.css`?
-    * [ ] And they're all linked to `index.html` correctly?
-    * [ ] Committed and pushed to GitHub!
-    * [ ] First view! Welcome to...The Grid.
+    * [ ] What, you think we forgot?
+      * [ ] Got `styles.css`?
+      * [ ] And `mobile.css`?
+      * [ ] `tablet.css`?
+      * [ ] `desktop.css`?
+      * [ ] And they're all linked to `index.html` correctly?
+      * [ ] Committed and pushed to GitHub!
+    * [ ] Welcome back to The Grid, User.
       * [ ] Hm those `margin`s look tricky...
       * [ ] Maybe I need some `padding`?
       * [ ] Align the text correctly
@@ -95,7 +97,9 @@ Grid-Based Layout in CSS
 
 ### Finishing the Blueprints
 
-The end is in sight! You've made, built, colored, and planned the blueprints. Time to finish them up!
+The end is in sight! You've made, built, colored, and planned the blueprints. Time to polish them up! The main concepts you're tackling this weekend is how to apply different styles to the same elements depending on _context_. In **Multi-Column Form** and **Vertical Timeline**, the context is _device-specific_: the browser has to selectively apply certain styles based on specific criteria determined by the size of the viewport. In **View Mode Switch**, the elements contributing to the layout don't change, but the arrangement of them is dependent on criteria altered by JavaScript: the class name of an ancestor.
+
+The two problems are similar but different: their various forms share styles in common but also have styles unique to their own context.
 
 #### Multi-Column Form
 
@@ -111,11 +115,11 @@ Like last night's Beast Mode, add commentary to your _WIP Issue_ about the three
 
 Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about perfectly matching _your_ layout to the original one -- down to the last pixel. 
 
-For Beast Mode, try to emulate the original Multi-Column Form as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? That's right, time to have a chat with our buddy Dev Tools.
+For BEAST MODE, try to emulate the original Multi-Column Form as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? Surely there's [a Chrome extension that could help](http://www.welldonecode.com/perfectpixel/) lying around somewhere...
 
 ##### NIGHTMARE MODE
 
-There might be giants...giant monitors, that is. (Have you seen the ones in the instructor office?) Do some research about designing for larger monitors. How do you write XL media queries? Do you even need to? What would Multi-Column Form look like on a giant screen? Create a `xlarge.css` stylesheet and incorporate your newfound knowledge in the styles there. Can you make the site giant monitor ready?
+We live in an age of giants... giant monitors, that is. Have you seen the ones in the instructor office? Do some research about designing for larger monitors. How do you write XL media queries? Do you even need to? What would **Multi-Column Form** look like on a _giant screen_? Create a `xlarge.css` stylesheet and distill your new-found knowledge into styles there. Can you make your site "giant monitor friendly"?
 
 #### Vertical Timeline
 
