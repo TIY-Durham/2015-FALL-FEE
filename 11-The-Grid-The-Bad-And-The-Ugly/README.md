@@ -154,7 +154,7 @@ How can you make these three (nay, four!) stylesheets work together in harmony? 
 
 ##### BEAST MODE
 
-Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about perfectly matching _your_ layout to the original one -- down to the last pixel. 
+Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about perfectly matching _your_ layout to the original one -- down to the last pixel.
 
 For BEAST MODE, try to emulate the Reference Implementation as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? Surely there's [a Chrome extension that could help](http://www.welldonecode.com/perfectpixel/) lying around somewhere...
 
