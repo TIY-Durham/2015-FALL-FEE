@@ -164,15 +164,13 @@ We live in an age of giants... giant monitors, that is. Have you seen the ones i
 
 #### Vertical Timeline
 
-For Vertical Timeline, you'll again want to check that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in your `css` folder within your `VerticalTimeline` directory. If you still need to write your common styles, do so in `styles.css`. 
+Be sure to have those four CSS files in `css/` and linked in `index.html`: `styles.css`, `mobile.css`, `tablet.css` and `desktop.css`. Have you noticed the differences between "desktop" and "tablet" yet? Refactor your `styles.css` to only contain the _common_ styles and put the desktop-specific styles in `desktop.css`. Then, start working on the "mobile" view.
 
-Last night you got those pesky decorative touches finished. Tonight, you'll move all the styles that _only_ apply to the desktop view to your `desktop.css` stylesheet. Then, like last night's Beast Mode, show us your [skills of an artist](http://www.homestarrunner.com/sbemail58.html) and Skitch the mobile view. 
-
-Now, can you _build_ the mobile view...?? There's some dark magics involved here. You'll have to work with `max-width` and `::before` for sure. And what can you do to `font-size` to make it shrink for mobile view?
+First show us your ["skills of an artist"](http://www.homestarrunner.com/sbemail58.html) and Skitch the mobile view. Now, can you _build_ the mobile view? There's some dark magics involved here. You'll have to add some `max-width` Media Queries and _override_ some styles from `desktop.css` for sure. And what can you do to `font-size` to make it shrink for mobile view?
 
 ##### BEAST MODE
 
-Like Multi-Column Form, Beast Mode tonight is making the `desktop.css` view pixel perfect. What font faces, sizes, and colors do you need? How can you make the layout fit the specs from the original? Try to match your version as closely to the original as possible.
+Pixel perfect: make your layout match your screenshot of the reference implementation _precisely_. What font faces, sizes, and colors do you need?
 
 #### View Mode Switch
 
