@@ -174,7 +174,9 @@ Pixel perfect: make your layout match your screenshot of the reference implement
 
 #### View Mode Switch
 
-Last night, you should have done your yak-shaving and Skitched View Mode Switch. Now it's time to bring this monster to life!
+Last night, you should have done your yak-shaving and Skitch-ing. Now it's time to bring this monster to life!
+
+For this layout, let's just focus on the "desktop" view of the bottles in both "grid" and "list" mode.
 
 View Mode Switch has three distinct views, which means four stylesheets: `styles.css` for shared styles, then `mobile.css`, `tablet.css`, and `desktop.css` for their respective views. Make those, and put them in the `css` folder of your `ViewModeSwitch` directory.
 
@@ -182,7 +184,8 @@ Now, focus on the shared styles for `styles.css` and what styles you need for `d
 
 After you've got the grid set, align the text, then the images. Be careful! You might find they pop your grid out of whack. Just keep adjusting until it's back. Don't forget those toggle buttons in the upper-right hand corner, either. Wire them up to your JavaScript!
 
-Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...? 
+Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...?
+
 ##### BEAST MODE
 
 Pixel perfect the grid view! Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties to snap that grid in place. Finish off with stylings, like your typography elements.
