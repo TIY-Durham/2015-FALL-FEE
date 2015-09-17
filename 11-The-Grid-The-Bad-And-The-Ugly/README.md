@@ -142,7 +142,7 @@
     * [ ] And both views are squishy!
     * **BEAST MODE** - Responsiveness implemented: columns changed, hidden, and more.
     * **NIGHTMARE MODE** - Pixel perfect! :shipit:
-* [ ] Attack of the Killer TodoMVC
+* [ ] **Attack of the Killer TodoMVC**
     * [ ] So I need a function right...
     * [ ] And maybe some array  methods...
     * [ ] And definitely an event handler...
@@ -215,18 +215,16 @@ Pixel perfect _both_ views. Work with your `max-*` and `min-*` properties, as we
 
 ### Attack of the Killer TodoMVC
 
-Like a Killer Tomato, ToDoMVC is back. When we last left our intrepid Todo app, you'd created the User Stories for the app in your `TodoMVC/js/app.js` file. This weekend, you're going to build the _first_ User Story.
+Like a Killer Tomato, ToDoMVC is back. When we last left our intrepid GTD app, you'd crafted pseudo-code for the User Stories in your `TodoMVC/js/app.js` file. This weekend, you're going to build the _first_ User Story with JavaScript.
 
 ```javascript
 // User Stories
 // I can add a task to my todo list so that I can remember to do it later.
 ```
 
-For NORMAL MODE, you'll need to capture the user input and then `console.log` that input. Take a screenshot of the output and include it in your _WIP Issue_.
+Use the Reference Implementation and [the app specification](https://github.com/tastejs/todomvc/blob/master/app-spec.md) to determine the steps and refine your pseudo-code. Capture the `<input>` from the browser (that's a hint, BTW) and then print it to the console. _Take a screenshot of the output_ and include it in your _WIP Issue_.
 
-Don't be afraid to refine your original User Story. Also spend some time thinking through what you might need to use to implement this task. Think back to _days_ ago and all the useful tricks you've learned like `addEventListener`, as well as fun array methods like `.push`. 
-
-For an extra challenge, consider flexing your newfound [jQuery](https://api.jquery.com/) muscles for this task.
+Spend some time thinking through the JavaScript pieces you'll need to implement this task. Think back to _days_ ago and all the useful tricks you've learned like `addEventListener`, as well as fun array methods like `.push`.  For an extra challenge, consider flexing your newfound [jQuery](https://api.jquery.com/) muscles for this task.
 
 ##### BEAST MODE
 
