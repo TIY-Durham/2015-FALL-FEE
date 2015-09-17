@@ -135,7 +135,6 @@
       * [ ] And the images
       * [ ] Still working with the JavaScript!
     * **BEAST MODE** - Pixel perfect! :shipit:
-    * **NIGHTMARE MODE** - Mobile ready and in the correct stylesheet!
 ```
 
 ### Finishing the Blueprints
@@ -186,12 +185,25 @@ After you've got the grid set, align the text, then the images. Be careful! You 
 
 Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...?
 
+Make sure your layout is _squishy_, not static. It shouldn't fall apart when the site gets smaller. 
+
 ##### BEAST MODE
-
-Pixel perfect the grid view! Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties to snap that grid in place. Finish off with stylings, like your typography elements.
-
-##### NIGHTMARE MODE
 
 In addition to being a cool example of grid layouts, [View Mode Switch](http://tympanus.net/Blueprints/ViewModeSwitch/) is a responsive site. Don't believe me? Grab the edge of your browser window and shrink...shrink...shrink some more. Boom! Tablet and mobile views!
 
-For Nightmare Mode, try building the mobile view of the grid layout. Stick the styles specific to mobile in your `mobile.css` stylesheet.
+For Beast Mode, add reponsiveness to the layout. You might need to change your column numbers, maybe even hide columns for certain views...
+
+##### NIGHTMARE MODE
+
+Pixel perfect _both_ views. Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties. Finish off with stylings, like your typography elements.
+
+### Attack of the Killer TodoMVC
+
+Like a Killer Tomato, ToDoMVC is back. When we last left our intrepid Todo app, you'd created the User Stories for the app. This weekend, you're going to build the _first_ User Story.
+
+```javascript
+// User Stories
+// I can add a task to my todo list so that I can remember to do it later.
+```
+
+
