@@ -75,7 +75,12 @@
       * [ ] `css/desktop.css`
       * [ ] `css/styles.css`
     * in folder `ViewModeSwitch/`
+      * [ ] `css/mobile.css`
+      * [ ] `css/tablet.css`
+      * [ ] `css/desktop.css`
       * [ ] `css/styles.css`
+    * in folder `TodoMVC/`
+      * [ ] `js/app.js`
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
     * [ ] `USERNAME.github.io` from `journal-week-2` into `master` (MERGED)
     * [ ] `TIY-Assignments` from `11--grid-bad-ugly` into `master`
