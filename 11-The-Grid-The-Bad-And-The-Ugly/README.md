@@ -138,14 +138,14 @@
     * **BEAST MODE** - Responsiveness implemented: columns changed, hidden, and more.
     * **NIGHTMARE MODE** - Pixel perfect! :shipit:
 * [ ] Attack of the Killer TodoMVC
-  * [ ] So I need a function right...
-  * [ ] And maybe some array  methods...
-  * [ ] And definitely an event handler...
-  * [ ] Annnnd a `console.log`...
-  * [ ] ...to make it output to the console!
-  * [ ] Output captured!
-     * [ ] And included in my _WIP Issue_
-  * **BEAST MODE** - 
+    * [ ] So I need a function right...
+    * [ ] And maybe some array  methods...
+    * [ ] And definitely an event handler...
+    * [ ] Annnnd a `console.log`...
+    * [ ] ...to make it output to the console!
+      * [ ] Output captured!
+      * [ ] And included in my _WIP Issue_
+  * **BEAST MODE** - Add items to the display...IN YOUR BROWSER.
 ```
 
 ### Finishing the Blueprints
@@ -225,4 +225,4 @@ For an extra challenge, consider flexing your newfound [jQuery](https://api.jque
 
 ##### BEAST MODE
 
-You've successfully logged the output in `console.log`. Now you need to log the item..._in the display_. 
+You've successfully logged the output in `console.log`. Now you need to log the item..._in the display_. This is one tough tomato.
