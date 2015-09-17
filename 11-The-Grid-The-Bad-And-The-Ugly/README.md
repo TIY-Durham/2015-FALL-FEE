@@ -191,15 +191,11 @@ Pixel perfect: make your layout match your screenshot of the reference implement
 
 Last night, you should have done your yak-shaving and Skitch-ing. Now it's time to bring this monster to life!
 
-For this layout, let's just focus on the "desktop" view of the bottles in both "grid" and "list" mode.
+For this layout, let's just focus on the "desktop" view of the bottles in both "grid" and "list" mode. Start with assembling the overall grid. Focus on the selectors and properties you'll need for the _grid layout_ of the site. Make _a different file_ in your `ViewModeSwitch/` directory called `grid.html` to practice on. Need a starting point? Copy `index.html` and rip out everything inside the `<body>` tag. Make sure your `styles.css` file is linked in _that_ file and [build your grid _Chris Coyier-style_](https://css-tricks.com/dont-overthink-it-grids/).
 
-View Mode Switch has three distinct views, which means four stylesheets: `styles.css` for shared styles, then `mobile.css`, `tablet.css`, and `desktop.css` for their respective views. Make those, and put them in the `css` folder of your `ViewModeSwitch` directory.
+You'll need to extrapolate a little from the CSS Grid pattern, applying your grid styles to _totally different selectors_ from `index.html` in order to get the "list" and "grid" views working correctly. The "list" will be an easier place to start than the "grid", but y'know what's even _easier_ than layout? Colors!
 
-Now, focus on the shared styles for `styles.css` and what styles you need for `desktop.css`. Start with the grid. Focus on the selectors and properties you'll need for the _grid layout_ of the site. Hint: you'll need to break into your css toolbox for properties like `max-*`, `min-*`, and pseudo-elements like `::before`, among others. And don't forget the `font-*` properties!
-
-After you've got the grid set, align the text, then the images. Be careful! You might find they pop your grid out of whack. Just keep adjusting until it's back. Don't forget those toggle buttons in the upper-right hand corner, either. Wire them up to your JavaScript!
-
-Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...?
+After you've got your _sample_ grid built in `grid.html`, take a break and work on some "look-nice" styles: align the text and the images, set the colors of the buttons and borders, stuff like that. Don't forget those toggle buttons in the upper-right hand corner, either!
 
 Make sure your layout is _squishy_, not static. It shouldn't fall apart when the site gets smaller. 
 
