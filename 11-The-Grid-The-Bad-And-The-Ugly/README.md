@@ -100,27 +100,25 @@ Grid-Based Layout in CSS
 
 The end is in sight! You've made, built, colored, and planned the blueprints. Time to polish them up! The main concepts you're tackling this weekend is how to apply different styles to the same elements depending on _context_. In **Multi-Column Form** and **Vertical Timeline**, the context is _device-specific_: the browser has to selectively apply certain styles based on specific criteria determined by the size of the viewport. In **View Mode Switch**, the elements contributing to the layout don't change, but the arrangement of them is dependent on criteria altered by JavaScript: the class name of an ancestor.
 
-The two problems are similar but different: their various forms share styles in common but also have styles unique to their own context.
-
 #### Multi-Column Form
 
-First, verify that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in the `css` folder of your `MulticolumnForm` folder. Make sure your common styles are in `styles.css`, while your device specific styles are in their respective stylesheets. If you haven't written your common styles yet, now is the time to do that.
+First, verify that you've got your `styles.css`, `mobile.css`, `tablet.css`, and `desktop.css` in the `css` folder of your `MulticolumnForm` folder. Make sure your common styles are in `styles.css`, while your device specific styles are in their respective stylesheets. If you haven't refactored your common styles yet, now is the time to do that.
 
-Now that everything is in place, it's time to finish `desktop.css`. This is the traditional view, when there are three columns on the screen. You'll need to use all sorts of css magic to achieve this, like `floats` and other positioning elements. As always, use baby steps. How can you create the columns? How can you make them line up so neatly, equal distance apart?
+Now that everything is in place, it's time to finish `desktop.css`. This is the traditional view, when there are three columns on the screen. Use the CSS magic we saw in class today to achieve this: `float`-ing columns inside a self-`clear`-ing row. As always, use baby steps. Which elements represent the columns? How much distance is between them? How can you split that distance equally?
 
-Remember, you're _only_ writing the css that applies to `desktop.css`. All styles shared between the three views should be in `styles.css`. And there's no reason to touch the HTML!
+Remember, you're _only_ writing the css that applies to the "desktop" view in `desktop.css`. All styles shared between the three views should be in `styles.css`. Don't try to jump straight to that step, though: red-green-refactor! Finally, there should be _no_ changes to your HTML file; use the HTML you're given to produce the layout.
 
-Like last night's Beast Mode, add commentary to your _WIP Issue_ about the three responsive stylesheets and their shared `styles.css` sibling. How do you think the three CSS files interact? How can they "live in harmony" together?
+How can you make these three (nay, four!) stylesheets work together in harmony? If you haven't already, you'll need to research [using Media Queries to constrain the CSS applied to the page](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). In this case, the criteria is the size of the viewport, and the _simplest_ way to apply those criteria to each stylesheet would be to use the `media` attribute of the `<link>` tag... But do as you will!
 
 ##### BEAST MODE
 
 Have you heard of the term "pixel perfect" before? Pixel perfect can mean a lot of things, but here we're talking about perfectly matching _your_ layout to the original one -- down to the last pixel. 
 
-For BEAST MODE, try to emulate the original Multi-Column Form as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? Surely there's [a Chrome extension that could help](http://www.welldonecode.com/perfectpixel/) lying around somewhere...
+For BEAST MODE, try to emulate the Reference Implementation as closely as possible. Consider `font-*` properties, colors, and especially the distances around and between the elements. What tools are at your disposal to help you in this endeavor? Surely there's [a Chrome extension that could help](http://www.welldonecode.com/perfectpixel/) lying around somewhere...
 
 ##### NIGHTMARE MODE
 
-We live in an age of giants... giant monitors, that is. Have you seen the ones in the instructor office? Do some research about designing for larger monitors. How do you write XL media queries? Do you even need to? What would **Multi-Column Form** look like on a _giant screen_? Create a `xlarge.css` stylesheet and distill your new-found knowledge into styles there. Can you make your site "giant monitor friendly"?
+We live in an age of giants... giant monitors, that is. Have you seen the ones in the instructor office? If you're looking for more of a challenge, do some research about targeting _large_ screens. How do you write _that_? Do you even need to? What would **Multi-Column Form** look like on a _giant screen_? Create a `cinema.css` stylesheet and distill your new-found knowledge into styles there. Can you make your site "giant monitor friendly"?
 
 #### Vertical Timeline
 
