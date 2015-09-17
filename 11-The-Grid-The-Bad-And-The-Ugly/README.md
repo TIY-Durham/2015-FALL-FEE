@@ -75,7 +75,12 @@
       * [ ] `css/desktop.css`
       * [ ] `css/styles.css`
     * in folder `ViewModeSwitch/`
+      * [ ] `css/mobile.css`
+      * [ ] `css/tablet.css`
+      * [ ] `css/desktop.css`
       * [ ] `css/styles.css`
+    * in folder `TodoMVC/`
+      * [ ] `js/app.js`
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
     * [ ] `USERNAME.github.io` from `journal-week-2` into `master` (MERGED)
     * [ ] `TIY-Assignments` from `11--grid-bad-ugly` into `master`
@@ -134,8 +139,18 @@
       * [ ] Then get the text on there
       * [ ] And the images
       * [ ] Still working with the JavaScript!
-    * **BEAST MODE** - Pixel perfect! :shipit:
-    * **NIGHTMARE MODE** - Mobile ready and in the correct stylesheet!
+    * [ ] And both views are squishy!
+    * **BEAST MODE** - Responsiveness implemented: columns changed, hidden, and more.
+    * **NIGHTMARE MODE** - Pixel perfect! :shipit:
+* [ ] Attack of the Killer TodoMVC
+    * [ ] So I need a function right...
+    * [ ] And maybe some array  methods...
+    * [ ] And definitely an event handler...
+    * [ ] Annnnd a `console.log`...
+    * [ ] ...to make it output to the console!
+      * [ ] Output captured!
+      * [ ] And included in my _WIP Issue_
+  * **BEAST MODE** - Add items to the display...IN YOUR BROWSER.
 ```
 
 ### Finishing the Blueprints
@@ -186,12 +201,33 @@ After you've got the grid set, align the text, then the images. Be careful! You 
 
 Now, it's called View Mode _Switch_ for a reason, right? Time to switch that layout to list view! Still working with your `desktop.css` view, build out the list view for the site. You'll need a grid here, too, but with different positioning properties. Wait, if there's a grid view and a list view, how can they share the same css stylesheet...?
 
+Make sure your layout is _squishy_, not static. It shouldn't fall apart when the site gets smaller. 
+
 ##### BEAST MODE
-
-Pixel perfect the grid view! Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties to snap that grid in place. Finish off with stylings, like your typography elements.
-
-##### NIGHTMARE MODE
 
 In addition to being a cool example of grid layouts, [View Mode Switch](http://tympanus.net/Blueprints/ViewModeSwitch/) is a responsive site. Don't believe me? Grab the edge of your browser window and shrink...shrink...shrink some more. Boom! Tablet and mobile views!
 
-For Nightmare Mode, try building the mobile view of the grid layout. Stick the styles specific to mobile in your `mobile.css` stylesheet.
+For Beast Mode, add reponsiveness to the layout. You might need to change your column numbers, maybe even hide columns for certain views...
+
+##### NIGHTMARE MODE
+
+Pixel perfect _both_ views. Work with your `max-*` and `min-*` properties, as well as `padding-*` and `margin-*` properties. Finish off with stylings, like your typography elements.
+
+### Attack of the Killer TodoMVC
+
+Like a Killer Tomato, ToDoMVC is back. When we last left our intrepid Todo app, you'd created the User Stories for the app in your `TodoMVC/js/app.js` file. This weekend, you're going to build the _first_ User Story.
+
+```javascript
+// User Stories
+// I can add a task to my todo list so that I can remember to do it later.
+```
+
+For NORMAL MODE, you'll need to capture the user input and then `console.log` that input. Take a screenshot of the output and include it in your _WIP Issue_.
+
+Don't be afraid to refine your original User Story. Also spend some time thinking through what you might need to use to implement this task. Think back to _days_ ago and all the useful tricks you've learned like `addEventListener`, as well as fun array methods like `.push`. 
+
+For an extra challenge, consider flexing your newfound [jQuery](https://api.jquery.com/) muscles for this task.
+
+##### BEAST MODE
+
+You've successfully logged the output in `console.log`. Now you need to log the item..._in the display_. This is one tough tomato.
