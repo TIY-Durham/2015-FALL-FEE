@@ -9,7 +9,49 @@
 
 ## Agenda
 
-Grid-Based Layout in CSS
+### Yesterday's Weather...
+
+* All you need is a Nested Accordion... estimate :tomato: :tomato: :tomato:, actual ???
+  * Volunteer your Skitch notes, will ya?
+  * What's different? Let's make a plan!
+  * Basic styling: margins, padding, font size, etc
+  * Time to UPGRADE with [Google Web Fonts](http://google.com/fonts)
+  * How about some colors?
+* That Vertical Timeline, though... :tomato: :tomato: :tomato: :tomato:
+  * Who can Skitch?
+  * What's different? Make dat plan!
+  * Basic layout: `float` vs `position`
+    * What can I `position`? How do I position it?
+    * How does that help? Is there a simpler solution?
+    * Which problems does `float` solve? Which does it create?
+    * And _that's_ how you `clear` a room...!
+  * What's left? Have we made progress?
+
+### Is Today's Forecast!
+
+* Flip that View Mode Switch
+  * What is [Grid-Based Design](https://en.wikipedia.org/wiki/Grid_(graphic_design))?
+    * components: rows, columns, gutters
+    * measurements: absolute column units
+    * proportions: [golden ratio](https://en.wikipedia.org/wiki/Golden_ratio)
+  * What is the _default_ layout of HTML elements?
+  * How do I [layout HTML elements in a grid with CSS](https://css-tricks.com/dont-overthink-it-grids/)?
+    * container elements with minimal styles as "rows"
+    * floating elements with fixed `width` as "columns"
+    * [the clearfix hack](https://css-tricks.com/snippets/css/clear-fix/)
+  * How does [Grid-Based Design relate to Responsive Web Design](http://www.responsivegridsystem.com/)?
+    * Research:
+      * [_Grid Systems in Graphic Design_ by Josef Müller-Brockmann](http://www.amazon.com/Grid-Systems-Graphic-Design-Communication/dp/3721201450)
+      * [_A Brief History of Grids_ on Graphics.com](http://www.graphics.com/article-old/brief-history-grids)
+    * Prior Art:
+      * [960.gs](http://960.gs/) -- Not responsive...
+      * [Unsemantic CSS](http://unsemantic.com/) -- kinda dated...
+      * [Skeleton CSS: Grid](http://getskeleton.com/#grid)
+      * [Pure CSS: Grid](http://purecss.io/grids/)
+      * [Bootstrap: Grid](http://getbootstrap.com/css/#grid)
+      * [Zurb Foundation: Grid](http://foundation.zurb.com/grid.html)
+    * Build it yourself!
+      * [_Don't Overthink It Grids_ by Chris Coyier](https://css-tricks.com/dont-overthink-it-grids/)
 
 ## Assignment
 
