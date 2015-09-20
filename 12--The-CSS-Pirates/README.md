@@ -24,6 +24,8 @@
     * [ ] in `USERNAME.github.io` under branch `journal-week-3` (`USERNAME.github.io:journal-week-3`)
       * [ ] `journal-week-3.md` (or your already descriptive name)
       * [ ] `tutorial-week-3.md` (or your already descriptive name)
+  * [ ] Create a GitHub repo named `TIY-Chessboard`
+    * [ ] Include a basic `README.md` in it
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
       * [ ] `REPONAME` from `branch-name` into `master`
       * in folder `CheatSheets/`
@@ -58,8 +60,9 @@
     * [ ] What does that mean about 'yo'?
     * [ ] What does that mean about `generator-h5bp`?
     * [ ] Explanation of `yo --help`...?
- * **Blueprints: Cleaning House**
+ * **Blueprints: Shaving Private Ryan**
  * **Yak-Shaving Chess**
+ * **Git-Hubbing to Know You: Merge Conflicts**
 ```
 
 ### Journal, Week 3+!
@@ -94,6 +97,10 @@ NIGHTMARE MODE -- Include _all_ the `<form>` and `<input>` elements and appropri
 
 ### Install-Fest!
 
-### Blueprints: Cleaning House
+### Blueprints: Shaving Private Ryan
 
 ### Would You Like to Play a Game?: Yak-Shaving Chess
+
+For our big project this week, we'll be building a chess-playing application... well, kind of. Start by creating a _new_ repo in Github called `TIY-Chessboard` with a basic `README.md` file and `CC0` license (or whatever, if you have opinions). Read [the doubly-indexed `Array` example from MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Creating_a_two-dimensional_array).
+
+### GitHubbing to Know You: Merge Conflicts
