@@ -24,6 +24,14 @@
     * [ ] in `USERNAME.github.io` under branch `journal-week-3` (`USERNAME.github.io:journal-week-3`)
       * [ ] `journal-week-3.md` (or your already descriptive name)
       * [ ] `tutorial-week-3.md` (or your already descriptive name)
+    * [ ] in `NestedAccordian`:
+      * [ ] `index.html`
+      * [ ] `css/styles.css`
+      * [ ] `js/scripts.css`
+    * [ ] in `MultiColumnForm`
+      * [ ] `index.html`
+      * [ ] `css/styles.css`
+      * [ ] `js/scripts.css`
   * [ ] Create a GitHub repo named `TIY-Chessboard`
     * [ ] Include a basic `README.md` in it
   * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
@@ -61,6 +69,9 @@
     * [ ] What does that mean about `generator-h5bp`?
     * [ ] Explanation of `yo --help`...?
  * **Blueprints: Shaving Private Ryan**
+    * [ ] Goodbye, Blueprints...clear out `NestedAccordion` and `MultiColumnForm`
+    * [ ] Now let's replace the html on `index.html` with [H5BP](https://html5boilerplate.com/)
+    * [ ] Does it work (i.e. not break) with `browser-sync`?
  * **Yak-Shaving Chess**
  * **Git-Hubbing to Know You: Merge Conflicts**
 ```
@@ -98,6 +109,16 @@ NIGHTMARE MODE -- Include _all_ the `<form>` and `<input>` elements and appropri
 ### Install-Fest!
 
 ### Blueprints: Shaving Private Ryan
+
+You've written the JavaScript for the Blueprints, you've written the CSS for the Blueprints. You know what's coming next, right? The HTML, of course. 
+
+Today, we're only going to focus on two of the Blueprints: Nested Accordion and Multi-Column Form.
+
+#### Nested Accordion
+
+Select all the content in the `index.html` file of `NestedAccordion` and delete it. That's right, wipe it clean. You should be left with a completely blank page. Terrifying! That's ok, we have [HTML5 Boilerplate](https://html5boilerplate.com/) to help us out.
+
+#### Multi-Column Form
 
 ### Would You Like to Play a Game?: Yak-Shaving Chess
 
