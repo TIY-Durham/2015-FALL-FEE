@@ -17,7 +17,17 @@
 * **Journal Week 3**
   * [ ] Rough draft - reflective 
   * [ ] Rough draft - tutorial 
-* **Reading HTML**
+* **Reading HTML***
+  * [ ] Flag in the sand: `about/html.md`
+  * [ ] Explain the structure of the tag
+  * [ ] Non-word characters of the tag
+  * [ ] Review and add tags from HTML5 Boilerplate `index.html`
+    * [ ] `<html>`?
+    * [ ] `<head>`?
+    * [ ] `<body>`?
+  * [ ] Categorized your tags as block-level or inline?
+  * **BEAST MODE** - So. Many. Lists.
+  * **NIGHTMARE MODE** - Forms! Glorious forms!
 * **Install-Fest!**
   * [ ] Open `TIY-Assignments` in Terminal and `pwd`!
   * **Welcome to the Sassy Revolution!**
