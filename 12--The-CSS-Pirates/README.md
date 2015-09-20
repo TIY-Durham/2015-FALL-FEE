@@ -14,6 +14,20 @@
 
 ```markdown
 * **Yak-Shaving**
+  * Create a _WIP Issue_ in the class repo:
+    * [ ] named `11 -- YOUR NAME` 
+    * [ ] with this checklist as the description
+  * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] Create a _WIP Branch_ in:
+  * [ ] `TIY-Assignments` named `12--the-css-pirates` from `master`
+  * [ ] Create or update the following _WIP Files_ in:
+    * [ ] in `USERNAME.github.io` under branch `journal-week-3` (`USERNAME.github.io:journal-week-3`)
+      * [ ] `journal-week-3.md` (or your already descriptive name)
+      * [ ] `tutorial-week-3.md` (or your already descriptive name)
+  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+      * [ ] `REPONAME` from `branch-name` into `master`
+      * in folder `CheatSheets/`
+        * [ ] `html.md`
 * **Journal Week 3**
   * [ ] Rough draft - reflective 
   * [ ] Rough draft - tutorial 
@@ -44,6 +58,8 @@
     * [ ] What does that mean about 'yo'?
     * [ ] What does that mean about `generator-h5bp`?
     * [ ] Explanation of `yo --help`...?
+ * **Blueprints: Cleaning House**
+ * **Yak-Shaving Chess**
 ```
 
 ### Journal, Week 3+!
@@ -57,6 +73,10 @@ Your reflective journal should have a name like `journal-week-3.md`, and your tu
 ### Reading HTML: Block vs Inline
 
 Come on, you didn't think that I'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) (or the same section in Dash) to research and document the tags you'll meet in `about/html.md` (no, I won't make you write it out). Remember, this is _your_ reference, first and foremost, but it's also a part of your portfolio! Hiring managers _love_ to see self-learning resources...!
+
+First, create a new markdown file in your `CheatSheets` repo. Name this file `html.md`. This is where you will update your HTML cheatsheet.
+
+For today, aim for the following targets:
 
 *Identify block vs inline elements, permissible content, permissible parents, and important attributes. Additionally, you MUST include:
 * `<html>`
@@ -72,4 +92,8 @@ BEAST MODE -- Include _all_ the list-describing elements such as `<li>`, `<dt>` 
 
 NIGHTMARE MODE -- Include _all_ the `<form>` and `<input>` elements and appropriate children, noting the differences between `type` attribute values; don't omit `<fieldgroup>` or `<legend>`... They'll come up.
 
-### CODING ASSIGNMENT
+### Install-Fest!
+
+### Blueprints: Cleaning House
+
+### Would You Like to Play a Game?: Yak-Shaving Chess
