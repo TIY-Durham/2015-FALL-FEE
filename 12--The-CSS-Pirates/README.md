@@ -54,7 +54,7 @@ All of the topics from the last three weeks are still fair game. We want _one re
 
 Your reflective journal should have a name like `journal-week-3.md`, and your tutorial entry should be `tutorial-week-3.md` or `how-to-do-something-small.md`.
 
-### Reading HTML
+### Reading HTML: Block vs Inline
 
 Come on, you didn't think that I'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) (or the same section in Dash) to research and document the tags you'll meet in `about/html.md` (no, I won't make you write it out). Remember, this is _your_ reference, first and foremost, but it's also a part of your portfolio! Hiring managers _love_ to see self-learning resources...!
 
