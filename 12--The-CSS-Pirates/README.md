@@ -67,14 +67,16 @@
   * [ ] Peer review x2!
   * [ ] Reviewed peers x2!
 * **Reading HTML***
-  * [ ] Flag in the sand: `about/html.md`
-  * [ ] Explain the structure of the tag
-  * [ ] Non-word characters of the tag
-  * [ ] Review and add tags from HTML5 Boilerplate `index.html`
-    * [ ] `<html>`?
-    * [ ] `<head>`?
-    * [ ] `<body>`?
-  * [ ] Categorized your tags as block-level or inline?
+  * [ ] Created `CheatSheets/HTML.md` from the **Starting Point**... It's a start!
+  * [ ] Explain the structure of an HTML tag...
+  * [ ] What crazy characters are in a tag?
+  * [ ] What _rules_ does a tag follow?
+  * [ ] This is all about the `<html>`, baby.
+  * [ ] Keep your `<head>` about you...
+  * [ ] If I said you had a nice `<body>`...
+  * [ ] 5 different tags documented!
+  * [ ] Make 7-up yours!
+  * [ ] 10! 10 beautiful HTML tags! Ah-ha-ha-hah!
   * **BEAST MODE** - So. Many. Lists.
   * **NIGHTMARE MODE** - Forms! Glorious forms!
 * **Install-Fest!**
