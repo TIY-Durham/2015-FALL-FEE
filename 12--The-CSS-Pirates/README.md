@@ -1,25 +1,34 @@
-12 -- The CSS Pirates
+# 12 -- The CSS Pirates
 
-## Rituals (~1h 15m)
+## Rituals (~2h)
 
 * **Standup Meeting** (~15m)
 * **Homework Review** (~30m)
 * **Weekly QUIZ!** (~15m)
 * **Three Little Things** (~30m)
+* **Retrospective** (~15m)
 * **Parking Lot Topics** (~15m)
 
-## Parking Lot Review
+## Parking Lot Review (~1h)
+
+* [What have we covered so far?](https://github.com/TIY-Durham/2015-FALL-FEE/wiki/Parking-Lot)
+* [Where are we going next?](https://github.com/TIY-Durham/2015-FALL-FEE/wiki/Course-Timeline)
+
 
 ## Assignment
 
 ```markdown
 * **Yak-Shaving**
   * Create a _WIP Issue_ in the class repo:
-    * [ ] named `11 -- YOUR NAME` 
+    * [ ] named `12 -- YOUR NAME`
     * [ ] with this checklist as the description
   * [ ] **MERGE ALL YOUR OPEN PRs!**
+    * [ ] in `USERNAME.github.io` from `journal-week-2` into `master`
+    * [ ] in `TIY-Assignments` from `11--grid-bad-ugly` into `master`
+    * [ ] in _your_ `StudentRoster` named `resolving-conflicts` from _your_ `master`
   * [ ] Create a _WIP Branch_ in:
-  * [ ] `TIY-Assignments` named `12--the-css-pirates` from `master`
+    * [ ] `USERNAME.github.io` named `journal-week-3` from `master`
+    * [ ] `TIY-Assignments` named `12--css-pirates` from `master`
   * [ ] Create or update the following _WIP Files_ in:
     * [ ] in `USERNAME.github.io` under branch `journal-week-3` (`USERNAME.github.io:journal-week-3`)
       * [ ] `journal-week-3.md` (or your already descriptive name)
