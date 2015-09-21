@@ -110,7 +110,6 @@
    * [ ] Examples are made for copying...
    * [ ] Show me your moves!
    * **BEAST MODE** -- Your turn, Mr Kasparov
- * **Git-Hubbing to Know You: Merge Conflicts**
 ```
 
 ### Journal, Week 3+!
@@ -205,5 +204,3 @@ Select all the content in the `index.html` file of `NestedAccordion` and delete 
 ### Would You Like to Play a Game?: Yak-Shaving Chess
 
 For our big project this week, we'll be building a chess-playing application... well, kind of. Start by creating a _new_ repo in Github called `TIY-Chessboard` with a basic `README.md` file and `CC0` license (or whatever, if you have opinions). Read [the doubly-indexed `Array` example from MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Creating_a_two-dimensional_array).
-
-### GitHubbing to Know You: Merge Conflicts
