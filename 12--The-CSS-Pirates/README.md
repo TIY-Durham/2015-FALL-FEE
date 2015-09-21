@@ -102,7 +102,12 @@
     * [ ] Reboot with H5BP!
     * [ ] Relocate those pesky CSS files in `VerticalTimeline` and `ViewModeSwitch`!
     * [ ] Does it work (i.e. not break) with `browser-sync`? What's broken?
- * **Yak-Shaving Chess**
+ * **Chessboard Shaving**
+   * [ ] Might as well start with a `README.md`
+   * [ ] Skitch that interface in `specs/`
+   * [ ] Examples are made for copying...
+   * [ ] Show me your moves!
+   * **BEAST MODE** -- Your turn, Mr Kasparov
  * **Git-Hubbing to Know You: Merge Conflicts**
 ```
 
