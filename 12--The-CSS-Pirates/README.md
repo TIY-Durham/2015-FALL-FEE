@@ -71,6 +71,8 @@
   * [ ] Explain the structure of an HTML tag...
   * [ ] What crazy characters are in a tag?
   * [ ] What _rules_ does a tag follow?
+  * [ ] Do you know your `<!DOCTYPE>`? I'm "C++"...
+  * [ ] `<!-- this seems strangely important -->`
   * [ ] This is all about the `<html>`, baby.
   * [ ] Keep your `<head>` about you...
   * [ ] If I said you had a nice `<body>`...
@@ -121,25 +123,33 @@ If you can't think of what to name your Reflective Journal, `journal-week-3.md` 
 
 ### Reading HTML: Block vs Inline
 
-Come on, you didn't think that I'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) (or the same section in Dash) to research and document the tags you'll meet in `about/html.md` (no, I won't make you write it out). Remember, this is _your_ reference, first and foremost, but it's also a part of your portfolio! Hiring managers _love_ to see self-learning resources...!
+Come on, you didn't think that we'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) to research and document the tags you'll meet this week in `CheatSheets/HTML.md`. So you don't leave out any important details, use the **Starting Point** provided below. Be sure to identify each tag as a block or inline element, the types of permissible content and parents, and document any important attributes.
 
-First, create a new markdown file in your `CheatSheets` repo. Name this file `html.md`. This is where you will update your HTML cheatsheet.
+You MUST include the following tags in your documentation, and 10 tags in all for tonight:
 
-For today, aim for the following targets:
-
-*Identify block vs inline elements, permissible content, permissible parents, and important attributes. Additionally, you MUST include:
+* `<!DOCTYPE>`
+* `<!-- -->`
 * `<html>`
 * `<head>`
 * `<body>`
-* Explain the basic structure of a tag. Include a dissection of the non-word characters used (like brackets, etc), the words inside the brackets, why some tags have other tags in them and how to write them with and without contents.
-* Next, dissect the tags used in `index.html` in the [HTML5 Boilerplate](http://html5boilerplate.com) project. Don't gloss over those weirdo ones like `<!DOCTYPE>` or `<!-- ... -->` with contents (check out [Conditional Comments on Wikipedia](http://en.m.wikipedia.org/wiki/Conditional_comment) for some help).
-* Categorize the tags you document as block-level or inline tags and identify the type of content that is valid within them, if any. Include documentation for any included attributes (like `checked` for `<input type="checkbox">`).
 
-_Don't Repeat Yourself, but be thorough!_ Expand your entries if you run across a different usage of a tag you've already documented. There are three attributes that apply universally to _all_ tags. As you identify them, move them into their own section at the top of your document.
+To start, explain the basic structure of a tag. Include a dissection of the non-word characters used (like brackets, etc), the words inside the brackets, why some tags have other tags in them and how to write them with and without contents. There's a handy pool of examples in [the HTML5 Boilerplate project](http://html5boilerplate.com), so dissect the tags used in `index.html` and `404.html`. For some help with some of the weirdo ones, check out [Conditional Comments on Wikipedia](http://en.m.wikipedia.org/wiki/Conditional_comment).
 
-BEAST MODE -- Include _all_ the list-describing elements such as `<li>`, `<dt>` and their appropriate siblings and parents.
+_There are three attributes that apply universally to all tags._ As you identify them, move them into their own section at the top of your document, as in the **Starting Point**
 
-NIGHTMARE MODE -- Include _all_ the `<form>` and `<input>` elements and appropriate children, noting the differences between `type` attribute values; don't omit `<fieldgroup>` or `<legend>`... They'll come up.
+#### BEAST MODE
+
+Include _all_ the list-describing elements such as `<li>`, `<dt>` and their appropriate siblings and parents. There are only about 6 of them, if you don't count the _experimental_ tags like `<menu>`.
+
+#### NIGHTMARE MODE
+
+Include _all_ [the Interactive Form elements](https://developer.mozilla.org/en-US/docs/Web/HTML/Element#Forms), like `<form>`, `<input>`, `<label>` and the rest, noting the differences between `type` attribute values; don't omit `<fieldgroup>` or `<legend>`... They'll come up.
+
+#### Starting Point
+
+```markdown
+Coming soon!
+```
 
 ### Install-Fest!
 
