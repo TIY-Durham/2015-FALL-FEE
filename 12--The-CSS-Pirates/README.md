@@ -113,11 +113,11 @@
 
 ### Journal, Week 3+!
 
-This week, you should produce not one but _two_ journal entries. No worries, because you've got all those ideas backlogged in your `parking-lot.md`, right? (Right?) Yes, but to get _two_ entries out in a week, you'll either have to learn to write faster or learn to write more efficiently. Maybe you need to spend less time drafting or more time planning? Perhaps you should timebox yourself and just release whatever you've written at the end of the timebox? You could always just forget about proofreading and editing... [just write!](http://john.do/today/)
+This week, you should produce not one but _two_ journal entries. No worries, because you've got all those ideas backlogged in your `parking-lot.md`, right? (Uh, right?) Yes, but to get _two_ entries out in a week, you'll either have to learn to write faster or learn to write more efficiently. Maybe you need to spend less time drafting or more time planning? Perhaps you should time-box yourself and just release whatever you've written at the end of the timebox? You could always just forget about proofreading and editing... [just write!](http://john.do/today/)
 
-All of the topics from the last three weeks are still fair game. We want _one reflective post_ -- review an event, assignment, or lecture from the last three weeks that includes _lessons learned_ or bright/dim/blocker -- **AND** _one tutorial-style post_ -- explain _one small thing_ to me like we've never seen it before: a tool, trick, or technique you've learned how to use. _Include code!_
+All of the topics from the last three weeks are still fair game. Write _one reflective post_ -- review an event, assignment, or lecture from the last three weeks that includes _lessons learned_ or bright/dim/blocker -- **AND** _one tutorial-style post_ -- explain _one small thing_ to someone who's never seen it before: a tool, trick, or technique you've learned how to use. _Include code!_
 
-Your reflective journal should have a name like `journal-week-3.md`, and your tutorial entry should be `tutorial-week-3.md` or `how-to-do-something-small.md`.
+If you can't think of what to name your Reflective Journal, `journal-week-3.md` will suffice. Similarly, `tutorial-week-3.md` is a generic name you can use until you have a better one. Start with a quick "flag in the sand" for both: create a file and dump some rough ideas in it.
 
 ### Reading HTML: Block vs Inline
 
