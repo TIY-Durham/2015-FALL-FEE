@@ -216,4 +216,21 @@ Now that you've destroyed all your work for the last three weeks... Aww, it soun
 
 ### Would You Like to Play a Game?
 
-For our big project this week, we'll be building a chess-playing application... well, kind of. Start by creating a _new_ repo in Github called `TIY-Chessboard` with a basic `README.md` file and `CC0` license (or whatever, if you have opinions). Read [the doubly-indexed `Array` example from MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Creating_a_two-dimensional_array).
+For our big project this week, we'll be building a chess-playing application... well, kind of. Start by creating a _new_ repo in Github called `TIY-Chessboard` with a basic `README.md` file and `CC0` license (or whatever, if you have opinions). Read [the doubly-indexed `Array` example from MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Creating_a_two-dimensional_array), transcribe that into the wiki for your new repo, and _explain_ the following:
+
+* How is that example a _Model_ of a chessboard?
+  * What are the representations of the pieces?
+  * What attributes of the pieces are represented?
+  * What attributes of the board are represented?
+* How are moves recorded on the board?
+* What should happen when a piece is _captured_?
+
+Next, check out [the Catalan Opening: Closed Variation on Chess.com](http://www.chess.com/opening/eco/E06_Catalan_Opening_Closed_Variation) and Skitch the Game Explorer interface. Store your raw and marked up screens in `specs/` inside your new `TIY-Chessboard` repo. Finally, start brainstorming some User Stories -- A Smurf can smurf so that Smurfs can smurf better -- that describe what interactions you can have _with the Game Explorer interface_. That website is _HUGE_, so focus! Put your draft User Stories in you wiki, as well.
+
+#### BEAST MODE
+
+You've seen the opening, now write down some short-hand explanation of the _moves_ in that opening. What piece moves? Where does it move to? How does that relate to the Model of a chessboard that you've been given?
+
+#### NIGHTMARE MODE
+
+There's [a somewhat famous game between Kasparov and Karpov in 1984](http://www.chess.com/games/view?id=353900) that starts with that opening. Since you're already half-way there... use your short-hand system to enumerate the rest of the moves from that game in your wiki.
