@@ -67,9 +67,7 @@
 
 Why are you reading this? 2x journal entry! Chop chop! You should have a draft of both entries by tomorrow. Don't forget to have _at least_ two people read, critique, and approve.
 
-### Reading the HTML: 'Cause the Lists Are Gonna List, List, List, List, List
-
-### Reading HTML
+### Reading the HTML: 'Cause the Lists Are Gonna List, List, List
 
 Easy part: list elements. You know `<ul>` and `<ol>`, but are there others? Make sure you get the tags that go _inside_ the list elements _and_ any pertinent attributes (you know what those are now, right?) for those tags. 
 
@@ -81,6 +79,7 @@ Include _all_ [the Interactive Form elements](https://developer.mozilla.org/en-U
 
 #### NIGHTMARE MODE
 
+There are lots of experimental elements like `<datalist>`, `<menu>`, `<dialog>`, etc. What are they? What do they do? Can you even use them?? Include compatibility notes for each element.
 
 ### Still Working on the Blueprints
 
