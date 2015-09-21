@@ -80,14 +80,14 @@
   * **BEAST MODE** - So. Many. Lists.
   * **NIGHTMARE MODE** - Forms! Glorious forms!
 * **Install-Fest!**
-  * [ ] Open `TIY-Assignments` in Terminal and `pwd`!
+  * [ ] Open `TIY-Assignments`... What's the `pwd`?
   * **Welcome to the Sassy Revolution!**
     * [ ] Install `node-sass` _globally_: `npm install --global node-sass`
     * [ ] What happened to your `package.json` file? Why?
     * [ ] Well, try with that `--save` flag, maybe?
     * [ ] Output of `which node-sass`...?
     * [ ] Explanation of `node-sass --help`...?
-  * [ ] **Yeoman, Ho!**
+  * **Yeoman, Ho!**
     * [ ] More _global_ installs: `npm install --global yo generator-h5bp`
     * [ ] Still no changes to `package.json`...?
     * [ ] Output of `which yo`...?
