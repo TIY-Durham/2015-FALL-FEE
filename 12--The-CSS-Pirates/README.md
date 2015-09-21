@@ -25,7 +25,6 @@
   * [ ] **MERGE ALL YOUR OPEN PRs!**
     * [ ] in `USERNAME.github.io` from `journal-week-2` into `master`
     * [ ] in `TIY-Assignments` from `11--grid-bad-ugly` into `master`
-    * [ ] in _your_ `StudentRoster` named `resolving-conflicts` from _your_ `master`
   * [ ] Create a _WIP Branch_ in:
     * [ ] `USERNAME.github.io` named `journal-week-3` from `master`
     * [ ] `TIY-Assignments` named `12--css-pirates` from `master`
