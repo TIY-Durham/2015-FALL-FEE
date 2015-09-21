@@ -97,13 +97,14 @@
     * [ ] What does that mean about 'yo'?
     * [ ] What does that mean about `generator-h5bp`?
     * [ ] Explanation of `yo --help`...?
- * **Blueprints: Shaving for the Future!**
+ * **Blueprints: Shaving the Future!**
     * [ ] Move all your Skitch notes to `specs/`...
     * [ ] DEATH TO `NestedAccordion`...!
     * [ ] Kill that `index.html` in `MultiColumnForm`!
     * [ ] Reboot with H5BP!
     * [ ] Relocate those pesky CSS files in `VerticalTimeline` and `ViewModeSwitch`!
     * [ ] Does it work (i.e. not break) with `browser-sync`? What's broken?
+    * [ ] Gimme them screenshots!
  * **Chessboard Shaving**
    * [ ] Might as well start with a `README.md`
    * [ ] Skitch that interface in `specs/`
@@ -189,18 +190,30 @@ Now you'll need to `npm install --global yo generator-h5bp` and paste the output
 
 Finally, these are some well-behaved commands we just installed. Give a little play-by-play on what they do by doing some research and checking out the output of each given the `--help` flag.
 
-### Blueprints: Shaving Private Ryan
+### Blueprints: Shaving the Future!
 
-You've written the JavaScript for the Blueprints, you've written the CSS for the Blueprints. You know what's coming next, right? The HTML, of course. 
-
-Today, we're only going to focus on two of the Blueprints: Nested Accordion and Multi-Column Form.
+You've written the JavaScript for the Blueprints, you've written the CSS for the Blueprints. You know what's coming next, don't you? The HTML, of course! But in order to write your own HTML, you have to KILL THE HTML you were given! Let's start with **Nested Accordion**...
 
 #### Nested Accordion
 
-Select all the content in the `index.html` file of `NestedAccordion` and delete it. That's right, wipe it clean. You should be left with a completely blank page. Terrifying! That's ok, we have [HTML5 Boilerplate](https://html5boilerplate.com/) to help us out.
+Sorry, old boy. Pa's taking you out to the shed. I'll miss you.
+
+Move all your Skitch images into their own folder named `specs/` and commit the change. Then, ruthlessly delete everything else: HTML, CSS, JavaScript, the whole thing. *Kablam!*
+
+Start with [a fresh download of HTML5 Boilerplate](https://github.com/h5bp/html5-boilerplate/releases/download/5.2.0/html5-boilerplate_v5.2.0.zip). What did you get?
 
 #### Multi-Column Form
 
-### Would You Like to Play a Game?: Yak-Shaving Chess
+No need for such a dramatic exit for our next friend. Just import another [HTML5 Boilerplate](http://html5boilerplate.com) starting point on top of your existing project. Don't worry, I'm sure it'll be fine! Commit all the updates, and check that `index.html` looks like the "Welcome to HTML5 Boilerplate!" page we'd expect.
+
+#### Vertical Timeline and View Mode Switch
+
+Are you dreading this? No need to worry. These two haven't outlived their usefulness... yet. We'll practice using our new tool, Sass, on these two. Relocate your CSS files from the `css/` directory into a new directory named `scss/`, then rename them to have the `.scss` extension instead of `.css`. For example, `css/styles.css` becomes `scss/styles.scss`.
+
+#### Oh, you thought you were finished?
+
+Now that you've destroyed all your work for the last three weeks... Aww, it sounds so much worse when you say it like that... Anyway, check that it all "works" by running `browser-sync start --server --directory` from the top of your `TIY-Assignments` repository. Man, that's a lot to type. I wish there was a way to make the robot remember that. Pipe dreams! Look at each one of your projects, take a screenshot, and attach the image to your _WIP Issue_. Did everything work like you'd expect? What's missing? What's broke? Explain those wonky screenshots!
+
+### Would You Like to Play a Game?
 
 For our big project this week, we'll be building a chess-playing application... well, kind of. Start by creating a _new_ repo in Github called `TIY-Chessboard` with a basic `README.md` file and `CC0` license (or whatever, if you have opinions). Read [the doubly-indexed `Array` example from MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#Creating_a_two-dimensional_array).
