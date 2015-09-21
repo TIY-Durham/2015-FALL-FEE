@@ -28,6 +28,19 @@
 
 ```markdown
 * **Yak-Shaving**
+ * [ ] Create a _WIP Issue_ in the class repo:
+  * [ ] named `13 -- YOUR NAME` where `YOUR NAME` is, well... your name.
+  * [ ] with this checklist as the description
+* [ ] **MERGE ALL YOUR OPEN PRs!**
+* [ ] Create a _WIP Branch_ in:
+  * [ ] `TIY-Assignments` named `13-the-pirates-of-pen-sass` from `master`
+* [ ] Create or update the following _WIP Files_ in:
+  * in `USERNAME.github.io:journal-week-3`
+    * [ ] CREATE `journal-week-3.md` or another descriptive name
+    * [ ] CREATE `tutorial-week-3.md` or another descriptive name
+* [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `USERNAME.github.io` from `journal-week-3` into `master`
+    * [ ] `TIY-Assignments` from `13-the-pirates-of-pen-sass` into `master`
 * **Journal, Week 3**
   * [ ] Reflective Post
     * [ ] Rough Draft!
