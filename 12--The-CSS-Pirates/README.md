@@ -180,6 +180,16 @@ A generic page division that should only be used if no other, more semantic choi
 
 ### Install-Fest!
 
+This week we'll be learning about and using a few new tools: [Sass](http://sass-lang.com) via [`node-sass`](https://www.npmjs.com/package/node-sass),  [Yeoman](http://yeoman.io), and [HTML5 Boilerplate](http://html5boilerplate.com) via [`generator-h5bp`](https://www.npmjs.com/package/generator-h5bp). To save us precious time in class installing them, part of your homework is to burn your own time waiting for things to download _in the background_.
+
+First, open your `TIY-Assignments` repo in Terminal and paste the results of a `pwd` command as a comment in your _WIP Issue_ (use code fences, please). This will help us debug problems later, if you have them. :smiling_imp:
+
+Next, install `node-sass` _globally_ by running `npm install --global node-sass`. This might take a few minutes, depending. When it finishes, paste the output from `which node-sass` into your comments (_inside_ the code fence). Now check out your `package.json`... What's changed? Anything? How would you tell? Explain...
+
+Now you'll need to `npm install --global yo generator-h5bp` and paste the output from `which yo` and `which generator-h5bp` into another comment; include an explanation of what that output tells you about each package. Any changes to your `package.json`? What's going on there?
+
+Finally, these are some well-behaved commands we just installed. Give a little play-by-play on what they do by doing some research and checking out the output of each given the `--help` flag.
+
 ### Blueprints: Shaving Private Ryan
 
 You've written the JavaScript for the Blueprints, you've written the CSS for the Blueprints. You know what's coming next, right? The HTML, of course. 
