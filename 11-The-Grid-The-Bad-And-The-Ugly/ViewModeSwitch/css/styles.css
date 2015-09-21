@@ -1,0 +1,36 @@
+/**
+ * Stuff we need for a grid:
+ *
+ * - The width of the columns is relative to the width of the viewport
+ * - The width of each column is proportionate to the number of columns
+ * - All columns contribute to a row in proportion to one another
+ * - There is uniform space between each column
+ * - At a certain size, all the columns display as rows
+ * - Each row has a uniform margin on each side: left and right
+ */
+
+row {
+  /* These are the defaults... Not really helpful here. */
+  margin: 0;
+  border: none;
+  padding: 0;
+  width: auto; height: auto;
+
+  /* Let's override them to center each `row`... */
+
+  /* One way to center a box... */
+  margin: 0 10%; /* 10% of what? */
+  margin-left: 10%;
+  margin-right: 10%;
+  width: auto; /* Could omit this, because default */
+
+  /* Another way to center a box... */
+  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; /* Can't omit this! */
+}
+
+row > column {
+  width: value%; /* % of containing element */
+}
