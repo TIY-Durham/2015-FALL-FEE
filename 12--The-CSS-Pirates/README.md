@@ -95,10 +95,13 @@
     * [ ] What does that mean about 'yo'?
     * [ ] What does that mean about `generator-h5bp`?
     * [ ] Explanation of `yo --help`...?
- * **Blueprints: Shaving Private Ryan**
-    * [ ] Goodbye, Blueprints...clear out `NestedAccordion` and `MultiColumnForm`
-    * [ ] Now let's replace the html on `index.html` with [H5BP](https://html5boilerplate.com/)
-    * [ ] Does it work (i.e. not break) with `browser-sync`?
+ * **Blueprints: Shaving for the Future!**
+    * [ ] Move all your Skitch notes to `specs/`...
+    * [ ] DEATH TO `NestedAccordion`...!
+    * [ ] Kill that `index.html` in `MultiColumnForm`!
+    * [ ] Reboot with H5BP!
+    * [ ] Relocate those pesky CSS files in `VerticalTimeline` and `ViewModeSwitch`!
+    * [ ] Does it work (i.e. not break) with `browser-sync`? What's broken?
  * **Yak-Shaving Chess**
  * **Git-Hubbing to Know You: Merge Conflicts**
 ```
