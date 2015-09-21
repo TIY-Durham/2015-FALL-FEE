@@ -123,7 +123,7 @@ If you can't think of what to name your Reflective Journal, `journal-week-3.md` 
 
 ### Reading HTML: Block vs Inline
 
-Come on, you didn't think that we'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) to research and document the tags you'll meet this week in `CheatSheets/HTML.md`. So you don't leave out any important details, use the **Starting Point** provided below. Be sure to identify each tag as a block or inline element, the types of permissible content and parents, and document any important attributes.
+Come on, you didn't think that we'd forget, did you? This week is all about writing HTML, so you'll need to use [the HTML section of MDN](https://developer.mozilla.org/en-US/docs/Web/HTML) to research and document the tags you'll meet this week in `CheatSheets/HTML.md`. So you don't leave out any important details, use the **Starting Point** provided below. Be sure to identify which [content category](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content) each element belongs to, the types of permissible content and parents, and document any important attributes. It would also be good to know how these relate to some key CSS properties... like what's included in the **Starting Point**.
 
 You MUST include the following tags in your documentation, and 10 tags in all for tonight:
 
@@ -148,7 +148,34 @@ Include _all_ [the Interactive Form elements](https://developer.mozilla.org/en-U
 #### Starting Point
 
 ```markdown
-Coming soon!
+## `<html>`
+
+the main enchilada, the whole `document`, that which wraps all the others... except for [`<!DOCTYPE>`](#doctype), for some reason.
+
+* _parents_: none, it's the top
+* _content_: _only_ [`<head>`](#head) and [`<body>`](#body)
+* _display_: `block`, maybe? I mean, I can see it... RESEARCH!
+
+### Attributes
+
+* `class` -- a space-separated list of category names
+* . . .
+
+. . .
+
+## `<div>`
+
+A generic page division that should only be used if no other, more semantic choice is appropriate... and because @al-the-x might kill me if I do when I could use [`<section>`](#section) instead.
+
+* _parents_: anything that accepts [Flow Content][1], which is apparently a lot of things.
+* _content_: any [Flow Contant][1], palpable content (WTF?)
+* _display_: `block`
+
+. . .
+
+###### Footnotes
+
+[1](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Content_categories#Flow_content)
 ```
 
 ### Install-Fest!
