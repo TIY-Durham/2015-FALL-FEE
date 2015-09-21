@@ -30,26 +30,42 @@
     * [ ] `USERNAME.github.io` named `journal-week-3` from `master`
     * [ ] `TIY-Assignments` named `12--css-pirates` from `master`
   * [ ] Create or update the following _WIP Files_ in:
-    * [ ] in `USERNAME.github.io` under branch `journal-week-3` (`USERNAME.github.io:journal-week-3`)
-      * [ ] `journal-week-3.md` (or your already descriptive name)
-      * [ ] `tutorial-week-3.md` (or your already descriptive name)
-    * [ ] in `NestedAccordian`:
-      * [ ] `index.html`
-      * [ ] `css/styles.css`
-      * [ ] `js/scripts.css`
-    * [ ] in `MultiColumnForm`
-      * [ ] `index.html`
-      * [ ] `css/styles.css`
-      * [ ] `js/scripts.css`
-  * [ ] Create a GitHub repo named `TIY-Chessboard`
-    * [ ] Include a basic `README.md` in it
-  * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
-      * [ ] `REPONAME` from `branch-name` into `master`
+    * in `USERNAME.github.io:journal-week-3`
+      * [ ] CREATE `journal-week-3.md` or another descriptive name
+      * [ ] CREATE `tutorial-week-3.md` or another descriptive name
+    * in `TIY-Assignments:12--css-pirates`
+      * in folder `NestedAccordion/`
+        * [ ] MOVE: `*.png` into `specs/`
+        * [ ] DELETE: _everything else_
+        * [ ] IMPORT: HTML5 Boilerplate
+      * in folder `MultiColumnForm/`
+        * [ ] MOVE: `*.png` into `specs/`
+        * [ ] DELETE: `index.html`
+        * [ ] IMPORT: HTML5 Boilerplate
+      * [ ] in folder `VerticalTimeline/`
+        * [ ] MOVE:
+          * `*.png` into `specs/`
+          * `css/*.css` into `scss/`
+        * [ ] CREATE: `css/.gitignore` (empty)
+      * in folder `ViewModeSwitch/`
+        * MOVE:
+          * [ ] `*.png` into `specs/`
+          * [ ] `css/*.css` into `scss/`
+        * [ ] CREATE: `css/.gitignore`
       * in folder `CheatSheets/`
-        * [ ] `html.md`
-* **Journal Week 3**
-  * [ ] Rough draft - reflective 
-  * [ ] Rough draft - tutorial 
+          * [ ] `HTML5.md`
+      * in _new_ folder `Chessboard/`
+        * [ ] IMPORT: HTML5 Boilerplate
+    * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+        * [ ] `USERNAME.github.io` from `journal-week-3` into `master`
+        * [ ] `TIY-Assignments` from `12--css-pirates` into `master`
+        * [ ] `StudentRoster` from `resolving-conflicts` into `TIY-Durham:master`
+* **Journal, Week 3+**
+  * [ ] Created Markdown files for _both_ journal types!
+  * [ ] Flag in the sand for _reflective_!
+  * [ ] Flag in the sand for _tutorial_!
+  * [ ] Peer review x2!
+  * [ ] Reviewed peers x2!
 * **Reading HTML***
   * [ ] Flag in the sand: `about/html.md`
   * [ ] Explain the structure of the tag
