@@ -1,11 +1,11 @@
 # 13 - The Pirates of Pen-Sass
 
-## Rituals (~1h 30m)
+## Rituals (~1h 30m, 10:30am)
 
 * **Standup Meeting** (~15m)
+* **Homework Review** (~30m)
 * **Quiz Time!** (~15m)
 * **Three Little Things** (~30m)
-* **Homework Review** (~30m)
 
 ## Agenda
 
