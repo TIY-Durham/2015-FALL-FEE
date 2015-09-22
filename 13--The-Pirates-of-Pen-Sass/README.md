@@ -53,13 +53,16 @@
   * [ ] Reflective Post
     * [ ] Rough Draft!
     * [ ] Peer Review x2!
-    * [ ] Final Draft!
-    * [ ] Peer Review x 2!
+    * [ ] Reviewed Peers x 2!
   * [ ] Tutorial Post
-    * [ ] Rough Draft!
+    * **Rough Draft**
+      * [ ] Intro: What is the problem, why do I care?
+      * [ ] Step 1: Setting up, installing, etc...
+      * [ ] Step 2: Here's the solution...
+      * [ ] Step 3: What did it do?
+      * [ ] Outro: Summarize the problem and solution; dem links tho!
     * [ ] Peer Review x2!
-    * [ ] Final Draft!
-    * [ ] Peer Review x2!
+    * [ ] Reviewed Peers x2!
 * **Reading HTML**
   * [ ] List types galore!
     * [ ] `<ul>` and `<ol>` are easy...
