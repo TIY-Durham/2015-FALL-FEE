@@ -105,6 +105,16 @@
     * [ ] I still don't get the `&`...
     * [ ] Done, maybe?
 * **Chessboard: Welcome Back to the Grid, User**
+  * [ ] The journey of an 8x8 grid begins with a single square.
+  * [ ] Not technically a grid, but maybe deserving of some labels?
+  * [ ] How about some buttons to nowhere?
+  * [ ] Time for some CSS. Square layout anyone?
+  * [ ] So about that grid... 2x2 to start?
+  * [ ] How hard could those colors be?
+  * [ ] Step it up to 3x3? How about 4x4?
+  * [ ] Should just be scaling up from there...
+  * **BEAST MODE** -- What's a chessboard without pieces?
+  * **NIGHTMARE MODE** -- Would you like to _play_ a game?
 ```
 
 ### Journal, Week 3
@@ -145,12 +155,14 @@ Start refactoring your CSS for **Vertical Timeline** and **View Mode Switch** in
 
 ### Chessboard: Welcome _Back_ To the Grid, User
 
-Build an 8 by 8 responsive grid of squares (equal height and width) using semantic HTML. Include rank (8-1) and file (a-h) markers above and beside the grid. Create a bank of buttons duplicated along the bottom and the top of the grid that include "start over", "go back", "play / pause", "go forward", "to the end" buttons, centered on the page.
+Build an 8 by 8 responsive grid of squares (equal height and width) using semantic HTML and some CSS. Include markers for rank ("8" through "1") and file ("a" through "h") above, below and on each side of the grid. The squares on the grid should alternate colors between dark and light colors, your discretion, but the upper-left and bottom-right squares should be light.
 
-#### BEAST MODE 
+Create a bank of buttons beneath the grid that include "rewind", "step back", "play / pause", "step forward", and "fast forward" buttons, as on the Reference Implementation. Get as fancy as you want to with colors, button styles, and icons. Maybe it's even a good time to check out [Font Awesome](https://fortawesome.github.io/Font-Awesome/)? _Don't over-think this part!_
 
-Place markers that represent the chess pieces on each square of the grid with black on top, white on the bottom. Doing so should not affect the proportions of the grid. The size of the pieces should adjust with the size of the viewport.
+#### BEAST MODE
 
-#### NIGHTMARE MODE 
+Place markers that represent the chess pieces on each square of the grid with "black" on top, "white" on the bottom. Doing so should not affect the proportions of the grid. The size of the pieces should adjust with the size of the viewport. You might need to do some research on Chess to recognize the names, abbreviations, and pictures of the pieces.
 
-Wire up the buttons to print their function to the console when clicked. The `play / pause` button should start printing `"next move"` to the console every second -- "playing" -- until clicked again --"paused". Clicking the button a third time resumes "playing".
+#### NIGHTMARE MODE
+
+Wire up the buttons to print their "name" to the console when clicked, e.g. `"step forward"`. The "play / pause" button should start printing `"next move"` to the console every second -- "playing" -- until clicked again -- "paused". Clicking the button a third time should resume "playing". [The `setInterval` browser function](https://developer.mozilla.org/en-US/docs/Web/API/WindowTimers/setInterval) will help.
