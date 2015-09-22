@@ -121,7 +121,7 @@
 
 Why are you reading this? 2x journal entry! Chop chop! You should have a draft of both entries by tomorrow. Don't forget to have _at least_ two people read, critique, and approve.
 
-### Reading the HTML: 'Cause the Lists Are Gonna List, List, List
+### Reading HTML: List Mode Switch?
 
 Easy part: list elements. You know `<ul>` and `<ol>`, but are there others? Make sure you get the tags that go _inside_ the list elements _and_ any pertinent attributes (you know what those are now, right?) for those tags.
 
