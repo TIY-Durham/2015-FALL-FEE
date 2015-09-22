@@ -10,16 +10,20 @@
 ## Agenda
 
 * CSS is Dead, Long Live Sass
-  * Sass Demo via Sassmeister
-  * Build Nested Accordion
+  * Build Nested Accordion in [SassMeister](http://sassmeister.com)
+    * Need copy? Use [your favorite ipsum](http://meettheipsums.com)
+    * Start with a MF'g Website
+    * Don't write CSS, write Sass!
+  * What does _that_ produce?
 * Compiling Sass via `node-sass`
   * Install `node-sass` _globally_ (you did that already, right?)
+  * Grab some existing CSS... say, Vertical Timeline?
   * Rename `styles.css` to `styles.scss`...
   * Run `node-sass` on plain old CSS to get...?
   * Refactor ugly CSS into better Sass
 * So who now is this Yeoman fellow?
   * Start with an empty directory...
-  * Run `yo h5bp` and a few questions later...
+  * `yo h5bp` and a few questions later...
   * `git status` and... Holy Boilerplate, Batman!
   * Digging in a little...
   * Now RTFM.
