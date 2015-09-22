@@ -39,16 +39,37 @@
   * [ ] in `TIY-Assignments` from `12--css-pirates` into `master`
 * [ ] Create a _WIP Branch_ in:
   * [ ] `TIY-Assignments` named `13--pirates-of-pen-sass` from `master`
+  * [ ] `TIY-Chessboard` named `13--welcome-to-the-grid`
 * [ ] Create or update the following _WIP Files_ in:
   * in `USERNAME.github.io:journal-week-3`
     * [ ] `journal-week-3.md` or another descriptive name
     * [ ] `tutorial-week-3.md` or another descriptive name
   * in `TIY-Assignments:13--pirates-of-pen-sass`
-    * [ ] `CheatSheets/HTML.md`
-    * [ ]
+    * `CheatSheets/HTML.md`
+    * in folder `NestedAccordion/`
+      * `specs/` -- add more Skitch notes!
+      * `index.html`
+      * **BEAST MODE** -- `scss/styles.scss` etc
+      * **NIGHTMARE MODE** -- get some `node-sass` but also `css/.gitignore`
+    * in folder `Multi Column Form/`
+      * `specs/` -- to the Skitches!
+      * `index.html` -- just the facts
+      * **BEAST MODE** -- `scss/styles.scss` etc
+      * **NIGHTMARE MODE** -- `node-sass`, I choose you!
+    * in folder `VerticalTimeline/`
+      * `css/.gitignore` -- trouble me no more, CSS!
+      * `scss/*.scss` -- refactor ALL THE THINGS!
+    * in folder `ViewModeSwitch/`
+      * `css/.gitignore` -- plague me not, vile creatures!
+      * `scss/*.scss` -- May you make epic Sass.
+  * in `TIY-Chessboard:13--welcome-to-the-grid`
+    * `index.html` -- Grid it up!
+    * `css/main.css` -- if you gotta
+    * `scss/main.scss` -- would be better
 * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
     * [ ] `USERNAME.github.io` from `journal-week-3` into `master`
     * [ ] `TIY-Assignments` from `13--pirates-of-pen-sass` into `master`
+    * [ ] `TIY-Chessboard` from `13--welcome-to-the-grid` into `master`
 * **Journal, Week 3**
   * [ ] Reflective Post
     * [ ] Rough Draft!
