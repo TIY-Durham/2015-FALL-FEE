@@ -70,7 +70,40 @@
     * [ ] Any others?
   * **BEAST MODE** -- `<form>` up!
   * **NIGHTMARE MODE** -- Experiment away! Muahaha!
-* **Still Working on the Blueprints**
+* **Blueprints: MF'g Website Edition**
+  * **Nested Accordion**
+    * [ ] Skitchin' for the HTML!
+    * [ ] Looks like a list of some sort...
+    * [ ] My favorite kind of copy is the copy I don't have to write...
+    * [ ] Yo, dawg. I heard you like lists, so I put some lists inside your lists...
+    * [ ] You didn't forget that those were just headings, right?
+    * **BEAST MODE** -- Let the Sass Games begin!
+    * **NIGHTMARE MODE** -- You mean you want it to _work?_
+  * **Multi Column Form**
+    * [ ] Skitch yo' bad self...
+    * [ ] Lots of practice typing text fields...
+    * [ ] Weren't those supposed to go into a column eventually?
+    * [ ] Oh, look, here's a bunch more text fields...
+    * [ ] Finally, a drop-down menu!
+    * [ ] Y'know this form really should have a radio button or two.
+    * [ ] No checkboxes, either? We can fix that...
+    * [ ] Yeah, but there's still a bunch more text fields.
+    * [ ] How about a `<button>` at the bottom?
+    * **BEAST MODE** -- Now make it _Sassy!_
+    * **NIGHTMARE MODE** -- Oh, yeah, that `node-sass` thing again...
+* **Blueprints: Sassy Remix Edition**
+  * **Vertical Timeline**
+    * [ ] Extract a descendent selector?
+    * [ ] Run the `node-sass` command, Luke!
+    * [ ] Nest some `margin` or `padding` properties?
+    * [ ] Try throwing some `&` on those `:hover` or `::before` selectors?
+    * [ ] Check out your progress!
+  * **View Mode Switch**
+    * [ ] There's _gotta_ be a descendent selector in _here_ somewhere...
+    * [ ] Feel that `node-sass` spirit!
+    * [ ] Nesting properties feels a little... weird.
+    * [ ] I still don't get the `&`...
+    * [ ] Done, maybe?
 * **Chessboard: Welcome Back to the Grid, User**
 ```
 
@@ -92,16 +125,23 @@ Include _all_ [the Interactive Form elements](https://developer.mozilla.org/en-U
 
 There are lots of experimental elements like `<datalist>`, `<menu>`, `<dialog>`, etc. What are they? What do they do? Can you even use them?? Include compatibility notes for each element.
 
-### Still Working on the Blueprints
+### Blueprints: MF'g Website Edition
 
-Skitch the Reference Implementations with an eye for the HTML elements we'll need to represent the page, but don't peek at the Element Inspector unless you _really_ get stumped! Use those guidelines to start building a MFg Website version of each: _just semantic HTML!_
+Skitch the Reference Implementations for **Nested Accordion** and **Multi Column Form** with an eye for the HTML elements we'll need to represent the page, but don't peek at the Element Inspector unless you _really_ get stumped! Use those guidelines to start building a "MFg Website" version of each: _just semantic HTML!_
 
-#### BEAST MODE 
+But, hey, you're gonna need copy, right? Why write all that copy yourself, when you can [pick your favorite ipsum](http://meettheipsums.com) instead? No one really liked that "Oat cake tootsie roll" anyway. Since you're giving the copy a little personal touch, why not put your own spin on the form, too? The fields have been left the same, but the `name`'s and `<label>`'s have been changed to protect the innocent.
 
-Start writing Sass (don't worry if it's basically CSS) for your MFg Websites, based on your previous observations from CSS Week. Don't worry about matching the crazy class names or id's from the Reference Implementation. Make your own _semantic_ names instead!
+#### BEAST MODE
+
+Start writing Sass (don't worry if it's basically CSS) for your MF'g Websites based on your previous observations from last week. Don't worry about matching the crazy class names or id's from the Reference Implementation; make your own _semantic_ names instead!
 
 #### NIGHTMARE MODE
-Try _compiling_ your Sass to CSS with that `node-sass` trick. If you manage to generate CSS files, might as well link them into your `index.html` documents.
+
+Try _compiling_ your Sass to CSS with that `node-sass` trick. If you manage to generate CSS files, might as well link them into your `index.html` documents... BUT DON'T COMMIT THEM! Ask me why...
+
+### Blueprints: Sassy Remix Edition
+
+Start refactoring your CSS for **Vertical Timeline** and **View Mode Switch** into nested Sass rules. Run the command `node-sass --output-style expanded --output css/ scss/*.scss` to convert your Sass files back into CSS files in the `css/` directory. Remember to read the error messages when you get them...! If you linked your `*.scss` files into `index.html` last night, link the CSS files you just generated instead. Open your layouts with `browser-sync start --server --directory` and refactor away!
 
 ### Chessboard: Welcome _Back_ To the Grid, User
 
