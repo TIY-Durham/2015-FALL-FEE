@@ -36,15 +36,19 @@
   * [ ] named `13 -- YOUR NAME` where `YOUR NAME` is, well... your name.
   * [ ] with this checklist as the description
 * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] in `TIY-Assignments` from `12--css-pirates` into `master`
 * [ ] Create a _WIP Branch_ in:
-  * [ ] `TIY-Assignments` named `13-the-pirates-of-pen-sass` from `master`
+  * [ ] `TIY-Assignments` named `13--pirates-of-pen-sass` from `master`
 * [ ] Create or update the following _WIP Files_ in:
   * in `USERNAME.github.io:journal-week-3`
-    * [ ] CREATE `journal-week-3.md` or another descriptive name
-    * [ ] CREATE `tutorial-week-3.md` or another descriptive name
+    * [ ] `journal-week-3.md` or another descriptive name
+    * [ ] `tutorial-week-3.md` or another descriptive name
+  * in `TIY-Assignments:13--pirates-of-pen-sass`
+    * [ ] `CheatSheets/HTML.md`
+    * [ ]
 * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
     * [ ] `USERNAME.github.io` from `journal-week-3` into `master`
-    * [ ] `TIY-Assignments` from `13-the-pirates-of-pen-sass` into `master`
+    * [ ] `TIY-Assignments` from `13--pirates-of-pen-sass` into `master`
 * **Journal, Week 3**
   * [ ] Reflective Post
     * [ ] Rough Draft!
