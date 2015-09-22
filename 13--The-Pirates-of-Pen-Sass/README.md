@@ -68,8 +68,8 @@
     * [ ] `<ul>` and `<ol>` are easy...
     * [ ] WTF is a `<dl>` anyway?
     * [ ] Any others?
-    * **BEAST MODE**-  `<forms>` in formation
-    * **NIGHTMARE MODE** - Experiment away! Muahaha!
+  * **BEAST MODE** -- `<form>` up!
+  * **NIGHTMARE MODE** -- Experiment away! Muahaha!
 * **Still Working on the Blueprints**
 * **Chessboard: Welcome Back to the Grid, User**
 ```
@@ -80,7 +80,7 @@ Why are you reading this? 2x journal entry! Chop chop! You should have a draft o
 
 ### Reading the HTML: 'Cause the Lists Are Gonna List, List, List
 
-Easy part: list elements. You know `<ul>` and `<ol>`, but are there others? Make sure you get the tags that go _inside_ the list elements _and_ any pertinent attributes (you know what those are now, right?) for those tags. 
+Easy part: list elements. You know `<ul>` and `<ol>`, but are there others? Make sure you get the tags that go _inside_ the list elements _and_ any pertinent attributes (you know what those are now, right?) for those tags.
 
 Include _all_ the list-describing elements such as `<li>`, `<dt>` and their appropriate siblings and parents. There are only about 6 of them, if you don't count the _experimental_ tags like `<menu>`.
 
