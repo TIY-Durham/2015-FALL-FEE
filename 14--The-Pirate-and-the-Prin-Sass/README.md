@@ -73,11 +73,29 @@
     * [ ] Ran your `.scss` files through `node-sass` 
     * [ ] Gasp! It's CSS!
     * [ ] Checked that it works by linking to `index.html`
-    * [ ] Style the positioning
+    * [ ] Write your own _semantic_ class names
+    * [ ] Get that positioning
     * [ ] And the text
     * [ ] And the colors, too
     * [ ] Anything else?
-  * [ ] 
+  * [ ] `MultiColumnForm`
+    * [ ] Write the _simplest_ Sass definitions that you can
+    * [ ] Ran your `.scss` files through `node-sass` 
+    * [ ] Gasp! It's CSS!
+    * [ ] Checked that it works by linking to `index.html`
+    * [ ] Write your own _semantic_ class names
+    * [ ] Get that positioning
+    * [ ] And the text
+    * [ ] And the colors, too
+    * [ ] Anything else?
+  * [ ] `VerticalTimeline`
+    * [ ] Compile your Sass refactors
+    * [ ] Are they functional??
+  * [ ] `ViewModeSwitch`
+    * [ ] Compile your Sass refactors
+    * [ ] Are they functional?? 
+  * **BEAST MODE** - Sass all the things!
+  * **NIGHTMARE MODE** - Rewrite your JavaScript...with jQuery!!
 * [ ] **The Chessboard: Show me your moves!**
 ```
 
