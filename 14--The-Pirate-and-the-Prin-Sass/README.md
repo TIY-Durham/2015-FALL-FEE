@@ -53,10 +53,8 @@
     * [ ] `USERNAME.github.io` from `journal-week-3` into `master`
     * [ ] `TIY-Assignments` from `14--pirate-princess` into `master`
     * [ ] `TIY-Chessboard` from `14--show-me-your-moves` into `master`
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
+* [ ] **Journal, Week 3+**
+* [ ] **Reading HTML: Form up, Experiment 626**
 * [ ] **Blueprints: Sassing up a Storm**
 * [ ] **The Chessboard: Show me your moves!**
 ```
