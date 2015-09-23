@@ -74,10 +74,19 @@
     * [ ] Gasp! It's CSS!
     * [ ] Checked that it works by linking to `index.html`
     * [ ] Write your own _semantic_ class names
-    * [ ] Get that positioning
+    * [ ] Now think about that positioning...
+      * [ ] Where does the content sit on the page?
+      * [ ] That top-level indentation!
+      * [ ] Those accordions still nest!!
     * [ ] And the text
+      * [ ] Where my Google fonts at?
+      * [ ] How big is that text? How small? Is all the text uniform? Or not??
+      * [ ] `line-height`? 
     * [ ] And the colors, too
+      * [ ] The background color is...
+      * [ ] Can you cornflower blue??
     * [ ] Anything else?
+      * [ ] Those arrows, man. Those arrows.
   * [ ] `MultiColumnForm`
     * [ ] Write the _simplest_ Sass definitions that you can
     * [ ] Ran your `.scss` files through `node-sass` 
@@ -85,8 +94,14 @@
     * [ ] Checked that it works by linking to `index.html`
     * [ ] Write your own _semantic_ class names
     * [ ] Get that positioning
+      * [ ] Columns, columns everywhere
     * [ ] And the text
+      * [ ] Font it!
+      * [ ] Text sizing?
+      * [ ] Line height!
     * [ ] And the colors, too
+      * [ ] The background color is...
+      * [ ] And the text color is...
     * [ ] Anything else?
   * [ ] `VerticalTimeline`
     * [ ] Compile your Sass refactors
