@@ -54,12 +54,24 @@
     * [ ] `TIY-Assignments` from `14--pirate-princess` into `master`
     * [ ] `TIY-Chessboard` from `14--show-me-your-moves` into `master`
 * [ ] **Journal, Week 3+**
+  * [ ] Final draft for reflective entry!
+  * [ ] Rough draft for tutorial!
+  * [ ] Peer review x2!
+  * [ ] Reviewed peers x2!
 * [ ] **Reading HTML: Form up, Experiment 626**
+  * [ ] `<form>`
+  * [ ] `<input>`
+  * [ ] `<label>`
+  * [ ] `<fieldgroup>`
+  * [ ] `<legend>`
+  * [ ] Any others?
 * [ ] **Blueprints: Sassing up a Storm**
 * [ ] **The Chessboard: Show me your moves!**
 ```
 
 ### Journal, Week 3+
+
+It's that time...time for final drafts! Or rather, your final draft for the Reflective entry. Continue to work on your tutorial entry, and get it to a good rough draft state.
 
 ### Reading HTML: Form up, Experiment 626!
 
