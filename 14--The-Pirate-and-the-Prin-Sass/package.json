@@ -4,7 +4,9 @@
   "description": "## Rituals (~1h 30m, 10:30am)",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='index.html'",
+    "sass": "node-sass scss/main.scss --output css/"
   },
   "repository": {
     "type": "git",
