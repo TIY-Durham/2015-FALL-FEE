@@ -1,0 +1,24 @@
+{
+  "name": "14--the-pirate-and-the-prin-sass",
+  "version": "0.0.0",
+  "description": "## Rituals (~1h 30m, 10:30am)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "browser-sync start --server --directory --files='index.html'",
+    "sass": "node-sass scss/main.scss --output css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Durham/2015-FALL-FEE.git"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues"
+  },
+  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme",
+  "dependencies": {
+    "node-sass": "^3.3.3"
+  }
+}
