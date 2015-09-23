@@ -97,11 +97,18 @@
   * **BEAST MODE** - Sass all the things!
   * **NIGHTMARE MODE** - Rewrite your JavaScript...with jQuery!!
 * [ ] **The Chessboard: Show me your moves!**
+  * [ ] Get your starting point ready
+  * [ ] Maybe we should get some pseudocode on there...
+  * [ ] What kind of `mocha` and `chai` tests do you need?
+  * [ ] Get some tracer bullets in there to help you...
+  * [ ] Then wipe the tracer bullets out before you commit!
+  * **BEAST MODE** - Write some pseudocode for Controllers and View helpers. Make the ship sail!
+  * **NIGHTMARE MODE** - Test those View helpers!
 ```
 
 ### Journal, Week 3+
 
-It's that time...time for final drafts! Or rather, your final draft for the Reflective entry. Continue to work on your tutorial entry, and get it to a good rough draft state.
+It's that time...time for final drafts! Or rather, your final draft for the Reflective entry. Continue to work on your tutorial entry, and get it to a good rough draft state. Make sure you get and give those :+1:s!
 
 ### Reading HTML: Form up, Experiment 626!
 
