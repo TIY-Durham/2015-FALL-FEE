@@ -46,6 +46,8 @@
       * [ ] `css/normalize.css` to `scss/normalize.scss`
     * CREATE:
       * [ ] `css/.gitignore` -- JUST IGNORE EVERYTHING
+      * [ ] `js/tests.js` -- to give your tests a home...
+      * [ ] `tests.html` -- for `mocha` in the browser!
     * UPDATE:
       * `js/main.js` -- from the **Starting Point**!
       * `index.html` -- Link a bunch of stuff!
@@ -68,64 +70,75 @@
   * **BEAST MODE** - Experiment away!
   * **NIGHTMARE MODE** - Share the table with the `<table>` family
 * [ ] **Blueprints: Sassing up a Storm**
-  * [ ] `NestedAccordion`
-    * [ ] Write the _simplest_ Sass definitions that you can
-    * [ ] Ran your `.scss` files through `node-sass` 
-    * [ ] Gasp! It's CSS!
-    * [ ] Checked that it works by linking to `index.html`
-    * [ ] Write your own _semantic_ class names
+  * [ ] **Nested Accordion**
+    * [ ] Write the _simplest_ Sass definition that you can...
+    * [ ] Ran your `.scss` files through `node-sass`
+    * [ ] Gasp! It's CSS! And it works!
     * [ ] Now think about that positioning...
-      * [ ] Where does the content sit on the page?
-      * [ ] That top-level indentation!
+      * [ ] Let's get that `<main>` content centered...
+      * [ ] Did someone order some indentation?
       * [ ] Those accordions still nest!!
-    * [ ] And the text
-      * [ ] Where my Google fonts at?
+    * [ ] And the text...
+      * [ ] Where my [Google Fonts](https://google.com/fonts) at?
       * [ ] How big is that text? How small? Is all the text uniform? Or not??
-      * [ ] `line-height`? 
-    * [ ] And the colors, too
+    * [ ] Don't forget the colors!
       * [ ] The background color is...
-      * [ ] Can you cornflower blue??
+      * [ ] Do U even `cornflowerblue`...? Maybe something else.
     * [ ] Anything else?
       * [ ] Those arrows, man. Those arrows.
-  * [ ] `MultiColumnForm`
-    * [ ] Write the _simplest_ Sass definitions that you can
-    * [ ] Ran your `.scss` files through `node-sass` 
-    * [ ] Gasp! It's CSS!
-    * [ ] Checked that it works by linking to `index.html`
-    * [ ] Write your own _semantic_ class names
-    * [ ] Get that positioning
-      * [ ] Columns, columns everywhere
-    * [ ] And the text
-      * [ ] Font it!
-      * [ ] Text sizing?
-      * [ ] Line height!
-    * [ ] And the colors, too
-      * [ ] The background color is...
-      * [ ] And the text color is...
+      * [ ] And the _twitching_! Why? How? What?!
+      * [ ] Just make one `"open"`, wouldya?
+      * [ ] Maybe one at each level, too...
+    * **BEAST MODE** -- jQuery ReMIX!
+  * [ ] **Multi Column Form**
+    * [ ] Write the _simplest_ Sass definition that you can...
+    * [ ] Ran your `.scss` files through `node-sass`
+    * [ ] Gasp! It's CSS! And it works!
+    * [ ] Get into position...
+      * [ ] That "mobile" view is centered...
+      * [ ] Hey, the "tablet" view is centered, too! Kinda.
+      * [ ] Is "desktop" _also_ centered?
+      * [ ] Columns, columns everywhere...
+      * [ ] Man, those `<input>`'s are _spaced out_!
+    * [ ] Now for the text...
+      * [ ] Font it! Size, color, weight, all of that...
+      * [ ] Turns out `line-height` is also important.
+    * [ ] And finally the colors.
+      * [ ] Check out my killer `background`...
     * [ ] Anything else?
-  * [ ] `VerticalTimeline`
-    * [ ] Compile your Sass refactors
-    * [ ] Are they functional??
-  * [ ] `ViewModeSwitch`
-    * [ ] Compile your Sass refactors
-    * [ ] Are they functional?? 
-  * **BEAST MODE** - Sass all the things!
-  * **NIGHTMARE MODE** - Rewrite your JavaScript...with jQuery!!
+  * [ ] **Vertical Timeline**
+    * [ ] What good is a refactor if it doesn't run?
+    * [ ] Anything else to refactor?
+  * [ ] **View Mode Switch**
+    * [ ] No, seriously, didn't you run this already?
+    * [ ] What about that nested property syntax?
+  * **BEAST MODE** - Rewrite your JavaScript...with jQuery!!
+  * **NIGHTMARE MODE** - Sass all the things!
 * [ ] **The Chessboard: Show me your moves!**
-  * [ ] Get your starting point ready
-    * [ ] Wait, what is it even doing?
-    * [ ] Get your gameboard on there in the right place
-    * [ ] What should happen with `initial();`?
-    * [ ] How can I test `initial();`? Looks like I need to write some tests...
-    * [ ] 
-  * [ ] Wipe the tracer bullets out before you commit!
-  * **BEAST MODE** - Write some pseudocode for Controllers and View helpers. Make the ship sail!
-  * **NIGHTMARE MODE** - Test those View helpers!
+  * Get your **Starting Point** ready...
+    * [ ] Step 1: Provided JavaScript in `js/main.js`
+    * [ ] Step 2: Provided HTML in `tests.html` (see below)
+    * [ ] Step 3: Link `chai` in `tests.html`... CDN, anyone?
+    * [ ] Step 4: `require` won't work here... just `mocha.it`!
+    * [ ] Step 5: Shouldn't the tests have their own home?
+  * Get to testing!
+    * [ ] What kind of thing is `game.board`...? What does it do?
+    * [ ] How about `game.reset`? What does it _return_? Any side-effects?
+    * [ ] Resetting a board with no moves is lame, HOW U EVEN `game.applyMove`?
+    * [ ] First move is free, next one costs $10.
+    * [ ] Just calling `game.applyMove` is cheating; `game.next`...!
+    * [ ] Now that you've got some moves, maybe `game.reset` is more interesting?
+    * [ ] You can `game.next` but can you `game.prev`...?
+    * [ ] Y'know, `game.end` is really a lot of `game.next`...
+    * [ ] That `game.play`, tho... How U even `setInterval`?
+  * [ ] Wipe the tracer bullets out before you push!
+  * **BEAST MODE** - Write some pseudocode for Controllers and View Helpers. Make the ship sail!
+  * **NIGHTMARE MODE** - Test those View Helpers!
 ```
 
 ### Journal, Week 3+
 
-It's that time...time for final drafts! Or rather, your final draft for the Reflective entry. Continue to work on your tutorial entry, and get it to a good rough draft state. Make sure you get and give those :+1:s!
+It's that time...time for final drafts! Or rather, your final draft for the _reflective_ entry. Continue to work on your tutorial entry -- due on Monday -- get it to a good rough draft state before tomorrow. You'll need the head start going into the weekend. Make sure you get and give those :+1:s!
 
 ### Reading HTML: Form up, Experiment 626!
 
@@ -149,10 +162,6 @@ Don't forget BEAST MODE from yesterday, though: compile the Sass refactors for *
 
 #### BEAST MODE
 
-Leave no selector un-nested! No WET spot un-DRY-ed! Sass this mother out! I can think of almost no reason that _any_ selector should start with a tag... maybe _end_ with one.
-
-#### NIGHTMARE MODE
-
 Hey, didn't there used to be some JavaScript for all of these? Hmm, maybe we should write that again... using _jQuery_ of course. Start with pseudocode describing the three steps to building a Controller:
 
 1. What Event should trigger my code?
@@ -161,21 +170,27 @@ Hey, didn't there used to be some JavaScript for all of these? Hmm, maybe we sho
 
 Then write some jQuery code, remembering that `jQuery` works like `querySelectorAll` and `jQuery.on` is functionally equivalent to `addEventListener` applied to every element in the collection. Try it!
 
+#### NIGHTMARE MODE
+
+Leave no selector un-nested! No WET spot un-DRY-ed! Sass this mother out! I can think of almost no reason that _any_ selector should start with a tag... maybe _end_ with one.
+
 ### The Chessboard: Show me your moves!
 
 Time to make some moves happen! Start with _tested_ Model-layer code that represents the current state of the board and each move in the game. How can we navigate through the game, move by move? How could we back up a step? Start over? Skip to the finish?
 
-Use the **Starting Point** provided and [write tests with `mocha` and `chai` _in the browser_](http://mochajs.org/#running-mocha-in-the-browser) for the API described. Feel free to use tracer bullets and interactive debugging to help you understand the internal state of the application, but don't leave breakpoints or tracer bullets lying around in your submitted code, please. Always _start_ with EnglishScript in comments -- pseudocode -- that explains your intent, so you have _something_ to submit.
+Use the **Starting Point** provided and [write tests with `mocha` and `chai` _in the browser_](http://mochajs.org/#running-mocha-in-the-browser) for the API described; put the `mocha` boilerplate in a _new_ file called `tests.html`. The tests should really have their own file, too; let's call it `js/tests.js`. What happens when you use `browser-sync` to view `tests.html`...? Maybe link some `<scripts>`, and don't forget the `chai`!
+
+Feel free to use `tracer` bullets and [interactive debugging](http://discover-devtools.codeschool.com/chapters/4) to help you understand the internal state of the application, but don't leave breakpoints or tracer bullets lying around in your submitted code, please. Always _start_ with "EnglishScript" -- pseudocode -- that explains your intent, so you have _something_ to submit.
 
 #### BEAST MODE
 
-The next step is wiring up that core game logic to the visual representation of the board in HTML. How can we update the HTML -- the View-layer -- when a change occurs in the Model-layer? How can we signal the Model-layer that an interactive event -- clicking a button -- has occurred in the View-layer? That sounds like View helpers and Controllers to me!
+The next step is wiring up that core game logic to the visual representation of the board in HTML. How can we update the HTML -- the View-layer -- when a change occurs in the Model-layer? How can we signal the Model-layer that an interactive event -- clicking a button -- has occurred in the View-layer? That sounds like View Helpers and Controllers to me!
 
-Write pseudocode for some of the Controllers -- Event Listeners and their associated callbacks -- and View helpers -- Functions that _just_ update the View. We'll need both of them to make this ship sail!
+Write pseudocode for some of the Controllers -- Event Listeners and their associated callbacks -- and View Helpers -- Functions that _just_ update the View. We'll need both of them to make this ship sail!
 
 #### NIGHTMARE MODE
 
-Can you write tested code for those View helpers? How would you even write tests for that? Hmm... Give it a swing and document what approach you took in code comments.
+Can you write _tested code_ for those View Helpers? How would you even write tests for that? Hmm... Give it a swing and document what approach you took in code comments. You'll may run into some difficulty; don't bulldog it. Write up your experience and what challenges you encountered.
 
 #### Starting Point
 
@@ -204,7 +219,7 @@ Can you write tested code for those View helpers? How would you even write tests
     // TODO: Fill me in!
   ]; // END moves
 
-  // var current;
+  // var current; TODO: do we need this?
 
   // You don't need to understand `globals` yet...
   var game = globals.game = {
@@ -277,21 +292,20 @@ Can you write tested code for those View helpers? How would you even write tests
 
       return bullet;
     },
+    /**
+     * Apply a move to the game board, given a `from` and `to` position that both
+     * contain values for `rank` and `file`.
+     *
+     * @param {Object} from with `rank` and `file`
+     * @param {Object} to with `rank` and `file`
+     * @return undefined
+     *
+     * @todo Fill me in! ...and remove this comment.
+     */
+    function applyMove(from, to){
+      // You should write something in here...
+    } // END applyMove
   }; // END game
-
-  /**
-   * Apply a move to the game board, given a `from` and `to` position that both
-   * contain `rank` and `file` values.
-   *
-   * @param {Object} from with `rank` and `file`
-   * @param {Object} to with `rank` and `file`
-   * @return undefined
-   *
-   * @todo Fill me in! ...and remove this comment.
-   */
-  function applyMove(from, to){
-    // You should write something in here...
-  } // END applyMove
 
   /**
    * Provide the initial state of the game board, useful for any game.
