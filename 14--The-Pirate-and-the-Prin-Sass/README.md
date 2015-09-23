@@ -65,7 +65,19 @@
   * [ ] `<fieldgroup>`
   * [ ] `<legend>`
   * [ ] Any others?
+  * **BEAST MODE** - Experiment away!
+  * **NIGHTMARE MODE** - Share the table with the `<table>` family
 * [ ] **Blueprints: Sassing up a Storm**
+  * [ ] `NestedAccordion`
+    * [ ] Write the _simplest_ Sass definitions that you can
+    * [ ] Ran your `.scss` files through `node-sass` 
+    * [ ] Gasp! It's CSS!
+    * [ ] Checked that it works by linking to `index.html`
+    * [ ] Style the positioning
+    * [ ] And the text
+    * [ ] And the colors, too
+    * [ ] Anything else?
+  * [ ] 
 * [ ] **The Chessboard: Show me your moves!**
 ```
 
