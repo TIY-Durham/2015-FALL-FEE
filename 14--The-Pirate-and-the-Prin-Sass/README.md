@@ -113,10 +113,12 @@
   * **NIGHTMARE MODE** - Rewrite your JavaScript...with jQuery!!
 * [ ] **The Chessboard: Show me your moves!**
   * [ ] Get your starting point ready
-  * [ ] Maybe we should get some pseudocode on there...
-  * [ ] What kind of `mocha` and `chai` tests do you need?
-  * [ ] Get some tracer bullets in there to help you...
-  * [ ] Then wipe the tracer bullets out before you commit!
+    * [ ] Wait, what is it even doing?
+    * [ ] Get your gameboard on there in the right place
+    * [ ] What should happen with `initial();`?
+    * [ ] How can I test `initial();`? Looks like I need to write some tests...
+    * [ ] 
+  * [ ] Wipe the tracer bullets out before you commit!
   * **BEAST MODE** - Write some pseudocode for Controllers and View helpers. Make the ship sail!
   * **NIGHTMARE MODE** - Test those View helpers!
 ```
