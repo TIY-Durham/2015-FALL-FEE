@@ -99,6 +99,20 @@ Then write some jQuery code, remembering that `jQuery` works like `querySelector
 
 ### The Chessboard: Show me your moves!
 
+Time to make some moves happen! Start with _tested_ Model-layer code that represents the current state of the board and each move in the game. How can we navigate through the game, move by move? How could we back up a step? Start over? Skip to the finish?
+
+Use the **Starting Point** provided and [write tests with `mocha` and `chai` _in the browser_](http://mochajs.org/#running-mocha-in-the-browser) for the API described. Feel free to use tracer bullets and interactive debugging to help you understand the internal state of the application, but don't leave breakpoints or tracer bullets lying around in your submitted code, please. Always _start_ with EnglishScript in comments -- pseudocode -- that explains your intent, so you have _something_ to submit.
+
+#### BEAST MODE
+
+The next step is wiring up that core game logic to the visual representation of the board in HTML. How can we update the HTML -- the View-layer -- when a change occurs in the Model-layer? How can we signal the Model-layer that an interactive event -- clicking a button -- has occurred in the View-layer? That sounds like View helpers and Controllers to me!
+
+Write pseudocode for some of the Controllers -- Event Listeners and their associated callbacks -- and View helpers -- Functions that _just_ update the View. We'll need both of them to make this ship sail!
+
+#### NIGHTMARE MODE
+
+Can you write tested code for those View helpers? How would you even write tests for that? Hmm... Give it a swing and document what approach you took in code comments.
+
 #### Starting Point
 
 ```javascript
@@ -236,7 +250,3 @@ Then write some jQuery code, remembering that `jQuery` works like `querySelector
 // You are not expected to understand anything below this line...
 })(window || module && module.exports || this);
 ```
-
-## Resources
-
-* LINK
