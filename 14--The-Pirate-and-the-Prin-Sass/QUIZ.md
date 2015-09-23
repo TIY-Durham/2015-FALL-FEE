@@ -1,3 +1,5 @@
+build-lists: true
+
 ## Being for the benefit of
 # Mister
 # [fit] QUIZ
