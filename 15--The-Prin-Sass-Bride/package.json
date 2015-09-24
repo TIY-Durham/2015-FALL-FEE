@@ -4,7 +4,9 @@
   "description": "What about the ROUS's?",
   "main": "index.html",
   "scripts": {
-    "test": "mocha js/tests.js"
+    "test": "mocha js/tests.js",
+    "start": "browser-sync start --server --directory --files='index.html,js/*.js,css/*.css'",
+    "sass": "node-sass --output css/ scss/main.scss"
   },
   "repository": {
     "type": "git",
