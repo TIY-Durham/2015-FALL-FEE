@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues"
   },
-  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme"
+  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.6",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "node-sass": "^3.3.3"
+  }
 }
