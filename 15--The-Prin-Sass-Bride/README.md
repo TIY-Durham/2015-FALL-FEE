@@ -56,10 +56,10 @@ Enough talking. Enough review. I'm building stuff. Happy friggin' birthday.
   * [ ] `<td>` or not `<td>`?
   * [ ] that would be `<th>`
 * [ ] **Blueprints: jQuery me this, Batman?**
- * [ ] You got some working JavaScript for View Mode Switch?
- * [ ] Wait, you don't? Time to pseudocode it...
- * [ ] Either way -- commit that `scripts.js` 
- * [ ] Now make that View Mode Switch into jQuery!
+  * [ ] You got some working JavaScript for View Mode Switch?
+  * [ ] Wait, you don't? Time to pseudocode it...
+  * [ ] Either way -- commit that `scripts.js` 
+  * [ ] Now make that View Mode Switch into jQuery!
 * [ ] **The Chessboard: Crossed Wires**
 ```
 
