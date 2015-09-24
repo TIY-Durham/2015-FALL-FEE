@@ -41,7 +41,10 @@ Enough talking. Enough review. I'm building stuff. Happy friggin' birthday.
         * `main.js` -- in case something breaks
         * `tests.js` -- Controllers are hard to test
       * `index.html` -- wire 'em up!
-  * [ ] **Journal, Week 3+ -- The Voyage Homework**
+* [ ] **Journal, Week 3+ -- The Voyage Homework**
+  * [ ] Finish up that tutorial journal!
+  * [ ] Merge your existing PR but DON'T DELETE THE BRANCH!
+  * [ ] Open a new PR into `master` to track what you do until Monday
 * [ ] **Reading HTML**
   * [ ] come to the `<table>`
   * [ ] no one ever reads the `<caption>`
@@ -52,8 +55,8 @@ Enough talking. Enough review. I'm building stuff. Happy friggin' birthday.
   * [ ] `<tr>` coffee?
   * [ ] `<td>` or not `<td>`?
   * [ ] that would be `<th>`
-  * [ ] **Blueprints: jQuery me this, Batman?**
-  * [ ] **The Chessboard: Crossed Wires**
+* [ ] **Blueprints: jQuery me this, Batman?**
+* [ ] **The Chessboard: Crossed Wires**
 ```
 
 ### Journal: Week 3+ -- The Voyage Homework
