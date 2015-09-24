@@ -1,0 +1,19 @@
+{
+  "name": "15--prin-sass-bride",
+  "version": "0.0.0",
+  "description": "What about the ROUS's?",
+  "main": "index.html",
+  "scripts": {
+    "test": "mocha js/tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Durham/2015-FALL-FEE.git"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues"
+  },
+  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme"
+}
