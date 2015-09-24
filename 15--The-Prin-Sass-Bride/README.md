@@ -42,9 +42,6 @@ Enough talking. Enough review. I'm building stuff. Happy friggin' birthday.
         * `tests.js` -- Controllers are hard to test
       * `index.html` -- wire 'em up!
 * [ ] **Journal, Week 3+ -- The Voyage Homework**
-  * [ ] Finish up that tutorial journal!
-  * [ ] Merge your existing PR but DON'T DELETE THE BRANCH!
-  * [ ] Open a new PR into `master` to track what you do until Monday
 * [ ] **Reading HTML**
   * [ ] come to the `<table>`
   * [ ] no one ever reads the `<caption>`
@@ -56,10 +53,6 @@ Enough talking. Enough review. I'm building stuff. Happy friggin' birthday.
   * [ ] `<td>` or not `<td>`?
   * [ ] that would be `<th>`
 * [ ] **Blueprints: jQuery me this, Batman?**
-  * [ ] You got some working JavaScript for View Mode Switch?
-  * [ ] Wait, you don't? Time to pseudocode it...
-  * [ ] Either way -- commit that `scripts.js` 
-  * [ ] Now make that View Mode Switch into jQuery!
 * [ ] **The Chessboard: Crossed Wires**
 ```
 
