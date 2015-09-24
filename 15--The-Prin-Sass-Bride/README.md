@@ -42,7 +42,16 @@ Enough talking. Enough review. I'm building stuff. Happy friggin' birthday.
         * `tests.js` -- Controllers are hard to test
       * `index.html` -- wire 'em up!
   * [ ] **Journal, Week 3+ -- The Voyage Homework**
-  * [ ] **Reading HTML: If I had a table...**
+* [ ] **Reading HTML**
+  * [ ] come to the `<table>`
+  * [ ] no one ever reads the `<caption>`
+  * [ ] `<col>` waiting? I got `<colgroup>`!
+  * [ ] you've got a nice `<tbody>`
+  * [ ] but don't let it go to your `<thead>`
+  * [ ] shot in the `<tfoot>`
+  * [ ] `<tr>` coffee?
+  * [ ] `<td>` or not `<td>`?
+  * [ ] that would be `<th>`
   * [ ] **Blueprints: jQuery me this, Batman?**
   * [ ] **The Chessboard: Crossed Wires**
 ```
