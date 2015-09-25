@@ -23,7 +23,7 @@
   * [ ] Flag in the sand for _tutorial_!
   * [ ] Peer review x2!
   * [ ] Reviewed peers x2!
-* [ ] **Reading APIs: GitHub**
+* **Reading APIs: GitHub**
   * [ ] Create `CheatSheets/GitHubAPI.md`
   * [ ] Start with the **Starting Point**
   * [ ] Add items to this checklist for The Questions
