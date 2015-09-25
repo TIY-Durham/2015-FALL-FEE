@@ -6,7 +6,7 @@
 * **Homework Review** (~30m)
 * **Weekly QUIZ!** (~15m)
 * **Three Little Things** (~30m)
-* **Grok Topicss** (~15m)
+* **Grok Topics** (~15m)
 
 ## Monday Grok
 
