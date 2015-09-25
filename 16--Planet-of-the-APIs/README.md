@@ -38,9 +38,7 @@
   * [ ] Start with the **Starting Point**
   * [ ] Add items to this checklist for The Questions
   * [ ] Get to checkin' off boxes!
-* [ ] **CODING**
-  * checkpoints
-* [ ] **INSTALLING**
+* GitHub Revolution
 ```
 
 ### Journal, Week 4
