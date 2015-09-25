@@ -1,4 +1,4 @@
-# 16 -- The Planet of the APIs
+# 16 -- Planet of the APIs
 
 ## Rituals (~1h 15m)
 
