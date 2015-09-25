@@ -6,9 +6,9 @@
 * **Homework Review** (~30m)
 * **Weekly QUIZ!** (~15m)
 * **Three Little Things** (~30m)
-* **Parking Lot Topics** (~15m)
+* **Grok Topicss** (~15m)
 
-## Parking Lot Review
+## Monday Grok
 
 ## Assignment
 
