@@ -13,10 +13,20 @@
 ## Assignment
 
 ```markdown
-* [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  *  _WIP Branch_:
-  * _WIP Files_:
+* **Yak-Shaving**
+ * [ ] Create a _WIP Issue_ in the class repo:
+   * [ ] named `XX -- YOUR NAME` where `YOUR NAME` is, well... your name.
+   * [ ] with this checklist as the description
+* [ ] **MERGE ALL YOUR OPEN PRs!**
+* [ ] Create a _WIP Branch_ in:
+  * [ ] `TIY-Assignments` named `16-planet-of-the-apis` from `master`
+* [ ] Create or update the following _WIP Files_ in:
+  * `TIY-Assignments:16-planet-of-the-apis`
+    * `folder/`
+      * `filename.ext`
+    * `filename.ext`
+* [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `TIY-Assignments` from `16-planet-of-the-apis` into `master`
 * **Journal, Week 4**
   * [ ] Created Markdown files for _both_ journal types!
   * [ ] Flag in the sand for _reflective_!
