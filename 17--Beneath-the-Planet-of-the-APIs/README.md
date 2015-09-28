@@ -16,11 +16,14 @@
   * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
   * _WIP Branch_:
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
+* **Journal, Week 4**
+  * [ ] Outline for _reflective_!
+  * [ ] Outline for _tutorial_!
+  * [ ] Peer review x2!
+  * [ ] Reviewed peers x2!
 * [ ] **READING**
   * checkpoints
-* [ ] **Github Revolution, Part 2**
+* **Github Revolution, Part 2**
   * [ ] Skitched them mobiles!
   * [ ] Mobile Features
     * [ ] `feature/mobile-tabs`
@@ -47,6 +50,8 @@
 ```
 
 ### Journal, Week 4+
+
+Last night you brainstormed topics. Now it's time to choose two -- one for your reflective entry and one for your tutorial. Outline both entries, then get them reviewed by your peers. Be sure to review theirs, too!
 
 ### Reading APIs
 
