@@ -7,7 +7,7 @@
 * **Quiz Time!** (~15m)
 * **Three Little Things** (~30m)
 
-## Agenda
+## Tools on Tuesday
 
 ## Assignment
 
