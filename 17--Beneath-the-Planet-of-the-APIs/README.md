@@ -12,10 +12,23 @@
 ## Assignment
 
 ```markdown
-* [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
+* **Yak-Shaving**
+  * [ ] Create a _WIP Issue_ in the class repo
+  * [ ] **MERGE ALL YOUR OPEN PRs!**
+  * [ ] Create a _WIP Branch_ in:
+    * [ ] `USERNAME.github.io` named `journal-week-4` from `master`
+    * [ ] `TIY-Assignments` named `17--beneath-the-planet-of-the-APIs` from `master`
+    * [ ] `TIY-GitHub` named `yak-shaving` from `master`
+* [ ] Create or update the following _WIP Files_ in:
+    * `USERNAME.github.io:journal-week-4`
+      * `journal-week-4.md` or something creative
+      * `tutorial-week-4.md` or something creative
+    * `TIY-Assignments:17--beneath-the-planet-of-the-APIs`
+      * `CheatSheets/GitHubAPI.md` -- Did you have a **Starting Point**?
+* [ ] Add comments to your _WIP Issue_ with links to your PRs in:
+    * [ ] `USERNAME.github.io` from `journal-week-4` into `master`
+    * [ ] `TIY-Assignments` from `17--beneath-the-planet-of-the-APIs` into `master`
+    * [ ] `TIY-GitHub` from `yak-shaving` into `master`
 * **Journal, Week 4**
   * [ ] Outline for _reflective_!
   * [ ] Outline for _tutorial_!
