@@ -20,12 +20,44 @@
   * checkpoints
 * [ ] **READING**
   * checkpoints
-* [ ] **CODING**
-  * checkpoints
+* [ ] **Github Revolution, Part 2**
+  * [ ] Skitched them mobiles!
+  * [ ] Mobile Features
+    * [ ] `feature/mobile-tabs`
+    * [ ] `feature/mobile-profile-details`
+    * [ ] `feature/mobile-popular-repos`
+    * [ ] `feature/mobile-contrib-repos`
+    * [ ] `feature/mobile-repos-repo-list` :angry:
+    * [ ] `feature/mobile-repos-repo`
+  * [ ] Desktop Features
+    * [ ] `feature/desktop-profile-details`
+    * [ ] `feature/desktop-2-columns`
+    * [ ] `feature/desktop-tabs`
+    * [ ] `feature/desktop-contribs-repo-list`
+    * [ ] `feature/desktop-repos-repo-list`
+    * [ ] `feature/desktop-repos-repo`
+    * [ ] `feature/desktop-repos-repo-graph` :imp:
+    * [ ] `feature/desktop-contrib-graph` :itsatrap:
+    * [ ] `feature/desktop-contrib-activity` :notsure:
+  * [ ] **Spec my feature?**
+    * [ ] Help from the left on...
+    * [ ] Help from the right on...
+    * [ ] Helped the left on...
+    * [ ] Helped the right on...
 ```
 
 ### Journal, Week 4+
 
 ### Reading APIs
 
-### GitHub Revolution
+### Github Revolution, Part 2
+
+You skitched all those breakpoints already, right? Except that _Github doesn't use breakpoints_. There are _no_ Media Queries whatsoever. Switch your User-Agent (UA) identifier to a mobile device and reload... That's _adaptive_ rather than _responsive_, and that's a problem. Let's fix it.
+
+Your assignment for the weekend is to build out HTML and CSS for a _responsive_ Github profile. Start Mobile-First and expand to desktop. I've suggested some features for you, in case you need guidance. Feel free to add your own, break down the ones provided, or just write your own set.
+
+#### Spec my feature?
+
+To get a feel for "too much vs not enough planning", help your neighbors with two features by writing the plans for their feature in an issue in their `TIY-Github` repository. Also solicit help from them on two of your own features. Review their plans carefully and give them honest feedback on the work. Don't wait for the perfect plan, but if you require more details than you were given while you're working, ask for more details while you work on something else.
+
+When you're writing specs, be sure to include images from Skitch or Preview (or whatever) with markup. You can attach them directly to the Issue, and Github will happily hold on to them for you.
