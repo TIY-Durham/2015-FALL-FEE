@@ -21,8 +21,21 @@
   * [ ] Outline for _tutorial_!
   * [ ] Peer review x2!
   * [ ] Reviewed peers x2!
-* [ ] **READING**
-  * checkpoints
+* **Reading APIs**
+  * What are the endpoints for fetching...
+    * the profile data for a user?
+    * the organizations a user belongs to?
+    * the repositories a user has created?
+    * a filtered list of repositories?
+    * a sorted list of repositories?
+    * public events for a user?
+  * When fetching public events for a user...
+    * How many results are returned by default?
+    * What limitations exist on fetching _more_ results?
+    * What is the basic structure of the results?
+    * What fields are included in each result?
+    * What are the data types for each field?
+    * What are some of the different values for the `type` field?
 * **Github Revolution, Part 2**
   * [ ] Skitched them mobiles!
   * [ ] Mobile Features
@@ -53,7 +66,25 @@
 
 Last night you brainstormed topics. Now it's time to choose two -- one for your reflective entry and one for your tutorial. Outline both entries, then get them reviewed by your peers. Be sure to review theirs, too!
 
-### Reading APIs
+### Reading APIs: Github
+
+Tonight, focus on the following questions about the Github API, which will be important as you build out your profile:
+
+* What are the endpoints for fetching...
+  * the profile data for a user?
+  * the organizations a user belongs to?
+  * the repositories a user has created?
+  * a filtered list of repositories?
+  * a sorted list of repositories?
+  * public events for a user?
+* When fetching public events for a user...
+  * How many results are returned by default?
+  * What limitations exist on fetching _more_ results?
+  * What is the basic structure of the results?
+  * What fields are included in each result?
+  * What are the data types for each field?
+  * What are some of the different values for the `type` field?
+
 
 ### Github Revolution, Part 2
 
