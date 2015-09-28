@@ -24,8 +24,8 @@
   * checkpoints
 ```
 
-### WRITING ASSIGNMENT
+### Journal, Week 4+
 
-### READING ASSIGNMENT
+### Reading APIs
 
-### CODING ASSIGNMENT
+### GitHub Revolution
