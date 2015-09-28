@@ -62,8 +62,6 @@ If you don't like free stuff don't even tell me because I don't want to know.
 > “Don’t try to be original, just try to be good.”
 -- Paul Rand (not Rand Paul)
 
-![](http://www.brandingbusiness.com/media/1792/theranddeductions_blog_img.jpg)
-
 ---
 
 This doesn't mean you can go around copying everyone's stuff and calling it your own.
