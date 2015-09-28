@@ -8,7 +8,7 @@
 * **Three Little Things** (~30m)
 * **Grok Topics** (~15m)
 
-## Mini-Design Lecture??
+## Mini-Design Lecture
 
 ## Monday Grok
 
