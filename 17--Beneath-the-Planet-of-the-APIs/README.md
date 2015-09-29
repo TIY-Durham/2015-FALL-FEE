@@ -15,20 +15,30 @@
 * **Yak-Shaving**
   * [ ] Create a _WIP Issue_ in the class repo
   * [ ] **MERGE ALL YOUR OPEN PRs!**
+    * [ ] Specifically `TIY-GitHub:yak-shaving` into `master`!
   * [ ] Create a _WIP Branch_ in:
-    * [ ] `USERNAME.github.io` named `journal-week-4` from `master`
-    * [ ] `TIY-Assignments` named `17--beneath-the-planet-of-the-APIs` from `master`
-    * [ ] `TIY-GitHub` named `yak-shaving` from `master`
+    * [ ] `TIY-Assignments` named `17--beneath-the-APIs` from `master`
+    * [ ] `TIY-GitHub` named `release--0.0.1` from `master`
 * [ ] Create or update the following _WIP Files_ in:
-    * `USERNAME.github.io:journal-week-4`
+    * `USERNAME.GitHub.io:journal-week-4`
       * `journal-week-4.md` or something creative
       * `tutorial-week-4.md` or something creative
-    * `TIY-Assignments:17--beneath-the-planet-of-the-APIs`
-      * `CheatSheets/GitHubAPI.md` -- Did you have a **Starting Point**?
+    * `TIY-Assignments:17--beneath-the-APIs`
+      * `CheatSheets/GitHubAPI.md`
+    * `TIY-GitHub:release--0.0.1`
+      * `specs/octocat--details.png`
+      * `src/`
+        * `scss/custom.scss`
+        * `js/main.js`
+        * `index.html`
 * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
-    * [ ] `USERNAME.github.io` from `journal-week-4` into `master`
-    * [ ] `TIY-Assignments` from `17--beneath-the-planet-of-the-APIs` into `master`
-    * [ ] `TIY-GitHub` from `yak-shaving` into `master`
+    * [ ] `USERNAME.GitHub.io` from `journal-week-4` into `master`
+    * [ ] `TIY-Assignments` from `17--beneath-the-APIs` into `master`
+    * `TIY-GitHub`
+      * [ ] from `release--0.0.1` into `master`
+      * [ ] from `feature--basic-layout` into `release--0.0.1` (MERGED)
+      * [ ] from `feature--profile-details` into `release--0.0.1` (MERGED)
+      * [ ] from `feature--fetching-data` into `release--0.0.1` (MERGED)
 * **Journal, Week 4**
   * [ ] Outline for _reflective_!
   * [ ] Outline for _tutorial_!
@@ -49,39 +59,19 @@
     * What fields are included in each result?
     * What are the data types for each field?
     * What are some of the different values for the `type` field?
-* **Github Revolution, Part 2**
-  * [ ] Skitched them mobiles!
-  * [ ] Mobile Features
-    * [ ] `feature/mobile-tabs`
-    * [ ] `feature/mobile-profile-details`
-    * [ ] `feature/mobile-popular-repos`
-    * [ ] `feature/mobile-contrib-repos`
-    * [ ] `feature/mobile-repos-repo-list` :angry:
-    * [ ] `feature/mobile-repos-repo`
-  * [ ] Desktop Features
-    * [ ] `feature/desktop-profile-details`
-    * [ ] `feature/desktop-2-columns`
-    * [ ] `feature/desktop-tabs`
-    * [ ] `feature/desktop-contribs-repo-list`
-    * [ ] `feature/desktop-repos-repo-list`
-    * [ ] `feature/desktop-repos-repo`
-    * [ ] `feature/desktop-repos-repo-graph` :imp:
-    * [ ] `feature/desktop-contrib-graph` :itsatrap:
-    * [ ] `feature/desktop-contrib-activity` :notsure:
-  * [ ] **Spec my feature?**
-    * [ ] Help from the left on...
-    * [ ] Help from the right on...
-    * [ ] Helped the left on...
-    * [ ] Helped the right on...
+* **GitHub Revolution, Part 2**
+  * [ ] `feature--basic-layout`
+  * [ ] `feature--profile-details`
+  * [ ] `feature--fetching-data`
 ```
 
 ### Journal, Week 4+
 
 Last night you brainstormed topics. Now it's time to choose two -- one for your reflective entry and one for your tutorial. Outline both entries, then get them reviewed by your peers. Be sure to review theirs, too!
 
-### Reading APIs: Github
+### Reading APIs: GitHub
 
-Tonight, focus on the following questions about the Github API, which will be important as you build out your profile:
+Tonight, focus on the following questions about the GitHub API, which will be important as you build out your profile:
 
 * What are the endpoints for fetching...
   * the profile data for a user?
@@ -99,14 +89,44 @@ Tonight, focus on the following questions about the Github API, which will be im
   * What are some of the different values for the `type` field?
 
 
-### Github Revolution, Part 2
+### GitHub Revolution, Part 2
 
-You skitched all those breakpoints already, right? Except that _Github doesn't use breakpoints_. There are _no_ Media Queries whatsoever. Switch your User-Agent (UA) identifier to a mobile device and reload... That's _adaptive_ rather than _responsive_, and that's a problem. Let's fix it.
+Yaks shaved, Skitching complete, now to start making the HTML and (S)CSS for your profile template. For the purposes of this exercise, _omit the page header_ with the search field and primary navigation.
 
-Your assignment for the weekend is to build out HTML and CSS for a _responsive_ Github profile. Start Mobile-First and expand to desktop. I've suggested some features for you, in case you need guidance. Feel free to add your own, break down the ones provided, or just write your own set.
+Start by creating a _new_ branch named `release--0.0.1` from `master` in your `TIY-GitHub` repository. All your work from tonight will be in _feature_ branches that stem from and merge back into this one, which represents your first, tiny, incremental release version: 0.0.1
 
-#### Spec my feature?
+#### Octocat in Blue
 
-To get a feel for "too much vs not enough planning", help your neighbors with two features by writing the plans for their feature in an issue in their `TIY-Github` repository. Also solicit help from them on two of your own features. Review their plans carefully and give them honest feedback on the work. Don't wait for the perfect plan, but if you require more details than you were given while you're working, ask for more details while you work on something else.
+The profile page is generally laid out into two uneven columns that are centered on the page:
 
-When you're writing specs, be sure to include images from Skitch or Preview (or whatever) with markup. You can attach them directly to the Issue, and Github will happily hold on to them for you.
+![Octocat in Blue... Columns](octocat--columns.png)
+
+In a _new_ branch named `feature--basic-layout` based on `release--0.0.1`, start with some MF'g HTML and (S)CSS to get those _outermost_ layout elements correct: a set of two proportionate but uneven columns centered on the page. The contents are unimportant to begin with; just focus on the overall layout first, i.e. the blue rectangles.
+
+Open a PR for this work _into the `release--0.0.1` branch_ and solicit peer review. Get 2x :+1: (and some commentary) before you merge it. Locally, check out `release--0.0.1` and `git pull` to update it.
+
+#### Just the Facts, Cat... Octopus... Thing.
+
+Next, focus on filling in the "details" column with information for Octocat. Create another new branch _based on `release--0.0.1` **after** the PR for `feature--basic-layout` is merged._ Now you're building "features": small, self-contained pieces of the overall functionality.
+
+![Just the facts, cat](octocat--details.png)
+
+Isn't all of that information available from the API data you saved last night? You bet it is! Identify the fields in `octocat.json` that correspond to the source data for each area and document it in a Skitch note in `specs/` for now.
+
+Just looking at this, you should probably have some questions, like:
+
+* [Where could you possibly find all those icons?](https://octicons.github.com/)
+* [How will you get those three blocks to line up like that?](https://css-tricks.com/dont-overthink-it-grids/)
+* [How will you format that date so nicely?](https://momentjs.com)
+
+Push this branch to GitHub and open a PR _as soon as you have a commit_, merge it when you're finished (enough) and have solicited a code review from two of your peers (that means they left you comments and gave you a :+1:). Then `git pull` the updates into your local `release--0.0.1` branch. What happens when you push _that_ branch up to GitHub? Don't you have a PR for that already?
+
+#### Gimme the Dataz!
+
+We might as well practice writing some jQuery while we're here. In _another_ feature branch -- `feature--fetch-data` -- use `jQuery.ajax` to fetch the data from your `octocat.json` file and log it to the `console`. That code should go inside the `main.js` file, [enclosed in an IIFE](https://en.wikipedia.org/wiki/Immediately-invoked_function_expression).
+
+Like before, push this feature branch to GitHub and open a PR _into the `release--0.0.1` branch._ When your PR is reviewed, merge it.
+
+#### BEAST MODE
+
+There's a correlation between the data in `octocat.json` and the values in the left column, correct? Can you select each element that corresponds to a data field and replace its contents with the correct value from the JSON file?
