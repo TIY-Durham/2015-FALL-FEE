@@ -9,6 +9,19 @@
 
 ## Tools on Tuesday
 
+* Getting data with [`jQuery.ajax`](http://api.jquery.com/jQuery.ajax/)...
+  * [What is a `Promise`](http://www.html5rocks.com/en/tutorials/es6/promises/)? (~15m)
+    * What would cause that? When would I use that?
+  * Let's get some data!
+    * Where is that data? Time for some relative URLs!
+    * Fetch it with `jQuery.ajax`
+    * Now that we have the underpants...
+    * But what if we need _more_ underpants, I mean... _data_?
+* Don't shoot the [Postman](https://www.getpostman.com/)...
+  * Didn't this data come from [the API](https://api.github.com/)?
+  * What about [that `octocat` data](https://api.github.com/users/octocat)?
+  * My God, [it's full of links...](https://en.wikipedia.org/wiki/HATEOAS)
+
 ## Assignment
 
 ```markdown
