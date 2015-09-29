@@ -84,3 +84,34 @@ And since libraries like jQuery and Lodash have feelings... I mean _APIs_, too, 
 
 ### GitHub Revolution, Part 3: Attack of the Octocat
 
+Start by creating a _new_ branch named `release--0.0.2` from `master` in your `TIY-GitHub` repository. Like last night, all of your work will be on _feature_ branches.
+
+### Twirl Your Mustache
+
+
+
+#### Complete the Page
+
+Last night, we wrote the MF'g HTML and (S)CSS to get the _outermost_ layout elements, as well as the left column. It's time for your next "feature": the larger section on the right. Specifically the Featured Repositories tab.
+
+![right side](https://github.com/TIY-Durham/2015-FALL-FEE/blob/master/17--Beneath-the-Planet-of-the-APIs/octocat--repositories--full.png)
+
+Create another new branch based on `release--0.0.2` called `feature--active-repository`. Then look at the Skitches you placed in your `/specs` folder Monday night.
+
+Now, build out the right section as if the user was on the active _Repository_ tab.
+
+Like last night, push this branch to GitHub and open a PR as soon as you have a commit. Then merge it when you're finished (enough) and have gotten two code reviews. Then `git pull` the updates into your local `release--0.0.2` branch.
+
+#### Now Tell Me Who Are You
+
+Now it's time to fetch your _own_ data. Why? Just trust me, you'll need it.
+
+First, save the JSON data from the GitHub API for your own username. Remember where that is? Here's a hint: `https://api.github.com/users/USERNAME`. Make sure you get the list of repositories that belong to your username, as well. Those live in `https://api.github.com/users/USERNAME/repos`. And finally, get your most recent public activity. You can find that here: `https://api.github.com/users/USERNAME/events/public`.
+
+Now, save the data in a file and directory named after _your username_ just just like you did for Octocat on Monday.
+
+#### BEAST MODE
+All that cool mustache replacement that you did for the left column? Time to do it for the right!
+
+
+
