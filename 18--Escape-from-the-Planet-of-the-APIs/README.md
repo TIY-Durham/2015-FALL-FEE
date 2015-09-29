@@ -39,6 +39,8 @@
     * [ ] `TIY-Assignments` from `18--escape-from-apis` into `master`
     * `TIY-GitHub`
       * [ ] from `release--0.0.2` into `master`
+      * [ ] from `feature--list-placeholders` into `release--0.0.2` (MERGED)
+      * [ ] from `feature--list-templates` into `release--0.0.2` (MERGED)
       * [ ] from `feature--active-repository` into `release--0.0.2` (MERGED)
 * **Journal, Week 4**
   * [ ] Draft for _reflective_!
@@ -56,8 +58,10 @@
   * How can I use the Lodash API to...
     * replace placeholders with values from an object?
     * repeat code for every item of an array?
-* [ ] **CODING**
-  * checkpoints
+* **GitHub Revolution**
+  * [ ] `feature--list-placeholders`
+  * [ ] `feature--list-templates`
+  * [ ] `feature--active-repository`
 ```
 
 ### Journal Week 4
@@ -86,9 +90,13 @@ And since libraries like jQuery and Lodash have feelings... I mean _APIs_, too, 
 
 Start by creating a _new_ branch named `release--0.0.2` from `master` in your `TIY-GitHub` repository. Like last night, all of your work will be on _feature_ branches.
 
-### Twirl Your Mustache
+#### Twirl Your Mustache
 
+Time to get to templating. Go back to the MF'g HTML profile column you finished last night. Start by replacing _one_ of your list items with placeholders that match where in the API data these values originate. Put this work in the `feature--list-placeholders` branch.
 
+When you're done, reviewed, and merged, open a new branch called `feature--list-templates` and wrap all of that placeholder-laden markup in `<template>` tags. Give them descriptive (and unique!) `id` attributes so we can pick them out of the DOM with jQuery.
+
+Pluck the HTML contents of each `<template>` tag and pass it through the `template` function in Lodash. Don't forget to assign the result of each to a variable! What is the _type_ of the value returned by `lodash.template`? How can we use that value to print -- i.e. `console.log` -- the HTML for a single repo list item?
 
 #### Complete the Page
 
@@ -96,7 +104,7 @@ Last night, we wrote the MF'g HTML and (S)CSS to get the _outermost_ layout elem
 
 ![right side](https://github.com/TIY-Durham/2015-FALL-FEE/blob/master/17--Beneath-the-Planet-of-the-APIs/octocat--repositories--full.png)
 
-Create another new branch based on `release--0.0.2` called `feature--active-repository`. Then look at the Skitches you placed in your `/specs` folder Monday night.
+Create another new branch based on `release--0.0.2` called `feature--active-repo`. Then look at the Skitches you placed in your `/specs` folder Monday night.
 
 Now, build out the right section as if the user was on the active _Repository_ tab.
 
@@ -112,6 +120,3 @@ Now, save the data in a file and directory named after _your username_ just just
 
 #### BEAST MODE
 All that cool mustache replacement that you did for the left column? Time to do it for the right!
-
-
-
