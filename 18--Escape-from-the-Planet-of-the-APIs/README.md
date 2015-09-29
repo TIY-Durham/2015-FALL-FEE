@@ -90,7 +90,7 @@ And since libraries like jQuery and Lodash have feelings... I mean _APIs_, too, 
 
 Start by creating a _new_ branch named `release--0.0.2` from `master` in your `TIY-GitHub` repository. Like last night, all of your work will be on _feature_ branches.
 
-#### Twirl Your Mustache
+#### Twirl Your Moustache
 
 Time to get to templating. Go back to the MF'g HTML profile column you finished last night. Start by replacing _one_ of your list items with placeholders that match where in the API data these values originate. Put this work in the `feature--list-placeholders` branch.
 
@@ -119,4 +119,4 @@ First, save the JSON data from the GitHub API for your own username. Remember wh
 Now, save the data in a file and directory named after _your username_ just just like you did for Octocat on Monday.
 
 #### BEAST MODE
-All that cool mustache replacement that you did for the left column? Time to do it for the right!
+All that cool moustache replacement that you did for the left column? Time to do it for the right!
