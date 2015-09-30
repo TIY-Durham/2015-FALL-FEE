@@ -13,13 +13,23 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
+  * _WIP Issue_
+    * link to PRs in:
+      * [ ] `USERNAME.github.io`
+      * [ ] `TIY-Chessboard`
+  * _WIP Branch_
+    * [ ] `USERNAME.github.io:tutorial-week4`
+    * [ ] `TIY-Chessboard:19--world-war-chess`
+  * _WIP Files_
+    * in `USERNAME.github.io:tutorial-week-4` or whatever
+    * in `TIY-Chessboard:19--world-war-chess`
+      * `js/`
+        * `controllers.js`
+        * `main.js` -- in case something breaks
+        * `tests.js` -- Controllers are hard to test
+      * `index.html` -- wire 'em up!
+* [ ] Journal, Week 4
+  * [ ] Tutorial written!
 * [ ] **World War Chess**
 ```
 
