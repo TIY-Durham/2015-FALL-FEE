@@ -14,16 +14,18 @@
   * [ ] Create a _WIP Issue_ in the class repo
   * [ ] **MERGE ALL YOUR OPEN PRs!**
   * [ ] Create a _WIP Branch_ in:
-    * [ ] `TIY-Assignments` named `18--escape-from-apis` from `master`
+    * [ ] `TIY-Assignments` named `18--night-of-the-chessboard` from `master`
 * [ ] Create or update the following _WIP Files_ in:
     * `USERNAME.GitHub.io:journal-week-4`
       * `journal-week-4.md` or something creative
       * `tutorial-week-4.md` or something creative
-    * `TIY-Assignments:18--escape-from-apis`
+    * `TIY-Assignments:18--night-of-the-chessboard`
       * `CheatSheets/GitHubAPI.md`
+* in `TIY-Chessboard:chess-2.0`
 * [ ] Add comments to your _WIP Issue_ with links to your PRs in:
     * [ ] `USERNAME.GitHub.io` from `journal-week-4` into `master`
-    * [ ] `TIY-Assignments` from `18--escape-from-apis` into `master`
+    * [ ] `TIY-Assignments` from `18--night-of-the-chessboard` into `master`
+    * [ ] `TIY-Chessboard:chess-2.0`
 * **Journal, Week 4**
   * [ ] Draft for _reflective_!
   * [ ] Draft for _tutorial_!
@@ -39,12 +41,32 @@
     * add an HTML element to the page?
   * How can I use the Lodash API to...
     * replace placeholders with values from an object?
-    * repeat code for every item of an array?
+    * repeat code for every item of an array
+ * [ ] **The Chessboard: Show me your moves!**
+  * Get your **Starting Point** ready...
+    * [ ] Step 1: Provided JavaScript in `js/main.js`
+    * [ ] Step 2: Provided HTML in `tests.html` (see below)
+    * [ ] Step 3: Link `chai` in `tests.html`... CDN, anyone?
+    * [ ] Step 4: `require` won't work here... just `mocha.it`!
+    * [ ] Step 5: Shouldn't the tests have their own home?
+  * Get to testing!
+    * [ ] What kind of thing is `game.board`...? What does it do?
+    * [ ] How about `game.reset`? What does it _return_? Any side-effects?
+    * [ ] Resetting a board with no moves is lame, HOW U EVEN `game.applyMove`?
+    * [ ] First move is free, next one costs $10.
+    * [ ] Just calling `game.applyMove` is cheating; `game.next`...!
+    * [ ] Now that you've got some moves, maybe `game.reset` is more interesting?
+    * [ ] You can `game.next` but can you `game.prev`...?
+    * [ ] Y'know, `game.end` is really a lot of `game.next`...
+    * [ ] That `game.play`, tho... How U even `setInterval`?
+  * [ ] Wipe the tracer bullets out before you push!
+  * **BEAST MODE** - Write some pseudocode for Controllers and View Helpers. Make the ship sail!
+  * **NIGHTMARE MODE** - Test those View Helpers!
 ```
 
 ### Journal Week 4
 
-You know the drill: reflective entry draft, tutorial entry draft, 2x :+1: for each. You got this.
+You know the drill: reflective entry draft, tutorial entry draft, 2x :+1: for each. You've got this.
 
 ### Reading APIs
 
