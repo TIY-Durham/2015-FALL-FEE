@@ -4,7 +4,10 @@
   "description": "## Rituals (~1h 30m)",
   "main": "index.html",
   "scripts": {
-    "test": "browser-sync start --server --startPath tests.html --files='js/*.js'"
+    "test": "browser-sync start --server --startPath tests.html --files='js/*.js'",
+    "start": "browser-sync start --server --startPath='index.html' --files='index.html,css/*.css,js/*.js'",
+    "sass": "node-sass --output css/ scss/main.scss",
+    "sass:watch": "npm run sass -- --watch"
   },
   "repository": {
     "type": "git",
