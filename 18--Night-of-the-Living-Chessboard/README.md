@@ -88,7 +88,7 @@ And since libraries like jQuery and Lodash have feelings... I mean _APIs_, too, 
   * replace placeholders with values from an object?
   * repeat code for every item of an array?
 
-### The Chessboard: Show me your moves!
+### The Chessboard: It's Baaaaaack.
 
 _"Chess won't stay dead."_
 
