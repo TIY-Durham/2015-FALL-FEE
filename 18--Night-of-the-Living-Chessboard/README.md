@@ -1,4 +1,4 @@
-# 18 - Escape from the Planet of the APIs
+# 18 - Night of the Living Chessboard
 
 ## Rituals (~1h 30m)
 
