@@ -7,6 +7,8 @@
 
 ## Agenda
 
+_"Chess is coming to get you...again!"_
+
 ## Assignment
 
 ```markdown
