@@ -29,7 +29,7 @@
         * `tests.js` -- Controllers are hard to test
       * `index.html` -- wire 'em up!
 * [ ] Journal, Week 4
-  * [ ] Tutorial written!
+  * Tutorial written!
 * [ ] **World War Chess**
 ```
 
