@@ -1,0 +1,21 @@
+main.container {
+  margin: 0 10%;
+
+  .chessboard {
+    width: 100%;
+
+    td {
+      width: 10%; padding-bottom: 10%;
+    }
+    tbody td {
+      border: 0.1em solid darkgray;
+    }
+
+    tbody tr:nth-child(even) td:nth-child(even) {
+      background-color: gray;
+    }
+    tbody tr:nth-child(odd) td:nth-child(odd) {
+      background-color: gray;
+    }
+  } // END .chessboard
+}

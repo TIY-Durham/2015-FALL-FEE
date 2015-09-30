@@ -1,0 +1,26 @@
+{
+  "name": "18--night-of-the-living-chessboard",
+  "version": "0.0.0",
+  "description": "The Chessboard that NEVER dies...",
+  "main": "index.html",
+  "scripts": {
+    "test": "browser-sync start --server --startPath tests.html --files='js/*.js'",
+    "start": "browser-sync start --server --startPath='index.html' --files='index.html,css/*.css,js/*.js'",
+    "sass": "node-sass --output css/ scss/main.scss",
+    "sass:watch": "npm run sass -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Durham/2015-FALL-FEE.git"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues"
+  },
+  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme",
+  "devDependencies": {
+    "browser-sync": "^2.9.7",
+    "node-sass": "^3.3.3"
+  }
+}
