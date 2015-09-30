@@ -7,6 +7,9 @@ main.container {
     td {
       width: 10%; padding-bottom: 10%;
     }
+    tbody td {
+      border: 0.1em solid darkgray;
+    }
 
     tbody tr:nth-child(even) td:nth-child(even) {
       background-color: gray;
@@ -14,5 +17,5 @@ main.container {
     tbody tr:nth-child(odd) td:nth-child(odd) {
       background-color: gray;
     }
-  }
+  } // END .chessboard
 }
