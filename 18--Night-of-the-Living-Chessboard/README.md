@@ -68,7 +68,7 @@ _"Chess is coming to get you...again!"_
 
 ### Journal Week 4
 
-You know the drill: reflective entry draft, tutorial entry draft, 2x :+1: for each. You've got this.
+You know the drill: reflective entry done, tutorial entry draft for Monday, 2x :+1: for each. You've got this.
 
 ### Reading APIs
 
