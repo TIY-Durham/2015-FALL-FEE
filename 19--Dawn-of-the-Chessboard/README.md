@@ -29,9 +29,15 @@
         * `tests.js` -- Controllers are hard to test
       * `index.html` -- wire 'em up!
 * [ ] Journal, Week 4
-  * Tutorial written!
+  * [ ] Final draft of tutorial written!
+  * [ ] 2 x :+1: reviews!
+  * [ ] And you 2 x :+1:
 * [ ] **World War Chess**
 ```
+
+### Operation: Tutorial
+
+Finish up that tutorial, then get 2 :+1:s and give 2 :+1:s.
 
 ### World War Chess
 
