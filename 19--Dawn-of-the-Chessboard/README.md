@@ -31,7 +31,7 @@
 * [ ] Journal, Week 4
   * [ ] Final draft of tutorial written!
   * [ ] 2 x :+1: reviews!
-  * [ ] And you 2 x :+1:
+  * [ ] And you give 2 x :+1:
 * [ ] **World War Chess**
 ```
 
