@@ -19,17 +19,26 @@
 ## Assignment
 
 ```markdown
-* [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  *  _WIP Branch_:
-  * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
-* [ ] **READING**
-  * checkpoints
-* [ ] **CODING**
-  * checkpoints
-* [ ] **INSTALLING**
+* [ ] `TIY-GitHub` named `release--0.0.2` from `master`
+* `TIY-GitHub:release--0.0.2`
+      * `src/`
+        * `scss/custom.scss`
+        * `js/main.js`
+        * `index.html`
+    * `TIY-GitHub:yak-shaving`
+      * `apis/`
+        * `github/`
+          * `users/`
+            * `USERNAME.json` -- from the API!
+            * `TIY-GitHub`
+              * [ ] from `release--0.0.2` into `master`
+              * [ ] from `feature--list-placeholders` into `release--0.0.2` (MERGED)
+              * [ ] from `feature--list-templates` into `release--0.0.2` (MERGED)
+              * [ ] from `feature--active-repository` into `release--0.0.2` (MERGED)
+* **GitHub Revolution**
+  * [ ] `feature--list-placeholders`
+  * [ ] `feature--list-templates`
+  * [ ] `feature--active-repository`
 ```
 
 ### WRITING ASSIGNMENT
