@@ -65,7 +65,7 @@ Start by creating a _new_ branch named `release--0.0.2` from `master` in your `T
 
 Time to get to templating. Go back to the MF'g HTML profile column you finished last week. Start by replacing _one_ of your list items with placeholders that match where in the API data these values originate. Put this work in the `feature--list-placeholders` branch.
 
-When you've reviewed, and merged, open a new branch called `feature--list-templates` and wrap all of that placeholder-laden markup in `<template>` tags. Give them descriptive (and unique!) `id` attributes so we can pick them out of the DOM with jQuery.
+When you've reviewed and merged, open a new branch called `feature--list-templates` and wrap all of that placeholder-laden markup in `<template>` tags. Give them descriptive (and unique!) `id` attributes so we can pick them out of the DOM with jQuery.
 
 Pluck the HTML contents of each `<template>` tag and pass it through the `template` function in Lodash. Don't forget to assign the result of each to a variable! What is the _type_ of the value returned by `lodash.template`? How can we use that value to print -- i.e. `console.log` -- the HTML for a single repo list item?
 
