@@ -4,11 +4,17 @@
 
 * **Standup Meeting** (~15m)
 * **Homework Review** (~30m)
-* **Weekly QUIZ!** (~15m)
+* **QUIZ!** (~15m)
 * **Retrospective** (~15m)
 * **Parking Lot Topics** (~15m)
 
 ## Parking Lot Review
+
+## Agenda
+
+* The Chessboard is dead, long live the Chessboard
+* Vive la GitHub Revolution
+* lodash
 
 ## Assignment
 
