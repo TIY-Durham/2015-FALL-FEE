@@ -19,8 +19,9 @@
 ## Assignment
 
 ```markdown
-* [ ] `TIY-GitHub` named `release--0.0.2` from `master`
-* `TIY-GitHub:release--0.0.2`
+* **Yak-Shaving**
+  * [ ] `TIY-GitHub` named `release--0.0.2` from `master`
+     * `TIY-GitHub:release--0.0.2`
       * `src/`
         * `scss/custom.scss`
         * `js/main.js`
