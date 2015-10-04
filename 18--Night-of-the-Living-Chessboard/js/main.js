@@ -105,7 +105,7 @@
      *
      * @todo Fill me in! ...and remove this comment.
      */
-    function applyMove(from, to){
+    applyMove: function(from, to){
       // You should write something in here...
     } // END applyMove
   }; // END game
