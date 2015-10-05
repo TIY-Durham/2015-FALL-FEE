@@ -17,12 +17,13 @@
 ## Assignment
 
 ```markdown
- * _WIP Issue_: `21 -- YOUR NAME`
-  *  _WIP Branch_:
-    * `USERNAME.github.io:journal-week-5`
-    * `TIY-Github`
-      * `develop`
-      * `feature/*`
+* **Yak-Shaving**
+  * _WIP Issue_: `21 -- YOUR NAME`
+    *  _WIP Branch_:
+      * `USERNAME.github.io:journal-week-5`
+      * `TIY-Github`
+        * `develop`
+        * `feature/*`
   * _WIP Files_:
     * `USERNAME.github.io`
       * reflective journal
