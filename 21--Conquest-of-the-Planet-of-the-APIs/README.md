@@ -45,20 +45,13 @@
   * [ ] Resource
     * [ ] 2 :1+: given
     * [ ] 2 :1+: received
-* **Don't Stop Skitching*
+* **Don't Stop Skitching**
     * [ ] Chose a blog layout
     * [ ] Skitched it at three views: desktop, tablet, mobile
     * [ ] And uploaded to `/specs`
-* **GitHub Revolution**
-  * [ ] `feature/repo-list-placeholders`
-    * [ ] Repos got names, yo.
-    * [ ] What about a description?
-    * [ ] My god, it's full of stars...
-  * [ ] `feature/repo-list-template`
-    * [ ] Convert to `<template>`!
-    * [ ] Can I see your `id`, please?
-    * [ ] Eat that `<template>`!
-    * [ ] Now spit it back out!
+* **GitHub Revolution Evolution**
+  * [ ] All Your Data is Belong To Us
+  * [ ] Templatize me, Cap'n!
   * **BEAST MODE** - Fill in that `<template>`...
 ```
 
