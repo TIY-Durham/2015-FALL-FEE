@@ -134,11 +134,15 @@ Did you finish all of your questions and terms last week? No? Finish them tonigh
 
 We're going to use some cool new tools this week, which means **yak-shaving** today.
 
-First, you'll want to _globally_ install [Bower](http://bower.io/) and [Gulp](http://gulpjs.com/). Hmmm, how do you globally install? Here's a hint: `npm install -g`...
+You'll want to _globally_ install two new tools: [Bower](http://bower.io/) and [Gulp](http://gulpjs.com/). Hmmm, how do you globally install? Here's a hint: `npm install -g`...
+
+Now, in your `USERNAME.github.io` repo, create a new branch called `release--0.0.0`. You'll have to set up this branch like you've set up previous projects. That means `.gitignore`, `package.json`, `src/` -- check out the bullet points under **Yak-Shaving** above to figure out what _exactly_ you need to get this new project setup.
 
 ##### BEAST MODE
 
+Hmmm, why have we been blogging every week? Writing tutorials? And starting branches called `release--0.0.0` on `USERNAME.github.io`?? Maybe it's to...**make our own blogs**!
 
+What do you want your blog to look like? Check out some templating sites like [ThemeForest](http://themeforest.net/) and [WrapBootstrap](https://wrapbootstrap.com/) and find a template you like. **DO NOT BUY IT.** Instead, check out the demos and Skitch the layout you decide on. Then upload the Skitches to `/specs` in your `USERNAME.github.io` repo. You'll be building this soon!
 
 ### GitHub Revolution, Part 3: Octocat's Revenge
 
