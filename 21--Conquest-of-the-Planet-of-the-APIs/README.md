@@ -59,9 +59,23 @@
 ```
 
 ### Journal, Week 5
-You know the routine: work on your reflective, tutorial, and resource entries. Then give 2 x :+1:s and get 2 x :+1:s.
+You know the routine: work on your reflective, tutorial, and resource entries. Then give 2 x :+1:s and get 2 x :+1:s for each.
 
-### GitHub Revolution
+### Don't Stop Skitching
+
+**MERGE YOUR PRS.** In your USERNAME.github.io repo, create a new branch called `release--0.0.1`. Yesterday's BEAST MODE becomes today's NORMAL MODE. If you need a refresher:
+
+>If you were designing a blog, what would you want it to look like? Check out some templating sites like [ThemeForest](http://themeforest.net/) and [WrapBootstrap](https://wrapbootstrap.com/) and find a template you like. **DO NOT BUY IT.** Instead, check out the demos and Skitch the layout you decide on. Be sure to Skitch it for different responsive views as well. Then upload the Skitches to `/specs` in your `USERNAME.github.io` repo. You'll be building this soon!
+
+### GitHub Revolution Evolution
+
+#### All Your Data is Belong To Us
+
+Use `jQuery.getJSON` to get the data that you fetched from the API onto your page. Fetch the _cached_ data in `api/github/`, _not_ the live API. Next, replace all of the text in your page with placeholders -- `{{login}}` or `{{repo-name}}` -- that you'll eventually replace with data from the API. Finally, use jQuery to replace the placeholder values with your data.
+
+And while we're at it, didn't you fetch your own data from the API, too? What if you replaced your placeholders with _that_ data instead? Could you do both? Provide a `<select>` element that allows you to _choose_ which data to load.
+
+Create and work in feature branches for each step: `feature/fetching-data`, `feature/adding-placeholders`, `feature/replacing-placeholders`. Merge them down into `develop` as you finish each.
 
 #### Templatize me, Cap'n!
 
