@@ -7,7 +7,7 @@
 * **Quiz Time!** (~15m)
 * **Three Little Things** (~30m)
 
-## Agenda
+## Tools on Tuesday
 * lodash
 * **I am not a `<template>`...! I am a HTML element!**
   * What is [template processing](http://en.wikipedia.org/wiki/Template_processor)?
