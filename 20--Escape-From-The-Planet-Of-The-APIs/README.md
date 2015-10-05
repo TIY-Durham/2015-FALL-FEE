@@ -130,7 +130,15 @@ In addition to your reflective journal entry and your tutorial journal entry thi
 
 Did you finish all of your questions and terms last week? No? Finish them tonight!
 
-### Install-fest
+### Getting Ready for the Week
+
+We're going to use some cool new tools this week, which means **yak-shaving** today.
+
+First, you'll want to _globally_ install [Bower](http://bower.io/) and [Gulp](http://gulpjs.com/). Hmmm, how do you globally install? Here's a hint: `npm install -g`...
+
+##### BEAST MODE
+
+
 
 ### GitHub Revolution, Part 3: Octocat's Revenge
 
