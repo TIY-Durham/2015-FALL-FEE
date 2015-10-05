@@ -4,7 +4,6 @@
 
 * **Standup Meeting** (~15m)
 * **Homework Review** (~30m)
-* **QUIZ!** (~15m)
 * **Retrospective** (~15m)
 * **Parking Lot Topics** (~15m)
 
