@@ -45,7 +45,11 @@
   * [ ] Resource
     * [ ] 2 :1+: given
     * [ ] 2 :1+: received
-* [ ] **GitHub Revolution**
+* **Don't Stop Skitching*
+    * [ ] Chose a blog layout
+    * [ ] Skitched it at three views: desktop, tablet, mobile
+    * [ ] And uploaded to `/specs`
+* **GitHub Revolution**
   * [ ] `feature/repo-list-placeholders`
     * [ ] Repos got names, yo.
     * [ ] What about a description?
@@ -79,7 +83,7 @@ Create and work in feature branches for each step: `feature/fetching-data`, `fea
 
 #### Templatize me, Cap'n!
 
-Convert your markup for each repository list into reusable list-item pieces. Start by replacing _one_ of your repo list items with placeholders -- `{{repo.name}}`, `{{repo.stars}}` -- that match where in the API data these values originate. Put this work in the `feature/repo-list-placeholders` branch.
+Create a new branch from `release--0.0.2` named `feature--repo-list-placeholders` for your work. Convert your markup for each repository list into reusable list-item pieces. Start by replacing _one_ of your repo list items with placeholders -- `{{repo.name}}`, `{{repo.stars}}` -- that match where in the API data these values originate. Put this work in the `feature/repo-list-placeholders` branch.
 
 When you're done, reviewed, and merged, open a new branch called `feature/repo-list-templates` and wrap all of that placeholder-laden markup in `<template>` tags. Give them descriptive (and unique!) `id` attributes so we can pick them out of the DOM with jQuery.
 
