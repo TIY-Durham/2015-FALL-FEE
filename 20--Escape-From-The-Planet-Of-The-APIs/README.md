@@ -80,6 +80,8 @@
   * [ ] Resource Journal _Draft_
   * [ ] Reflective Journal _Outline_
   * [ ] Tutorial _Outline_
+* **Reading APIs**
+  * [ ] All caught up!
 * **GitHub Revolution** -- Now with MORE CHECKBOXES!
   * [ ] `feature--my-little-profile`
     * [ ] `USERNAME.json`
@@ -124,6 +126,12 @@
 Welcome to Week 6!
 
 In addition to your reflective journal entry and your tutorial journal entry this week, also share a bookmarked URL to a tool or article. That sounds easy, doesn't it? But wait, there's more... Write a paragraph _explaining_ the resource you're linking to and why it was helpful. Give us the [**tl;dr**](https://en.wikipedia.org/wiki/TL;DR) on that article or just the important parts of the documentation: installation, usage, why it exists. Keep it simple.
+
+### Reading APIs
+
+Did you finish all of your questions and terms last week? No? Finish them tonight!
+
+### Install-fest
 
 ### GitHub Revolution, Part 3: Octocat's Revenge
 
