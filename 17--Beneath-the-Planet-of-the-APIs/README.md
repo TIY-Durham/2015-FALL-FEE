@@ -120,11 +120,11 @@ Open a PR for this work _into the `release--0.0.1` branch_ and solicit peer revi
 
 #### Just the Facts, Cat... Octopus... Thing.
 
-Next, focus on filling in the "details" column with information for Octocat. Create another new branch _based on `release--0.0.1` **after** the PR for `feature--basic-layout` is merged._ Now you're building "features": small, self-contained pieces of the overall functionality.
+Next, focus on filling in the "details" column with information for Octocat. Create another new branch _based on `release--0.0.1` **after** the PR for `feature--basic-layout` is merged._ Now you're building "features": small, self-contained pieces of the overall functionality. Build the HTML and (S)CSS you'll need to represent _just the profile details for Octocat_ in the left-side column.
 
-![Just the facts, cat](octocat--details.png)
+![Just the facts, uh... ma'am?](octocat--details.png)
 
-Isn't all of that information available from the API data you saved last night? You bet it is! Identify the fields in `octocat.json` that correspond to the source data for each area and document it in a Skitch note in `specs/` for now.
+Isn't all of that information available from the API data you saved last night? You bet it is! Identify the fields in `octocat.json` that correspond to the source data for each area and document it in a Skitch note in `specs/` for now. We'll use those notes soon.
 
 Just looking at this, you should probably have some questions, like:
 
@@ -132,7 +132,7 @@ Just looking at this, you should probably have some questions, like:
 * [How will you get those three blocks to line up like that?](https://css-tricks.com/dont-overthink-it-grids/)
 * [How will you format that date so nicely?](https://momentjs.com)
 
-Push this branch to GitHub and open a PR _as soon as you have a commit_, merge it when you're finished (enough) and have solicited a code review from two of your peers (that means they left you comments and gave you a :+1:). Then `git pull` the updates into your local `release--0.0.1` branch. What happens when you push _that_ branch up to GitHub? Don't you have a PR for that already?
+Push this branch to GitHub and open a PR into `release--0.0.1` _as soon as you have a commit_, merge it when you're finished (enough) and have solicited a code review from two of your peers (that means they left you feedback _that you incorporated_ and gave you a :+1:). Then `git pull` the updates into your local `release--0.0.1` branch. What happens when you push _that_ branch up to GitHub? Don't you have a PR for that already?
 
 #### Gimme the Dataz!
 
