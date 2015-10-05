@@ -29,7 +29,3 @@
 ### READING ASSIGNMENT
 
 ### CODING ASSIGNMENT
-
-## Resources
-
-* LINK
