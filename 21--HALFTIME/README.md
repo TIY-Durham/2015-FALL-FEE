@@ -32,6 +32,7 @@
         * `.gitignore`
         * `package.json`
         * `bower.json`
+        * `/specs`
 * **HALFTIME Journal**
   * All the entries
     * [ ] Reflective - done
@@ -44,12 +45,9 @@
     * Feature branch made
     * And feature built
 * **Blueprints Everywhere!**
-  * [ ] Burnin' down the house!
   * [ ] Set up one from Group A
   * [ ] One from Group B
-  * [ ] And one from Group C
-  * [ ] And Skitched them all into their respective `specs/` folder
-  * **BEAST MODE** - The quotes! They rotate!
+  * **BEAST MODE** - MORE BLUEPRINTS!
 ```
 
 ### HALFTIME Journal
@@ -78,8 +76,6 @@ Commit often while you work, and open a PR _into `release-0.0.2`_ as soon as you
 
 You've met four of the Blueprints so far: `MultiColumnForm`, `NestedAccordion`, `VerticalTimeline`, and  `ViewModeSwitch`. But there's others out there, too, and it's time to meet them -- in a pair.
 
-From each group below, choose one "obstacle course" to tackle. You should choose _two_ total, one from each group.
-
 **The $ Menu**
 * [Horizontal Drop-Down Menu](http://tympanus.net/codrops/2013/03/05/horizontal-drop-down-menu/)
 * [Horizontal Slide-Out Menu](http://tympanus.net/codrops/2013/05/17/horizontal-slide-out-menu/)
@@ -88,9 +84,9 @@ From each group below, choose one "obstacle course" to tackle. You should choose
 * [Responsive Icon Grid](http://tympanus.net/codrops/2013/07/01/responsive-icon-grid/)
 * [Responsive Full Width Grid](http://tympanus.net/codrops/2013/04/17/responsive-full-width-grid/)
 
-Create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the desktop layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo and plan out your features. Checklists are encouraged. All of your tools are at your disposal.
+Create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Write your plan down for each project in a separate issue in your repo and plan out your features. Checklists are encouraged. All of your tools are at your disposal.
 
-Together, craft your basic layouts for both projects. Get the MF'ing HTML up and some basic SCSS.
+Together, craft your basic layouts for both projects. Get the MF'ing HTML up and some basic SCSS. 
 
 #### BEAST MODE
 
