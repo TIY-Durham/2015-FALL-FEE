@@ -37,12 +37,18 @@
     * [ ] Resource - done
     * [ ] Tutorial Draft - done
   * And let's start building
+    * `_posts/`
+    * `_drafts/`
+    * `bower.json` and `package.json`
+    * Feature branch made
+    * And feature built
 * **Blueprints Everywhere!**
   * [ ] Burnin' down the house!
-  * [ ] Yo. H5BP, yo. Hey, yo, H5BP.
-  * [ ] Skitchers gonna Skitch.
-  * [ ] Planners gonna plan.
-  * [ ] Yak shaved.
+  * [ ] Set up one from Group A
+  * [ ] One from Group B
+  * [ ] And one from Group C
+  * [ ] And Skitched them all into their respective `specs/` folder
+  * **BEAST MODE** - All the Skitches
 ```
 
 ### HALFTIME Journal
