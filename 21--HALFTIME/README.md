@@ -15,6 +15,7 @@
 * [ ] **Yak Shaving**
   * _WIP Issue_: `HALFTIME -- YOUR NAME`
   *  _WIP Branch_:
+    * `USERNAME.github.io:journal-week-5`
     * `USERNAME.github.io:release-0.0.2`
     *  `TIY-Assignments:release-0.0.0`
   * _WIP Files_:
@@ -48,7 +49,7 @@
   * [ ] One from Group B
   * [ ] And one from Group C
   * [ ] And Skitched them all into their respective `specs/` folder
-  * **BEAST MODE** - All the Skitches
+  * **BEAST MODE** - The quotes! They rotate!
 ```
 
 ### HALFTIME Journal
@@ -73,28 +74,22 @@ Now that you've got those yaks shaved, it's time to start on the remodeling. Pic
 
 Commit often while you work, and open a PR _into `release-0.0.2`_ as soon as you can. When you finish a feature, i.e. you complete your checklist, solicit peer review of your work and merge it. If you get stuck on a part of a feature, work on another one. Don't be afraid of having multiple branches open at once; you'll regularly have multiple "in-progress" branches on a team.
 
-### Blueprints Everywhere!
+### Two is Better Than One
 
-You've met four of the Blueprints so far: `MultiColumnForm`, `NestedAccordion`, `VerticalTimeline`, and  `ViewModeSwitch`. But there's others out there, too.
+You've met four of the Blueprints so far: `MultiColumnForm`, `NestedAccordion`, `VerticalTimeline`, and  `ViewModeSwitch`. But there's others out there, too, and it's time to meet them -- in a pair.
 
-From each group below, choose an "obstacle course" to tackle. You should choose _three_ total.
+From each group below, choose one "obstacle course" to tackle. You should choose _two_ total, one from each group.
 
-**Group A**
-* [`MultiColumnForm`](http://tympanus.net/codrops/2013/06/06/responsive-multi-column-form/)
-* [`ViewModeSwitch`](http://tympanus.net/codrops/2013/07/01/view-mode-switch/)
+**The $ Menu**
+* [Horizontal Drop-Down Menu](http://tympanus.net/codrops/2013/03/05/horizontal-drop-down-menu/)
+* [Horizontal Slide-Out Menu](http://tympanus.net/codrops/2013/05/17/horizontal-slide-out-menu/)
 
-**Group B**
-* [`Vertical Timeline`](http://tympanus.net/codrops/2013/05/02/vertical-timeline/)
-* [`Product Grid Layout`](http://tympanus.net/codrops/2013/05/17/product-grid-layout/)
+**McGriddles*
+* [Responsive Icon Grid](http://tympanus.net/codrops/2013/07/01/responsive-icon-grid/)
+* [Responsive Full Width Grid](http://tympanus.net/codrops/2013/04/17/responsive-full-width-grid/)
 
-**Group C**
-* [`Quotes Rotator`](http://tympanus.net/codrops/2013/03/29/quotes-rotator/)
-* [`Full Width Image Slider`](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/)
-
-If you've already completed the Blueprint previously, you'll need to start by committing a _complete deletion_ of the project into `master`. You heard me: `git rm -rf TIY-Assignments/*/`. Kill that sucker and push your changes. Almost feels good, doesn't it?
-
-Now, create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the desktop layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
+Create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the desktop layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
 
 #### BEAST MODE
 
-Didn't I say there were three of these? _Yep._ Three breakpoints each? _Most likely._ **bringgit.**
+Not enough for you? Then try one of these on for size: [Quotes Rotator](http://tympanus.net/codrops/2013/03/29/quotes-rotator/) or [Full Width Image Slider](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/). You'll need all your skills so far to complete this Blueprint .
