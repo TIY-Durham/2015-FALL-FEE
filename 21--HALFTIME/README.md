@@ -74,16 +74,16 @@ You've met four of the Blueprints so far: `MultiColumnForm`, `NestedAccordion`, 
 From each group below, choose an "obstacle course" to tackle. You should choose _three_ total.
 
 **Group A**
-[`MultiColumnForm`](http://tympanus.net/codrops/2013/06/06/responsive-multi-column-form/)
-[`ViewModeSwitch`](http://tympanus.net/codrops/2013/07/01/view-mode-switch/)
+* [`MultiColumnForm`](http://tympanus.net/codrops/2013/06/06/responsive-multi-column-form/)
+* [`ViewModeSwitch`](http://tympanus.net/codrops/2013/07/01/view-mode-switch/)
 
 **Group B**
-[`Vertical Timeline`](http://tympanus.net/codrops/2013/05/02/vertical-timeline/)
-[`Product Grid Layout`](http://tympanus.net/codrops/2013/05/17/product-grid-layout/)
+* [`Vertical Timeline`](http://tympanus.net/codrops/2013/05/02/vertical-timeline/)
+* [`Product Grid Layout`](http://tympanus.net/codrops/2013/05/17/product-grid-layout/)
 
 **Group C**
-[`Quotes Rotator`](http://tympanus.net/codrops/2013/03/29/quotes-rotator/)
-[`Full Width Image Slider`](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/)
+* [`Quotes Rotator`](http://tympanus.net/codrops/2013/03/29/quotes-rotator/)
+* [`Full Width Image Slider`](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/)
 
 If you've already completed the Blueprint previously, you'll need to start by committing a _complete deletion_ of the project into `master`. You heard me: `git rm -rf TIY-Assignments/*/`. Kill that sucker and push your changes. Almost feels good, doesn't it?
 
