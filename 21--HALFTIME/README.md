@@ -36,16 +36,6 @@
       * `bower.json`
       * `README.md`
 * **HALFTIME Journal**
-  * [ ] Time for some `remodeling`...
-  * [ ] Moving day, `_posts`...!
-  * [ ] You got that `yo h5bp`?
-  * [ ] Bower and NPM, back in the saddle.
-  * [ ] Browser? Sync'd.
-  * [ ] Skitched that layout?
-  * [ ] Breakpoints?
-  * [ ] Made a plan...
-  * [ ] Wrote it down...
-  * [ ] Broke it up...
 * **Blueprints Everywhere!**
   * [ ] Burnin' down the house!
   * [ ] Yo. H5BP, yo. Hey, yo, H5BP.
@@ -56,22 +46,25 @@
 
 ### HALFTIME Journal
 
+#### Three's Company
+
+How're those drafts going? Get a final draft done for your reflection and resource entries, then keep working on your tutorial. Make sure you get those 2 :+1:s and give 2 :+1:s!
+
+#### Build It Out
+
 Not really a _writing_ assignment, per se... Let's make that `USERNAME.github.io` repo into a _real_ blog site. We'll have to do a little remodeling, and you're gonna need some paint.
 
 #### Remodeling
 
-Create a new branch called `remodeling` from `master`. Check out that branch and do this initial work in there, committing after every step. Open a PR and put your **HALFTIME Journal** checklist in the description.
+Create a new branch called `release--0.0.2` from `master`. Check out that branch and do this initial work in there, committing after every step. Open a PR and put your **HALFTIME Journal** checklist in the description.
 
 1. Move all your old journal entries and tutorials into a new directory called `_posts/`; stash your in-progress journal entries in `_drafts/`.
-1. Use Yeoman to scaffold HTML5 Boilerplate.
-1. Use your `init` commands to create `bower.json` and `package.json` files.
+1. Use your `init` commands to create `bower.json` and `package.json` files if you haven't already.
 1. Add a `npm start` task to `package.json`.
 
-#### Planning
+Now that you've got those yaks shaved, it's time to start on the remodeling. Pick one of your features -- the navigation bar, one of the post blocks, the sidebar -- and create a branch _based on `release-0.0.2`_ called `feature/FEATURE-NAME` where `FEATURE-NAME` describes the part you're working on, e.g. `feature/sidebar` or `feature/main-column`.
 
-Choose one of the _responsive_ themse from [Wrap Bootstrap](http://wrapbootstrap.com), [ThemeForest](http://themeforest.net/search?category=static-site-generators), or another source as a _reference implementation._ Skitch out the layout and identify the breakpoints. Identify and _document_ what you are and are NOT going to build in a checklist on your PR. Make individual issues in your repo for the big chunks (features) and link them to the PR. Remember that your selected template is just a reference!
-
-More instructions tomorrow!
+Commit often while you work, and open a PR _into `release-0.0.2`_ as soon as you can. When you finish a feature, i.e. you complete your checklist, solicit peer review of your work and merge it. If you get stuck on a part of a feature, work on another one. Don't be afraid of having multiple branches open at once; you'll regularly have multiple "in-progress" branches on a team.
 
 ### Blueprints Everywhere!
 
