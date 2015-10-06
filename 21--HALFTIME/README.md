@@ -84,11 +84,13 @@ From each group below, choose one "obstacle course" to tackle. You should choose
 * [Horizontal Drop-Down Menu](http://tympanus.net/codrops/2013/03/05/horizontal-drop-down-menu/)
 * [Horizontal Slide-Out Menu](http://tympanus.net/codrops/2013/05/17/horizontal-slide-out-menu/)
 
-**McGriddles*
+**McGriddles**
 * [Responsive Icon Grid](http://tympanus.net/codrops/2013/07/01/responsive-icon-grid/)
 * [Responsive Full Width Grid](http://tympanus.net/codrops/2013/04/17/responsive-full-width-grid/)
 
-Create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the desktop layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
+Create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the desktop layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo and plan out your features. Checklists are encouraged. All of your tools are at your disposal.
+
+Together, craft your basic layouts for both projects. Get the MF'ing HTML up and some basic SCSS.
 
 #### BEAST MODE
 
