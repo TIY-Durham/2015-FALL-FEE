@@ -45,8 +45,8 @@
     * Feature branch made
     * And feature built
 * **Blueprints Everywhere!**
-  * [ ] Set up one from Group A
-  * [ ] One from Group B
+  * [ ] Yaks Shaved
+  * [ ] Some MFing HTML & SCSS
   * **BEAST MODE** - MORE BLUEPRINTS!
 ```
 
