@@ -15,8 +15,8 @@
 * [ ] **Yak Shaving**
   * _WIP Issue_: `HALFTIME -- YOUR NAME`
   *  _WIP Branch_:
-    * `USERNAME.github.io:remodeling`
-    *  `TIY-Assignments:halftime`
+    * `USERNAME.github.io:release-0.0.2`
+    *  `TIY-Assignments:release-0.0.0`
   * _WIP Files_:
     * `USERNAME.github.io`
       * `_drafts/`
@@ -27,15 +27,16 @@
       * `bower.json`
       * `package.json`
     * `TIY-Assignments`
-      * `MultiColumnForm/`
-      * `NestedAccordion/`
-      * `VerticalTimeline/`
-      * `ViewModeSwitch/`
-      * `.gitignore`
-      * `package.json`
-      * `bower.json`
-      * `README.md`
+      * A repo for each Blueprint
+        * `.gitignore`
+        * `package.json`
+        * `bower.json`
 * **HALFTIME Journal**
+  * All the entries
+    * [ ] Reflective - done
+    * [ ] Resource - done
+    * [ ] Tutorial Draft - done
+  * And let's start building
 * **Blueprints Everywhere!**
   * [ ] Burnin' down the house!
   * [ ] Yo. H5BP, yo. Hey, yo, H5BP.
@@ -68,10 +69,26 @@ Commit often while you work, and open a PR _into `release-0.0.2`_ as soon as you
 
 ### Blueprints Everywhere!
 
-I've given you four different obstacle courses: `MultiColumnForm`, `NestedAccordion`, `VerticalTimeline`, and  `ViewModeSwitch`. Start by committing a _complete deletions_ of those projects into `master`. You heard me: `git rm -rf TIY-Assignments/*/`. Kill those suckers and push your changes. Almost feels good, doesn't it?
+You've met four of the Blueprints so far: `MultiColumnForm`, `NestedAccordion`, `VerticalTimeline`, and  `ViewModeSwitch`. But there's others out there, too.
 
-Pick two of the four to rebuild. Create a branch called `halftime` and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
+From each group below, choose an "obstacle course" to tackle. You should choose _three_ total.
+
+**Group A**
+[`MultiColumnForm`](http://tympanus.net/codrops/2013/06/06/responsive-multi-column-form/)
+[`ViewModeSwitch`](http://tympanus.net/codrops/2013/07/01/view-mode-switch/)
+
+**Group B**
+[`Vertical Timeline`](http://tympanus.net/codrops/2013/05/02/vertical-timeline/)
+[`Product Grid Layout`](http://tympanus.net/codrops/2013/05/17/product-grid-layout/)
+
+**Group C**
+[`Quotes Rotator`](http://tympanus.net/codrops/2013/03/29/quotes-rotator/)
+[`Full Width Image Slider`](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/)
+
+If you've already completed the Blueprint previously, you'll need to start by committing a _complete deletion_ of the project into `master`. You heard me: `git rm -rf TIY-Assignments/*/`. Kill that sucker and push your changes. Almost feels good, doesn't it?
+
+Now, create a branch called `release-0.0.0` in your `TIY-Assignments` repo and get to shaving those yaks. Start with H5BP, Bower and NPM. Tell `git` to ignore the package folders. Create a `specs/` folder in each, Skitch the desktop layout and identify the breakpoints. Write your plan down for each project in a separate issue in your repo. Checklists are encouraged. All of your tools are at your disposal.
 
 #### BEAST MODE
 
-Didn't I say there were four of these? _Yep._ Three breakpoints each? _Most likely._ **bringgit.**
+Didn't I say there were three of these? _Yep._ Three breakpoints each? _Most likely._ **bringgit.**
