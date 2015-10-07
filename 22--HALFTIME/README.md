@@ -25,7 +25,7 @@
     * `TIY-Assignments`
       * `release--0.0.0` from `master`
       * `feature--yak-shaving` from `release--0.0.0`
-      * `feature--*` from `release--0.0.2`
+      * `feature--*` from `release--0.0.1`
   * _WIP Files_:
     * `USERNAME.github.io:release--0.0.2`
       * `_drafts/` -- for any WIP files...
@@ -36,7 +36,7 @@
         * `index.html`
       * `bower.json`
       * `package.json`
-    * `TIY-Assignments:release--0.0.2`
+    * `TIY-Assignments:release--0.0.1`
       * `DropDownMenu` / `SlideOutMenu` / `ResponsiveIcons` / `ResponsiveGrid` -- starting with `yo h5bp`
         * `scss/`
           * `main.scss`
