@@ -129,6 +129,6 @@ If you need a head start on tomorrow, start creating and merging feature branche
 Not enough for you? Then try these on for size, but make sure your partner is on board. You get one, they get one.
 
 * [Quotes Rotator](http://tympanus.net/codrops/2013/03/29/quotes-rotator/)
-* [Full Width Image Slider](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/).
+* [Full Width Image Slider](http://tympanus.net/codrops/2013/02/26/full-width-image-slider/)
 
 You'll need all your skills so far to complete this Blueprint challenge! No one has completed it yet...
