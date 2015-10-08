@@ -13,7 +13,7 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `HALFTIME -- YOUR NAME`
+  * _WIP Issue_: `HALFTIME 2 -- YOUR NAME`
   *  _WIP Branch_:
     * `USERNAME.github.io`
       * `journal-week-5`
@@ -21,18 +21,13 @@
       * `feature--*` from `release--0.0.3`
     * `TIY-Assignments`
       * `TIY-Assignments`
-      * `release--0.0.1` from `master`
+      * `release--0.0.2` from `master`
       * `feature--*` from `release--0.0.2`
   * _WIP Files_:
     * `USERNAME.github.io`
       * `index.html`
       * `css/main.css`
       * `js/main.js`
-    * `TIY-Assignments`
-      * `PROJECT-NAME/`
-        * `index.html`
-        * `css/main.css`
-        * `js/main.js`
 * [ ] **HALFTIME Journal!**
 * [ ] **Blueprints Everywhere!**
 ```
