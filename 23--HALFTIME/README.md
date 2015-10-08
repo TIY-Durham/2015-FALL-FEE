@@ -47,4 +47,4 @@ Make branch `release--0.0.3`. Continue working on your features in `feature/*` b
 
 ### Blueprints Everywhere!
 
-Keep working with your partner on your Blueprints, using the same similar and branching review process that we've been using this week. Your branch should be `release--0.0.2`.
+Keep working with your partner on your Blueprints. Your branch should be `release--0.0.2`.
