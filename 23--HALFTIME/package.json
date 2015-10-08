@@ -1,0 +1,19 @@
+{
+  "name": "23--halftime",
+  "version": "0.0.0",
+  "description": "ALL THE DEMOS!",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TIY-Durham/2015-FALL-FEE.git"
+  },
+  "author": "David Rogers <david@theironyard.com>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues"
+  },
+  "homepage": "https://github.com/TIY-Durham/2015-FALL-FEE#readme"
+}
