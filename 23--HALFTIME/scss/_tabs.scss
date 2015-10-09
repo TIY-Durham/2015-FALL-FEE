@@ -1,11 +1,5 @@
 $lighter-gray: lighten(gray, 15%) !default;
 
-main.container {
-  box-sizing: border-box;
-  margin: 0 5%;
-  outline: 1px solid red;
-}
-
 .tabs {
   border-bottom: 0.25ex solid $lighter-gray;
 
