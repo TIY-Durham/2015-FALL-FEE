@@ -67,4 +67,18 @@
         width: 100% * ($X / 4);
       }
     } // END for 1..4
+
+    $Y: 5; // For any arbitrary value of $Y, really, so why not 5?
+    @for $X from 1 through $Y {
+      .col-#{$X}-#{$Y} {
+        width: 100% * ($X / $Y);
+
+        body.demo &::before {
+          content: "#{$X}/#{$Y}";
+        }
+      }
+      .pad-#{$X}-#{$Y} {
+        margin-left: 100% * ($X/$Y);
+      }
+    } // END @for 1...$Y
   } // END .grid.row
