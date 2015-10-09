@@ -81,4 +81,20 @@
         margin-left: 100% * ($X/$Y);
       }
     } // END @for 1...$Y
+
+    // for 6 and 8 and 12 and 16 and 18
+    @each $Y in 6, 8, 12, 16, 18 {
+      @for $X from 1 through $Y {
+        .col-#{$X}-#{$Y} {
+          width: 100% * ($X / $Y);
+
+          body.demo &::before {
+            content: "#{$X}/#{$Y}";
+          }
+        }
+        .pad-#{$X}-#{$Y} {
+          margin-left: 100% * ($X/$Y);
+        }
+      } // END @for 1...$Y
+    } // END @each 6,8,12,16,18
   } // END .grid.row
