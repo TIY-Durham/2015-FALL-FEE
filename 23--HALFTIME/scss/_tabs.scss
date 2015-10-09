@@ -1,14 +1,14 @@
 $lighter-gray: lighten(gray, 15%) !default;
 
 .tabs {
+  @extend .grid.row;
   border-bottom: 0.25ex solid $lighter-gray;
 
   a[href] {
-    display: inline-block;
-    margin: 0; margin-right: 0.5em;
+    @extend .col-1-3;
     padding: 1ex 2em;
     background-color: $lighter-gray;
-    
+
     &.active {
       background-color: gray;
     }
