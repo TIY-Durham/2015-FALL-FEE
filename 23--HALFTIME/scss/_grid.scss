@@ -35,4 +35,18 @@
     .col-3-3 {
       width: 100% * (3/3);
     }
+
+    // Just copy-pasta, right?
+    .col-1-4 {
+      width: 100% * (1/4);
+    }
+    .col-2-4 {
+      width: 100% * (2/4);
+    }
+    .col-3-4 {
+      width: 100% * (3/4);
+    }
+    .col-4-4 {
+      width: 100% * (4/4);
+    }
   } // END .grid.row
