@@ -1,4 +1,22 @@
 .grid.row {
+    [class*="col-"] {
+      box-sizing: border-box;
+      outline: 1px solid #353461;
+      display:block; float:left;
+      padding-right: 1em;
+
+      // No gutter on the last element, please!
+      &:last-child {
+        padding-right: 0;
+      }
+
+      // Just so we can see the things...
+      span { // Can't we do better?
+        display: block;
+        background-color: gray;
+      }
+    } // END [class*="col-"]
+
     // For `.col-1-2` and `.col-2-2`... Not so bad.
     .col-1-2 {
       width: 100% * (1/2);
