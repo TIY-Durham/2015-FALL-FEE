@@ -15,6 +15,10 @@
         display: block;
         background-color: gray;
       }
+      body.demo &::before { // MUCH BETTER!
+        display: block;
+        background-color: lightgray;
+      }
     } // END [class*="col-"]
 
     // For `.col-1-2` and `.col-2-2`... Not so bad.
