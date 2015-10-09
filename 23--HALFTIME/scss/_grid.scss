@@ -1,4 +1,6 @@
 .grid.row {
+    // FIXME: Need a "clearfix hack" here!
+
     [class*="col-"] {
       box-sizing: border-box;
       outline: 1px solid #353461;
