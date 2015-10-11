@@ -57,6 +57,12 @@ Read through [Etsy API documentation](https://www.etsy.com/developers/documentat
 
 Throughout the week, you'll be assigned a piece of [_Shaping Up with Angular JS_ on CodeShool](https://www.codeschool.com/courses/shaping-up-with-angular-js) to work through. For tonight, play through the _entire course_ by watching the videos and just taking the answers on the challenge. Type them yourself -- quickly -- to move forward. Take a picture of your badge for the course when you complete and attach it to your _WIP Issue_.
 
+### Viva GitHub Revolution!
+
+Last week you built out your GitHub profile and realized... _Github doesn't use breakpoints_. There are _no_ Media Queries whatsoever. Switch your User-Agent (UA) identifier to a mobile device and reload... That's _adaptive_ rather than _responsive_, and that's a problem. Let's fix it.
+
+Your solo assignment for the week is to build out HTML and CSS for a _responsive_ Github profile. Start Mobile-First and expand to desktop. 
+
 ### Yak Shaving: `TIY-Catalog`
 
 This week we're going to build a couple of pages from Etsy: a couple of category pages and the product detail pages. That means we need some yaks shaved! Just like we did last week, give us a `src/` and `dist/` directory, start with a `.gitignore` file in `dist/` and H5BP in `src/`, `init` those `.json` files, and start loading up dependencies. 
