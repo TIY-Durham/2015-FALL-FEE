@@ -52,6 +52,10 @@ Read through [Etsy API documentation](https://www.etsy.com/developers/documentat
   * What if there is a _lot_ of data returned?
     * How can I ask for more (or less) data from a request?
     * How do I know that there is more data available?
+ 
+#### Shaping Up with Angular JS
+
+Throughout the week, you'll be assigned a piece of [_Shaping Up with Angular JS_ on CodeShool](https://www.codeschool.com/courses/shaping-up-with-angular-js) to work through. For tonight, play through the _entire course_ by watching the videos and just taking the answers on the challenge. Type them yourself -- quickly -- to move forward. Take a picture of your badge for the course when you complete and attach it to your _WIP Issue_.
 
 ### Yak Shaving: `TIY-Catalog`
 
