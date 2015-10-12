@@ -71,6 +71,8 @@
   * [ ] Completed Level 1!
   * [ ] Completed Level 2!
   * [ ] Pics or it didn't happen!
+* [ ] **For Your GitHub Only**
+* [ ] **Etsy Goes On**
 ```
 
 ### Journal, Week 6
@@ -99,14 +101,12 @@ Last night was a (very) quick tour of the course. Tonight is reinforcement: play
 
 ### For Your GitHub Only
 
+Keep building your _Responsive_ GitHub page. Tonight, try to get the mobile view done. After merging, cut a new `release--*` branch from `master` and a new branch from that called `feature--responsive-mobile`.
+
 ### Etsy: Build It Out
 
 Elect a single Team Lead to manage the project... just for tonight, though.
 
-Formulate a group plan of attack for building out _at least one_ product and category page with HTML and (S)CSS _only_... but with one catch: **the Team Lead cannot write any code.** His or her job is to pair up with each of the other two, lead code reviews, and ensure the submitted work matches the joint plan.
+Formulate a group plan of attack for building out _at least one_ product and category page with HTML and (S)CSS _only_ tonight... but with one catch: **the Team Lead cannot write any code.** His or her job is to pair up with each of the other two, lead code reviews, and ensure the submitted work matches the joint plan. 
 
 Don't worry, we'll switch the Team Lead roles, so you'll probably get a chance to be Team Lead. If that's you this time around, don't waste your time waiting around for code to review: refine the plan, document the API for the next phase of development, pro-actively pair up with your teammates... make the most of your time.
-
-### BEAST MODE
-
-Actually _complete_ the HTML and (S)CSS completed for the product detail and category page. Use the grid, Luke!
