@@ -62,8 +62,10 @@
   * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
   * _WIP Branch_:
   * _WIP Files_:
-* [ ] **WRITING**
-  * checkpoints
+* [ ] **And the Beat Goes On**
+  * _Rough Draft_ for Reflective Journal on Week 6
+  * _Rough Draft_ for Tutorial Journal
+  * _Final Draft_ for Resource Journal, due Tuesday!
 * [ ] **READING**
   * checkpoints
 * **Shaping Up with Angular JS**
@@ -71,6 +73,9 @@
   * [ ] Completed Level 2!
   * [ ] Pics or it didn't happen!
 ```
+
+### Journal, Week 6
+Keep writing! Tomorrow you should have your final draft of your **Resource** journal and rough drafts for your **Reflective** and **Tutorial** journals.
 
 ### Reading APIs: Etsy
 
