@@ -95,7 +95,14 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+@import "grid";
 @import "tabs";
+
+main.container {
+  box-sizing: border-box;
+  margin: 0 5%;
+  outline: 1px solid red;
+}
 
 /* ==========================================================================
    Helper classes
