@@ -66,8 +66,7 @@
   * _Rough Draft_ for Reflective Journal on Week 6
   * _Rough Draft_ for Tutorial Journal
   * _Final Draft_ for Resource Journal, due Tuesday!
-* [ ] **READING**
-  * checkpoints
+* [ ] **Reading APIs: Etsy**
 * **Shaping Up with Angular JS**
   * [ ] Completed Level 1!
   * [ ] Completed Level 2!
@@ -97,3 +96,17 @@ Here's another batch of questions to guide your research on the Etsy API. Chance
 ### Shaping Up With Angular JS
 
 Last night was a (very) quick tour of the course. Tonight is reinforcement: play through (as in, try to complete without help) levels 1 and 2. You've got a lot to do tonight, so don't spend too much time here. If you get stuck, buy the answer and move on. Tomorrow you'll do the same with levels 2 (again) and 3. It'll come back around.
+
+### For Your GitHub Only
+
+### Etsy: Build It Out
+
+Elect a single Team Lead to manage the project... just for tonight, though.
+
+Formulate a group plan of attack for building out _at least one_ product and category page with HTML and (S)CSS _only_... but with one catch: **the Team Lead cannot write any code.** His or her job is to pair up with each of the other two, lead code reviews, and ensure the submitted work matches the joint plan.
+
+Don't worry, we'll switch the Team Lead roles, so you'll probably get a chance to be Team Lead. If that's you this time around, don't waste your time waiting around for code to review: refine the plan, document the API for the next phase of development, pro-actively pair up with your teammates... make the most of your time.
+
+### BEAST MODE
+
+Actually _complete_ the HTML and (S)CSS completed for the product detail and category page. Use the grid, Luke!
