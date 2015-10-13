@@ -24,16 +24,16 @@
       * `feature--*` -- for any new features
     * `TIY-Catalog`:
       * `feature--*` -- for any feature you're working on
-* **Journal, Week 7**
-  * [ ] Reflective done
-  * [ ] Tutorial rough draft
+* [ ] **Journal, Week 7**
+  * Reflective done
+  * Tutorial rough draft
 * [ ] **Reading APIs: Etsy**
-* **Shaping Up with Angular JS**
-  * [ ] Level 2 complete (again)!
-  * [ ] Level 3 complete!
-  * [ ] Pics or it didn't happen!
-* [ ] The Man with the Golden GitHub
-* [ ] Etsy Goes Marching On
+* [ ] Shaping Up with Angular JS**
+  * Level 2 complete (again)!
+  * Level 3 complete!
+  * Pics or it didn't happen!
+* [ ] **The Man with the Golden GitHub**
+* [ ] **Etsy Goes Marching On**
 ```
 
 ### Journal, Week 6
