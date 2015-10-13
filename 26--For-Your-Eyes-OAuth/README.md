@@ -9,6 +9,8 @@
 
 ## Agenda
 
+ALL THE ANGULAR.
+
 ## Assignment
 
 ```markdown
