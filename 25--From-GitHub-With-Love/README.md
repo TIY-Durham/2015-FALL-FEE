@@ -59,9 +59,34 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
+  * [ ] _WIP Issue_
+    * [ ] link to PRs in `USERNAME.github.io`:
+      * from `journal-week-6` into `master`
+      * from `release--*` into `master`
+      * `feature--*` into `release--*`
+    * link to PRs in `TIY-GitHub`:
+      * [ ] from `release--*` into `master`
+      * [ ] from `feature--*` into `release--*`
+    * link to PRs in `TIY-Catalog`:
+      * [ ] from `feature/planning-*` into `TIY-Durham:develop`
+      * [ ] from `TIY-Durham:develop` into `develop`
+  * [ ] _WIP Branch_
+    * `USERNAME.github.io`
+      * [ ] `journal-week-6`
+      * [ ] `release--*`
+      * [ ] `feature--*`
+    * `TIY-GitHub`
+      * [ ] `release--*` from `master`
+      * [ ] `feature--*` from `release--*`
+    * `TIY-Catalog`
+      * [ ] `feature--*` from `develop`
+  * [ ] _WIP Files_
+    * `USERNAME.github.io:journal-week-6`
+      * `_posts/`
+        * Reflective Outline
+        * Tutorial Outline
+        * Resource Post
+    * `TIY-GitHub:release--*`
 * [ ] **And the Beat Goes On**
   * _Rough Draft_ for Reflective Journal on Week 6
   * _Rough Draft_ for Tutorial Journal
@@ -101,7 +126,7 @@ Last night was a (very) quick tour of the course. Tonight is reinforcement: play
 
 ### For Your GitHub Only
 
-Keep building your _Responsive_ GitHub page. Tonight, try to get the mobile view done. After merging, cut a new `release--*` branch from `master` and a new branch from that called `feature--responsive-mobile`.
+Keep building your _Responsive_ GitHub page. Last night's BEAST MODE is tonight's NORMAL. Clean up that GitHub profile a little in some additional feature branches. Remember, _use as little markup as you need_ and pick classes and tags that _convey meaning_.
 
 ### Etsy: Build It Out
 
