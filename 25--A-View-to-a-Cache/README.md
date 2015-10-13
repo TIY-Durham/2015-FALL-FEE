@@ -1,4 +1,4 @@
-# 25 -- From GitHub with Love
+# 25 -- A View to a Cache
 
 ## Rituals (~1h 30m)
 
