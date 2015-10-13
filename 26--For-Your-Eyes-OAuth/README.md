@@ -28,7 +28,7 @@
   * [ ] Reflective done
   * [ ] Tutorial rough draft
 * [ ] **Reading APIs: Etsy**
-* [ ] **Shaping Up with Angular JS**
+* **Shaping Up with Angular JS**
   * [ ] Level 2 complete (again)!
   * [ ] Level 3 complete!
   * [ ] Pics or it didn't happen!
@@ -79,4 +79,4 @@ If you're the _new_ lead, no coding for you! You must support the other two team
 
 If you _were_ the lead, pick up one of the existing, open tasks _before_ starting a new task. That doesn't have to be the new lead's old task, either. If your third teammate is stuck on something: trade. Rely on your _new_ Team Lead for direction and support.
 
-Between the three of you, you should have the HTML and (S)CSS complete for those two pages by tonight. They don't have to be pixel-perfect replicas, but they should be very close to authentic.
+Between the three of you, you should tackle  _at least one feature per person with HTML, (S)CSS, and some Angular JS placeholders_.
