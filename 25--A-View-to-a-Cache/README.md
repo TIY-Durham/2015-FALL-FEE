@@ -93,10 +93,12 @@ Last night was a (very) quick tour of the course. Tonight is reinforcement: play
 
 ### For Your GitHub Only
 
-Keep building your _Responsive_ GitHub page. Last night's BEAST MODE is tonight's NORMAL. Clean up that GitHub profile a little in some additional feature branches. Remember, _use as little markup as you need_ and pick classes and tags that _convey meaning_.
+Keep building your _Responsive_ GitHub page. Tonight, try to get the mobile view done. After merging, cut a new `release--*` branch from `master` and a new branch from that called `feature--responsive-mobile`.
 
 ### Etsy Goes On
 
-Elect a single Team Lead for tonight. Formulate a group plan of attack for building out _at least one feature per person_ with HTML, (S)CSS, and some Angular JS placeholders, but with one catch: **the Team Lead cannot write any code.** His or her job is to pair up with each of the other two, lead code reviews, and ensure the submitted work matches the joint plan. That person _also_ has work to do _outside_ of this project, so resist the temptation to make a ton of headway at the expense of your team.
+Elect a single Team Lead for tonight. Formulate a group plan of attack for building out _at least one feature per person_ with HTML, (S)CSS, and some Angular JS placeholders, but with one catch: **the Team Lead cannot write / commit any code.** His or her job is to pair up with each of the other two, lead code reviews, and ensure the submitted work matches the joint plan. That person _also_ has work to do _outside_ of this project, so resist the temptation to make a ton of headway at the expense of your team.
 
-The Team Lead role will rotate, so you'll definitely get a chance to be one. If that's you this time around, don't waste your time waiting around for code to review: refine the plan, document the API for the next phase of development, pro-actively pair up with your teammates... make the most of your time to maximize _their_ productivity.
+The Team Lead role will rotate, so you'll definitely get a chance to be one. If that's you this time around, don't waste your time waiting around for code to review: refine the plan, document the API for the next phase of development, pro-actively pair up with your teammates, help with research... make the most of your time to maximize _their_ productivity.
+
+Your _big_ goal as the _whole_ team should be to start caching some data from the API using `curl` or Postman. Let's see, last time we put that data in `apis/github/`... Where do you think it should live _this_ time? Did you guess `apis/etsy/`...? You're right! Make the local filesystem path match the resource URI as much as possible to make the transition to _real_ API data as easy as possible.
