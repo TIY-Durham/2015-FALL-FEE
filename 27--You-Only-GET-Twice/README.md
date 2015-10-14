@@ -25,8 +25,8 @@
     * `TIY-Catalog`:
       * `feature--*` -- for any feature you're working on
 * [ ] **Journal, Week 7: Any Way You Want It**
-  * [ ] Tutorial journal complete...
-  * [ ] ...and reviewed!
+  * Tutorial journal complete...
+  * ...and reviewed!
 * [ ] **Shaping Up with Angular JS**
   * Level 3 complete (again)!
   * Level 4 complete!
