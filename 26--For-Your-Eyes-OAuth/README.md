@@ -1,15 +1,41 @@
 # 26 -- For Your Eyes OAuth
 
-## Rituals (~1h 30m)
+## Rituals (~1h)
 
-* **Standup Meeting** (~15m)
-* **Homework Review** (~30m)
-* **Quiz Time!** (~15m)
-* **Three Little Things** (~30m)
+* **Standup Meeting** (~5m)
+* **Code Review** (~45m)
+* **Intermission** (~10m)
 
-## Agenda
+## Agenda (~1h)
 
-ALL THE ANGULAR.
+* **Git with the Flow!**
+  * Ready to take branching to the next level?
+  * First, we create a _new_ branch called `develop` based on `master`.
+  * All `feature--*` branches merge into `develop` via PRs.
+  * To merge `develop` into `master`, we cut a new `release` branch.
+  * Don't forget to bump the version number!
+  * And tag `master` when that branch is merged with the version number.
+  * Holy automation, Batman, isn't there a better way?
+  * `brew install git-flow-avh`
+  * `git flow init`
+* **Even more Angular JS...**
+  * Attaching data to the View? Use the `$scope` service... for now.
+    * in `src/js/main.js`: `.run(function($scope){ })`
+    * Attach some data to the `$scope` as keys...
+    * ...and watch the placeholders update automatically.
+    * Even if we introduce a little delay with `setTimeout`?
+    * Crud. Gottta kick over the `$digest` cycle manually. Lame.
+    * This seems like a pretty common problem...
+  * What about my JSON data? Can I use `jQuery.getJSON` like before?
+    * Yes, but `$scope` isn't _that_ magical: `$apply` or forcing a `$digest` is lame.
+    * So yes-but-no. Use [`$http`](https://docs.angularjs.org/api/ng/service/$http) instead...
+    * ...and mind the gap: `then` callbacks get something different.
+
+## Project Planning (~30m)
+
+* What have we completed?
+* What do we work on next?
+* What is in the way?
 
 ## Assignment
 
@@ -26,11 +52,12 @@ ALL THE ANGULAR.
       * `feature--*` -- for any new features
     * `TIY-Catalog`:
       * `feature--*` -- for any feature you're working on
-* [ ] **Journal, Week 7**
-  * Reflective done
-  * Tutorial rough draft
+* [ ] **Journal, Week 6**
+  * Resource BEEN DONE.
+  * Reflective done by Thu!
+  * Tutorial drafting...
 * [ ] **Reading APIs: Etsy**
-* [ ] Shaping Up with Angular JS**
+* [ ] **Shaping Up with Angular JS**
   * Level 2 complete (again)!
   * Level 3 complete!
   * Pics or it didn't happen!
@@ -39,7 +66,8 @@ ALL THE ANGULAR.
 ```
 
 ### Journal, Week 6
-You know what to do. Tomorrow you should have your final draft of your **Reflective** journal and rough draft for **Tutorial** journal.
+
+You know what to do. Tomorrow you should have your final draft of your **Reflective** journal and some rough drafts for your **Tutorial** journal. Your **Reosource** post was done already. Right?
 
 ### Reading APIs: Etsy
 
@@ -63,7 +91,7 @@ The data from your page has to come from _somewhere_ in the API, right? Well, th
   * additional params needed (`fields`, `includes`)
   * sample data returned
 
-Make a sample request using [Postman](http://getpostman.com) or `curl` to inspect real responses from the API to verify your hypotheses from the documentation. Document the API endpoints -- including the query string parameters -- that you need for each page. Add those to your plans!
+Make a sample request using [Postman](http://getpostman.com) or `curl` to inspect real responses from the API to verify your hypotheses from the documentation. These findings could be valuable to your team!
 
 ### Shaping Up with Angular JS: Round 2
 
@@ -81,4 +109,4 @@ If you're the _new_ lead, no coding for you! You must support the other two team
 
 If you _were_ the lead, pick up one of the existing, open tasks _before_ starting a new task. That doesn't have to be the new lead's old task, either. If your third teammate is stuck on something: trade. Rely on your _new_ Team Lead for direction and support.
 
-Between the three of you, you should tackle  _at least one feature per person with HTML, (S)CSS, and some Angular JS placeholders_.
+Between the three of you, you should tackle  _at least one feature per person with HTML, (S)CSS, and some Angular JS placeholders_. With your new knowledge of the Etsy API and the `$http` service, load some data from your cache in `apis/etsy/` and pull it into your page to replace some placeholders.
