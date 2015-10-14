@@ -13,9 +13,17 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
+  * _WIP Issue_ with links to:
+    * your PRs in `USERNAME.github.io`
+    * your PRs in `TIY-GitHub` for features and releases
+    * your PRs in `TIY-Catalog` for `feature--*` into `develop`
   * _WIP Branch_:
-  * _WIP Files_:
+    * `USERNAME.github.io:journal-week-6`
+    * `TIY-GitHub`:
+      * `release--*` -- if you're ready for another release
+      * `feature--*` -- for any new features
+    * `TIY-Catalog`:
+      * `feature--*` -- for any feature you're working on
 * [ ] **Journal, Week 7: Any Way You Want It**
   * [ ] Tutorial journal complete...
   * [ ] ...and reviewed!
