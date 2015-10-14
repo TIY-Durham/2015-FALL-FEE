@@ -48,11 +48,10 @@ Continuing with our exercise with Angular JS, work through levels 3 (again) and 
 
 ### GitHubs Are Forever
 
-Finish up your Responsive GitHub profile. You should have mobile, tablet, and desktop view done.
+Finish up your Responsive GitHub profile. You should have mobile, tablet, and desktop view done. 
 
 ### Quantum of Etsy
 
 Rotate your Team Leads again! Don't forget to rotate **every day** this weekend. Most of you should have an opportunity to be Team Lead **twice**.
 
-Finish up your features and push to `TIY-Catalog`.
-
+Finish up your features and push to `TIY-Catalog`. 
