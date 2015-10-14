@@ -9,6 +9,8 @@
 
 ## Agenda
 
+LET'S GET ANGULAR!
+
 ## Assignment
 
 ```markdown
