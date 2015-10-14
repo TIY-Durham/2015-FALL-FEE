@@ -1,4 +1,4 @@
-# 26 -- For Your Eyes OAuth
+# 26 -- API Another Day
 
 ## Rituals (~1h)
 
