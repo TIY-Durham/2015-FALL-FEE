@@ -54,4 +54,4 @@ Finish up your Responsive GitHub profile. You should have mobile, tablet, and de
 
 Rotate your Team Leads again! Don't forget to rotate **every day** this weekend. Most of you should have an opportunity to be Team Lead **twice**.
 
-Finish up your features and push to `TIY-Catalog`. 
+Finish up your features and open those PRs to `TIY-Catalog`. 
