@@ -1,6 +1,6 @@
 # 27 -- You Only `GET` Twice
 
-## Rituals (~1h 30m)
+## Rituals
 
 * **Standup Meeting** (~15m)
 
