@@ -97,4 +97,4 @@ Not quite done with your `USERNAME.github.io` layout? Identify at least 3 featur
 
 ### Angularize GitHub!
 
-Help me write this yak-shaving assignment, @al-the-x Wan Kenobi, you're my only hope.
+Help me write this yak-shaving assignment, David Wan Kenobi, you're my only hope.
