@@ -13,11 +13,14 @@
 
 ```markdown
 * [ ] **Yak Shaving**
-  * _WIP Issue_: `XX -- Assignment Name -- YOUR NAME`
-  * _WIP Branch_:
-  * _WIP Files_:
-* [ ] **Journal, Week 8**
-  * created `journal-week-8` from `master`
+  * _WIP Issue_: `28 -- YOUR NAME`
+    * Links to PRs in:
+      * `USERNAME.github.io`
+        * `journal-week-7` into `master`
+        * `feature/*` into `remodeling`
+        * `remodeling` into `master`
+* [ ] **Journal, Week 7**
+  * created `journal-week-7` from `master`
   * flag in the sand for:
     * reflective journal
     * tutorial journal
@@ -43,8 +46,8 @@
     * How do I retrieve...
       * ...the params from a route in a controller?
       * ...the controller for a route in the view?
-* [ ] **CODING**
-  * checkpoints
+* [ ] **Don't Stop Believing**
+* [ ] **Angularize GitHub**
 ```
 
 ### Journal, Week 7: Any Way You Want It
@@ -90,7 +93,8 @@ The simplest library for routing URLs to Controller code and loading templates i
 
 ### Don't Stop Believing...
 
-Don't you have a ton of features backed up in your `USERNAME.github.io` repo? Identify at least 3 features that you intend to complete this week. Create or continue using `feature/*` branches with PRs into `remodeling`. Solicit peer reviews and merge your PRs as you go. Open a PR from `remodeling` into `master` so you can release your progress at the end of the week.
+Not quite done with your `USERNAME.github.io` layout? Identify at least 3 features that you intend to complete this week. Create or continue using `feature/*` branches with PRs into `remodeling`. Solicit peer reviews and merge your PRs as you go. Open a PR from `remodeling` into `master` so you can release your progress at the end of the week.
 
+### Angularize GitHub!
 
-
+Help me write this yak-shaving assignment, @al-the-x Wan Kenobi, you're my only hope.
