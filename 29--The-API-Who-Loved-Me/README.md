@@ -1,6 +1,6 @@
 # 29 -- The API Who Loved Me
 
-## Rituals (~1h 30m)
+## Rituals (~45m)
 
 * **Standup Meeting** (~15m)
 * **Homework Review** (~30m)
