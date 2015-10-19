@@ -47,7 +47,13 @@
       * ...the params from a route in a controller?
       * ...the controller for a route in the view?
 * [ ] **Don't Stop Believing**
-* [ ] **Angularize GitHub**
+* [ ] **GitHub Revolution: Angular Edition**
+  * `git-flow` that sucker!
+  * `angular`-ize with `bower` and `wiredep`
+  * just `run` the thing already!
+  * `$http.get` ALL THE THINGS!
+  * profile data angularized, cap'n!
+  * _at least one repo_ angularized, too!
 ```
 
 ### Journal, Week 7: Any Way You Want It
@@ -95,6 +101,10 @@ The simplest library for routing URLs to Controller code and loading templates i
 
 Not quite done with your `USERNAME.github.io` layout? Identify at least 3 features that you intend to complete this week. Create or continue using `feature/*` branches with PRs into `remodeling`. Solicit peer reviews and merge your PRs as you go. Open a PR from `remodeling` into `master` so you can release your progress at the end of the week.
 
-### Angularize GitHub!
+### GitHub Revolution: Angular Edition
 
-Help me write this yak-shaving assignment, David Wan Kenobi, you're my only hope.
+No one really liked that jQuery thing anyway. Start remodeling your `TIY-GitHub` using `git-flow` techniques: create a `develop` branch based on `master` and open a `feature/shaping-up` branch. In case you're missing it, `npm install --save-dev bower wiredep` to get those on your side and use `bower install --save` to add `angular` to your `bower.json`... make sure you have a `bower.json` first.
+
+Use `wiredep` to link your shiny new copy of Angular JS (and any other `bower_components` for that matter) into `src/index.html` and confirm operation. Of course, Angular won't do much without a little more yak shaving, now will it? Create a new module named `tiy-github` in `js/main.js` _inside an IIFE_ and attach that to your HTML with an `ng-app` Directive. Now watch all those placeholders go down the drain...!
+
+In a simple `run` callback, load the `$http` and `$rootScope` service. Fetch and attach the data for Octocat and see what happens! Then start correcting your placeholders based on the cached API data. Make as much progress as you can, but don't let yourself get stuck on anything. Just make notes in your _WIP Issue_ and bring them up in class. You should definitely have the basic profile info for Octocat and _at least one repository_ filled in by Angular JS. Don't worry too much about the looks; that's not the point.
