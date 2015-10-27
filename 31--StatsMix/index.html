@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="google" value="notranslate">
+
+
+  <title>CodePen - Angular Multi-Column Form for TIY-Durham/2015-FALL-FEE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="//codepen.io/assets/reset/normalize.css">
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/pure/0.6.0/pure.css">
+
+  <link rel="stylesheet prefetch" href="http://tympanus.net/Blueprints/ResponsiveMultiColumnForm/css/default.css">
+  <link rel="stylesheet prefetch" href="http://tympanus.net/Blueprints/ResponsiveMultiColumnForm/css/component.css">
+</head>
+
+<body>
+
+  <div class="main" ng-app="TIY-Contacts">
+    <ng-view />
+
+    <script type="text/ng-template" id="contact-list.html">
+      <nav> <a href="#/contacts/new" class="pure-button">Add</a> </nav>
+      <hr>  
+      <table class="pure-table">
+        <thead>
+          <tr>
+            <th> # </th>
+            <th> First Name </th>
+            <th> Last Name </th>
+          </tr>
+        </thead>
+        <tbody ng-if="contacts.all.length">
+          <tr ng-repeat="contact in contacts.all">
+            <td> {{contact.id}} </td>
+            <td> {{contact.first_name}} </td>
+            <td> {{contact.last_name}} </td>
+          </tr>
+        </tbody>
+        <tbody ng-if="!contacts.all.length">
+          <tr><td colspan="3">
+            <a href="#/contacts/add">Add a new contact?</a>
+            No Contacts yet...
+          </td></tr>
+        </tbody>
+      </table>
+    </script><!-- #contact-list.html -->
+
+    <script type="text/ng-template" id="contact-form.html">
+      <form class="cbp-mc-form" ng-submit="editor.addContact($form)">
+        <div class="cbp-mc-column">
+          <label for="first_name">First Name</label>
+          <input type="text" id="first_name" name="first_name" placeholder="Jonathan" ng-model="editor.user.first_name">
+          <label for="last_name">Last Name</label>
+          <input type="text" id="last_name" name="last_name" placeholder="Doe" ng-model="editor.user.last_name">
+          <label for="email">Email Address</label>
+          <input type="text" id="email" name="email" placeholder="jon@doe.com">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option>Choose a country</option>
+            <option>France</option>
+            <option>Italy</option>
+            <option>Portugal</option>
+          </select>
+          <label for="bio">Biography</label>
+          <textarea id="bio" name="bio"></textarea>
+        </div>
+        <div class="cbp-mc-column">
+          <label for="phone">Phone Number</label>
+          <input type="text" id="phone" name="phone" placeholder="+351 999 999">
+          <label for="affiliations">Affiliations</label>
+          <textarea id="affiliations" name="affiliations"></textarea>
+          <label>Occupation</label>
+          <select id="occupation" name="occupation">
+            <option>Choose an occupation</option>
+            <option>Web Designer</option>
+            <option>Web Developer</option>
+            <option>Hybrid</option>
+          </select>
+          <label for="cat_name">Name of your cat:</label>
+          <input type="text" id="cat_name" name="cat_name" placeholder="Kitty">
+          <label for="gagdet">Favorite Gadget</label>
+          <input type="text" id="gagdet" name="gagdet" placeholder="Annoy-a-tron">
+        </div>
+        <div class="cbp-mc-column">
+          <label>Type of Talent</label>
+          <select id="talent" name="talent">
+            <option>Choose a talent</option>
+            <option>Ninja silence</option>
+            <option>Sumo power</option>
+            <option>Samurai precision</option>
+          </select>
+          <label for="drink">Favorite Drink</label>
+          <input type="text" id="drink" name="drink" placeholder="Green Tea">
+          <label for="power">Special power</label>
+          <input type="text" id="power" name="power" placeholder="Anti-gravity">
+          <label for="weapon">Weapon of choice</label>
+          <input type="weapon" id="weapon" name="weapon" placeholder="Lightsaber">
+          <label for="comments">Comments</label>
+          <textarea id="comments" name="comments"></textarea>
+        </div>
+        <div class="cbp-mc-submit-wrap">
+          <input class="cbp-mc-submit" type="submit" value="Send your data" />
+        </div>
+      </form>
+    </script>
+  </div>
+  <!-- .main -->
+
+
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-route.js"></script>
+
+  <script>
+    (function() {
+      angular.module('TIY-Contacts', ['ngRoute'],
+        function($routeProvider) {
+          $routeProvider
+            .when('/contacts', {
+              templateUrl: 'contact-list.html',
+              controller: function(Contacts){
+                this.all = Contacts.all();
+              },
+              controllerAs: 'contacts'
+            })
+            .when('/contacts/new', {
+              templateUrl: 'contact-form.html',
+              controller: function($location, Contacts){
+                this.user = { };
+
+                this.addContact = function(){
+                  Contacts.push(this.user);
+
+                  this.user = { };
+
+                  $location.path('/contacts');
+                }
+              },
+              controllerAs: 'editor'
+            })
+            // .when('/contacts/:contactId', {
+            //   templateUrl: 'contact-form.html',
+            //   controller: function(contacts){
+            //     var editing = this;
+            //
+            //     editing.user = contacts[0];
+            //   },
+            //   controllerAs: 'editor'
+            // })
+            .when('/', {
+              redirectTo: '/contacts'
+            })
+        }) // END angular.module
+      .value('contacts', [
+        { id: 123, first_name: 'Bob', last_name: 'Dole' }
+      ])
+      .factory('Contacts', function(contacts){
+        return {
+          push: function(contact){
+            // FIXME: Maybe `POST` to the API to get the `id`...?
+            contacts.push(angular.extend(contact, {
+              id: Math.floor(Math.random() * 1000)
+              // Add a fake 3 digit number as `id`
+            }));
+          },
+          all: function(){
+            // FIXME: Maybe get this data from the API instead?
+            return contacts.slice();
+          },
+          one: function(id){
+            // TODO: Find a contact with `id` and return it?
+            // FIXME: Maybe use the API for this?
+          }
+        }; // END Contacts
+      }) // END factory(Contacts)
+    })();
+    //@ sourceURL=pen.js
+  </script>
+
+
+</body>
+
+</html>
